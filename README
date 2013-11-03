@@ -1,12 +1,27 @@
 README
-Version 0.0.0
+Version 0.0.1
 
-This is an empty directory shell of what may someday become the Scivault Curriculum.  
+This is the Scivault Curriculum.
 
+Currently it only includes resources for Physics, but eventually, it may include many other High-School Subjects,
+Such as Biology, Chemistry, Integrated Physics and Chemistry (aka IPC, Physical Science) and Astronomy.
 
 License:
-All materials herein are licensed under the Creative Commons Non-Commercial Share-Alike License.
-ADD URL TO LICENSE HERE
+All materials herein are licensed under the Creative Commons Attribution-Non-Commercial-ShareAlike 3.0
+http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
+
+Why is this curriculum necessary?
+Say something here about why other programs are deficient.
+
+Values:
+Platform Independence
+Accessibility, both online and off
+Editability
+Accuracy
+Specificity
+Rigor and Relavance
+SI System
+Integrity - No Solutions Provided without verification.
+Ease of Grading - Logos specific to Classes and Versions
 
 
-Other information will be coming later.
