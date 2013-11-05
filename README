@@ -9,10 +9,13 @@ Such as Biology, Chemistry, Integrated Physics and Chemistry (aka IPC, Physical 
 License:
 All materials herein are licensed under the Creative Commons Attribution-Non-Commercial-ShareAlike 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
+This package comes with absolutely no warranty, neither explicit nor implied.  It is entirely use-at-your-own-risk.  Mistakes such as 
+typos are quite likely.
+
 
 Quick Instructions:
 Simply unpack the tar.gz file into the directory of your choice.  You may now view, modify, and print anything in the 
-curriculum.  
+curriculum.  To view the newest one, clone the Git Repository, availible at [INSERT HERE]
 
 
 Why is this curriculum necessary?
