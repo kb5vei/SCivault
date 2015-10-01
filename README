@@ -1,9 +1,9 @@
 README
 Version 0.0.1
 
-This is the SCivault Curriculum.
+This is the Scivault Science Bundle.  It is not a curriculum, but a resource for use in your class.  
 
-Currently it only includes resources for Physics, but eventually, it may include many other High-School Subjects,
+Currently it has only been refined for Physics, but it does include many other High-School Subjects,
 Such as Biology, Chemistry, Integrated Physics and Chemistry (aka IPC, Physical Science) and Astronomy.
 
 A quick note on Versions:  
@@ -21,14 +21,14 @@ Simply unpack the tar.gz file into the directory of your choice.  You may now vi
 curriculum.  To view the newest one, clone the Git Repository, availible at https://github.com/kb5vei/SCivault.git
 
 
-Why is this curriculum necessary?
-Most curriculum packages have serious defects to them.  Common Problems include:
+Why is this package necessary?
+Most packages have serious defects to them.  Common Problems include:
 	Not being fully editable
 	Requiring Internet Access
 	Not Platform-Independent (sometimes requiring use of proprietary software as well)
 	Lack of Rigor, Relavance, or Specificity
 	Obsolete Information (A commonly heard example is "Our textbook still lists pluto as a planet!"
-In contrast, this curriculum package is designed with the following principles in mind:
+In contrast, this package is designed with the following principles in mind:
 -Platform Independence
 	All documents are written in Open formats, readable from many free, open-source office programs, such as LibreOffice.
 	These documents are also readable in many versions of Microsoft Office.  
