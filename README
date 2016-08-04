@@ -12,6 +12,7 @@ Though teachers have the freedom to choose any version they wish, it is suggeste
 License:
 All Instructional (not software) materials herein are licensed under the Creative Commons Attribution-Non-Commercial-ShareAlike 3.0
 http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US
+
 This package comes with absolutely no warranty, neither explicit nor implied.  It is entirely use-at-your-own-risk.  Mistakes such as 
 typos are quite likely.
 
@@ -27,7 +28,7 @@ Most packages have serious defects to them.  Common Problems include:
 	Requiring Internet Access
 	Not Platform-Independent (sometimes requiring use of proprietary software as well)
 	Lack of Rigor, Relavance, or Specificity
-	Obsolete Information (A commonly heard example is "Our textbook still lists pluto as a planet!"
+	Obsolete Information (A commonly heard example is "Our textbook still lists pluto as a planet!")
 In contrast, this package is designed with the following principles in mind:
 -Platform Independence
 	All documents are written in Open formats, readable from many free, open-source office programs, such as LibreOffice.
@@ -58,10 +59,5 @@ you may provide them with hard-copies or post solutions to a secured website req
 guessed.  The 4-year cycle should be long enough to preserve integrity of the assignments in most situations 
 (most students who take physics will have graduated before the same set of questions recurs.)
 
-
-
-
-
-Ease of Grading - Logos specific to Classes and Versions
 
 
