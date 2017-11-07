@@ -1,4 +1,4 @@
-qrencode -l L -v 1 -o License.png "(C) Jonas Williamson
+qrencode -l L -v 1 -o License.png "© Jonas Williamson
 https://github.com/kb5vei/SCivault 
 
 License: Attribution-Non-Commercial-ShareAlike 3.0
