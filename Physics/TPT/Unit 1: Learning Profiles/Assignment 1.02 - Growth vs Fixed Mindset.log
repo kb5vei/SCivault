@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  15 NOV 2017 16:22
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  24 NOV 2017 12:22
+>>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Assignment 1.02 - Growth vs Fixed Mindset.tex"
 (./Assignment 1.02 - Growth vs Fixed Mindset.tex
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -319,7 +323,11 @@ AED: lastpage setting LastPage
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ../Logo/sp.png used on input line 79.
+=======
+Package pdftex.def Info: ../Logo/sp.png used on input line 51.
+>>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
@@ -332,18 +340,30 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
  <../Logo/sp.png>] (./Assignment 1.02 - Growth vs Fixed Mindset.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  4329 strings out of 493039
  60034 string characters out of 6136943
  135768 words of memory out of 5000000
  7847 multiletter control sequences out of 15000+600000
+=======
+ 4329 strings out of 494946
+ 60034 string characters out of 6180980
+ 129986 words of memory out of 5000000
+ 7597 multiletter control sequences out of 15000+600000
+>>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
  4286 words of font info for 16 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
- 38i,15n,48p,276b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 38i,15n,48p,301b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+<<<<<<< HEAD
 Output written on "Assignment 1.02 - Growth vs Fixed Mindset.pdf" (1 page, 4711
 0 bytes).
+=======
+Output written on "Assignment 1.02 - Growth vs Fixed Mindset.pdf" (1 page, 4861
+8 bytes).
+>>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

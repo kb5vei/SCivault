@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  24 NOV 2017 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  27 NOV 2017 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Assignment 1.01 - Multiple Intelligences.tex"
-(./Assignment 1.01 - Multiple Intelligences.tex
+**"Assignment 2.02 - Relative Motion KEY.tex"
+(./Assignment 2.02 - Relative Motion KEY.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -144,9 +144,6 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \colbreak@box=\box51
 \mc@col@check@num=\count99
 )
-(/usr/share/texlive/texmf-dist/tex/latex/qrcode/qrcode.sty
-Package: qrcode 2015/01/08 v1.51 QR code generation
-
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -164,58 +161,21 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+(./Assignment 2.02 - Relative Motion KEY.aux)
+\openout1 = `"Assignment 2.02 - Relative Motion KEY.aux"'.
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
-)
-\XKV@depth=\count100
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\c@qr@i=\count101
-\c@qr@j=\count102
-\qr@a=\count103
-\qr@b=\count104
-\qr@c=\count105
-\qr@for@depth=\count106
-\qr@for@maxdepth=\count107
-\qr@for@start=\count108
-\qr@for@end=\count109
-\qr@for@step=\count110
-\qr@newforcount=\count111
-\qr@newforcount=\count112
-\qr@desiredheight=\skip54
-\qr@modulesize=\skip55
-\qr@minipagewidth=\skip56
-\c@maski=\count113
-\c@maskj=\count114
-\c@totalones=\count115
-\c@penaltyi=\count116
-\c@penaltyii=\count117
-\c@penaltyiii=\count118
-\c@penaltyiv=\count119
-\c@qr@hexchars=\count120
-\qr@newforcount=\count121
-\c@qr@divisionsremaining=\count122
-)
-(./Assignment 1.01 - Multiple Intelligences.aux)
-\openout1 = `"Assignment 1.01 - Multiple Intelligences.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -230,18 +190,18 @@ LaTeX Font Info:    ... okay on input line 14.
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=634.0pt
+* \textheight=635.5pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-54.20248pt
 * \headheight=30.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -253,17 +213,17 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
+\scratchcounter=\count100
 \scratchdimen=\dimen122
 \scratchbox=\box52
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count126
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count103
 \MPscratchDim=\dimen123
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks17
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -312,17 +272,23 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 14.
+(lastpage)             ! on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
 
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 88.
+Package pdftex.def Info: ../Logo/sp.png used on input line 106.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 39.73503pt.
+ Make it at least 40.48503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -332,25 +298,28 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 AED: lastpage setting LastPage
 File: ../Logo/sp.png Graphic file (type png)
 <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 143.
+Package pdftex.def Info: ../Logo/sp.png used on input line 147.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
- [2] (./Assignment 1.01 - Multiple Intelligences.aux) ) 
+ [2] (./Assignment 2.02 - Relative Motion KEY.aux) ) 
 Here is how much of TeX's memory you used:
- 4328 strings out of 494946
- 60005 string characters out of 6180980
- 134953 words of memory out of 5000000
- 7596 multiletter control sequences out of 15000+600000
- 3986 words of font info for 15 fonts, out of 8000000 for 9000
+ 2709 strings out of 494946
+ 37555 string characters out of 6180980
+ 112103 words of memory out of 5000000
+ 5984 multiletter control sequences out of 15000+600000
+ 6376 words of font info for 23 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,15n,49p,275b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Assignment 1.01 - Multiple Intelligences.pdf" (2 pages, 5004
-4 bytes).
+ 38i,15n,43p,363b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on "Assignment 2.02 - Relative Motion KEY.pdf" (2 pages, 75251 b
+ytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 34 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
