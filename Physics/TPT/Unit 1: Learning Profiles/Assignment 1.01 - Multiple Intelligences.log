@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  14 NOV 2017 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  24 NOV 2017 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -230,18 +230,18 @@ LaTeX Font Info:    ... okay on input line 14.
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=636.60028pt
+* \textheight=634.0pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-54.20248pt
 * \headheight=30.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -317,45 +317,40 @@ Package lastpage Info: Please have a look at the pageslts package at
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 87.
+Package pdftex.def Info: ../Logo/sp.png used on input line 88.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 40.21503pt.
+ Make it at least 39.73503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
 
- <../Logo/sp.png>]
-File: ../Logo/sp.png Graphic file (type png)
- <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 132.
-(pdftex.def)             Requested size: 31.8642pt x 36.135pt.
- [2] 
+ <../Logo/sp.png>] 
 AED: lastpage setting LastPage
 File: ../Logo/sp.png Graphic file (type png)
 <use ../Logo/sp.png>
 Package pdftex.def Info: ../Logo/sp.png used on input line 143.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
- [3] (./Assignment 1.01 - Multiple Intelligences.aux) ) 
+ [2] (./Assignment 1.01 - Multiple Intelligences.aux) ) 
 Here is how much of TeX's memory you used:
- 4329 strings out of 494946
- 60025 string characters out of 6180980
- 133986 words of memory out of 5000000
- 7597 multiletter control sequences out of 15000+600000
- 4286 words of font info for 16 fonts, out of 8000000 for 9000
+ 4328 strings out of 494946
+ 60005 string characters out of 6180980
+ 134953 words of memory out of 5000000
+ 7596 multiletter control sequences out of 15000+600000
+ 3986 words of font info for 15 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,15n,49p,275b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Assignment 1.01 - Multiple Intelligences.pdf" (3 pages, 4948
-7 bytes).
+Output written on "Assignment 1.01 - Multiple Intelligences.pdf" (2 pages, 5004
+4 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
