@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  5 DEC 2017 08:11
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  5 DEC 2017 20:36
->>>>>>> e5d162e13597e35b832a25ad5e8624c8c5d6ce57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  7 DEC 2017 07:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Assignment 2.03 - The Definition of Acceleration KEY.tex"
 (./Assignment 2.03 - The Definition of Acceleration KEY.tex
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -165,21 +161,24 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (./Assignment 2.03 - The Definition of Acceleration KEY.aux)
 \openout1 = `"Assignment 2.03 - The Definition of Acceleration KEY.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -276,22 +275,18 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 14.
+(lastpage)             ! on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
+(Font)              <6> on input line 33.
 
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-<<<<<<< HEAD
-Package pdftex.def Info: ../Logo/sp.png used on input line 90.
-=======
-Package pdftex.def Info: ../Logo/sp.png used on input line 103.
->>>>>>> e5d162e13597e35b832a25ad5e8624c8c5d6ce57
+Package pdftex.def Info: ../Logo/sp.png used on input line 110.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
@@ -313,32 +308,18 @@ Missing character: There is no ù in font cmr12!
 AED: lastpage setting LastPage
 File: ../Logo/sp.png Graphic file (type png)
 <use ../Logo/sp.png>
-<<<<<<< HEAD
-Package pdftex.def Info: ../Logo/sp.png used on input line 110.
-=======
-Package pdftex.def Info: ../Logo/sp.png used on input line 152.
->>>>>>> e5d162e13597e35b832a25ad5e8624c8c5d6ce57
+Package pdftex.def Info: ../Logo/sp.png used on input line 176.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
  [2]
 (./Assignment 2.03 - The Definition of Acceleration KEY.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 2709 strings out of 493039
- 37690 string characters out of 6136943
- 115885 words of memory out of 5000000
- 6234 multiletter control sequences out of 15000+600000
+ 2738 strings out of 493039
+ 38114 string characters out of 6136943
+ 118720 words of memory out of 5000000
+ 6259 multiletter control sequences out of 15000+600000
  6376 words of font info for 23 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,15n,43p,377b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 2709 strings out of 494946
- 37690 string characters out of 6180980
- 112103 words of memory out of 5000000
- 5984 multiletter control sequences out of 15000+600000
- 6376 words of font info for 23 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,15n,43p,402b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> e5d162e13597e35b832a25ad5e8624c8c5d6ce57
+ 38i,15n,43p,402b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
@@ -349,11 +330,7 @@ sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb>
 Output written on "Assignment 2.03 - The Definition of Acceleration KEY.pdf" (2
-<<<<<<< HEAD
- pages, 91802 bytes).
-=======
- pages, 93632 bytes).
->>>>>>> e5d162e13597e35b832a25ad5e8624c8c5d6ce57
+ pages, 94530 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
