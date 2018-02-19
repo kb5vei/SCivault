@@ -7,6 +7,7 @@ heightrounded, % to avoid spurious underfull messages
 \usepackage{fancyhdr}
 \usepackage{cancel}
 \usepackage{gensymb}
+\usepackage{xcolor}
 
 \pagestyle{fancy}
 \usepackage{graphicx}
@@ -42,7 +43,8 @@ heightrounded, % to avoid spurious underfull messages
 			\end{center}
 		\item In scientific notation the base is always 10.
 		\item A negative in front of the coefficient means the whole number is negative.
-		\item A negative exponent means the number is very small (close to zero).	
+		\item A negative exponent means the number is very small (close to zero).
+		\item The exponent counts how many places the decimal moved, NOT the number of zeroes.	
 		\item When comparing numbers in scientific notation, look at (in order): 
 		\begin{enumerate}
 			\item Negatives in front of the coefficient.
@@ -61,7 +63,7 @@ heightrounded, % to avoid spurious underfull messages
 	\begin{itemize}
 		\item To solve for something in the top of a fraction, multiply by the bottom.
 		\begin{center}
-			$A = \frac {B}{C} \hspace{0.2in} \longrightarrow \hspace{0.2in} A \times C = \frac {B}{\cancel{C}} \times \cancel{C} \hspace{0.2in} \longrightarrow  \hspace{0.2in} A C = B	$
+			$A = \frac {B}{C} \hspace{0.2in} \longrightarrow \hspace{0.2in} A \color{red} \times C \color{black} = \frac {B}{\cancel{C}} \times \color{red} \cancel{C} \hspace{0.2in} \color{black} \longrightarrow  \hspace{0.2in} A C = B	$
 		\end{center}
 		\item To solve for something in the bottom of a fraction, switch the bottom with the other side:
 		\begin{center}

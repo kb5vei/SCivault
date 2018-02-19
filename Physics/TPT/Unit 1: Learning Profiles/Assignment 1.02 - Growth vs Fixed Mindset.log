@@ -1,19 +1,15 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  15 NOV 2017 16:22
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.10.28)  24 NOV 2017 12:22
->>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  15 FEB 2018 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Assignment 1.02 - Growth vs Fixed Mindset.tex"
 (./Assignment 1.02 - Growth vs Fixed Mindset.tex
 LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -234,18 +230,18 @@ LaTeX Font Info:    ... okay on input line 14.
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=636.60028pt
+* \textheight=634.0pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
 * \topmargin=-54.20248pt
 * \headheight=30.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -323,16 +319,12 @@ AED: lastpage setting LastPage
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-<<<<<<< HEAD
-Package pdftex.def Info: ../Logo/sp.png used on input line 79.
-=======
-Package pdftex.def Info: ../Logo/sp.png used on input line 51.
->>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
+Package pdftex.def Info: ../Logo/sp.png used on input line 85.
 (pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 40.21503pt.
+ Make it at least 39.73503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -340,30 +332,18 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
  <../Logo/sp.png>] (./Assignment 1.02 - Growth vs Fixed Mindset.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4329 strings out of 493039
- 60034 string characters out of 6136943
- 135768 words of memory out of 5000000
- 7847 multiletter control sequences out of 15000+600000
-=======
- 4329 strings out of 494946
- 60034 string characters out of 6180980
- 129986 words of memory out of 5000000
- 7597 multiletter control sequences out of 15000+600000
->>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
- 4286 words of font info for 16 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 38i,15n,48p,301b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 4328 strings out of 493039
+ 60014 string characters out of 6136943
+ 138735 words of memory out of 5000000
+ 7846 multiletter control sequences out of 15000+600000
+ 3986 words of font info for 15 fonts, out of 8000000 for 9000
+ 1137 hyphenation exceptions out of 8191
+ 38i,15n,48p,276b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<<<<<<< HEAD
-Output written on "Assignment 1.02 - Growth vs Fixed Mindset.pdf" (1 page, 4711
-0 bytes).
-=======
-Output written on "Assignment 1.02 - Growth vs Fixed Mindset.pdf" (1 page, 4861
-8 bytes).
->>>>>>> 714bad63101d5ddf547c27d0ff6bdbe3763bacfa
+Output written on "Assignment 1.02 - Growth vs Fixed Mindset.pdf" (1 page, 5196
+2 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
