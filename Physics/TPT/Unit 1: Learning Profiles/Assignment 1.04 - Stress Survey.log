@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  19 JAN 2018 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  23 FEB 2018 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Work and Energy Memoranda.tex"
-(./Work and Energy Memoranda.tex
+**"Assignment 1.04 - Stress Survey.tex"
+(./Assignment 1.04 - Stress Survey.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -98,8 +98,8 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(./Work and Energy Memoranda.aux)
-\openout1 = `"Work and Energy Memoranda.aux"'.
+(./Assignment 1.04 - Stress Survey.aux)
+\openout1 = `"Assignment 1.04 - Stress Survey.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -123,14 +123,14 @@ LaTeX Font Info:    ... okay on input line 13.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot heightrounded 
 * h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(56.9055pt, 709.61174pt, 28.45274pt)
+* v-part:(T,H,B)=(42.67912pt, 723.83812pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=505.89pt
-* \textheight=635.5pt
+* \textheight=650.0pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-33.43198pt
+* \topmargin=-47.65836pt
 * \headheight=17.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -222,58 +222,44 @@ Package gensymb Info: Using \Omega for \ohm on input line 13.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
-
-<"../Logos/VersionC".png, id=1, 239.89626pt x 256.96pt>
-File: "../Logos/VersionC".png Graphic file (type png)
-
-<use "../Logos/VersionC".png>
-Package pdftex.def Info: "../Logos/VersionC".png used on input line 69.
-(pdftex.def)             Requested size: 31.87578pt x 34.14322pt.
+<../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
+File: ../Logo/sp.png Graphic file (type png)
+ <use ../Logo/sp.png>
+Package pdftex.def Info: ../Logo/sp.png used on input line 58.
+(pdftex.def)             Requested size: 31.8642pt x 36.135pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 38.49326pt.
+ Make it at least 40.48503pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
 
- <../Logos/VersionC.png>] 
+ <../Logo/sp.png>] 
 AED: lastpage setting LastPage
-File: "../Logos/VersionC".png Graphic file (type png)
-<use "../Logos/VersionC".png>
-Package pdftex.def Info: "../Logos/VersionC".png used on input line 88.
-(pdftex.def)             Requested size: 31.87578pt x 34.14322pt.
- [2] (./Work and Energy Memoranda.aux) ) 
+File: ../Logo/sp.png Graphic file (type png)
+<use ../Logo/sp.png>
+Package pdftex.def Info: ../Logo/sp.png used on input line 82.
+(pdftex.def)             Requested size: 31.8642pt x 36.135pt.
+ [2] (./Assignment 1.04 - Stress Survey.aux) ) 
 Here is how much of TeX's memory you used:
- 2197 strings out of 493039
- 31440 string characters out of 6136943
- 102493 words of memory out of 5000000
- 5724 multiletter control sequences out of 15000+600000
- 7288 words of font info for 26 fonts, out of 8000000 for 9000
+ 2161 strings out of 493039
+ 30956 string characters out of 6136943
+ 102496 words of memory out of 5000000
+ 5698 multiletter control sequences out of 15000+600000
+ 4592 words of font info for 17 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,14n,43p,260b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on "Work and Energy Memoranda.pdf" (2 pages, 79702 bytes).
+ 38i,14n,43p,266b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
+Output written on "Assignment 1.04 - Stress Survey.pdf" (2 pages, 55080 bytes).
+
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 26 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
