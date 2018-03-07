@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  7 MAR 2018 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.11.7)  7 MAR 2018 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Things To Memorize - Electrostatics.tex"
-(./Things To Memorize - Electrostatics.tex
+**"Things To Memorize - Circuits.tex"
+(./Things To Memorize - Circuits.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -98,8 +98,8 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(./Things To Memorize - Electrostatics.aux)
-\openout1 = `"Things To Memorize - Electrostatics.aux"'.
+(./Things To Memorize - Circuits.aux)
+\openout1 = `"Things To Memorize - Circuits.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -228,17 +228,13 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
 
+
+AED: lastpage setting LastPage
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 68.
+Package pdftex.def Info: ../Logo/sp.png used on input line 36.
 (pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
 
 
@@ -249,31 +245,23 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
 
- <../Logo/sp.png>] 
-AED: lastpage setting LastPage
-File: ../Logo/sp.png Graphic file (type png)
-<use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 95.
-(pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
- [2] (./Things To Memorize - Electrostatics.aux) ) 
+ <../Logo/sp.png>] (./Things To Memorize - Circuits.aux) ) 
 Here is how much of TeX's memory you used:
- 2196 strings out of 493039
- 31485 string characters out of 6136943
- 102493 words of memory out of 5000000
- 5724 multiletter control sequences out of 15000+600000
- 7288 words of font info for 26 fonts, out of 8000000 for 9000
+ 2179 strings out of 493039
+ 31257 string characters out of 6136943
+ 98493 words of memory out of 5000000
+ 5714 multiletter control sequences out of 15000+600000
+ 5107 words of font info for 19 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,14n,43p,270b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on "Things To Memorize - Electrostatics.pdf" (2 pages, 59589 byt
-es).
+ 38i,14n,43p,264b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Things To Memorize - Circuits.pdf" (1 page, 44257 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
