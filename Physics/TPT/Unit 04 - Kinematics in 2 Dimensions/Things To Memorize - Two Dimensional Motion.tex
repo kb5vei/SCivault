@@ -1,0 +1,107 @@
+\documentclass[letterpaper, 12pt]{article}
+\usepackage[top=2cm,bottom=1cm,left=0.75in,right=0.75in,headheight=17pt, % as per the warning by fancyhdr
+includehead,includefoot,
+heightrounded, % to avoid spurious underfull messages
+]{geometry}
+\addtolength{\topmargin}{-.25in}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{gensymb}
+
+\begin{document}
+\fancyhead[l]{	\includegraphics[height=1.2cm]{../Logo/sp.png} Name:}
+\fancyhead[r]{REFERENCE MATERIAL}
+\cfoot{\thepage\ of \pageref{LastPage}}
+	
+
+
+\begin{center}Things to Memorize: Motion in Two Dimensions
+\end{center}
+
+\subsection*{General Ideas:}
+\begin{itemize}
+	\item Motion in one dimension does not effect the motion in the other dimension.
+	\begin{itemize}
+		\item Thus, kinematic equations can only be applied to one dimension at a time. 
+		\item The only variable that can be applied to each dimension is time.
+		\end{itemize}
+			
+	\item Each Dimension (X, Y) has its own set of kinematic variables. Use a subscript to distinguish them, ie: $v_{fx}$ and $v_{fy}$.
+	
+
+	\item Distances, Velocities, and Accelerations can be \textbf{combined as vectors} by using the Pythagorean Theorem.
+	\item Distances, Velocities, and Accelerations can be \textbf{decomposed} (broken down) into component vectors by using trigonometric equations. 
+	
+\end{itemize}
+
+\subsection*{To Solve a Two-Dimensional Problem}
+
+		\begin{enumerate}
+	\item Draw a diagram.
+	\item Define a positive X direction and a positive Y direction.  Label those directions clearly with arrows: $\longrightarrow X $ and $\uparrow Y$
+	\begin{itemize}
+		\item X and Y directions must be 90\degree to each other.
+		\item X and Y don't have to be right and up.  Instead, choose directions that correspond with the motion described in the problem. 
+		
+	\end{itemize}
+	\item Indicate in words what portion of motion your are considering, (like ``motion from launch to the peak of the flight.”)
+	\item Fill out a chart, including signs and units, of the five kinematics variables for each direction.  Remember time is the only varible that can be used in any dimension.
+	\begin{center}
+		\begin{tabular} {| c | c | }
+			\hline
+			$d_x$ = \hspace{0.4in}    & $d_y $= \hspace{0.4in} \\
+			\hline
+			$v_{ix}$  = \hspace{0.4in}  &$v_{iy}$  = \hspace{0.4in} \\
+			\hline
+			$v_{fx}$  = \hspace{0.4in}  &$v_{fy}$  = \hspace{0.4in} \\
+			\hline
+			$a_{x}$  = \hspace{0.4in}  &$a_{y}$  = \hspace{0.4in} \\
+			\hline 
+		 	 \multicolumn{2}{|c|}{	$t$  = \hspace{0.4in} }  \\
+			\hline
+		\end{tabular} 
+	\end{center}
+	\item Pick an dimension (X, Y) that will allow you to use a kinematic equation that has only \textbf{ONE} unknown variable.  
+		\begin{itemize}
+			\item Remember: \textbf{Do not mix X and Y variables in the same equation!}
+		\end{itemize}
+	\item Manipulate the equation to isolate the unknown variable (if needed).
+	\item Plug in the numbers.
+	\item Write your answer with units. Add it to the table above.
+	\item Continue to solve for variables until you have determined the variable you want. 
+	
+\end{enumerate}
+
+ 
+
+\subsection*{Projectiles Launched Horizontally}
+\begin{itemize}
+	\item A projectile launched horizontally has an initial vertical velocity of zero: $v_{iy}$  = 0 m/s.  
+	\item Since gravity is the only force acting on the object while it is in free-fall, $a_y = 9.8$ $m/s^2$ downward, and $a_x = 0$ $m/s^2$
+	\item Be sure to double-check your positive and negative signs to make sure they correspond with the diagram you drew.
+	
+\end{itemize}
+
+\subsection*{Projectiles Launched at an Angle}
+	\begin{itemize}
+	\item Use trigonometry to determine the initial X and Y velocities. 
+	\item Since gravity is the only force acting on the object while it is in free-fall, $a_y = 9.8$ $m/s^2$ downward, and $a_x = 0$ $m/s^2$
+	\item Be sure to double-check your positive and negative signs to make sure they correspond with the diagram you drew.
+	\item Determine the time to the top of the path first.  At the top of a projectile's path, $v_{y}$ = 0 m/s.    
+	\item Rarely, you will need to solve the equation $d = v_i t + \frac{1}{2}at^2$ for t when neither $v_i$ nor $a$ are zero. 
+	\begin{itemize}
+		\item This can be done by using the quadratic equation.
+		\item  Alternately, the problem can be broken into a rising component and a falling component and the times can be added. 
+	\end{itemize} 
+	
+	\end{itemize}
+
+
+ 
+ 
+
+
+
+\end{document}
