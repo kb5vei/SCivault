@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.7.17)  30 JUL 2018 15:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.7.17)  30 JUL 2018 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Things To Memorize - Newton's Laws.tex"
-(./Things To Memorize - Newton's Laws.tex
+**"Things To Memorize - Circular Motion and Orbits.tex"
+(./Things To Memorize - Circular Motion and Orbits.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -98,8 +98,8 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(./Things To Memorize - Newton's Laws.aux)
-\openout1 = `"Things To Memorize - Newton's Laws.aux"'.
+(./Things To Memorize - Circular Motion and Orbits.aux)
+\openout1 = `"Things To Memorize - Circular Motion and Orbits.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -222,23 +222,23 @@ Package gensymb Info: Using \Omega for \ohm on input line 13.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
+(Font)              <6> on input line 34.
 
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 74.
+Package pdftex.def Info: ../Logo/sp.png used on input line 72.
 (pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
 
 
@@ -253,27 +253,27 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 AED: lastpage setting LastPage
 File: ../Logo/sp.png Graphic file (type png)
 <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 100.
+Package pdftex.def Info: ../Logo/sp.png used on input line 102.
 (pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
- [2] (./Things To Memorize - Newton's Laws.aux) ) 
+ [2] (./Things To Memorize - Circular Motion and Orbits.aux) ) 
 Here is how much of TeX's memory you used:
- 2199 strings out of 494941
- 31521 string characters out of 6180918
+ 2198 strings out of 494941
+ 31614 string characters out of 6180918
  97897 words of memory out of 5000000
- 5480 multiletter control sequences out of 15000+600000
+ 5479 multiletter control sequences out of 15000+600000
  7635 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,14n,43p,279b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb>
-Output written on "Things To Memorize - Newton's Laws.pdf" (2 pages, 89203 byte
-s).
+ 37i,14n,43p,306b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on "Things To Memorize - Circular Motion and Orbits.pdf" (2 page
+s, 92312 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

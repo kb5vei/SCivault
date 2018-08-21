@@ -10,15 +10,18 @@ heightrounded, % to avoid spurious underfull messages
 \usepackage{lastpage}
 \usepackage{multicol}
 \usepackage{xcolor}
+\usepackage{gensymb}
+\usepackage[makeroom]{cancel}
 
 \begin{document}
-\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name:}
+\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name:
+\color{red} KEY - DO NOT REPRODUCE\color{black}}
 \fancyhead[r]{Due Date: \hspace{ 1in}}
 \fancyfoot[c]{\thepage\ of \pageref{LastPage}}
-\fancyfoot[r]{Assignment 4.01}	
+\fancyfoot[r]{Assignment 4.01 - KEY}	
 
 
-\begin{center} Assignment 4.01: Horizontal Projectiles
+\begin{center} Assignment 4.01: Horizontal Projectiles  - KEY
 \end{center}
 
 
@@ -30,13 +33,37 @@ heightrounded, % to avoid spurious underfull messages
 \item You throw a rock at 18 m/s directly toward the horizon while standing at the edge of a 25 meter tall cliff.  
 \begin{enumerate}
 	\item How long does it take the rock to hit the ground?
-	\vspace{0.55in}
+	
+	\color{red} Using Downward as Positive: $d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_yt^2 \longrightarrow  t = \sqrt{\frac{2d_y}{a_y}}  = \sqrt{\frac{2 \times 25 m}{9.81 m/s^2}} \approx 2.258 s $ 
+	
+	\vspace{0.15in}
+	\color{black}
 	\item How far does the rock land from the bottom of the cliff?
-	\vspace{0.55in}
+
+	\color{red}
+		$d_x = {v_{ix}t} + \cancelto{0}{\frac{1}{2}a_x t^2} = 18 m/s \times 2.258s \approx 40.637m $
+	
+	\vspace{0.15in}
+	\color{black}
+	
 	\item What is the speed that the rock hits the ground at?	
-	\vspace{0.55in}
+
+	\color{red}
+	In the X-Direction: $ v_{fx} = v_{ix} + \cancelto{0}{a_x t} = 18 m/s$
+	
+	In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s \times 2.258s \approx 22.147 m/s$
+	
+ $ {v_f}^2 = {v_{fx}}^2 + {v_{fy}}^2 \longrightarrow {v_f} = \sqrt{{v_{fx}}^2 + {v_{fy}}^2} = \sqrt{(18 m/s)^2 + (22.147 m/s)^2} \approx 28.539 m/s  $
+	
+	\color{black}
 	\item What is the angle of impact of the rock?
-	\vspace{0.55in}
+		\vspace{.1in}
+		
+	\color{red}
+	$tan(\theta) = \frac{opp}{adj} \longrightarrow \theta = tan^{-1}(\frac{opp}{adj}) = tan^{-1}(\frac{v_{fy}}{v_{fx}}) =  tan^{-1}(\frac{22.147 m/s}{18 m/s}) \approx 50.9 \degree  $
+	\color{black}
+	\vspace{.1in}
+	
 \end{enumerate}
 
 \item A soldier is practicing at the shooting range. The target is 23 meters away.  His rifle has a muzzle-speed of 150 m/s and it is perfectly level with the ground.
