@@ -119,9 +119,125 @@ coordinates {
 	\item This graph describes a race between two cars that are racing 400 meters (approximately $\frac{1}{4}$ of a mile).  In a paragraph of at least 5 sentences, explain what happens during the race.
 
 \end{enumerate}	
+
+\pagebreak
+
+	\item Describe the motion that would result in the following graphs:
+	
+	\begin{tikzpicture}
+	\begin{axis}[title=Graph 1, xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm]
+	% density of Normal distribution:
+	\addplot
+	[
+	red,
+	domain
+	=0:10,
+	samples
+	=201,
+	]
+	{x};
+	\end{axis}
+	\end{tikzpicture}%
+	%
+	%
+	\begin{tikzpicture}
+	\begin{axis}[title=Graph 2, xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm]
+	% density of Normal distribution:
+	\addplot
+	[
+	red,
+	domain
+	=0:10,
+	samples
+	=201,
+	]
+	{x^2};
+	\end{axis}
+	\end{tikzpicture}%	
+	%
+	%
+	\begin{tikzpicture}[declare function={
+		func(\x)= (\x<=5) * (\x^2)   +
+		and(\x>5,  \x<=8) * (\x+20) +
+		(\x>8) * (28);
+	}]
+	\begin{axis}[title=Graph 3, xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm]
+	% density of Normal distribution:
+	\addplot
+	[
+	red,
+	domain
+	=0:10,
+	samples
+	=201,
+	]
+	{func(x)};
+	\end{axis}
+	\end{tikzpicture}%
+
+
+\begin{enumerate}
+	\item Graph 1: \vspace{0.3in}
+	\item Graph 2:\vspace{0.3in}
+	\item Graph 3:\vspace{0.3in}
+	
+	\end{enumerate}
+
+\item Sketch a graph that corresponds to each situation below:
+\begin{enumerate}
+	\item A car is parked.
+	\item A truck drives forward 10 meters at a constant speed, then stops.
+	\item A lion runs forward, then stops, then walks back to where it started.
 \end{enumerate}
- 
+
+	\begin{tikzpicture}
+\begin{axis}[title=(a), xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm,  ymin=0, ymax=10]
+% density of Normal distribution:
+\addplot
+[
+red,
+domain
+=0:10,
+samples
+=201,
+]
+{0};
+\end{axis}
+\end{tikzpicture}%
+%
+%
+\begin{tikzpicture}
+\begin{axis}[title=(b), xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm, ymin=0, ymax=10]
+% density of Normal distribution:
+\addplot
+[
+red,
+domain
+=0:10,
+range=0:10,
+samples
+=201,
+]
+{0};
+\end{axis}
+\end{tikzpicture}%	
+%
+%
+\begin{tikzpicture}[]
+\begin{axis}[title=(c), xlabel=Time (s), ylabel=Position (m), axis lines = left, width=5cm,height=5cm, ymin=0, ymax=10]
+% density of Normal distribution:
+\addplot
+[
+red,
+domain
+=0:10,
+samples
+=201,
+]
+{0};
+\end{axis}
+\end{tikzpicture}%
 
 
-
+\end{enumerate}
 \end{document}
