@@ -51,7 +51,7 @@ heightrounded, % to avoid spurious underfull messages
 	\color{red}
 	In the X-Direction: $ v_{fx} = v_{ix} + \cancelto{0}{a_x t} = 18 m/s$
 	
-	In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s \times 2.258s \approx 22.147 m/s$
+	In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s^2 \times 2.258s \approx 22.147 m/s$
 	
  $ {v_f}^2 = {v_{fx}}^2 + {v_{fy}}^2 \longrightarrow {v_f} = \sqrt{{v_{fx}}^2 + {v_{fy}}^2} = \sqrt{(18 m/s)^2 + (22.147 m/s)^2} \approx 28.539 m/s  $
 	
@@ -69,45 +69,129 @@ heightrounded, % to avoid spurious underfull messages
 \item A soldier is practicing at the shooting range. The target is 23 meters away.  His rifle has a muzzle-speed of 150 m/s and it is perfectly level with the ground.
 \begin{enumerate}
 	\item How long does it take the bullet to hit the target?
-	\vspace{0.5in}
+	
+		\color{red}
+	$d_x = {v_{ix}t} + \cancelto{0}{\frac{1}{2}a_x t^2} \longrightarrow t = \frac{d_x}{v_{ix}} = \frac{23 m}{150 m/s} \approx 0.153 s  $
+	
+	\vspace{0.15in}
+	\color{black}
+	
 	\item How far does the bullet drop during this time?
-	\vspace{0.5in}
+		\color{red}
+		
+		Using Downward as positive: $d_y = \cancelto{0}{v_{iy} t} + \frac{1}{2}a_y t^2 =  \frac{1}{2}(9.81 m/s^2) (0.153)^2 \approx 0.115 m$ 
+			\color{black}
+			\vspace{-0.1in}
 \end{enumerate}
-
 \item  A pitcher throws a curve-ball at 20 m/s toward home plate, perfectly horizontal.  The ball leaves his hand 1.5 meters above the ground.  
 \begin{enumerate}
 	\item How far does the ball go?
-	\vspace{0.5in}
+	\color{red}
+	
+	In the Y-Direction: $d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_y t^2 \longrightarrow t = \sqrt{\frac{2 d_y}{a_y}} = \sqrt{\frac{(2) (1.5m)}{9.81 m/s^2}} \approx 0.553 s $
+	
+	In the X-Direction: $d_x = v_{ix} t + \cancelto{0}{\frac{1}{2}a_x t^2}  = (20 m/s)(0.533s) \approx 2.306 m $
+
+	\color{black}
 	\item With what velocity (magnitude and direction) does the ball hit the ground?
-	\vspace{0.7in}
+		\color{red}
+		
+	In the X-Direction: $ v_{fx} = v_{ix} + \cancelto{0}{a_x t} = 20 m/s$  
+	
+	In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s^2 \times 0.553s \approx 5.425 m/s$
+	
+	$ {v_f}^2 = {v_{fx}}^2 + {v_{fy}}^2 \longrightarrow {v_f} = \sqrt{{v_{fx}}^2 + {v_{fy}}^2} = \sqrt{(20 m/s)^2 + (5.425 m/s)^2}  \color{blue} \approx \underline{20.723 m/s}  $
+	\color{red}	
+	
+		$tan(\theta) = \frac{opp}{adj} \longrightarrow \theta = tan^{-1}(\frac{opp}{adj}) = tan^{-1}(\frac{v_{fy}}{v_{fx}}) =  tan^{-1}(\frac{5.425 m/s}{20 m/s}) \approx \color{blue} \underline{14.670} \degree  $
+	
+	
+	\color{black}
+	
+	
+	
 \end{enumerate}
 
 
 \item A cannon is placed on a wall, 25 meters above the surrounding area.  The cannon shoots cannonballs at a speed of 350 m/s, and is aimed at the horizon.  
 \begin{enumerate}
 	\item What is the distance that the cannonball travels?
-	\vspace{0.5in}
+	\color{red}
+
+	In the Y-Direction: $d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_y t^2 \longrightarrow t = \sqrt{\frac{2 d_y}{a_y}} = \sqrt{\frac{(2) (25m)}{9.81 m/s^2}} \approx 2.258 s $
+
+In the X-Direction: $d_x = v_{ix} t + \cancelto{0}{\frac{1}{2}a_x t^2}  = (350 m/s)(2.258s) \approx 790.166 m $
+
+\color{black}
+
 	\item What is the speed that the cannonball hits the ground with?
-	\vspace{0.5in}
+	\color{red}
+	
+In the X-Direction: $ v_{fx} = v_{ix} + \cancelto{0}{a_x t} = 350 m/s$
+
+In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s^2 \times 2.258s \approx 22.147 m/s$
+
+$ {v_f}^2 = {v_{fx}}^2 + {v_{fy}}^2 \longrightarrow {v_f} = \sqrt{{v_{fx}}^2 + {v_{fy}}^2} = \sqrt{(350 m/s)^2 + (22.147 m/s)^2} \approx 350.700 m/s  $
+\color{black}
+
+
 	\item What is the angle of impact for the cannonball?	
-	\vspace{0.5in}
+	\color{red}
+	
+$tan(\theta) = \frac{opp}{adj} \longrightarrow \theta = tan^{-1}(\frac{opp}{adj}) = tan^{-1}(\frac{v_{fy}}{v_{fx}}) =  tan^{-1}(\frac{22.147 m/s}{350 m/s}) \approx 3.614 \degree  $
+\color{black}
+
+
 \end{enumerate}
 
 
 \item Billy-Bob rolls a bowling ball off a 35-meter high cliff.  The ball lands 15 meters away from the bottom of the cliff.
 \begin{enumerate}
 	\item What is the amount of time it takes the ball to hit the ground?
-	\vspace{0.6in}
+\color{red}
+
+	In the Y-Direction: $d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_y t^2 \longrightarrow t = \sqrt{\frac{2 d_y}{a_y}} = \sqrt{\frac{(2) (35m)}{9.81 m/s^2}} \approx 2.671 s $
+\color{black}
+
 	\item What is the initial velocity of the ball?
-	\vspace{0.6in} 
+	\color{red}
+	
+	In the X-Direction: $d_x = v_{ix}t+\cancelto{0}{\frac{1}{2}a_xt^2} \longrightarrow v_{ix} = \frac{d_x}{t} = \frac{15 m}{2.671s} = 5.615 m/s$
+	
+	\color{black}
+	
 	\item What is the final velocity of the ball (speed and direction)?
-	\vspace{0.6in} 
+		\color{red}
+
+In the X-Direction: $ v_{fx} = v_{ix} + \cancelto{0}{a_x t} = 5.615 m/s$  
+
+In the Y-Direction: $ v_{fy} = \cancelto{0}{v_{iy}} + a_y t = 9.81 m/s^2 \times 2.671s \approx 26.205 m/s$
+
+$ {v_f}^2 = {v_{fx}}^2 + {v_{fy}}^2 \longrightarrow {v_f} = \sqrt{{v_{fx}}^2 + {v_{fy}}^2} = \sqrt{(5.615 m/s)^2 + (26.205 m/s)^2}  \color{blue} \approx \underline{26.780 m/s}  $
+\color{red}	
+
+$tan(\theta) = \frac{opp}{adj} \longrightarrow \theta = tan^{-1}(\frac{opp}{adj}) = tan^{-1}(\frac{v_{fy}}{v_{fx}}) =  tan^{-1}(\frac{26.780 m/s}{5.615 m/s}) \approx \color{blue} \underline{77.905} \degree  $
+
+
+\color{black}
+
+
+
+
 \end{enumerate}
 
 
 
 \item You are attempting to drive your car over a 2.25-meter wide gap in the road.  If both sides of the road are at the same height, are are perfectly level, how fast would you need to go in order to make it across?
-	\vspace{0.5in} 
+\color{red}
+
+	This is impossible to do.  A simple proof is shown below:
+
+	In the Y-Direction: $d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_y t^2 \longrightarrow t = \sqrt{\frac{2 d_y}{a_y}} = \sqrt{\frac{(2) (0m)}{9.81 m/s^2}} = 0 s  $ 
+
+	In the X-Direction: $d_x = v_{ix}t+\cancelto{0}{\frac{1}{2}a_xt^2} \longrightarrow v_{ix} = \frac{d_x}{t} = \frac{2.25 m}{0s} = undefined$
+	
+	
 \end{enumerate}
  
 

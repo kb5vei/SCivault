@@ -1,0 +1,208 @@
+\documentclass[letterpaper, 12pt]{article}
+\usepackage[top=.5in,bottom=.5in,left=.75in,right=.75in,headheight=30pt, % as per the warning by fancyhdr
+includehead,includefoot,
+heightrounded, % to avoid spurious underfull messages
+]{geometry}
+\addtolength{\topmargin}{-.25in}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{multicol}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage[makeroom]{cancel}
+
+\begin{document}
+\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name: 
+	\color{red} KEY - DO NOT REPRODUCE\color{black}}
+\fancyhead[r]{Due Date: \hspace{ 1in}}
+\fancyfoot[c]{\thepage\ of \pageref{LastPage}}
+\fancyfoot[r]{Assignment 4.02}	
+
+
+\begin{center} Assignment 4.02: Projectiles - KEY
+\end{center}
+
+
+
+
+
+\begin{enumerate}
+
+\item A cannon is placed on level ground.  It is aimed 25 degrees above horizontal.   The cannonball leaves the cannon with an initial speed of 300 m/s.  
+\begin{enumerate}
+	\item What is the horizontal component of the initial velocity ($v_{ix}$)?
+	
+		\vspace{0.1in}
+\color{red}
+	$ v_{ix} = v_i \cos (\theta) = 300 m/s \cos (25 \degree )  \approx 271.892$  m/s
+
+	\vspace{0.1in}
+\color{black}
+
+	\item What is the vertical component of the initial velocity ($v_{iy}$)?
+	
+\color{red}
+	\vspace{0.1in}
+	Using up as Positive:
+$ v_{iy} = v_i \sin (\theta) = 300 m/s \sin (25 \degree )   \approx 126.786$  m/s
+
+	\vspace{0.1in}
+\color{black}
+
+	\item What is the time it takes for the cannonball to reach its maximum height?	
+	
+
+	\vspace{0.1in}
+		\color{red}
+ $v_{fy} = v_{iy} + a_y t \longrightarrow t = \frac{v_{fy} - v_{iy}}{a_y} = \frac{0 m/s - 126.786 m/s}{-9.81 m/s^2} \approx 12.924 $ s
+	
+	\color{black}
+	
+		\vspace{0.1in}
+	\item What is the maximum height of the cannonball?
+
+	\vspace{0.1in}
+	\color{red}
+	$d_y = v_{iy}t + \frac{1}{2}a_yt^2 = (126.786 m/s)(12.924 s) + \frac{1}{2}(-9.81 m/s^2)(12.924 s)^2 \approx 819.294 m $	
+		\color{black}
+	\vspace{0.1in}
+
+	\item What is the total time of flight for the cannonball?
+	
+		\vspace{0.1in}
+	\color{red}
+	$t_{total} = 2 \times t = 2 \times 12.924 s = 25.848 s$
+	
+	\color{black}
+		\vspace{0.1in}
+	
+
+	\item How far from the cannon does the cannonball land? 
+
+			\vspace{0.1in}
+	\color{red}
+	$d_x = v_{ix}t + \cancelto{0}{\frac{1}{2}a_xt^2} = (271.892 m/s)(25.848s) \approx 7027.864 m$
+	
+	\color{black}
+
+	\vspace{0.1in}
+
+\end{enumerate}
+
+\vspace{0.2in}
+\item A golfer hits a ball on a level golf-course at 35 m/s, 45$\degree$ above horizontal.
+\begin{enumerate}
+	\item What is the amount of time it takes the golf-ball to reach its maximum height (hint: find $v_{ix}$ and $v_{iy}$ first).
+	
+		\vspace{0.1in}
+	
+	\color{red}
+		$ v_{ix} = v_i \cos (\theta) = 35 m/s \cos (45 \degree )  \approx 24.749$  m/s
+		
+		$ v_{iy} = v_i \sin (\theta) = 35 m/s \sin (45 \degree )  \approx 24.749$  m/s
+		
+		$v_{fy} = v_{iy} + a_y t \longrightarrow t = \frac{v_{fy} - v_{iy}}{a_y} = \frac{0 m/s - 24.749 m/s}{-9.81 m/s^2} \approx 2.523 $ s
+	\color{black}
+	
+		\vspace{0.1in}
+
+	\item What is the total time the golf ball is in the air?
+
+	\vspace{0.1in}
+	\color{red}
+		$t_{total} = 2 \times t = 2 \times 2.523 s = 5.046 s$
+	\color{black}
+
+	\vspace{0.1in}
+	\item How far away does the golf ball land?
+	
+		\vspace{0.1in}
+	\color{red}
+		$d_x = v_{ix}t + \cancelto{0}{\frac{1}{2}a_xt^2} = (24.749 m/s)(5.046s) \approx 124.873 m$
+	\color{black}
+	
+\end{enumerate}
+\pagebreak
+\item Kay is attempting to kick a football through the field-goal posts.  She kicks the ball at 18 m/s at a 35$\degree$ angle to the ground.  She is 20 meters from the goal-post.
+\begin{enumerate}
+	\item What are the initial vertical and horizontal velocities of the football?
+	
+	\vspace{0.1in}
+\color{red}
+	$ v_{ix} = v_i \cos (\theta) = 18 m/s \cos (35 \degree )  \approx  14.745$  m/s
+	
+	$ v_{iy} = v_i \sin (\theta) = 18 m/s  \sin (35 \degree )  \approx 10.324$  m/s
+
+\color{black}
+
+	\item How long does it take the football to travel the distance to the goal post?  (Hint – does this depend on the vertical direction or the horizontal direction?)
+	
+		\vspace{0.1in}
+	\color{red}
+		$d_x = v_{ix}t + \cancelto{0}{\frac{1}{2}a_xt^2} \longrightarrow t = \frac{d_x}{v_{ix}} = \frac{20 m}{14.745 m/s} \approx 1.356 s$
+	\color{black}
+	
+		\vspace{0.1in}
+	\item What is the height of the football when it passes the goal-post?
+
+	\vspace{0.1in}
+	\color{red}
+	$d_y = v_{iy}t + \frac{1}{2}a_yt^2 = (10.324 m/s)(1.356 s) + \frac{1}{2}(-9.81 m/s^2)(1.356 s)^2 \approx 4.980 m $	
+	\color{black}
+
+	\vspace{0.1in}
+	\item Assuming the football is kicked straight, does she score 3 points for her team?
+	
+		\vspace{0.1in}
+	\color{red}
+	Yes! (The field-goal crossbar in American Football is 10 feet, or a little over 3 meters high.)
+	\color{black}
+\end{enumerate}
+
+
+\item Briana is hunting wild turkeys.  She sees a turkey sitting on a branch at the top of a tree that is 35 meters away.  She aims her bow at a 25\degree angle, and shoots the arrow with a speed of 65 m/s.  The turkey is hit, and falls to the ground.  Briana picks up the turkey and takes it home to save for thanksgiving dinner.
+
+\begin{enumerate}
+	\item What are the initial vertical and horizontal velocities of the arrow?
+		\vspace{0.1in}
+	\color{red}
+	$ v_{ix} = v_i \cos (\theta) = 65 m/s \cos (25 \degree )  \approx  58.910$  m/s
+
+	$ v_{iy} = v_i \sin (\theta) = 65 m/s \sin (25 \degree )  \approx 27.470$  m/s
+	\color{black}
+
+	\vspace{0.1in}
+	\item How long does it take for the arrow to hit the turkey?
+	
+		\color{red}
+	$d_x = v_{ix}t + \cancelto{0}{\frac{1}{2}a_xt^2} \longrightarrow t = \frac{d_x}{v_{ix}} = \frac{35 m}{58.910 m/s} \approx 0.594 s$
+	\color{black}
+	
+	\vspace{0.1in}
+	\item How high up was the turkey sitting?
+
+	\vspace{0.1in}
+\color{red}
+	$d_y = v_{iy}t + \frac{1}{2}a_yt^2 = (27.470 m/s)(0.594 s) + \frac{1}{2}(-9.81 m/s^2)(0.594 s)^2 \approx 14.589 m $	
+\color{black}
+
+	\vspace{0.1in}
+	\item{How long does the turkey take to fall to the ground?}
+	
+	\color{red}
+		\vspace{0.1in}
+	For the turkey, using up as positive:
+	
+	$d_y = \cancelto{0}{v_{iy}t} + \frac{1}{2}a_yt^2 \longrightarrow  t = \sqrt{\frac{2d}{a}} = \sqrt{\frac{2 \times (-14.589 m) }{-9.81 m/s^2}} \approx 1.725 s $ 
+	\color{black}
+	
+\end{enumerate}
+
+
+ 
+\end{enumerate}
+
+
+\end{document}
