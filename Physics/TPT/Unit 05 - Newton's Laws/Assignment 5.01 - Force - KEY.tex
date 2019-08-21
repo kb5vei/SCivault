@@ -10,9 +10,13 @@ heightrounded, % to avoid spurious underfull messages
 \usepackage{lastpage}
 \usepackage{multicol}
 \usepackage{xcolor}
+\usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage[makeroom]{cancel}
 
 \begin{document}
-\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name:}
+\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name: 
+	\color{red} KEY - DO NOT REPRODUCE\color{black}}
 \fancyhead[r]{Due Date: \hspace{ 1in}}
 \fancyfoot[c]{\thepage\ of \pageref{LastPage}}
 \fancyfoot[r]{Assignment 5.01}	
@@ -25,9 +29,19 @@ heightrounded, % to avoid spurious underfull messages
 \item A 600 kg car accelerates from 5 m/s to 10 m/s in three seconds.
 \begin{enumerate}
 	\item What is the acceleration of the car?
-	\vspace{0.4in}
+	
+	\color{red}
+	$a = \frac{v_f-v_i}{t} = \frac{10 m/s - 5 m/s} {3 s} \approx 1.667 m/s^2$
+	
+	\color{black}
+
 	\item What is the force that the motor exerts on the car?
-	\vspace{0.4in}
+	
+	\color{red}
+	$F = ma = 600kg \cdot 1.667 m/s^2 \approx 360$N
+	\color{black}
+
+
 \end{enumerate}
 
 \item Two children are playing tug-o-war.  Juan has a mass of 40 kg and pulls with a force of 20 N. Carlos has a mass of 20 kg and pulls with a force of 50 N.  
