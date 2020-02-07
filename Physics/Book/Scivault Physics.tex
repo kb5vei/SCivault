@@ -1,0 +1,90 @@
+
+\documentclass[12pt]{book}
+\usepackage{cclicenses}
+\usepackage[letterpaper,  hmargin = { 1in},vmargin = { 1in}]{geometry}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\newcommand{\mytitle}{Scivault Physics}
+\usepackage{cleveref}
+\usepackage{longtable}
+\usepackage{appendix}
+\usepackage{makeidx}
+
+\makeindex
+
+%%% To make index work,
+% 1) Compile
+%2) From base directory, run:
+%   makeindex "Scivault Physics.idx"
+%3) Compile again
+
+\begin{document}
+	\frontmatter
+	\title{\mytitle}
+	\author{Jonas Williamson}
+	\date{Version \the\year\the\month\the\day}
+	\maketitle
+
+\normalsize
+	\copyright \space \the\year\space by Jonas Williamson.  All Rights Reserved. 
+	
+		\vspace{2 in}	
+
+
+	\vspace{1 in}
+
+	\tableofcontents
+
+
+\mainmatter
+
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+
+
+\input{./Chapters/Ch01-intro/Ch01-intro.tex}
+\input{./Chapters/Ch02-Kinematics1D/Ch02-Kinematics1D.tex}
+
+
+	
+
+		
+	
+
+
+
+
+
+
+
+\appendix
+
+\appendixpage
+\noappendicestocpagenum
+\addappheadtotoc
+
+\input{./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex}
+\input{./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex}
+
+		
+	\backmatter	
+	
+\printindex		
+
+
+
+
+
+
+
+
+\end{document}
