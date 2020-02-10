@@ -1,14 +1,22 @@
 \begin{theindex}
 
-  \item GreekLetters, \hyperpage{7}
+  \item Cross Product, \hyperpage{4}
 
   \indexspace
 
-  \item Physical, \hyperpage{7}
+  \item Dimensional Analysis, \hyperpage{1}
+  \item Dot Product, \hyperpage{4}
 
   \indexspace
 
-  \item Scalar, \hyperpage{2}
+  \item GreekLetters, \hyperpage{11}
+
+  \indexspace
+
+  \item Physical, \hyperpage{11}
+
+  \indexspace
+
   \item SI system of units, \hyperpage{1}
 
   \indexspace
@@ -18,6 +26,8 @@
 
   \indexspace
 
-  \item Vector, \hyperpage{2}
+  \item Vectors, Addition, \hyperpage{3}
+  \item Vectors, Cross Product, \hyperpage{4}
+  \item Vectors, Dot Product, \hyperpage{4}
 
 \end{theindex}
