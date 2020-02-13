@@ -48,9 +48,9 @@ In the study of physics, there are two types of quantities that we will deal wit
 A \textbf{scalar} is a quantity that you are already most likely very familiar with, as it is just a number; scalars have only a \textit{magnitude} (a number that represents how big or strong it is), and can sometimes include units.  Examples of scalars might be the number of people in a room, the mass of a car, or your age in years.  
 
 \textbf{Vectors} are different from scalars because in addition to a magnitude, they contain a direction as well.  Examples of vectors might include 50 feet to the north, 5 m/s at a 33$^\circ$ angle, or 200 miles straight up.  
-There are many ways of expressing vectors.  Symbollically, they are often written with an arrow over them.  For example, in the equation \color{blue} $\vec{F} = m \vec{a}$ \color{black}  both force and acceleration are vectors – meaning that both force and acceleration have a direction.  Sometimes vectors will be expressed in \textbf{bold} typeface.   Hence, the expression \\ \color{blue} \textbf{F} = m \textbf{a}  \color{black} is equivalent to the expression shown above.
+There are many ways of expressing vectors.  Symbollically, they are often written with an arrow over them.  For example, in the equation \color{blue} $\vec{F} = m \vec{a}$ \color{black}  both force and acceleration are vectors - meaning that both force and acceleration have a direction.  Sometimes vectors will be expressed in \textbf{bold} typeface.   Hence, the expression \\ \color{blue} \textbf{F} = m \textbf{a}  \color{black} is equivalent to the expression shown above.
 
-The direction for vectors in 1 dimension is easy – all you need is a positive or a negative.  Usually, 1-dimensional motion takes place along the x-axis (left and right), but sometimes it will take place in the y- (forward and backward) and z- (up and down) dimensions.  For the purposes of this book, positive is to the right and up unless otherwise stated. 
+The direction for vectors in 1 dimension is easy - all you need is a positive or a negative.  Usually, 1-dimensional motion takes place along the x-axis (left and right), but sometimes it will take place in the y- (forward and backward) and z- (up and down) dimensions.  For the purposes of this book, positive is to the right and up unless otherwise stated. 
 In two dimensions, a vector requires two pieces of information.  One way of expressing a vector is in polar form.  Polar form in two dimensions includes a magnitude of the vector and an angle, usually measured from the x-axis.  There are several ways for writing this.  4 cm @ 15$^\circ$, \\ 4 cm $\angle 15^\circ$ and 4 cm at 15$^\circ$ North of East all represent the following displacement vector:
 
 
@@ -79,6 +79,8 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 
 
 
+	
+	The magnitude of the above vector is 4 cm.  Mathematically, the magnitude of a vector can be written several ways, the most common being $\lvert \vec{A} \rvert$, though sometimes the magnitude of a vector can be written as the vector without the vector sign, as in $A$. 
 	
 	Unit vectors are vectors that have a length of one unit and are oriented along one axis.  The unit vector for the x-direction is written as $\hat{i}$ (pronounced i-hat).  $\hat{i}$ is a 1-unit long vector that is always parallel to the x-axis, and points in the direction of increasing x values.  Likewise, the y-direction and z-direction unit vectors are written as $\hat{j}$ and $\hat{k}$ respectively.  
 	
@@ -201,7 +203,7 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 			
 		\end{center}
 		
-		The resultant vector is given by $\vec{C} = 4 \hat{i} + \hat{j}$
+		The resultant vector is given by $\boxed {\vec{C} = 4 \hat{i} + \hat{j}}$
 		
 	\end{mdframed}
 	
@@ -213,6 +215,7 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 	
 	
 	\subsection{The Dot Product} \index{Dot Product} \index{Vectors, Dot Product}
+	\subsubsection{In Cartesian Form}
 	When multiplying vectors, it is sometimes necessary to obtain a scalar result.  This is done through use of a dot product.  A dot product is written as $\vec{A} \cdot \vec{B} $.  This means to only multiply the components of the vectors that are in the same direction.  In cartesian coordinates, this can be done by multiplying corresponding components, then adding the products.  
 	
 		\begin{mdframed}[backgroundcolor=blue!10!white]
@@ -222,12 +225,240 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 				
 			\end{center}
 		
-		\textbf{Problem:} Given 
+		\textbf{Problem:} Given the vectors $ \vec{Y} = 2 \hat{i} + 3 \hat{j} $ and $\vec{Z} = -4 \hat{i} + 5 \hat{j}$ find the dot product of vectors Y and Z. 
+		
+		\vspace{.1in}
+		
+		\textbf{Solution:} Multiply coefficients from each vector, then add the products together:
+		\begin{center}
+			$2\times(-4) + 3\times 5 = -8 + 15 = \boxed{7}$ 
+		\end{center}
+		
+		
 		\end{mdframed}
+	\subsubsection{In Polar Form}
+	Often, vectors will be expressed in polar notation.  If this is the case, the dot product can be found my multiplying the magnitude of the first vector times the magnitude of the second vector times the cosine of the angle between:
 	
 	
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+		\vec{A} \cdot \vec{B} = \lvert \vec{A} \rvert  \lvert \vec{B} \rvert \cos{\theta}
+		\end{equation}
+		
+	\end{mdframed}
+	
+	
+	\vspace{0.1in}
+	
+	
+		\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			\textbf{Example \thesubsection.2}	\label{example:dotproduct2}
+			\vspace{0.1in}
+			
+			
+		\end{center}
+		
+		\textbf{Problem:} Given the vectors $ \vec{D} = 3 \angle 30^{\circ} $ and $\vec{E} = 5 \angle 60^{\circ}$ find the dot product of vectors D and E. 
+		
+		\vspace{.1in}
+		
+		\textbf{Solution:}  We begin by graphing both vectors starting from a common origin:
+		\begin{center}
+		\begin{tikzpicture}
+		\draw[thin,gray!40] (0,0) grid (3,5);
+		\draw[<->] (0,0)--(3,0) node[right]{$x$};
+		\draw[<->] (0,0)--(0,5) node[above]{$y$};
+		\draw[line width=2pt,blue,-stealth](0,0)--(2.598,1.5) node[anchor=south east]{$\vec{A}$};
+		\draw[line width=2pt,red,-stealth](0,0)--(2.5,4.33) node[anchor=south west]{$\vec{B}$};
+		
+		\end{tikzpicture}	
+			
+
+		\end{center}
+			
+			Noticing that the angle between the two vectors is $30^\circ$, we can use equation 1.5 to calculate:
+			
+			\begin{center}
+				$ 		\vec{D} \cdot \vec{E} = \lvert \vec{D} \rvert  \lvert \vec{E} \rvert \cos{\theta} = (3)(5)\cos30^\circ \approx \boxed{12.990} $
+			\end{center}
+		
+		
+		
+		
+		\begin{center}
+			
+		\end{center}
+		
+		
+	\end{mdframed}
 	
 	
 	
 	\subsection{The Cross Product}  \index{Cross Product} \index{Vectors, Cross Product}
+	\subsubsection{Cross Products In Cartesian Form}
+	Sometimes two vectors will be multiplied in such a way that they will result in another vector.  This is called a \textbf{Cross Product}.  A cross product is inherently a three-dimensional operation.  A cross product can be found by calculating the determinant of a matrix:  
 	
+\begin{mdframed}[backgroundcolor=orange!20!white]
+\begin{equation}
+ \vec{A} \times \vec{B} = 	\begin{vmatrix}
+				\hat{i} & \hat{j} & \hat{k}\\
+				A_x & A_y & A_z \\
+				B_x & B_y & B_z 
+				\end{vmatrix} 
+				\label{equation:16}
+\end{equation}
+\end{mdframed}	
+
+	
+The most common way to find the determinant of the above matrix is by using minors:
+\begin{center}
+$
+ \vec{A} \times \vec{B} = 	\begin{vmatrix}
+	\hat{i} & \hat{j} & \hat{k}\\
+	A_x & A_y & A_z \\
+	B_x & B_y & B_z 
+\end{vmatrix} 
+= \hat{i} \begin{vmatrix}
+	A_y & A_z \\
+	B_y & B_z 
+\end{vmatrix} - \hat{j} \begin{vmatrix}
+A_x & A_z \\
+B_x & B_z 
+\end{vmatrix} + \hat{k} \begin{vmatrix}
+A_x & A_y \\
+B_x & B_y 
+\end{vmatrix}
+$
+\end{center}
+
+This finding the determinate of each of the 2x2 matrices yields:
+\begin{center}
+	$ \vec{A} \times \vec{B} = 	\hat{i} (A_y B_z - A_z B_y) - \hat{j}(A_x B_z - A_z B_x)+ \hat{k}(A_x B_y - A_y B_x)
+$\end{center}
+
+
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		\textbf{Example \thesubsection}	\label{example:crossproductcartesian}
+		\vspace{0.1in}
+		
+		
+	\end{center}
+	
+	\textbf{Problem:} Given the vectors $ \vec{V} = 2 \hat{i} + 3 \hat{j} $ and $\vec{W} = -4 \hat{i} + 5 \hat{j}$ find the cross product of vectors V and W. 
+	
+	\vspace{.1in}
+	
+	\textbf{Solution:}  Begin by creating a matrix, as shown in equation \eqref{equation:16}.  Since both vectors lie in the X-Y plane, the Z-components for both vectors are zero:
+	
+	\begin{center}
+		$\vec{V} \times \vec{W} =  \begin{vmatrix}
+		\hat{i} & \hat{j} & \hat{k} \\
+		2 & 3 & 0\\
+		-4 & 5 & 0		
+		\end{vmatrix}$
+
+	\end{center}
+
+Now, use expansion by minors to create three two-by-two matrices:
+
+\begin{center}
+	$\vec{V} \times \vec{W} =  \begin{vmatrix}
+	\hat{i} & \hat{j} & \hat{k} \\
+	2 & 3 & 0\\
+	-4 & 5 & 0		
+	\end{vmatrix} = \hat{i} \begin{vmatrix}
+		3 & 0 \\
+		5 & 0 
+	\end{vmatrix} - \hat{j} \begin{vmatrix}
+		2 & 0 \\
+		-4 & 0 
+	\end{vmatrix} + \hat{k} \begin{vmatrix}
+		2 & 3 \\
+		-4 & 5 
+	\end{vmatrix}
+	$
+\end{center}
+
+Finding the determinate of each of the two-by-two matricies yields: 
+\begin{center}
+	$	\vec{V} \times \vec{W} = \hat{i}(3\cdot0-0\cdot5)-\hat{j}(2\cdot0-0\cdot(-4))+\hat{k}(2\cdot5-3\cdot(-4))$
+\end{center}
+
+Both the x-component and the y-components of this cross product are zero.  Thus, 
+\begin{center}
+	$	\boxed{\vec{V} \times \vec{W} = 22 \hat{k}}$
+\end{center}
+
+
+\end{mdframed}
+	
+	There are some important things you may wish to note.  
+	\begin{enumerate}
+		\item The cross product is not commutative.  That is, $\vec{A} \times \vec{B} \neq \vec{B} \times \vec{A}$.  In fact, the two cross products are in exactly opposite directions.  
+		\item The cross product of two vectors is always a vector that is perpendicular to both of the original vectors.  
+	\end{enumerate}
+
+
+\subsubsection{Cross Products In Polar Form}
+	When vectors are expressed in polar form, a cross product can often be found using two steps.  To find the magnitude of the resulting vector, one would use the following equation:
+	
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+	\lvert \vec{A} \times \vec{B} \rvert = 	\lvert \vec{A} \rvert \lvert\vec{B} \rvert \sin \theta
+	\label{Equation:17}
+	\end{equation}
+\end{mdframed}	
+
+In Equation \ref{Equation:17}, $\theta$ is the angle between the two vectors.  To find the direction of the resulting vector, use the \textbf{First Right Hand Rule}.  \index{Right Hand Rule, First} \index{First Right Hand Rule} To use this rule, you point your index finger in the direction of the first vector to be multiplied.  Your middle finger is then pointed in the direction of the second vector to be multiplied.  Your thumb will point in the direction of the resultant vector, as shown in the image: 
+
+\begin{center}
+	\begin{figure}[h]
+		\centering
+	\includegraphics[height=2in]{./Chapters/Ch01-intro/righthandrule.JPG}	
+	\caption{The First Right Hand Rule}
+	\end{figure}
+	
+\end{center}
+
+The right had rule is easiest to use when the first two vectors are at $90^\circ$ to each other.  However, even if the first two vectors are not at right angles to each other, the resultant vector of a cross product will always be perpendicular to the plane of the first two vectors.  
+
+
+\newpage
+\section{Exercises for Chapter 1}
+
+\begin{multicols}{2}
+
+
+	\begin{enumerate}
+
+
+	\subsection*{Section 1.1: Dimensional Analysis}
+		\item What are the units for each of the following?
+			\begin{enumerate}
+				\item $\frac{5 m}{2 s}$
+				\item $\frac{10kg}{5s}$
+				\item $\frac{140 kg \cdot 15 m}{23 s} $
+				\item $\frac{(\frac{15m}{15s})}{14 s} $
+				
+			\end{enumerate}
+	\subsection*{Section 1.2: Vectors and Scalars}
+		\item Given the vector $4\hat{i} - 3 \hat{j}$, represent the vector (a) graphically and (b) in polar form.  
+		\item George walks 200 meters north, then walks 400 meters north.  What is the vector from his starting position to his ending position in (a) cartesian form and (b) polar form (take north as 0 degrees).  
+	\subsection*{Section 1.3: Vector Mathematics}
+		\item Addition - cartesian
+		\item Addition - polar
+		\item Dot Product - Cartesian
+		\item Dot Product - polar
+		\item Cross Product - cartesian
+		\item Cross Product - polar
+		
+		
+	\end{enumerate}	
+\end{multicols}	
+	
+
+
+

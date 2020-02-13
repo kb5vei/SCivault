@@ -1,8 +1,12 @@
 \chapter{Kinematics in One Dimension}
-\section{Distance and Displacement}
-You are probably already familiar with the concept of \textbf{distance} – you might get in your car and drive a total of 1.2 miles to school, turning right after 0.45 miles, according to your car's odometer.  Distance is a scalar that tells you how far something traveled.  d usually represents distance.
+\section{Distance and Displacement} \index{Distance}
 
-While you may have traveled a total distance of 1.2 miles from your school, you are significantly less than 1.2 miles away from home; in fact, you are approximately 0.874 miles from home, following a direct path directly from your home to the school, at an angle of $59^\circ $(not worrying that this path might take you through someone's back yard or kitchen).  \textbf{Displacement} is a vector that tell you how far something is from the origin, and is independent of the path taken to get there.  The displacement vector is commonly symbolized by $\vec{r}$ though sometimes it may be written as $\vec{d}$. 
+You are probably already familiar with the concept of \textbf{distance} - you might get in your car and drive a total of 1.2 miles to school, turning right after 0.45 miles, according to your car's odometer.  Distance is a scalar that tells you how far something traveled.  The symbol d usually represents distance.
+
+While you may have traveled a total distance of 1.2 miles from your school, you are significantly less than 1.2 miles away from home; in fact, you are approximately 0.874 miles from home, following a direct path directly from your home to the school, at an angle of $59^\circ $(not worrying that this path might take you through someone's back yard or kitchen).
+
+
+  \textbf{Displacement} \index{Displacement} is a vector that tell you how far something is from the origin, and is independent of the path taken to get there.  The displacement vector is commonly symbolized by $\vec{r}$ though sometimes it may be written as $\vec{d}$. 
 
 \section{Average and Instantaneous Speed and Velocity}
 
@@ -31,14 +35,77 @@ Average velocity is useful if an object's velocity is not changing.  However, ma
 		\textbf{Example \thesection.1}	
 	\end{center}
 
-You ride your bicycle in a straight line for a distance of 73 meters in 12.5 second.  What is your average velocity?
+\textbf{Problem: }You ride your bicycle in a straight line for a distance of 73 meters in 12.5 second.  What is your average speed?
+\vspace{0.1in}
 
-Solution:
-\begin{equation}
- a
-\end{equation}
+\textbf{Solution:} 
+Begin by drawing a diagram:
+
+
+\begin{equation*}
+ v_{avg}  = \frac{d}{t} = \frac{73m \hspace{0.05in} \hat{i}}{12.5s}  = 5.84 \frac{m}{s} \hspace{0.05in} \hat{i}
+\end{equation*}
 
 \end{mdframed}
+	\vspace{0.1in}
+	
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.2}	
+	\end{center}
+	
+	\textbf{Problem: }A bicyclist rides his bike to the east.  His position (in meters) is given by the following expression:
+	
+	\begin{equation*}
+	\vec{r} = (0.5 t^2 + 4t) \hat{i}
+	\end{equation*}
+	\begin{enumerate}
+		\item What is his average velocity from t = 0 to t = 5 seconds?
+		\item What is his instantaneous velocity at t=3 seconds?
+		
+	\end{enumerate}
+	
+	\vspace{0.1in}
+	
+	\textbf{Solution:} \begin{enumerate}
+		\item The total displacement (in meters) after five seconds is given by: 
+		
+		\begin{equation*}
+		\hat{r} = (0.5 \times (5s)^2+4\times 5s) \hspace{0.05in} m \hspace{0.05in} \hat{i} = 32.5 \hspace{0.05in} m \hspace{0.05in} \hspace{0.05in} \hat{i}
+		\end{equation*}
+		
+		Thus, the average velocity is - 
+		
+
+
+	
+	
+	\begin{equation*}
+	\overrightarrow{v_{avg}}  = \frac{\vec{d}}{t} = \frac{32.5 m \hspace{0.05in} \hat{i}}{5s}  = \boxed{6.5 \frac{m}{s} \hspace{0.05in} \hat{i}}
+	\end{equation*}
+	
+	
+	
+	\item The instantaneous velocity of an object is found using a derivative with respect to time.  Thus,
+	
+	\begin{equation*}
+	\vec{v} = \frac{d\vec{r}}{dt} = \frac{d}{dt} (0.5 t^2 + 4t) \hat{i} = (t + 4) \hat{i} 
+	\end{equation*}
+	
+	Evaluating this at t=3s yields:
+	
+	\begin{equation*}
+	\vec{v} = (3 + 4) \hat{i} = 7 \frac{m}{s} \hat{i}
+	\end{equation*}
+	\end{enumerate}
+	
+\end{mdframed}
+
+	
+	
+	
 	
 
 \section{Relative Motion at Constant Velocity}
