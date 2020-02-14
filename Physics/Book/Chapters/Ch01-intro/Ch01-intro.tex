@@ -1,5 +1,6 @@
 \chapter{Introduction}
 \section{Dimensional Analysis and SI units}
+\subsection{SI Units}
 The \textbf{SI}\index{SI system of units} system of units is the standard used by many scientists throughout the world.  There are seven \textit{fundamental} or \textit{base} quantities from which all other measurements are derived.  These quantities are listed below:
  \index{Units, Fundamental}
 
@@ -33,12 +34,61 @@ The \textbf{SI}\index{SI system of units} system of units is the standard used b
 
 	Of these quantities, mass, time and length are quite common.  Thus, this system is sometimes called the MKS (meter, kilogram, second) system. In order to use any equations, all measurements must have correct units.  For example, if a time is expressed in hours, it must first be converted into seconds before any calculations can be attempted.  
 	
+	\subsection{Dimensional Analysis}
 	Dimensional analysis \index{Dimensional Analysis} is the process in which the units associated with quantities create \textit{derived units}. \index{Units, Derived} For instance, when a distance is divided by a time, the units will be $ \frac{m}{s}$ (read \textit{meters per second}).  	
 	
 	Dimensional analysis is an important part of solving physics problems.  Often, correct dimensional analysis can help you determine if a problem has been solved correctly.  One should not even attempt to calculate an answer to a problem until the correct units have been verified. 
 
+	\subsection{Unit Conversions} \index{Unit Conversions}
+	Often you will find that you need to convert a measurement from one unit to another.  In order to do this, you must use a \textit{conversion factor.}  A conversion factor is a fraction that is based upon a statement of equality.  For instance, since 60 seconds = 1 minute, a conversion factor will look like either $\frac{60s}{1 min}$ or $\frac{1 min}{60s}$.  You should chose the version of the conversion factor that eliminates the units that you wish to convert.  
+	
+	
+		\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			\textbf{Example \thesubsection}	\label{ex113}
+		\end{center}
+	
+		\vspace{0.1in}	
+		\textbf{Problem:} Convert 7.241 hours into seconds. 
+		\vspace{0.1in}
+		
+		\textbf{Solution:} Begin by converting 7.241 hours into minutes.  Since 60 minutes = 1 hour, 
+			\begin{equation*}
+			7.241 \cancel{hr} \frac{60 min}{1 \cancel{hr}} = 434.46 min
+			\end{equation*}
+		
+		Knowing that 1 minute = 60 seconds, we can use a second conversion factor to obtain seconds:
+			\begin{equation*}
+			434.46 \cancel{min} \frac{60 s}{1 \cancel{min}} = \boxed{26067.6s}
+			\end{equation*}
+		
+		This problem could be solved in one step if you know that 1 hour = 3600 seconds. 
+	
+	\end{mdframed}
 
 
+	
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		\textbf{Example \thesubsection.2}	\label{ex1132}
+	\end{center}
+	
+	\vspace{0.1in}	
+	\textbf{Problem:} A car travels with a speed of 20 m/s.  What is this in miles per hour? 
+	\vspace{0.1in}
+	
+	\textbf{Solution:} We begin by converting meters per second into meters per hour:
+	\begin{equation*}
+	20 \frac{m}{\cancel{s}} \cdot \frac{3600 \cancel{s}}{1 {hr}} = 72000 \frac{m}{hr}
+	\end{equation*}
+	
+	We also need to know that 1 mile = 1609.34 meters:
+	\begin{equation*}
+		72000 \frac{\cancel{m}}{hr} \cdot \frac{1 mile}{1609.34 \cancel{m}} \approx 44.739 \frac{miles}{hr} 
+	\end{equation*}
+	
+	
+\end{mdframed}
 		
 
 

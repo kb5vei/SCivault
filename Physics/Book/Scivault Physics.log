@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  13 FEB 2020 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  14 FEB 2020 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -400,6 +400,9 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -930,20 +933,20 @@ Writing index file "Scivault Physics".idx
 (./Scivault Physics.aux)
 \openout1 = `"Scivault Physics.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1010,7 +1013,7 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1019,9 +1022,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count199
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./Scivault Physics.out) (./Scivault Physics.out)
 \@outlinefile=\write5
@@ -1033,13 +1036,13 @@ ABD: EveryShipout initializing macros [1
 
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
  [2]
 (./Scivault Physics.toc [3
 
@@ -1053,59 +1056,71 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 Chapter 1.
 [1
 
-] [2]
-Package mdframed Info: mdframed works in twoside mode on input line 93.
-Package mdframed Info: mdframed works in twoside mode on input line 132.
+]
+Package mdframed Info: mdframed works in twoside mode on input line 46.
+Package mdframed Info: mdframed works in twoside mode on input line 71.
+ [2]
+Package mdframed Info: mdframed works in twoside mode on input line 143.
  [3]
-Package mdframed Info: mdframed works in twoside mode on input line 221.
+Package mdframed Info: Not enough space on this page on input line 168.
+Package mdframed Info: mdframed works in twoside mode on input line 182.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 258.
  [4]
-Package mdframed Info: mdframed works in twoside mode on input line 243.
-Package mdframed Info: mdframed works in twoside mode on input line 254.
-Package mdframed Info: mdframed works in twoside mode on input line 302.
+Package mdframed Info: mdframed works in twoside mode on input line 271.
+Package mdframed Info: mdframed works in twoside mode on input line 293.
+Package mdframed Info: mdframed works in twoside mode on input line 304.
+Package mdframed Info: Not enough space on this page on input line 344.
  [5]
-Package mdframed Info: mdframed works in twoside mode on input line 342.
-Package mdframed Info: mdframed works in twoside mode on input line 408.
-Package mdframed Info: Not enough space on this page on input line 413.
+Package mdframed Info: Not enough space on this page on input line 344.
+Package mdframed Info: mdframed works in twoside mode on input line 352.
+Package mdframed Info: mdframed works in twoside mode on input line 392.
  [6]
-Package mdframed Info: Not enough space on this page on input line 413.
+Package mdframed Info: Not enough space on this page on input line 446.
+Package mdframed Info: mdframed works in twoside mode on input line 458.
 
-<./Chapters/Ch01-intro/righthandrule.JPG, id=481, 173.86098pt x 139.58434pt>
+<./Chapters/Ch01-intro/righthandrule.JPG, id=495, 173.86098pt x 139.58434pt>
 File: ./Chapters/Ch01-intro/righthandrule.JPG Graphic file (type jpg)
 
 <use ./Chapters/Ch01-intro/righthandrule.JPG>
 Package pdftex.def Info: ./Chapters/Ch01-intro/righthandrule.JPG used on input 
-line 420.
+line 470.
 (pdftex.def)             Requested size: 180.03915pt x 144.54pt.
- [7 <./Chapters/Ch01-intro/righthandrule.JPG>]) (./Chapters/Ch02-Kinematics1D/C
-h02-Kinematics1D.tex [8]
-Chapter 2.
-[9
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <./Chapters/Ch01-intro/righthandrule.JPG>])
+(./Chapters/Ch02-Kinematics1D/Ch02-Kinematics1D.tex [9] [10
 
 ]
+Chapter 2.
+[11]
 Package mdframed Info: mdframed works in twoside mode on input line 31.
 Package mdframed Info: mdframed works in twoside mode on input line 52.
- [10]) (./Chapters/Ch03-Graphing/Ch03-Graphing.tex [11] [12
+ [12]) (./Chapters/Ch03-Graphing/Ch03-Graphing.tex [13] [14
 
 ]
 Chapter 3.
-) (./Chapters/Ch04-Kinematics2D/Ch04-Kinematics2D.tex [13] [14
+) (./Chapters/Ch04-Kinematics2D/Ch04-Kinematics2D.tex [15] [16
 
 ]
 Chapter 4.
-) (./Chapters/Ch05-NewtonsLaws/Ch05-NewtonsLaws.tex [15] [16
+) (./Chapters/Ch05-NewtonsLaws/Ch05-NewtonsLaws.tex [17] [18
 
 ]
 Chapter 5.
-) (./Chapters/Ch06-WorkandEnergy/Ch06-WorkandEnergy.tex [17] [18
+) (./Chapters/Ch06-WorkandEnergy/Ch06-WorkandEnergy.tex [19] [20
 
 ]
 Chapter 6.
-) (./Chapters/Ch07-ImpulseandMomentum/Ch07-ImpulseandMomentum.tex [19] [20
+) (./Chapters/Ch07-ImpulseandMomentum/Ch07-ImpulseandMomentum.tex [21] [22
 
 ]
 Chapter 7.
 ) (./Chapters/Ch08-CircularMotionandOrbits/Ch08-CircularMotionandOrbits.tex
-[21] [22
+[23] [24
 
 ]
 Chapter 8.
@@ -1113,49 +1128,50 @@ Package mdframed Info: mdframed works in twoside mode on input line 6.
 Package mdframed Info: mdframed works in twoside mode on input line 23.
 Package mdframed Info: mdframed works in twoside mode on input line 31.
 Package mdframed Info: Not enough space on this page on input line 41.
-[23]
+[25]
 Package mdframed Info: Not enough space on this page on input line 41.
 ) (./Chapters/Ch09-RotationalMechanics/Ch09-RotationalMechanics.tex
-[24]
+[26]
 Chapter 9.
-) [25
+Package mdframed Info: mdframed works in twoside mode on input line 6.
+) [27
 
-] [26
+] [28
 
-] [27] [28]
+] [29] [30]
 (./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex
 Appendix A.
 )
 (./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex
-[29
+[31
 
-] [30
+] [32
 
 ]
 Appendix B.
-) [31] [32
+) [33] [34
 
-] (./Scivault Physics.ind [33
+] (./Scivault Physics.ind [35
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (./Scivault Physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `"Scivault Physics".out' has not changed.
-(rerunfilecheck)             Checksum: 52FA7585D9F5236AE1748F9391D1A686;5143.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+(rerunfilecheck)             Checksum: 698CA73836EE1B3B77F4692E5E01EE4B;5349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 26935 strings out of 493039
- 516014 string characters out of 6136944
- 590451 words of memory out of 5000000
- 29922 multiletter control sequences out of 15000+600000
+ 26980 strings out of 493039
+ 516668 string characters out of 6136944
+ 596286 words of memory out of 5000000
+ 29957 multiletter control sequences out of 15000+600000
  16865 words of font info for 42 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 55i,14n,54p,10434b,782s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,10434b,784s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
@@ -1165,7 +1181,8 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont
+/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texl
@@ -1174,10 +1191,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/cm-super/sfsl1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/cm-super/sfti1200.pfb>
-Output written on "Scivault Physics.pdf" (39 pages, 494048 bytes).
+Output written on "Scivault Physics.pdf" (41 pages, 502692 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 667 compressed objects within 7 object streams
- 160 named destinations out of 1000 (max. 500000)
- 626 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 700 compressed objects within 7 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 650 words of extra memory for PDF output out of 10000 (max. 10000000)
 

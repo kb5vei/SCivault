@@ -1,19 +1,34 @@
 \begin{theindex}
 
-  \item Cross Product, \hyperpage{4}
+  \item Acceleration, Centripetal, \hyperpage{25}
+
+  \indexspace
+
+  \item Cross Product, \hyperpage{6}
 
   \indexspace
 
   \item Dimensional Analysis, \hyperpage{1}
-  \item Dot Product, \hyperpage{4}
+  \item Displacement, \hyperpage{11}
+  \item Distance, \hyperpage{11}
+  \item Dot Product, \hyperpage{5}
 
   \indexspace
 
-  \item GreekLetters, \hyperpage{11}
+  \item First Right Hand Rule, \hyperpage{7}
+  \item Force, Centripetal, \hyperpage{25}
 
   \indexspace
 
-  \item Physical, \hyperpage{11}
+  \item GreekLetters, \hyperpage{33}
+
+  \indexspace
+
+  \item Physical, \hyperpage{33}
+
+  \indexspace
+
+  \item Right Hand Rule, First, \hyperpage{7}
 
   \indexspace
 
@@ -21,13 +36,14 @@
 
   \indexspace
 
+  \item Unit Conversions, \hyperpage{2}
   \item Units, Derived, \hyperpage{1}
   \item Units, Fundamental, \hyperpage{1}
 
   \indexspace
 
-  \item Vectors, Addition, \hyperpage{3}
-  \item Vectors, Cross Product, \hyperpage{4}
-  \item Vectors, Dot Product, \hyperpage{4}
+  \item Vectors, Addition, \hyperpage{4}
+  \item Vectors, Cross Product, \hyperpage{6}
+  \item Vectors, Dot Product, \hyperpage{5}
 
 \end{theindex}
