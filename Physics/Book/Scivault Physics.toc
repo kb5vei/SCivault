@@ -20,6 +20,8 @@
 \contentsline {section}{\numberline {2.2}Average and Instantaneous Speed and Velocity}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Relative Motion at Constant Velocity}{13}{section.2.3}
 \contentsline {section}{\numberline {2.4}Acceleration}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Average Acceleration}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Instantaneous Acceleration}{13}{subsection.2.4.2}
 \contentsline {section}{\numberline {2.5}The Kinematic Equations}{13}{section.2.5}
 \contentsline {section}{\numberline {2.6}Vertical Motion and Gravity}{13}{section.2.6}
 \contentsline {chapter}{\numberline {3}Graphing Motion}{15}{chapter.3}
@@ -68,19 +70,19 @@
 \contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{26}{subsection.8.2.2}
 \contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{26}{subsection.8.2.3}
 \contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{26}{section.8.3}
-\contentsline {section}{\numberline {8.4}Orbital Motion}{26}{section.8.4}
-\contentsline {chapter}{\numberline {9}Rotational Mechanics}{27}{chapter.9}
-\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{27}{section.9.1}
-\contentsline {section}{\numberline {9.2}Angular Kinematics}{27}{section.9.2}
-\contentsline {section}{\numberline {9.3}Torque}{27}{section.9.3}
-\contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{27}{section.9.4}
-\contentsline {section}{\numberline {9.5}Angular Momentum}{27}{section.9.5}
+\contentsline {section}{\numberline {8.4}Orbital Motion}{27}{section.8.4}
+\contentsline {chapter}{\numberline {9}Rotational Mechanics}{29}{chapter.9}
+\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{29}{section.9.1}
+\contentsline {section}{\numberline {9.2}Angular Kinematics}{29}{section.9.2}
+\contentsline {section}{\numberline {9.3}Torque}{29}{section.9.3}
+\contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{29}{section.9.4}
+\contentsline {section}{\numberline {9.5}Angular Momentum}{29}{section.9.5}
 \contentsline {chapter}{Appendices}{}{section*.11}
-\contentsline {chapter}{\numberline {A}Math Skills}{31}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{31}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{31}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{31}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{31}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{33}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{33}{section.B.1}
-\contentsline {section}{\numberline {B.2}Physical Constants}{33}{section.B.2}
+\contentsline {chapter}{\numberline {A}Math Skills}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{33}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{33}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{33}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{35}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{35}{section.B.1}
+\contentsline {section}{\numberline {B.2}Physical Constants}{35}{section.B.2}
