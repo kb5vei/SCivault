@@ -23,6 +23,7 @@ Average velocity is useful if an object's velocity is not changing.  However, ma
 \begin{mdframed}[backgroundcolor=orange!20!white]
 	\begin{equation}
 	\vec{v} = \frac{d\vec{r}}{dt}
+	\label{equation:instantaneousvelocity}
 	\end{equation}
 \end{mdframed}	
 	
@@ -60,12 +61,12 @@ Begin by drawing a diagram:
 	\begin{equation*}
 	\vec{r} = (0.5 t^2 + 4t) \hat{i}
 	\end{equation*}
-	\begin{enumerate}
+	\begin{enumerate}[label=\alph*.]
 		\item What is his average velocity from t = 0 to t = 5 seconds?
 		\item What is his instantaneous velocity at t=3 seconds?
 	\end{enumerate}
 	\vspace{0.1in}
-	\textbf{Solution:} \begin{enumerate}
+	\textbf{Solution:} \begin{enumerate}[label=\alph*.]
 		\item The total displacement (in meters) after five seconds is given by: 
 		\begin{equation*}
 		\hat{r} = (0.5 \times (5s)^2+4\times 5s) \hspace{0.05in} m \hspace{0.05in} \hat{i} = 32.5 \hspace{0.05in} m \hspace{0.05in} \hspace{0.05in} \hat{i}
@@ -101,31 +102,131 @@ Begin by drawing a diagram:
 
 
 \section{Acceleration}
-\subsection{Average Acceleration}
+\subsection{Average Acceleration} \index{Acceleration, Average}
 Velocity is not always constant.  For instance, when you are driving through a city, there are times when you might be going 30 mph, and there are times when you might be stopped at a streetlight.  City driving requires you to speed up at some times, and slow down at other times – your velocity changes as a function of time.  Change in velocity per change in time is called acceleration.  
 Keep in mind, both speeding up and slowing down are forms of acceleration.  In the case that an object is traveling with a positive velocity, slowing down causes negative acceleration (or deceleration).
 Like velocity, acceleration comes in two basic types – average and instantaneous.  To find average velocity, we calculate the change in velocity per change in time:
 
 \begin{mdframed}[backgroundcolor=orange!20!white]
 	\begin{equation}
-	\vec{a} = \frac{\Delta \vec{v}}{\Delta t} 
+	\overrightarrow{a_{avg}} = \frac{\Delta \vec{v}}{\Delta t} 
+	\label{equation:averageacceleration}
 	\end{equation}
 \end{mdframed}	
 Keep in mind that this can be expressed as:
 \begin{mdframed}[backgroundcolor=orange!20!white]
 	\begin{equation}
-	\vec{a} = \frac{\overrightarrow{v_f} - \overrightarrow {v_i}}{\Delta t}
+	\overrightarrow{a_{avg}} = \frac{\overrightarrow{v_f} - \overrightarrow {v_i}}{\Delta t}
+	\label{equation:averageaccelerationalt}
 	\end{equation}
 \end{mdframed}	
 
 
 where $v_f$ and $v_i$ are final velocity and initial velocity, respectively.  Sometimes final velocity is expressed as $v$ and initial velocity is symbolized as $v_0$. 
 
-\subsection{Instantaneous Acceleration}
+\subsection{Instantaneous Acceleration} \index{Acceleration, Instantaneous}
+
+Instantaneous velocity is found by letting the time interval in question become infinitesimally small.  A little calculus proves that:
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+	\vec{a} = \frac{d \vec{v}}{dt} 
+	\end{equation}
+\end{mdframed}
+
+Combining this with equation \ref{equation:instantaneousvelocity}, we find:
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+	\vec{a} = \frac{d^2 \vec{r}}{dt^2} 
+	\end{equation}
+\end{mdframed}
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection}	
+	\end{center}
+	\vspace{0.1in}
+	
+	\textbf{Problem: } A car is traveling 20 m/s in the positive x direction.  The driver sees a red light, and applies the brakes, causing the vehicle to come to a stop in 4 seconds.  What is the average acceleration caused by the brakes?
+	
+	\vspace{0.1in}
+	
+	\textbf{Solution:} Using the definition of Average Acceleration from Equation \ref{equation:averageaccelerationalt}, we find:
+	
+	\begin{equation*}
+			\overrightarrow{a_{avg}} = \frac{\overrightarrow{v_f} - \overrightarrow {v_i}}{\Delta t} = \frac{0 \frac{m}{s} \hat{i} - 20 \frac{m}{s} \hat{i}}{4 s}   = -5 \frac{m}{s^2} \hat{i}
+	\end{equation*}
+\end{mdframed}
+
+\section{The Kinematic Equations} \index{Kinematic Equations}
+Using the definitions above, and a little calculus (or a lot of algebra) we can prove the following four equations:
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{center}
+		\textbf{The Kinematic Equations}
+	\end{center}
+	\begin{multicols}{2}
+		\begin{equation}
+		\vec{d} = \frac{\overrightarrow{v_f} + \overrightarrow{v_i}}{2}  t
+		\label{equation:kinematic1}
+		\end{equation}
+			
+		\begin{equation}
+		\overrightarrow{v_f} = \overrightarrow{v_i} + \vec{a} t
+		\label{equation:kinematic2}
+		\end{equation}	
+			
+		\begin{equation}
+		\vec{d} = \overrightarrow{v_i} t + \frac{1}{2}\vec{a}{t}^2
+		\label{equation:kinematic3}
+		\end{equation}
+		
+		\begin{equation}
+		\overrightarrow{v_i}^2 = \overrightarrow{v_i}^2 + 2\vec{a}\vec{d}
+		\label{equation:kinematic4}
+		\end{equation}
+		
+		
+			
+		\end{multicols}
+	\end{mdframed}
+
+These equations enable you to solve the vast majority of kinematic problems.  Keep in mind that these equations should only be applied in one direction at at time – meaning that 2-dimensional and 3-dimensional problems will require you to split all the quantities into component vectors before you can solve these equations in each direction separately. 
 
 
 
-\section{The Kinematic Equations}
 \section{Vertical Motion and Gravity}
+
+One of the most common types of acceleration we experience every day is the acceleration due to gravity.  Acceleration due to gravity is given a special symbol: g.  On Earth, $g \approx  9.81 \frac{m}{s^2}$.  Keep in mind that this value is only useful for calculations involving gravity that take place on the Earth's surface.  All planets, stars, and celestial bodies (in fact, all objects with any mass) have their own gravitational acceleration.  Acceleration due to gravity on the moon, for instance, is $1.62 \frac{m}{s^2}$.    
+
+Objects undergo free fall when they are allowed to continue to accelerate due to gravity until they impact something that breaks their fall (often this is the ground).  In order to make the calculations easier, we often ignore air resistance.
+
+Because gravity at the Earth's surface is downward, sign conventions become a little more important than previously.  If upward is positive, g will have a negative sign attached to it to indicate the direction of acceleration.  
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection}	
+	\end{center}
+	\vspace{0.1in}
+	
+	\textbf{Problem: } You are standing on top of a building.  You drop a rock  from the top of the building, and let it free fall until it hits the ground, 3.2 seconds later.  
+	\begin{enumerate}[label=\alph*.]
+		\item What is the height of the building?
+		\item An identical building is build on the moon.  How long does it take the rock to fall in this case?
+	\end{enumerate}
+
+	\textbf{Solution:}
+	\begin{enumerate}[label=\alph*.]
+		\item To solve for distance, we apply equation 1.5.3 in the y-direction, and substitute ay = g and vi = 0 m/s,:
+		
+		\item Because we know that vi = 0 m/s, and ay = gm = 1.62 m/s2, we can let the final term drop out of equation 1.5.3 to yield:
+	\end{enumerate}
+\end{mdframed}
+
+
 
 

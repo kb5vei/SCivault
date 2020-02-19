@@ -22,67 +22,67 @@
 \contentsline {section}{\numberline {2.4}Acceleration}{13}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Average Acceleration}{13}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Instantaneous Acceleration}{13}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}The Kinematic Equations}{13}{section.2.5}
-\contentsline {section}{\numberline {2.6}Vertical Motion and Gravity}{13}{section.2.6}
-\contentsline {chapter}{\numberline {3}Graphing Motion}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Position vs Time Graphs}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Constant Position}{15}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Constant Velocity}{15}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Constant Acceleration}{15}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Velocity vs Time Graphs}{15}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Constant Position}{15}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Constant Velocity}{15}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Constant Acceleration}{15}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Acceleration vs Time Graphs}{15}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Constant Position}{15}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Constant Velocity}{15}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Constant Acceleration}{15}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Kinematics in Two Dimensions}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Horizontal Launch Projectiles}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Projectiles Launched at an Arbitray Angle}{17}{section.4.2}
-\contentsline {chapter}{\numberline {5}Newtons Laws}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Newton's First Law}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Newton's Second Law}{19}{section.5.2}
-\contentsline {section}{\numberline {5.3}Newton's Thrid Law}{19}{section.5.3}
-\contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{19}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Friction}{19}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Elevators}{19}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Pulleys}{19}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}Work and Energy}{21}{chapter.6}
-\contentsline {section}{\numberline {6.1}Work}{21}{section.6.1}
-\contentsline {section}{\numberline {6.2}Energy}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{21}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Gravitational Potential Energy}{21}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Elastic Potential}{21}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{21}{section.6.3}
-\contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{21}{section.6.4}
-\contentsline {chapter}{\numberline {7}Impulse and Momentum}{23}{chapter.7}
-\contentsline {section}{\numberline {7.1}Momentum}{23}{section.7.1}
-\contentsline {section}{\numberline {7.2}Impulse}{23}{section.7.2}
-\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{23}{section.7.3}
-\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{23}{section.7.4}
-\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{25}{chapter.8}
-\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{25}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{25}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{25}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{26}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{26}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{26}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{26}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{26}{section.8.3}
-\contentsline {section}{\numberline {8.4}Orbital Motion}{27}{section.8.4}
-\contentsline {chapter}{\numberline {9}Rotational Mechanics}{29}{chapter.9}
-\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{29}{section.9.1}
-\contentsline {section}{\numberline {9.2}Angular Kinematics}{29}{section.9.2}
-\contentsline {section}{\numberline {9.3}Torque}{29}{section.9.3}
-\contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{29}{section.9.4}
-\contentsline {section}{\numberline {9.5}Angular Momentum}{29}{section.9.5}
+\contentsline {section}{\numberline {2.5}The Kinematic Equations}{14}{section.2.5}
+\contentsline {section}{\numberline {2.6}Vertical Motion and Gravity}{14}{section.2.6}
+\contentsline {chapter}{\numberline {3}Graphing Motion}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Position vs Time Graphs}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Constant Position}{17}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Constant Velocity}{17}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Constant Acceleration}{17}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Velocity vs Time Graphs}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Constant Position}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Constant Velocity}{17}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Constant Acceleration}{17}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Acceleration vs Time Graphs}{17}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Constant Position}{17}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Constant Velocity}{17}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Constant Acceleration}{17}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Kinematics in Two Dimensions}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Horizontal Launch Projectiles}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}Projectiles Launched at an Arbitray Angle}{19}{section.4.2}
+\contentsline {chapter}{\numberline {5}Newtons Laws}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Newton's First Law}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Newton's Second Law}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Newton's Thrid Law}{22}{section.5.3}
+\contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{22}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Friction}{22}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Elevators}{22}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pulleys}{22}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Work and Energy}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Work}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Energy}{23}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{23}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Gravitational Potential Energy}{23}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Elastic Potential}{23}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{23}{section.6.3}
+\contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{23}{section.6.4}
+\contentsline {chapter}{\numberline {7}Impulse and Momentum}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Momentum}{25}{section.7.1}
+\contentsline {section}{\numberline {7.2}Impulse}{25}{section.7.2}
+\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{25}{section.7.3}
+\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{25}{section.7.4}
+\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{27}{chapter.8}
+\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{27}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{27}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{27}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{28}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{28}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{28}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{28}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{28}{section.8.3}
+\contentsline {section}{\numberline {8.4}Orbital Motion}{29}{section.8.4}
+\contentsline {chapter}{\numberline {9}Rotational Mechanics}{31}{chapter.9}
+\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{31}{section.9.1}
+\contentsline {section}{\numberline {9.2}Angular Kinematics}{31}{section.9.2}
+\contentsline {section}{\numberline {9.3}Torque}{31}{section.9.3}
+\contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{31}{section.9.4}
+\contentsline {section}{\numberline {9.5}Angular Momentum}{31}{section.9.5}
 \contentsline {chapter}{Appendices}{}{section*.11}
-\contentsline {chapter}{\numberline {A}Math Skills}{33}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{33}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{33}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{33}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{33}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{35}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{35}{section.B.1}
-\contentsline {section}{\numberline {B.2}Physical Constants}{35}{section.B.2}
+\contentsline {chapter}{\numberline {A}Math Skills}{35}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{35}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{36}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{36}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{36}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{37}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{37}{section.B.1}
+\contentsline {section}{\numberline {B.2}Physical Constants}{37}{section.B.2}
