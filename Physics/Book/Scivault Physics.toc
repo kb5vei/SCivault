@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {4.2}Projectiles Launched at an Arbitray Angle}{19}{section.4.2}
 \contentsline {chapter}{\numberline {5}Newtons Laws}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}Newton's First Law}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Newton's Second Law}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Newton's Thrid Law}{22}{section.5.3}
+\contentsline {section}{\numberline {5.2}Newton's Second Law}{22}{section.5.2}
+\contentsline {section}{\numberline {5.3}Newton's Third Law}{22}{section.5.3}
 \contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{22}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Friction}{22}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Elevators}{22}{subsection.5.4.2}
@@ -67,9 +67,9 @@
 \contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{27}{subsection.8.1.2}
 \contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{28}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{28}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{28}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{28}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{28}{section.8.3}
+\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{29}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{29}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{29}{section.8.3}
 \contentsline {section}{\numberline {8.4}Orbital Motion}{29}{section.8.4}
 \contentsline {chapter}{\numberline {9}Rotational Mechanics}{31}{chapter.9}
 \contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{31}{section.9.1}
@@ -77,12 +77,46 @@
 \contentsline {section}{\numberline {9.3}Torque}{31}{section.9.3}
 \contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{31}{section.9.4}
 \contentsline {section}{\numberline {9.5}Angular Momentum}{31}{section.9.5}
-\contentsline {chapter}{Appendices}{}{section*.11}
-\contentsline {chapter}{\numberline {A}Math Skills}{35}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{35}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{36}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{36}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{36}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{37}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{37}{section.B.1}
-\contentsline {section}{\numberline {B.2}Physical Constants}{37}{section.B.2}
+\contentsline {chapter}{\numberline {10}Waves}{33}{chapter.10}
+\contentsline {section}{\numberline {10.1}Fundamentals of Waves}{33}{section.10.1}
+\contentsline {section}{\numberline {10.2}Wave Interactions}{33}{section.10.2}
+\contentsline {section}{\numberline {10.3}Interference and the Principle of Superpositions}{33}{section.10.3}
+\contentsline {chapter}{\numberline {11}Optics}{35}{chapter.11}
+\contentsline {section}{\numberline {11.1}Refraction}{35}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Snell's Law}{35}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Lenses}{35}{subsection.11.1.2}
+\contentsline {section}{\numberline {11.2}Reflection}{35}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}The Law of Reflection}{35}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Mirrors}{35}{subsection.11.2.2}
+\contentsline {chapter}{\numberline {12}Heat and Thermodynamics}{37}{chapter.12}
+\contentsline {section}{\numberline {12.1}Specific Heat}{37}{section.12.1}
+\contentsline {chapter}{\numberline {13}Electrostatics}{39}{chapter.13}
+\contentsline {section}{\numberline {13.1}Coulomb's Law and Electrostatic Force}{39}{section.13.1}
+\contentsline {section}{\numberline {13.2}Electrostatic Potential Energy}{39}{section.13.2}
+\contentsline {section}{\numberline {13.3}Electric Field}{39}{section.13.3}
+\contentsline {section}{\numberline {13.4}Electric Potential and Voltage}{39}{section.13.4}
+\contentsline {section}{\numberline {13.5}Capacitors}{39}{section.13.5}
+\contentsline {subsection}{\numberline {13.5.1}Construction of Capacitors}{39}{subsection.13.5.1}
+\contentsline {subsection}{\numberline {13.5.2}Capacitors in Circuits}{39}{subsection.13.5.2}
+\contentsline {chapter}{\numberline {14}Circuits}{41}{chapter.14}
+\contentsline {section}{\numberline {14.1}Circuits Symbols}{41}{section.14.1}
+\contentsline {section}{\numberline {14.2}Resistors}{41}{section.14.2}
+\contentsline {chapter}{\numberline {15}Magnetic Forces and Fields}{43}{chapter.15}
+\contentsline {section}{\numberline {15.1}Types of Magnetism}{43}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Permanent Magnetism}{43}{subsection.15.1.1}
+\contentsline {subsubsection}{Paramagnetism}{43}{section*.11}
+\contentsline {subsubsection}{Ferromagnetism}{43}{section*.12}
+\contentsline {subsubsection}{Dimagnetism}{43}{section*.13}
+\contentsline {subsection}{\numberline {15.1.2}Electromagnetism}{43}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{43}{section.15.2}
+\contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{43}{section.15.3}
+\contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{43}{section.15.4}
+\contentsline {chapter}{Appendices}{}{section*.14}
+\contentsline {chapter}{\numberline {A}Math Skills}{47}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{47}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{48}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{48}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{48}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{49}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{49}{section.B.1}
+\contentsline {section}{\numberline {B.2}Physical Constants}{50}{section.B.2}
