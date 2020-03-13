@@ -17,9 +17,60 @@
 
 
 	\section{Angular Kinematics}
+	\section{Moment of Inertia}
+	
 	\section{Torque}
 	\section{Angular Kinetic Energy}
-	\section{Angular Momentum}
+	
+	\newpage
+	\section{Angular Momentum} \label{angularmomentum} \index{Angular Momentum}
+	\subsection{The Definition of Angular Momentum}
+	Angular momentum can be calculated using the formula: 
+	 	\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+		\vec{L} = I \vec{\omega}
+		\label{equation:angularmomentum}
+				\end{equation}
+	\end{mdframed}
+where $\vec{L}$ is angular momentum, $I$ is the object's moment of Inertia and $\vec{\omega}$ is the object's angular velocity.  The SI units for angular momentum are  $\frac{kg m^2} {s} $.
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	\vspace{0.1in}
+	\textbf{Problem:} A bicycle wheel has a mass of 0.3 kg, and can be thought of as a thin ring with a radius of 0.33m. When the wheel is turning at a rate of 2 rotations per second, what its its angular momentum?
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by converting the angular velocity $\omega$ to appropriate units:
+	\begin{equation*}
+	\vec{\omega} = 2 \frac{rotations}{s} = 4\pi \frac{rad}{s}
+	\end{equation*}
+	
+	Then calculate the moment of inertia.  Using the formula for a thin ring: 
+	\begin{equation*}
+	I  = mr^2 = 0.3 kg  (0.33m)^2 \approx 0.033 kg m^2
+	\end{equation*}
+	Finally, use equation \ref{equation:angularmomentum} to find the angular momentum. 
+	
+	\begin{equation*}
+	\vec{L}  =  I \vec{\omega} = 0.011 kg m^2 \cdot 4\pi \frac{rad}{s} \approx \boxed{0.411 \frac{kg m^2}{s}}
+	\end{equation*}
+	
+	
+	
+\end{mdframed}
+
+
+	\subsection{Conservation of Angular Momentum}
+ Just like linear momentum\footnote{see momentum in \cref{angularmomentum}}, angular momentum is a quantity that is conserved.  Thus, whatever angular momentum a closed system has in its initial state will be equal to the angular momentum the system has in its final state.  
+ 
+ The classic example of the Law of Conservation of Momentum is an ice skater who enters a spin.  By changing the positioning of his or her arms and legs, an ice skater can change their moment of inertia.  When they bring their arms and legs closer to their axis of rotation, their moment of inertia decreases.  Since angular momentum is conserved, their angular velocity must increase as their moment of inertia decreases, and thus the ice skater is able to spin very fast. 
+ 
 	
 	
 
