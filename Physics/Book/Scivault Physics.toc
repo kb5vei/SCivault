@@ -15,116 +15,125 @@
 \contentsline {subsubsection}{Cross Products In Cartesian Form}{6}{section*.6}
 \contentsline {subsubsection}{Cross Products In Polar Form}{7}{section*.7}
 \contentsline {section}{\numberline {1.4}Exercises for Chapter 1}{9}{section.1.4}
-\contentsline {chapter}{\numberline {2}Kinematics in One Dimension}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Distance and Displacement}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Average and Instantaneous Speed and Velocity}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}Relative Motion at Constant Velocity}{13}{section.2.3}
-\contentsline {section}{\numberline {2.4}Acceleration}{13}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Average Acceleration}{13}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Instantaneous Acceleration}{13}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}The Kinematic Equations}{14}{section.2.5}
-\contentsline {section}{\numberline {2.6}Vertical Motion and Gravity}{14}{section.2.6}
-\contentsline {chapter}{\numberline {3}Graphing Motion}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Position vs Time Graphs}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Constant Position}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Constant Velocity}{17}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Constant Acceleration}{17}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Velocity vs Time Graphs}{17}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Constant Position}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Constant Velocity}{17}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Constant Acceleration}{17}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Acceleration vs Time Graphs}{17}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Constant Position}{17}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Constant Velocity}{17}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Constant Acceleration}{17}{subsection.3.3.3}
-\contentsline {chapter}{\numberline {4}Kinematics in Two Dimensions}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Horizontal Launch Projectiles}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Projectiles Launched at an Arbitray Angle}{19}{section.4.2}
-\contentsline {chapter}{\numberline {5}Newtons Laws}{21}{chapter.5}
-\contentsline {section}{\numberline {5.1}Newton's First Law}{21}{section.5.1}
-\contentsline {section}{\numberline {5.2}Newton's Second Law}{22}{section.5.2}
-\contentsline {section}{\numberline {5.3}Newton's Third Law}{22}{section.5.3}
-\contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{22}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Friction}{22}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Elevators}{22}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Pulleys}{22}{subsection.5.4.3}
-\contentsline {chapter}{\numberline {6}Work and Energy}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Work}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Energy}{23}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{23}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Gravitational Potential Energy}{23}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Elastic Potential}{23}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{23}{section.6.3}
-\contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{23}{section.6.4}
-\contentsline {chapter}{\numberline {7}Impulse and Momentum}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Momentum}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Impulse}{25}{section.7.2}
-\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{25}{section.7.3}
-\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{25}{section.7.4}
-\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{27}{chapter.8}
-\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{27}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{27}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{27}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{28}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{28}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{29}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{29}{subsection.8.2.3}
-\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{29}{section.8.3}
-\contentsline {section}{\numberline {8.4}Orbital Motion}{29}{section.8.4}
-\contentsline {chapter}{\numberline {9}Rotational Mechanics}{31}{chapter.9}
-\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{31}{section.9.1}
-\contentsline {section}{\numberline {9.2}Angular Kinematics}{31}{section.9.2}
-\contentsline {section}{\numberline {9.3}Torque}{31}{section.9.3}
-\contentsline {section}{\numberline {9.4}Angular Kinetic Energy}{31}{section.9.4}
-\contentsline {section}{\numberline {9.5}Angular Momentum}{31}{section.9.5}
-\contentsline {chapter}{\numberline {10}Waves}{33}{chapter.10}
-\contentsline {section}{\numberline {10.1}Fundamentals of Waves}{33}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Types of Waves}{34}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Basic Wave Characteristics and Vocabulary}{35}{subsection.10.1.2}
-\contentsline {subsubsection}{Extrema}{35}{section*.11}
-\contentsline {subsubsection}{Amplitude}{35}{section*.12}
-\contentsline {subsubsection}{Wavelength}{35}{section*.13}
-\contentsline {subsubsection}{Period}{35}{section*.14}
-\contentsline {subsubsection}{Frequency}{35}{section*.15}
-\contentsline {subsection}{\numberline {10.1.3}Velocity of a Wave}{36}{subsection.10.1.3}
-\contentsline {section}{\numberline {10.2}Wave Interactions}{38}{section.10.2}
-\contentsline {section}{\numberline {10.3}Interference and the Principle of Superposition}{38}{section.10.3}
-\contentsline {chapter}{\numberline {11}Optics}{39}{chapter.11}
-\contentsline {section}{\numberline {11.1}Refraction}{39}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.1}Snell's Law}{39}{subsection.11.1.1}
-\contentsline {subsection}{\numberline {11.1.2}Lenses}{39}{subsection.11.1.2}
-\contentsline {section}{\numberline {11.2}Reflection}{39}{section.11.2}
-\contentsline {subsection}{\numberline {11.2.1}The Law of Reflection}{39}{subsection.11.2.1}
-\contentsline {subsection}{\numberline {11.2.2}Mirrors}{39}{subsection.11.2.2}
-\contentsline {chapter}{\numberline {12}Heat and Thermodynamics}{41}{chapter.12}
-\contentsline {section}{\numberline {12.1}Specific Heat}{41}{section.12.1}
-\contentsline {chapter}{\numberline {13}Electrostatics}{43}{chapter.13}
-\contentsline {section}{\numberline {13.1}Coulomb's Law and Electrostatic Force}{43}{section.13.1}
-\contentsline {section}{\numberline {13.2}Electrostatic Potential Energy}{43}{section.13.2}
-\contentsline {section}{\numberline {13.3}Electric Field}{43}{section.13.3}
-\contentsline {section}{\numberline {13.4}Electric Potential and Voltage}{43}{section.13.4}
-\contentsline {section}{\numberline {13.5}Capacitors}{43}{section.13.5}
-\contentsline {subsection}{\numberline {13.5.1}Construction of Capacitors}{43}{subsection.13.5.1}
-\contentsline {subsection}{\numberline {13.5.2}Capacitors in Circuits}{43}{subsection.13.5.2}
-\contentsline {chapter}{\numberline {14}Circuits}{45}{chapter.14}
-\contentsline {section}{\numberline {14.1}Circuits Symbols}{45}{section.14.1}
-\contentsline {section}{\numberline {14.2}Resistors}{45}{section.14.2}
-\contentsline {chapter}{\numberline {15}Magnetic Forces and Fields}{47}{chapter.15}
-\contentsline {section}{\numberline {15.1}Types of Magnetism}{47}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Permanent Magnetism}{47}{subsection.15.1.1}
-\contentsline {subsubsection}{Paramagnetism}{47}{section*.16}
-\contentsline {subsubsection}{Ferromagnetism}{47}{section*.17}
-\contentsline {subsubsection}{Dimagnetism}{47}{section*.18}
-\contentsline {subsection}{\numberline {15.1.2}Electromagnetism}{47}{subsection.15.1.2}
-\contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{47}{section.15.2}
-\contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{47}{section.15.3}
-\contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{47}{section.15.4}
-\contentsline {chapter}{Appendices}{}{section*.19}
-\contentsline {chapter}{\numberline {A}Math Skills}{51}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{51}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{52}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{52}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{52}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{53}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{53}{section.B.1}
-\contentsline {section}{\numberline {B.2}Physical Constants}{54}{section.B.2}
+\contentsline {chapter}{\numberline {2}Kinematics in One Dimension}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Distance and Displacement}{10}{section.2.1}
+\contentsline {section}{\numberline {2.2}Average and Instantaneous Speed and Velocity}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Relative Motion at Constant Velocity}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Acceleration}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Average Acceleration}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Instantaneous Acceleration}{12}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}The Kinematic Equations}{13}{section.2.5}
+\contentsline {section}{\numberline {2.6}Vertical Motion and Gravity}{13}{section.2.6}
+\contentsline {chapter}{\numberline {3}Graphing Motion}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Position vs Time Graphs}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Constant Position}{15}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Constant Velocity}{15}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Constant Acceleration}{15}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Velocity vs Time Graphs}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Constant Position}{15}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Constant Velocity}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Constant Acceleration}{15}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Acceleration vs Time Graphs}{15}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Constant Position}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Constant Velocity}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Constant Acceleration}{15}{subsection.3.3.3}
+\contentsline {chapter}{\numberline {4}Kinematics in Two Dimensions}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Horizontal Launch Projectiles}{16}{section.4.1}
+\contentsline {section}{\numberline {4.2}Projectiles Launched at an Arbitray Angle}{16}{section.4.2}
+\contentsline {chapter}{\numberline {5}Newtons Laws}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Newton's First Law}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Newton's Second Law}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Newton's Third Law}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{18}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Friction}{18}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Elevators}{18}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Pulleys}{18}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Work and Energy}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Work}{19}{section.6.1}
+\contentsline {section}{\numberline {6.2}Energy}{19}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{19}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Gravitational Potential Energy}{19}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Elastic Potential}{19}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{19}{section.6.3}
+\contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{19}{section.6.4}
+\contentsline {chapter}{\numberline {7}Impulse and Momentum}{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}Momentum}{20}{section.7.1}
+\contentsline {section}{\numberline {7.2}Impulse}{20}{section.7.2}
+\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{20}{section.7.3}
+\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{20}{section.7.4}
+\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{21}{chapter.8}
+\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{21}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{21}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{21}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{22}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{22}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{23}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{23}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{23}{section.8.3}
+\contentsline {section}{\numberline {8.4}Orbital Motion}{23}{section.8.4}
+\contentsline {chapter}{\numberline {9}Rotational Mechanics}{24}{chapter.9}
+\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{24}{section.9.1}
+\contentsline {section}{\numberline {9.2}Angular Kinematics}{24}{section.9.2}
+\contentsline {section}{\numberline {9.3}Moment of Inertia}{24}{section.9.3}
+\contentsline {section}{\numberline {9.4}Torque}{24}{section.9.4}
+\contentsline {section}{\numberline {9.5}Angular Kinetic Energy}{24}{section.9.5}
+\contentsline {section}{\numberline {9.6}Angular Momentum}{25}{section.9.6}
+\contentsline {subsection}{\numberline {9.6.1}The Definition of Angular Momentum}{25}{subsection.9.6.1}
+\contentsline {subsection}{\numberline {9.6.2}Conservation of Angular Momentum}{25}{subsection.9.6.2}
+\contentsline {chapter}{\numberline {10}Waves}{26}{chapter.10}
+\contentsline {section}{\numberline {10.1}Fundamentals of Waves}{26}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Types of Waves}{27}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Basic Wave Characteristics and Vocabulary}{28}{subsection.10.1.2}
+\contentsline {subsubsection}{Extrema}{28}{section*.11}
+\contentsline {subsubsection}{Amplitude}{28}{section*.12}
+\contentsline {subsubsection}{Wavelength}{28}{section*.13}
+\contentsline {subsubsection}{Period}{28}{section*.14}
+\contentsline {subsubsection}{Frequency}{29}{section*.15}
+\contentsline {subsection}{\numberline {10.1.3}Velocity of a Wave}{29}{subsection.10.1.3}
+\contentsline {section}{\numberline {10.2}Wave Interactions}{31}{section.10.2}
+\contentsline {section}{\numberline {10.3}Interference and the Principle of Superposition}{31}{section.10.3}
+\contentsline {chapter}{\numberline {11}Optics}{32}{chapter.11}
+\contentsline {section}{\numberline {11.1}Geometric Optics}{32}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Refraction}{32}{subsection.11.1.1}
+\contentsline {subsubsection}{Snell's Law}{32}{section*.16}
+\contentsline {paragraph}{Total Internal Reflection}{32}{section*.17}
+\contentsline {subsubsection}{Lenses}{32}{section*.18}
+\contentsline {subsection}{\numberline {11.1.2}Reflection}{32}{subsection.11.1.2}
+\contentsline {subsubsection}{The Law of Reflection}{32}{section*.19}
+\contentsline {subsubsection}{Mirrors}{32}{section*.20}
+\contentsline {section}{\numberline {11.2}Physical Optics}{32}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Diffraction}{32}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Young's Double Slit Experiment}{32}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Thin Film Interference}{32}{subsection.11.2.3}
+\contentsline {chapter}{\numberline {12}Heat and Thermodynamics}{33}{chapter.12}
+\contentsline {section}{\numberline {12.1}Specific Heat}{33}{section.12.1}
+\contentsline {chapter}{\numberline {13}Electrostatics}{34}{chapter.13}
+\contentsline {section}{\numberline {13.1}Coulomb's Law and Electrostatic Force}{34}{section.13.1}
+\contentsline {section}{\numberline {13.2}Electrostatic Potential Energy}{34}{section.13.2}
+\contentsline {section}{\numberline {13.3}Electric Field}{34}{section.13.3}
+\contentsline {section}{\numberline {13.4}Electric Potential and Voltage}{34}{section.13.4}
+\contentsline {section}{\numberline {13.5}Capacitors}{34}{section.13.5}
+\contentsline {subsection}{\numberline {13.5.1}Construction of Capacitors}{34}{subsection.13.5.1}
+\contentsline {subsection}{\numberline {13.5.2}Capacitors in Circuits}{34}{subsection.13.5.2}
+\contentsline {chapter}{\numberline {14}Circuits}{35}{chapter.14}
+\contentsline {section}{\numberline {14.1}Circuits Symbols}{35}{section.14.1}
+\contentsline {section}{\numberline {14.2}Resistors}{35}{section.14.2}
+\contentsline {chapter}{\numberline {15}Magnetic Forces and Fields}{36}{chapter.15}
+\contentsline {section}{\numberline {15.1}Types of Magnetism}{36}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Permanent Magnetism}{36}{subsection.15.1.1}
+\contentsline {subsubsection}{Paramagnetism}{36}{section*.21}
+\contentsline {subsubsection}{Ferromagnetism}{36}{section*.22}
+\contentsline {subsubsection}{Dimagnetism}{36}{section*.23}
+\contentsline {subsection}{\numberline {15.1.2}Electromagnetism}{36}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{36}{section.15.2}
+\contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{36}{section.15.3}
+\contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{36}{section.15.4}
+\contentsline {chapter}{Appendices}{}{section*.24}
+\contentsline {chapter}{\numberline {A}Math Skills}{38}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{38}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{39}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{39}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{39}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{40}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{40}{section.B.1}
+\contentsline {section}{\numberline {B.2}Physical Constants}{41}{section.B.2}
