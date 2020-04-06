@@ -20,8 +20,23 @@
 \usepackage{tikz,bm}
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc}
+\tikzset{
+	samples=100,
+}
 \usepackage[linewidth=1pt]{mdframed}
 \setlength{\columnsep}{1cm}
+
+
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.11}
+
+% Variables
+\pgfmathsetmacro\T{1}
+\pgfmathsetmacro\A{0.2}
+\pgfmathsetmacro\N{5}
+\pgfmathsetmacro\D{\N*\T}
 
 \makeindex
 

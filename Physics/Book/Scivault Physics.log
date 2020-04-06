@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  31 MAR 2020 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  5 APR 2020 12:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1059,6 +1059,10 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
@@ -1180,6 +1184,102 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count339
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks37
+\t@pgfplots@tokb=\toks38
+\t@pgfplots@tokc=\toks39
+\pgfplots@tmpa=\dimen304
+\c@pgfplots@coordindex=\count340
+\c@pgfplots@scanlineindex=\count341
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count342
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_leq.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count343
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count344
+\t@pgfplotstable@a=\toks40
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count345
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+\pgfplots@numplots=\count346
+\pgfplots@xmin@reg=\dimen305
+\pgfplots@xmax@reg=\dimen306
+\pgfplots@ymin@reg=\dimen307
+\pgfplots@ymax@reg=\dimen308
+\pgfplots@zmin@reg=\dimen309
+\pgfplots@zmax@reg=\dimen310
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
 \@indexfile=\write4
 \openout4 = `"Scivault Physics.idx"'.
 
@@ -1188,34 +1288,34 @@ Writing index file "Scivault Physics".idx
 (./Scivault Physics.aux)
 \openout1 = `"Scivault Physics.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count340
-\scratchdimen=\dimen304
+\scratchcounter=\count347
+\scratchdimen=\dimen311
 \scratchbox=\box101
-\nofMPsegments=\count341
-\nofMParguments=\count342
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count343
-\MPscratchDim=\dimen305
-\MPnumerator=\count344
-\makeMPintoPDFobject=\count345
-\everyMPtoPDFconversion=\toks38
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen312
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1268,18 +1368,18 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box102
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count346
+\c@section@level=\count353
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 
 (./Scivault Physics.out) (./Scivault Physics.out)
 \@outlinefile=\write5
@@ -1369,12 +1469,14 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.16} (current compat level: 1.11).
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1383,13 +1485,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
  [2]
 (./Scivault Physics.toc [3
 
@@ -1425,7 +1527,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 392.
  [6]
 Package mdframed Info: Not enough space on this page on input line 446.
 Package mdframed Info: mdframed works in twoside mode on input line 458.
-<./Chapters/Ch01-intro/righthandrule.JPG, id=697, 173.86098pt x 139.58434pt>
+<./Chapters/Ch01-intro/righthandrule.JPG, id=712, 173.86098pt x 139.58434pt>
 File: ./Chapters/Ch01-intro/righthandrule.JPG Graphic file (type jpg)
 <use ./Chapters/Ch01-intro/righthandrule.JPG>
 Package pdftex.def Info: ./Chapters/Ch01-intro/righthandrule.JPG  used on input
@@ -1508,34 +1610,64 @@ Package mdframed Info: mdframed works in twoside mode on input line 29.
 Package mdframed Info: mdframed works in twoside mode on input line 38.
 ) (./Chapters/Ch10-Waves/Ch10-Waves.tex [25]
 Chapter 10.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 36.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [26
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 36.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [27] [28]
-Package mdframed Info: mdframed works in twoside mode on input line 122.
-Package mdframed Info: mdframed works in twoside mode on input line 130.
-Package mdframed Info: mdframed works in twoside mode on input line 175.
-Package mdframed Info: mdframed works in twoside mode on input line 182.
+] [27] [28]
+Package mdframed Info: mdframed works in twoside mode on input line 125.
+Package mdframed Info: mdframed works in twoside mode on input line 134.
+Package mdframed Info: mdframed works in twoside mode on input line 179.
+ [29]
+Package mdframed Info: mdframed works in twoside mode on input line 189.
+Package mdframed Info: Not enough space on this page on input line 230.
+ [30]
+Package mdframed Info: mdframed works in twoside mode on input line 256.
+Package mdframed Info: mdframed works in twoside mode on input line 276.
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 337.
+ [31] [32] [33]
+Overfull \hbox (1.26593pt too wide) in paragraph at lines 576--577
+ []|$[][]\OMS/cmsy/m/n/12 !$| 
+ []
 
-[29] [30]) (./Chapters/Ch11-Optics/Ch11-Optics.tex [31]
+
+Overfull \hbox (1.26593pt too wide) in paragraph at lines 685--686
+ []|$[][]\OMS/cmsy/m/n/12 !$| 
+ []
+
+
+Overfull \hbox (1.26593pt too wide) in paragraph at lines 786--787
+ []|$[][]\OMS/cmsy/m/n/12 !$| 
+ []
+
+
+Package pgfplots Warning: Axis range for axis y is approximately empty; enlargi
+ng it (it is [0.0:0.0]) on input line 814.
+
+ [warning /pgfplots/warning/approx empty range enlarged]
+) (./Chapters/Ch11-Optics/Ch11-Optics.tex [34]
 Chapter 11.
-) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex [32
+) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex [35
 
 ]
 Chapter 12.
-) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [33
+) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [36
 
 ]
 Chapter 13.
-) (./Chapters/Ch14-Circuits/Ch14-Circuits.tex [34
+) (./Chapters/Ch14-Circuits/Ch14-Circuits.tex [37
 
 ]
 Chapter 14.
 ) (./Chapters/Ch15-MagneticForcesandFields/Ch15-MagneticForcesandFields.tex
-[35
+[38
 
 ]
 Chapter 15.
@@ -1544,46 +1676,46 @@ Overfull \hbox (14.08932pt too wide) in paragraph at lines 10--10
 []\T1/cmr/bx/n/17.28 Magnetic Field Pro-duced by a Current-Carrying Wire 
  []
 
-) [36
+) [39
 
-] [37
+] [40
 
 ]
 (./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex
 Appendix A.
-[38
+[41
 
 ])
 (./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex
-[39]
+[42]
 Appendix B.
 
 Underfull \vbox (badness 10000) detected at line 48
  []
 
-[40
+[43
 
-]) [41] (./Scivault Physics.ind [42
+]) [44] (./Scivault Physics.ind [45
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (./Scivault Physics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `"Scivault Physics".out' has not changed.
-(rerunfilecheck)             Checksum: AD8B9B9C6CE9C82008BF90F2B74AD6DD;8229.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
+(rerunfilecheck)             Checksum: BE707D926A9FF0D7EA26B9A1F5841C33;8448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 36295 strings out of 494587
- 716039 string characters out of 6177760
- 1121815 words of memory out of 5000000
- 39162 multiletter control sequences out of 15000+600000
+ 46099 strings out of 494587
+ 1043375 string characters out of 6177760
+ 1539552 words of memory out of 5000000
+ 48829 multiletter control sequences out of 15000+600000
  562252 words of font info for 107 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 55i,16n,65p,964b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,107p,964b,2046s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{page.52} has been referenced but does not exist, 
 replaced by a fixed one
 
@@ -1614,10 +1746,10 @@ blic/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm
 sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl120
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "Scivault Physics.pdf" (48 pages, 667724 bytes).
+Output written on "Scivault Physics.pdf" (51 pages, 686499 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 1041 compressed objects within 11 object streams
- 254 named destinations out of 1000 (max. 500000)
- 970 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1167 PDF objects out of 1200 (max. 8388607)
+ 1077 compressed objects within 11 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 994 words of extra memory for PDF output out of 10000 (max. 10000000)
 
