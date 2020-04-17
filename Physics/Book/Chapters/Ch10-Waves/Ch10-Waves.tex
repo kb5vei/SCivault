@@ -239,17 +239,49 @@
 	
 	When the source of a wave moves \textit{toward} an observer, its frequency is shifted higher.  
 	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.3in,width=4in]{Chapters/Ch10-Waves/Doppler1.png}
+		\caption{Observers hear a higher pitch}
+	\end{figure}
+	
 	When the source of a wave moves \textit{away} from an observer, its frequency is shifted lower.  
+	
+		
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.3in,width=4in]{Chapters/Ch10-Waves/Doppler2.png}
+		\caption{Observers hear a lower pitch}
+	\end{figure}
 	
 	Likewise, when an observer moves \textit{toward} the source of a sound, its frequency is shifted higher.
 	
+			
+	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.3in,width=4in]{Chapters/Ch10-Waves/Doppler3.png}
+		\caption{Observer hears a higher pitch}
+	\end{figure}
+	
+	
+	
 	When an observer moves \textit{away} from a source of sound, its frequency is shifted lower.   
 	
-	The equation for the doppler effect is given by equation \ref{equation:dopplereffect}:
+	
+				
+	\begin{figure}[!h]
+		\centering
+		\includegraphics[height=0.3in,width=4in]{Chapters/Ch10-Waves/Doppler4.png}
+		\caption{Observer hears a lower pitch}
+	\end{figure}
 	
 	
+
+	
+	The equation for the Doppler effect is given by equation \ref{equation:dopplereffect}:
 	
 	
+
 	
 	
 	
@@ -260,13 +292,16 @@
 		\end{equation}
 	\end{mdframed}	
 	
+		
+
+	
 	In this equation, do not consider the $\pm$ sign to represent both operations.  Instead, you must chose which operation to use based on the given situation.  In the numerator of the equation it is exactly what is expected: add for a higher frequency and subtract for a lower frequency.  In the denominator, it is backward - add for lower frequency, and subtract for higher frequency.  
 	
 	
 	
 	In the air, the speed of sound depends on air pressure, temperature, and even humidity.  The standard value for speed of sound in air is \textbf{343 m/s}, though in reality this number can change quite significantly depending on atmospheric conditions.  
 	
-	
+		\newpage
 	
 	
 	
@@ -400,8 +435,8 @@ Evaluating this expression gives:
 	
 	
 	
-	\section{Waves and the Principle of Superposition} \index{Superposition} \index{Interference}
-	
+	\section{The Principle of Superposition and Interference} \index{Superposition} \index{Interference}
+	\subsection{The Principle of Superposition}
 	The \textbf{Principle of Superposition} is the idea that waves can overlap.  Consider, for instance, a swimming pool where a light breeze creates ripples in the water as shown below: 
 	
 	
@@ -503,10 +538,25 @@ Thus, we can use the principle of superposition  to predict what the wave will l
 	\caption{Ripples and waves combine}
 \end{figure}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 
-\section{Interference}
-\subsection{Constructive Interference}
+\subsection{Interference}
+\subsubsection{Constructive Interference}
 
 
 Sometimes, waves of approximately the same amplitude may overlap, causing the amplitude of the resulting wave to become larger.  This is called \textbf{Constructive Interference}: \index{Interference, Constructive}
@@ -609,12 +659,120 @@ Sometimes, waves of approximately the same amplitude may overlap, causing the am
 In order for constructive interference to happen, the two waves must be \textit{in phase} - that is, the displacement of the waves must be in the same direction. 
 
 
+When two waves that are continuous overlap, they will interfere constructively if they align perfectly:
+
+
+	
+\begin{figure}[h]
+	\centering
+
+		\begin{tikzpicture}
+		\pgfmathdeclarefunction{S}{2}{\pgfmathparse{sin(deg(#1*#2))}}
+		
+		\begin{axis}
+		[
+		xtick={
+			-6.28318, -4.7123889, -3.14159, -1.5708,
+			1.5708, 3.14159, 4.7123889, 6.28318
+		},
+		xticklabels={
+			$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $\frac{\pi}{2}$,
+			$\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$
+		},
+		axis lines = none,
+		grid=major, minor tick num=1,
+		xticklabels={},yticklabels={},
+		ymajorgrids=false,
+		 xlabel=,ylabel=,
+		tick align=inside,
+		domain=-2*pi:2*pi,
+		range=-1:8,
+		samples=200
+		]
+		\addplot [red,thick] {S(2,x)};
+		\addplot [blue,thick] {S(2,x)+4};
+	\node[label=B,circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,1) {};
+	\node[label=below:{A},circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,5) {};
+		\end{axis}
+	
+		
+		\end{tikzpicture}
+	
+	\caption{Two waves aligned perfectly}	
+	
+\end{figure}
+
+
+Likewise, constructive interference will occur if the wave is shifted by a distance of one wavelength.  
+
+
+\begin{figure}[h]
+	\centering
+	
+	\begin{tikzpicture}
+	\pgfmathdeclarefunction{S}{2}{\pgfmathparse{sin(deg(#1*#2))}}
+	
+	\begin{axis}
+	[
+	xtick={
+		-6.28318, -4.7123889, -3.14159, -1.5708,
+		1.5708, 3.14159, 4.7123889, 6.28318
+	},
+	xticklabels={
+		$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $\frac{\pi}{2}$,
+		$\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$
+	},
+	axis lines = none,
+	grid=major, minor tick num=1,
+	xticklabels={},yticklabels={},
+	ymajorgrids=false,
+	xlabel=,ylabel=,
+	tick align=inside,
+	domain=-2*pi:2*pi,
+	range=-1:8,
+	samples=200
+	]
+	\addplot [red,thick] {S(2,x)};
+	\addplot [blue,thick] {S(2,x)+4};
+	\node[label={B (old)},circle,fill=black!30!white, inner sep=2pt] at (axis cs:-2.35619449019,1) {};
+	\node[label={B (new)},circle,fill, inner sep=2pt] at (axis cs:0.785398,1) {};
+	\node[label=below:{A},circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,5) {};
+	\coordinate [label={}]  (A) at (-2.35619449019,1)  ;
+	\coordinate [label={}]  (B) at (0.785398,1) ;
+	\draw [->,line width=0.5mm, black ,shorten <= 5pt, shorten >= 5pt](A) -- (B) ;
+	
+	
+	
+	\end{axis}
+	
+	
+	\end{tikzpicture}
+	
+	\caption{The red wave has been shifted one wavelength to the right.}	
+	
+\end{figure}
+
+The wave could be shifted in a similar manner by two, three, or any integer number of wavelengths right or left, and the two waves will still cause constructive interference.  Thus, the amount of shift between the waves, $\Delta \ell$, is given by:
+
+
+	
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+	\Delta \ell = m \lambda
+	\label{equation:constructiveinterference}
+	\end{equation}
+\end{mdframed}	
+
+where $\Delta \ell$ is how far the waves are shifted, and $m$ is any integer.
 
 
 
 
 
-\subsection{Destructive Interference}
+
+
+
+\subsubsection{Destructive Interference}
 
 	At other times, waves may overlap while they are \textbf{out of phase} - that is, their displacement is in opposite directions, causing the wave to become smaller. This is called \textbf{destructive interference}.   \index{Interference, Destructive}
 
@@ -725,7 +883,7 @@ In order for constructive interference to happen, the two waves must be \textit{
 		\newcolumntype{D}{ >{\centering\arraybackslash} m{.25in} }
 		\begin{tabular}{C D C D C }
 			
-			\resizebox{1in}{.75in}{
+			\resizebox{1in}{1in}{
 				\begin{tikzpicture}
 				\pgfmathdeclarefunction{S}{2}{\pgfmathparse{(sin(deg(#1*#2)))}}
 				
@@ -815,12 +973,256 @@ In order for constructive interference to happen, the two waves must be \textit{
 		\end{tabular}
 		\caption{Perfectly Destructive Interference}
 	\end{figure}
+		\newpage 
+	
+	In order for destructive interference to happen, the two waves must be perfectly \textit{out of phase} - that is, the displacement of the waves must be in opposite direction, meaning the waves are already shifted by a half wavelength:
+	
+	
+	
+	\begin{figure}[h]
+		\centering
+		
+		\begin{tikzpicture}
+		\pgfmathdeclarefunction{S}{2}{\pgfmathparse{sin(deg(#1*#2))}}
+		
+		\begin{axis}
+		[
+		xtick={
+			-6.28318, -4.7123889, -3.14159, -1.5708,
+			1.5708, 3.14159, 4.7123889, 6.28318
+		},
+		xticklabels={
+			$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $\frac{\pi}{2}$,
+			$\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$
+		},
+		axis lines = none,
+		grid=major, minor tick num=1,
+		xticklabels={},yticklabels={},
+		ymajorgrids=false,
+		xlabel=,ylabel=,
+		tick align=inside,
+		domain=-2*pi:2*pi,
+		range=-1:8,
+		samples=200
+		]
+		\addplot [red,thick] {S(2,x)};
+		\addplot [blue,thick] {S(2,x+1.5708)+4};
+		\node[label=B,circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,1) {};
+		\node[label=below:{A},circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,3) {};
+		\end{axis}
+		
+		
+		\end{tikzpicture}
+		
+		\caption{Two waves aligned perfectly}	
+		
+	\end{figure}
+	
+	
+		
+		
+	Likewise, destructive interference will occur if the wave is shifted by a distance of one wavelength (after already being off by half a wavelength).  
+	
+
+	
+	\begin{figure}[!h]
+		\centering
+		
+		\begin{tikzpicture}
+		\pgfmathdeclarefunction{S}{2}{\pgfmathparse{sin(deg(#1*#2))}}
+		
+		\begin{axis}
+		[
+		xtick={
+			-6.28318, -4.7123889, -3.14159, -1.5708,
+			1.5708, 3.14159, 4.7123889, 6.28318
+		},
+		xticklabels={
+			$-2\pi$, $-\frac{3\pi}{2}$, $-\pi$, $\frac{\pi}{2}$,
+			$\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$
+		},
+		axis lines = none,
+		grid=major, minor tick num=1,
+		xticklabels={},yticklabels={},
+		ymajorgrids=false,
+		xlabel=,ylabel=,
+		tick align=inside,
+		domain=-2*pi:2*pi,
+		range=-1:8,
+		samples=200
+		]
+		\addplot [red,thick] {S(2,x)};
+		\addplot [blue,thick] {S(2,x+1.5708)+4};
+		\node[label={B (old)},circle,fill=black!30!white, inner sep=2pt] at (axis cs:-2.35619449019,1) {};
+		\node[label={B (new)},circle,fill, inner sep=2pt] at (axis cs:0.785398,1) {};
+		\node[label=below:{A},circle,fill, inner sep=2pt] at (axis cs:-2.35619449019,3) {};
+		\coordinate [label={}]  (A) at (-2.35619449019,1)  ;
+		\coordinate [label={}]  (B) at (0.785398,1) ;
+		\draw [->,line width=0.5mm, black ,shorten <= 5pt, shorten >= 5pt](A) -- (B) ;
+		
+		
+		
+		\end{axis}
+		
+		
+		\end{tikzpicture}
+		
+		\caption{The red wave has been shifted one wavelength to the right.}	
+		
+	\end{figure}
+	
+	Since destructive interference occurs whenever the waves are shifted by half-integer multiples of the wavelength (ie, 0.5, 1.5, 2.5, etc), the amount of shift between the waves, $\Delta \ell$, is given by:
+	
+	
+	
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+		\Delta \ell = (m+\frac{1}{2}) \lambda
+		\label{equation:destructiveinterference}
+		\end{equation}
+	\end{mdframed}	
+	
+	where $\Delta \ell$ is how far the waves are shifted, and $m$ is any integer.
+	
+	\newpage 
+	
+	
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.1}	
+		\end{center}
+		
+		\textbf{Problem: } Two trombone players stand in a single file line, with their conductor directly in front of them, as shown in the diagram: 
+		
+		\begin{center}
+			\begin{tabular}{c c c c}
+				\includegraphics[height=0.75in]{Chapters/Ch10-Waves/trombone.png} & \includegraphics[height=0.75in]{Chapters/Ch10-Waves/trombone.png} & &
+				\includegraphics[height=0.75in]{Chapters/Ch10-Waves/conductor.png}
+			\end{tabular}
+		\end{center}
+		\vspace{0.2in}
+		Both trombones play a low-$B \flat$ ($f = \SI{116.54}{\Hz}$).  What is the smallest, non-zero distance that the players should stand apart in order for the conductor to hear the loudest possible sound?  (Assume both players are perfectly in tune and the waves they create are perfectly in phase.)
+		
+		
+		
+		
+		
+		\textbf{Solution:} 
+		We already know:
+		\begin{center}
+			$f = \SI{116.54}{\Hz}$
+			
+			$v = \SI[per-mode = symbol]{343}{\m\per\s}$
+		\end{center}
+		Thus, we can use equation \ref{equation:wavevelocity} to find the wavelength:
+		
+		\begin{equation*}
+		v = f \lambda \longrightarrow \lambda = \frac{v}{f} = \frac{\SI[per-mode = symbol]{343}{\m\per\s}}{\SI{116.54}{\Hz}} \approx {\SI{2.943}{\m}} 
+		\end{equation*}
+		
+	Since we are asked for the loudest sound, we know that this is constructive interference. We know that if $m=0$, the distance between the two players will be zero.  Thus, the smallest non-zero distance is given when $m=1$.  Using equation \ref{equation:constructiveinterference}, we find:
+		
+		\begin{equation*}
+			\Delta \ell = m \lambda = (1)(\SI{2.943}{m}) = \SI{2.943}{m}
+		\end{equation*}		
+	\end{mdframed}
 	
 	
 	
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		\newpage
+	
+	
+\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.2}	
+		\end{center}
+		
+		\textbf{Problem: } Two speakers are aligned along an east-west line, and are placed 1 meter apart.  A single frequency is played on both speakers.  A person starts in front of the left-most speaker, and begins to walk to the south.  When the person has walked 2 meters to the south, she hears the sound get significantly quieter.  As she continues to walk, he hears the sound get louder again.  What is the frequency of the sound?
+		\vspace{0.2in}
+		
+
+		
+	
+		
+		\textbf{Solution:} 
+		Begin by drawing a diagram of the situation: 
+		
+		\begin{center}
+		\includegraphics[height=1.5 in]{Chapters/Ch10-Waves/speakers.png}
+		\end{center}
+	
+		We begin by calculating the difference in distances between the speakers.  The distance to the west speaker is 2 meters.  The distance to the right speaker can be found using the Pythagorean Theorem:
+		
+		\begin{equation*}
+		c = \sqrt{a^2 + b^2} = \sqrt{(\SI{2}{\m})^2 + (\SI{1}{\m})^2} = \sqrt{\SI{5}{\m^2 }} \approx \SI{2.236}{\m}
+		\end{equation*}
+		
+		Therefore, $\Delta \ell$, the distance between the two paths the sound is traveling is given by: 
+		
+		\begin{equation*}
+		\Delta \ell = \SI{2.236}{\m} - \SI{2}{\m} \approx \SI{0.236}{\m}
+		\end{equation*}
+	
+		Since this problem states that sound gets quieter, we know that this is destructive interference, and we can use equation \ref{equation:destructiveinterference}:  
+		\begin{equation*}
+		\Delta \ell = (m+\frac{1}{2}) \lambda
+		\end{equation*}
+		
+		We know that the smallest value $m$ can be is 0, so our equation reduces to:
+				
+		\begin{equation*}
+		\Delta \ell = (\cancelto{0}{m}+\frac{1}{2}) \lambda \longrightarrow \Delta \ell = \frac{\lambda}{2}
+		\end{equation*}
+		
+		
+
+
+		Solving for $\lambda$ gives:
+		
+		
+		\begin{equation*}
+		\lambda = 2 \Delta \ell = (2)(\SI{0.236}{\m}) = \SI{0.472}{\m}
+		\end{equation*}
+		
+	
+		Knowing that the speed of sound is 343 m/s, we can use equation \ref{equation:wavevelocity} to determine the frequency:
+		
+		\begin{equation*}
+		v = f \lambda \longrightarrow f = \frac{v}{\lambda} = \frac{\SI[per-mode = symbol]{343}{\m\per\s}}{\SI{0.472}{m}} = \boxed{\SI{726.540}{\Hz}} 
+		\end{equation*}
+		
+
+		 
+	
+		
+	\end{mdframed}
+	
+	
+	
+	
+	
+	
+
 	
 	
 	
