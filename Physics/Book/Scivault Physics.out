@@ -83,40 +83,42 @@
 \BOOKMARK [1][-]{section.10.3}{The Principle of Superposition and Interference}{chapter.10}% 83
 \BOOKMARK [2][-]{subsection.10.3.1}{The Principle of Superposition}{section.10.3}% 84
 \BOOKMARK [2][-]{subsection.10.3.2}{Interference}{section.10.3}% 85
-\BOOKMARK [0][-]{chapter.11}{Optics}{}% 86
-\BOOKMARK [1][-]{section.11.1}{Geometric Optics}{chapter.11}% 87
-\BOOKMARK [2][-]{subsection.11.1.1}{Refraction}{section.11.1}% 88
-\BOOKMARK [2][-]{subsection.11.1.2}{Reflection}{section.11.1}% 89
-\BOOKMARK [1][-]{section.11.2}{Physical Optics}{chapter.11}% 90
-\BOOKMARK [2][-]{subsection.11.2.1}{Diffraction}{section.11.2}% 91
-\BOOKMARK [2][-]{subsection.11.2.2}{Young's Double Slit Experiment}{section.11.2}% 92
-\BOOKMARK [2][-]{subsection.11.2.3}{Thin Film Interference}{section.11.2}% 93
-\BOOKMARK [0][-]{chapter.12}{Heat and Thermodynamics}{}% 94
-\BOOKMARK [1][-]{section.12.1}{Specific Heat}{chapter.12}% 95
-\BOOKMARK [0][-]{chapter.13}{Electrostatics}{}% 96
-\BOOKMARK [1][-]{section.13.1}{Coulomb's Law and Electrostatic Force}{chapter.13}% 97
-\BOOKMARK [1][-]{section.13.2}{Electrostatic Potential Energy}{chapter.13}% 98
-\BOOKMARK [1][-]{section.13.3}{Electric Field}{chapter.13}% 99
-\BOOKMARK [1][-]{section.13.4}{Electric Potential and Voltage}{chapter.13}% 100
-\BOOKMARK [1][-]{section.13.5}{Capacitors}{chapter.13}% 101
-\BOOKMARK [2][-]{subsection.13.5.1}{Construction of Capacitors}{section.13.5}% 102
-\BOOKMARK [2][-]{subsection.13.5.2}{Capacitors in Circuits}{section.13.5}% 103
-\BOOKMARK [0][-]{chapter.14}{Circuits}{}% 104
-\BOOKMARK [1][-]{section.14.1}{Circuits Symbols}{chapter.14}% 105
-\BOOKMARK [1][-]{section.14.2}{Resistors}{chapter.14}% 106
-\BOOKMARK [0][-]{chapter.15}{Magnetic Forces and Fields}{}% 107
-\BOOKMARK [1][-]{section.15.1}{Types of Magnetism}{chapter.15}% 108
-\BOOKMARK [2][-]{subsection.15.1.1}{Permanent Magnetism}{section.15.1}% 109
-\BOOKMARK [2][-]{subsection.15.1.2}{Electromagnetism}{section.15.1}% 110
-\BOOKMARK [1][-]{section.15.2}{Magnetic Force on a Charged Particle}{chapter.15}% 111
-\BOOKMARK [1][-]{section.15.3}{Magnetic Force on a Current-Carrying Wire}{chapter.15}% 112
-\BOOKMARK [1][-]{section.15.4}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.15}% 113
-\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 114
-\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 115
-\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 116
-\BOOKMARK [1][-]{section.A.3}{Trigonometry}{appendix.A}% 117
-\BOOKMARK [1][-]{section.A.4}{Arc Length and Radians}{appendix.A}% 118
-\BOOKMARK [0][-]{appendix.B}{Reference Tables}{}% 119
-\BOOKMARK [1][-]{section.B.1}{Greek Letters}{appendix.B}% 120
-\BOOKMARK [1][-]{section.B.2}{Musical Notes and Frequencies}{appendix.B}% 121
-\BOOKMARK [1][-]{section.B.3}{Physical Constants}{appendix.B}% 122
+\BOOKMARK [1][-]{section.10.4}{Resonance}{chapter.10}% 86
+\BOOKMARK [0][-]{chapter.11}{Optics}{}% 87
+\BOOKMARK [1][-]{section.11.1}{Geometric Optics}{chapter.11}% 88
+\BOOKMARK [2][-]{subsection.11.1.1}{Refraction}{section.11.1}% 89
+\BOOKMARK [2][-]{subsection.11.1.2}{Reflection}{section.11.1}% 90
+\BOOKMARK [1][-]{section.11.2}{Physical Optics}{chapter.11}% 91
+\BOOKMARK [2][-]{subsection.11.2.1}{Diffraction}{section.11.2}% 92
+\BOOKMARK [2][-]{subsection.11.2.2}{Young's Double Slit Experiment}{section.11.2}% 93
+\BOOKMARK [2][-]{subsection.11.2.3}{Thin Film Interference}{section.11.2}% 94
+\BOOKMARK [0][-]{chapter.12}{Heat and Thermodynamics}{}% 95
+\BOOKMARK [1][-]{section.12.1}{Specific Heat}{chapter.12}% 96
+\BOOKMARK [0][-]{chapter.13}{Electrostatics}{}% 97
+\BOOKMARK [1][-]{section.13.1}{Electrostatic Charge}{chapter.13}% 98
+\BOOKMARK [1][-]{section.13.2}{Coulomb's Law and Electrostatic Force}{chapter.13}% 99
+\BOOKMARK [1][-]{section.13.3}{Electrostatic Potential Energy}{chapter.13}% 100
+\BOOKMARK [1][-]{section.13.4}{Electric Field}{chapter.13}% 101
+\BOOKMARK [1][-]{section.13.5}{Electric Potential and Voltage}{chapter.13}% 102
+\BOOKMARK [1][-]{section.13.6}{Capacitors}{chapter.13}% 103
+\BOOKMARK [2][-]{subsection.13.6.1}{Construction of Capacitors}{section.13.6}% 104
+\BOOKMARK [2][-]{subsection.13.6.2}{Capacitors in Circuits}{section.13.6}% 105
+\BOOKMARK [0][-]{chapter.14}{Circuits}{}% 106
+\BOOKMARK [1][-]{section.14.1}{Circuits Symbols}{chapter.14}% 107
+\BOOKMARK [1][-]{section.14.2}{Resistors}{chapter.14}% 108
+\BOOKMARK [0][-]{chapter.15}{Magnetic Forces and Fields}{}% 109
+\BOOKMARK [1][-]{section.15.1}{Types of Magnetism}{chapter.15}% 110
+\BOOKMARK [2][-]{subsection.15.1.1}{Permanent Magnetism}{section.15.1}% 111
+\BOOKMARK [2][-]{subsection.15.1.2}{Electromagnetism}{section.15.1}% 112
+\BOOKMARK [1][-]{section.15.2}{Magnetic Force on a Charged Particle}{chapter.15}% 113
+\BOOKMARK [1][-]{section.15.3}{Magnetic Force on a Current-Carrying Wire}{chapter.15}% 114
+\BOOKMARK [1][-]{section.15.4}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.15}% 115
+\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 116
+\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 117
+\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 118
+\BOOKMARK [1][-]{section.A.3}{Trigonometry}{appendix.A}% 119
+\BOOKMARK [1][-]{section.A.4}{Arc Length and Radians}{appendix.A}% 120
+\BOOKMARK [0][-]{appendix.B}{Reference Tables}{}% 121
+\BOOKMARK [1][-]{section.B.1}{Greek Letters}{appendix.B}% 122
+\BOOKMARK [1][-]{section.B.2}{Musical Notes and Frequencies}{appendix.B}% 123
+\BOOKMARK [1][-]{section.B.3}{Physical Constants}{appendix.B}% 124

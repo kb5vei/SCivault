@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  17 APR 2020 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  23 APR 2020 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1527,7 +1527,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 392.
  [6]
 Package mdframed Info: Not enough space on this page on input line 446.
 Package mdframed Info: mdframed works in twoside mode on input line 458.
-<./Chapters/Ch01-intro/righthandrule.JPG, id=712, 173.86098pt x 139.58434pt>
+<./Chapters/Ch01-intro/righthandrule.JPG, id=722, 173.86098pt x 139.58434pt>
 File: ./Chapters/Ch01-intro/righthandrule.JPG Graphic file (type jpg)
 <use ./Chapters/Ch01-intro/righthandrule.JPG>
 Package pdftex.def Info: ./Chapters/Ch01-intro/righthandrule.JPG  used on input
@@ -1627,25 +1627,25 @@ Package mdframed Info: mdframed works in twoside mode on input line 179.
 Package mdframed Info: mdframed works in twoside mode on input line 189.
 Package mdframed Info: Not enough space on this page on input line 230.
  [30]
-<Chapters/Ch10-Waves/Doppler1.png, id=894, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler1.png, id=904, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler1.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler1.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler1.png  used on input line 2
 44.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler2.png, id=896, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler2.png, id=906, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler2.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler2.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler2.png  used on input line 2
 53.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler3.png, id=897, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler3.png, id=907, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler3.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler3.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler3.png  used on input line 2
 62.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler4.png, id=898, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler4.png, id=908, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler4.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler4.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler4.png  used on input line 2
@@ -1682,7 +1682,7 @@ ng it (it is [0.0:0.0]) on input line 972.
 Package mdframed Info: mdframed works in twoside mode on input line 1078.
  [36]
 Package mdframed Info: mdframed works in twoside mode on input line 1090.
-<Chapters/Ch10-Waves/trombone.png, id=949, 129.1224pt x 240.6591pt>
+<Chapters/Ch10-Waves/trombone.png, id=960, 129.1224pt x 240.6591pt>
 File: Chapters/Ch10-Waves/trombone.png Graphic file (type png)
 <use Chapters/Ch10-Waves/trombone.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/trombone.png  used on input line 1
@@ -1693,7 +1693,7 @@ File: Chapters/Ch10-Waves/trombone.png Graphic file (type png)
 Package pdftex.def Info: Chapters/Ch10-Waves/trombone.png  used on input line 1
 101.
 (pdftex.def)             Requested size: 29.08083pt x 54.2025pt.
-<Chapters/Ch10-Waves/conductor.png, id=950, 115.632pt x 203.0787pt>
+<Chapters/Ch10-Waves/conductor.png, id=961, 115.632pt x 203.0787pt>
 File: Chapters/Ch10-Waves/conductor.png Graphic file (type png)
 <use Chapters/Ch10-Waves/conductor.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/conductor.png  used on input line 
@@ -1703,30 +1703,39 @@ Package mdframed Info: Not enough space on this page on input line 1130.
  [37 <./Chapters/Ch10-Waves/trombone.png> <./Chapters/Ch10-Waves/conductor.png>
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 1153.
-<Chapters/Ch10-Waves/speakers.png, id=960, 178.266pt x 159.4758pt>
+<Chapters/Ch10-Waves/speakers.png, id=971, 178.266pt x 159.4758pt>
 File: Chapters/Ch10-Waves/speakers.png Graphic file (type png)
 <use Chapters/Ch10-Waves/speakers.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/speakers.png  used on input line 1
 171.
 (pdftex.def)             Requested size: 121.18118pt x 108.405pt.
 Package mdframed Info: Not enough space on this page on input line 1218.
-) (./Chapters/Ch11-Optics/Ch11-Optics.tex [38 <./Chapters/Ch10-Waves/speakers.p
-ng>]
+) (./Chapters/Ch11-Optics/Ch11-Optics.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./Chapters/Ch10-Waves/speakers.png>] [39]
 Chapter 11.
-) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex [39
+) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex [40
 
 ]
 Chapter 12.
-) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [40
+) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [41
 
 ]
 Chapter 13.
-) (./Chapters/Ch14-Circuits/Ch14-Circuits.tex [41
+[42
 
 ]
+Package mdframed Info: mdframed works in twoside mode on input line 41.
+Package mdframed Info: mdframed works in twoside mode on input line 52.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+(./Chapters/Ch14-Circuits/Ch14-Circuits.tex [43] [44]
 Chapter 14.
 ) (./Chapters/Ch15-MagneticForcesandFields/Ch15-MagneticForcesandFields.tex
-[42
+[45
 
 ]
 Chapter 15.
@@ -1735,31 +1744,31 @@ Overfull \hbox (14.08932pt too wide) in paragraph at lines 10--10
 []\T1/cmr/bx/n/17.28 Magnetic Field Pro-duced by a Current-Carrying Wire 
  []
 
-) [43
+) [46
 
-] [44
+] [47
 
 ]
 (./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex
 Appendix A.
-[45
+[48
 
 ])
 (./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex
-[46]
+[49]
 Appendix B.
 
 Underfull \vbox (badness 10000) detected at line 48
  []
 
-[47
+[50
 
 ]
 Overfull \hbox (4.29547pt too wide) in paragraph at lines 73--103
 [][] 
  []
 
-[48]) [49] (./Scivault Physics.ind [50
+[51]) [52] (./Scivault Physics.ind [53
 
 
 ])
@@ -1769,51 +1778,46 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `"Scivault Physics".out' has not changed.
-(rerunfilecheck)             Checksum: 341673C56864FAA9583AD28FA809D71D;8464.
+(rerunfilecheck)             Checksum: 12A37370D803A43696CA4AA4708CA0F6;8593.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 46301 strings out of 494587
- 1047599 string characters out of 6177760
- 1539928 words of memory out of 5000000
- 49003 multiletter control sequences out of 15000+600000
- 563018 words of font info for 108 fonts, out of 8000000 for 9000
+ 46357 strings out of 494587
+ 1049053 string characters out of 6177760
+ 1540163 words of memory out of 5000000
+ 49047 multiletter control sequences out of 15000+600000
+ 564371 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,17n,107p,964b,2042s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.52} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{page.51} has been referenced but does not exist, re
-placed by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm
--super/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/
-sfrm2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl120
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "Scivault Physics.pdf" (56 pages, 872880 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm
+2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on "Scivault Physics.pdf" (59 pages, 880218 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 1114 compressed objects within 12 object streams
- 285 named destinations out of 1000 (max. 500000)
- 1029 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1253 PDF objects out of 1440 (max. 8388607)
+ 1140 compressed objects within 12 object streams
+ 290 named destinations out of 1000 (max. 500000)
+ 1045 words of extra memory for PDF output out of 10000 (max. 10000000)
 
