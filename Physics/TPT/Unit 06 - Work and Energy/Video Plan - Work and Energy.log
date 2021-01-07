@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  15 DEC 2020 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  15 DEC 2020 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Things To Memorize - Work and Energy.tex"
-(./Things To Memorize - Work and Energy.tex
+**"Video Plan - Work and Energy.tex"
+(./Video Plan - Work and Energy.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -98,8 +98,8 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(./Things To Memorize - Work and Energy.aux)
-\openout1 = `"Things To Memorize - Work and Energy.aux"'.
+(./Video Plan - Work and Energy.aux)
+\openout1 = `"Video Plan - Work and Energy.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
@@ -228,21 +228,13 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 67.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 67.
 
+
+AED: lastpage setting LastPage
 <../Logo/sp.png, id=1, 194.7275pt x 220.825pt>
 File: ../Logo/sp.png Graphic file (type png)
  <use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 69.
+Package pdftex.def Info: ../Logo/sp.png used on input line 42.
 (pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
 
 
@@ -253,37 +245,23 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}
 
- <../Logo/sp.png>] 
-AED: lastpage setting LastPage
-File: ../Logo/sp.png Graphic file (type png)
-<use ../Logo/sp.png>
-Package pdftex.def Info: ../Logo/sp.png used on input line 90.
-(pdftex.def)             Requested size: 30.1052pt x 34.14322pt.
- [2] (./Things To Memorize - Work and Energy.aux) ) 
+ <../Logo/sp.png>] (./Video Plan - Work and Energy.aux) ) 
 Here is how much of TeX's memory you used:
- 2201 strings out of 493039
- 31567 string characters out of 6136944
- 103493 words of memory out of 5000000
- 5728 multiletter control sequences out of 15000+600000
- 7635 words of font info for 27 fonts, out of 8000000 for 9000
+ 2179 strings out of 493039
+ 31248 string characters out of 6136944
+ 98493 words of memory out of 5000000
+ 5714 multiletter control sequences out of 15000+600000
+ 5107 words of font info for 19 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 38i,14n,43p,330b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Things To Memorize - Work and Energy.pdf" (2 pages, 124312 b
-ytes).
+ 38i,14n,43p,263b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Video Plan - Work and Energy.pdf" (1 page, 44256 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
