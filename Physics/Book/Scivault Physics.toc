@@ -135,13 +135,16 @@
 \contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{49}{section.15.2}
 \contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{49}{section.15.3}
 \contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{49}{section.15.4}
+\contentsline {chapter}{\numberline {16}Magnetic Induction}{50}{chapter.16}
+\contentsline {section}{\numberline {16.1}Lenz's Law}{50}{section.16.1}
+\contentsline {section}{\numberline {16.2}Faraday's Law}{51}{section.16.2}
 \contentsline {chapter}{Appendices}{}{section*.28}
-\contentsline {chapter}{\numberline {A}Math Skills}{51}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{51}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{52}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{52}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{52}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{53}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{53}{section.B.1}
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{54}{section.B.2}
-\contentsline {section}{\numberline {B.3}Physical Constants}{55}{section.B.3}
+\contentsline {chapter}{\numberline {A}Math Skills}{53}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{53}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{54}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{54}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{54}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{55}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{55}{section.B.1}
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{56}{section.B.2}
+\contentsline {section}{\numberline {B.3}Physical Constants}{57}{section.B.3}
