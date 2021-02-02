@@ -17,13 +17,23 @@
 \usepackage{makeidx}
 \usepackage[makeroom]{cancel}
 \usepackage{siunitx}
+\usepackage{gensymb}
 \usepackage{tikz,bm}
+\usepackage{float}
 \usetikzlibrary{decorations.pathmorphing}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{calc}
 \tikzset{
 	samples=100,
 }
+\usetikzlibrary{arrows,shapes,positioning}
+\usetikzlibrary{decorations.markings}
+\tikzstyle arrowstyle=[scale=1]
+\tikzstyle directed=[postaction={decorate,decoration={markings,
+		mark=at position .65 with {\arrow[arrowstyle]{stealth}}}}]
+\tikzstyle reverse directed=[postaction={decorate,decoration={markings,
+		mark=at position .65 with {\arrowreversed[arrowstyle]{stealth};}}}]
+	
 \usepackage[linewidth=1pt]{mdframed}
 \setlength{\columnsep}{1cm}
 

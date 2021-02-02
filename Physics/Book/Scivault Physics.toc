@@ -101,50 +101,52 @@
 \contentsline {chapter}{\numberline {11}Optics}{42}{chapter.11}
 \contentsline {section}{\numberline {11.1}Geometric Optics}{42}{section.11.1}
 \contentsline {subsection}{\numberline {11.1.1}Refraction}{42}{subsection.11.1.1}
-\contentsline {subsubsection}{Snell's Law}{42}{section*.20}
-\contentsline {paragraph}{Total Internal Reflection}{42}{section*.21}
-\contentsline {subsubsection}{Lenses}{43}{section*.22}
-\contentsline {subsection}{\numberline {11.1.2}Reflection}{43}{subsection.11.1.2}
-\contentsline {subsubsection}{The Law of Reflection}{43}{section*.23}
-\contentsline {subsubsection}{Mirrors}{43}{section*.24}
-\contentsline {section}{\numberline {11.2}Physical Optics}{43}{section.11.2}
-\contentsline {subsection}{\numberline {11.2.1}Diffraction}{43}{subsection.11.2.1}
-\contentsline {subsection}{\numberline {11.2.2}Young's Double Slit Experiment}{43}{subsection.11.2.2}
-\contentsline {subsection}{\numberline {11.2.3}Thin Film Interference}{43}{subsection.11.2.3}
-\contentsline {chapter}{\numberline {12}Heat and Thermodynamics}{44}{chapter.12}
-\contentsline {section}{\numberline {12.1}Specific Heat}{44}{section.12.1}
-\contentsline {chapter}{\numberline {13}Electrostatics}{45}{chapter.13}
-\contentsline {section}{\numberline {13.1}Electrostatic Charge}{45}{section.13.1}
-\contentsline {section}{\numberline {13.2}Coulomb's Law and Electrostatic Force}{46}{section.13.2}
-\contentsline {section}{\numberline {13.3}Electrostatic Potential Energy}{47}{section.13.3}
-\contentsline {section}{\numberline {13.4}Electric Field}{47}{section.13.4}
-\contentsline {section}{\numberline {13.5}Electric Potential and Voltage}{47}{section.13.5}
-\contentsline {section}{\numberline {13.6}Capacitors}{47}{section.13.6}
-\contentsline {subsection}{\numberline {13.6.1}Construction of Capacitors}{47}{subsection.13.6.1}
-\contentsline {subsection}{\numberline {13.6.2}Capacitors in Circuits}{47}{subsection.13.6.2}
-\contentsline {chapter}{\numberline {14}Circuits}{48}{chapter.14}
-\contentsline {section}{\numberline {14.1}Circuits Symbols}{48}{section.14.1}
-\contentsline {section}{\numberline {14.2}Resistors}{48}{section.14.2}
-\contentsline {chapter}{\numberline {15}Magnetic Forces and Fields}{49}{chapter.15}
-\contentsline {section}{\numberline {15.1}Types of Magnetism}{49}{section.15.1}
-\contentsline {subsection}{\numberline {15.1.1}Permanent Magnetism}{49}{subsection.15.1.1}
-\contentsline {subsubsection}{Paramagnetism}{49}{section*.25}
-\contentsline {subsubsection}{Ferromagnetism}{49}{section*.26}
-\contentsline {subsubsection}{Dimagnetism}{49}{section*.27}
-\contentsline {subsection}{\numberline {15.1.2}Electromagnetism}{49}{subsection.15.1.2}
-\contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{49}{section.15.2}
-\contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{49}{section.15.3}
-\contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{49}{section.15.4}
-\contentsline {chapter}{\numberline {16}Magnetic Induction}{50}{chapter.16}
-\contentsline {section}{\numberline {16.1}Lenz's Law}{50}{section.16.1}
-\contentsline {section}{\numberline {16.2}Faraday's Law}{51}{section.16.2}
-\contentsline {chapter}{Appendices}{}{section*.28}
-\contentsline {chapter}{\numberline {A}Math Skills}{53}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{53}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{54}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{54}{section.A.3}
-\contentsline {section}{\numberline {A.4}Arc Length and Radians}{54}{section.A.4}
-\contentsline {chapter}{\numberline {B}Reference Tables}{55}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{55}{section.B.1}
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{56}{section.B.2}
-\contentsline {section}{\numberline {B.3}Physical Constants}{57}{section.B.3}
+\contentsline {subsubsection}{The Index of Refraction}{42}{section*.20}
+\contentsline {subsubsection}{Snell's Law}{43}{section*.21}
+\contentsline {paragraph}{Total Internal Reflection}{45}{section*.22}
+\contentsline {subsubsection}{Lenses}{46}{section*.23}
+\contentsline {subsection}{\numberline {11.1.2}Reflection}{46}{subsection.11.1.2}
+\contentsline {subsubsection}{The Law of Reflection}{46}{section*.24}
+\contentsline {subsubsection}{Mirrors}{46}{section*.25}
+\contentsline {section}{\numberline {11.2}Physical Optics}{46}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Diffraction}{46}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Young's Double Slit Experiment}{46}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Thin Film Interference}{46}{subsection.11.2.3}
+\contentsline {chapter}{\numberline {12}Heat and Thermodynamics}{47}{chapter.12}
+\contentsline {section}{\numberline {12.1}Specific Heat}{47}{section.12.1}
+\contentsline {chapter}{\numberline {13}Electrostatics}{48}{chapter.13}
+\contentsline {section}{\numberline {13.1}Electrostatic Charge}{48}{section.13.1}
+\contentsline {section}{\numberline {13.2}Coulomb's Law and Electrostatic Force}{49}{section.13.2}
+\contentsline {section}{\numberline {13.3}Electrostatic Potential Energy}{50}{section.13.3}
+\contentsline {section}{\numberline {13.4}Electric Field}{50}{section.13.4}
+\contentsline {section}{\numberline {13.5}Electric Potential and Voltage}{50}{section.13.5}
+\contentsline {section}{\numberline {13.6}Capacitors}{50}{section.13.6}
+\contentsline {subsection}{\numberline {13.6.1}Construction of Capacitors}{50}{subsection.13.6.1}
+\contentsline {subsection}{\numberline {13.6.2}Capacitors in Circuits}{50}{subsection.13.6.2}
+\contentsline {chapter}{\numberline {14}Circuits}{51}{chapter.14}
+\contentsline {section}{\numberline {14.1}Circuits Symbols}{51}{section.14.1}
+\contentsline {section}{\numberline {14.2}Resistors}{51}{section.14.2}
+\contentsline {chapter}{\numberline {15}Magnetic Forces and Fields}{52}{chapter.15}
+\contentsline {section}{\numberline {15.1}Types of Magnetism}{52}{section.15.1}
+\contentsline {subsection}{\numberline {15.1.1}Permanent Magnetism}{52}{subsection.15.1.1}
+\contentsline {subsubsection}{Paramagnetism}{52}{section*.26}
+\contentsline {subsubsection}{Ferromagnetism}{52}{section*.27}
+\contentsline {subsubsection}{Dimagnetism}{52}{section*.28}
+\contentsline {subsection}{\numberline {15.1.2}Electromagnetism}{52}{subsection.15.1.2}
+\contentsline {section}{\numberline {15.2}Magnetic Force on a Charged Particle}{52}{section.15.2}
+\contentsline {section}{\numberline {15.3}Magnetic Force on a Current-Carrying Wire}{52}{section.15.3}
+\contentsline {section}{\numberline {15.4}Magnetic Field Produced by a Current-Carrying Wire}{52}{section.15.4}
+\contentsline {chapter}{\numberline {16}Magnetic Induction}{53}{chapter.16}
+\contentsline {section}{\numberline {16.1}Lenz's Law}{53}{section.16.1}
+\contentsline {section}{\numberline {16.2}Faraday's Law}{54}{section.16.2}
+\contentsline {chapter}{Appendices}{}{section*.29}
+\contentsline {chapter}{\numberline {A}Math Skills}{56}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{56}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{57}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{57}{section.A.3}
+\contentsline {section}{\numberline {A.4}Arc Length and Radians}{57}{section.A.4}
+\contentsline {chapter}{\numberline {B}Reference Tables}{58}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{58}{section.B.1}
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{59}{section.B.2}
+\contentsline {section}{\numberline {B.3}Common Indices of Refraction}{59}{section.B.3}
+\contentsline {section}{\numberline {B.4}Physical Constants}{60}{section.B.4}

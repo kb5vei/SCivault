@@ -1,7 +1,7 @@
 \chapter{Optics}
 	\index{Optics} Optics is the study of light and how that light interacts with matter.  There are two general fields of Optics: \textit{Geometric Optics} and \textit{Physical Optics}. Geometric optics studies how rays of light travel, while physical optics studies how multiple rays of light interact as waves.  
 	
-	The speed of light in empty space is exactly:	\index{Speed of Light}
+	An important constant in the field of optics is the speed of light.  The speed of light in empty space is exactly:	\index{Speed of Light}
 	\begin{mdframed}[backgroundcolor=green!20!white]
 		\begin{equation*}
 		c = \SI{299792458}{m/s}
@@ -9,21 +9,438 @@
 		\end{equation*}
 	\end{mdframed}	
 	
-	The symbol used is \textit{c} because the speed of light is constant in all frames of reference.  This fact will be discussed in more detail in Insert REFREENCE HERE.
+	The symbol used is \textit{c} because the speed of light is constant in all frames of reference.  This fact will be discussed in more detail in \color{red} (Insert REFERENCE  HERE.) \color{black} You will often see this number rounded to $2.998 \times 10^8$ m/s or even $3.0 \times 10^8 $m/s.
+	
+	
+	
 	
 	\section{Geometric Optics} \index{Geometric Optics}
 	
+	While light in empty space always travels at the same speed, $c$, light can be slowed down when it travels through a medium.  This leads to some phenomena that we may encounter in everyday life.  
+	
+
 	\subsection{Refraction} \index{Refraction}
+		
+	\textit{Refraction} is a phenomenon associated with how light changes direction as it moves from one medium to another, due to the change in the speed that light travels at in each of the media.  This is often demonstrated by looking at a pencil in a glass of water, or a fish in a pond.  
 	
-	\textit{Refraction} is a phenomenon associated with how light changes direction as it moves from one medium to another.  This is often demonstrated by looking at a pencil in a glass of water, or a fish in a pond.  
+	\subsubsection{The Index of Refraction}
+	The index of refraction \index{Index of Refraction} is the ratio of the speed of light in a vacuum to the speed of light in a material.  It can be calculated as follows:
 	
+	
+		
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+		
+		\begin{equation}
+		n \equiv \frac{c}{v_m}
+		\label{equation:indexofrefraction}
+		\end{equation}
+	\end{mdframed}
+ 
+ where $n$ is the index of refraction, $c$ is the speed of light in empty space, and $v_m$ is the speed of light in the material.  
+ 
+ 
+ 	\begin{mdframed}[backgroundcolor=blue!10!white]
+ 	\begin{center}	
+ 		\textbf{Example \thesection.1}	
+ 	\end{center}
+ 	
+ 	\textbf{Problem: } Light travels at a speed of $2.254 \times 10^8$ m/s in water.  What is the index of refraction of water? 
+ 	
+ 	\textbf{Solution:} Using the definition of index of refraction, we find:
+ 	
+ 	\begin{equation}
+			n \equiv \frac{c}{v_m} = \frac{2.997 \times 10^8 \, \si{m/s}}{2.254 \times 10^8 \, \si{m/s}} = 1.330
+ 	\end{equation}
+ \end{mdframed}
+ 
+ You may notice that the index of refraction is unitless, since all units cancel in the calculation.   A list of indices of refraction can be found in Appendix \ref{tab:refraction} on  \cpageref{tab:refraction}.
+ 
+ 
 	
 		\subsubsection{Snell's Law} \index{Snell's Law}
-		\textit{Snell's Law}, named for the Dutch physicist Willebrord Snell, explains that light always takes the path of least time between two points.  
+		\textit{Snell's Law}, named for the Dutch physicist Willebrord Snell, explains that light always takes the path of least time between two points.  When light travels in a single medium of constant optical density, it travels in a straight line.  However, when light changes medium, it will change direction.  	
 		
 		
-					\paragraph{Total Internal Reflection}
-		\subsubsection{Lenses}
+		There are several components and measurements that should be included on a diagram in this situation.  		
+		\begin{itemize}
+			 \setlength\itemsep{0em}
+			\item The \textit{interface} is the boundary where the two materials meet.  
+			\item The \textit{normal} is an imaginary line perpendicular to the surface.  
+			\item The \textit{incident ray} is the ray of light that is traveling toward the interface.
+			\item The \textit{refracted ray} is the ray of light traveling away from the interface.  
+			\item The \textit{incident angle}, $\theta_i$ is the angle between the incident ray and the normal.
+			\item The \textit{refracted angle} $\theta_r$ is the angle between the refracted ray and the normal.  			
+		\end{itemize}
+		
+		
+		A diagram that shows a ray of light traveling from air into water might look like this:
+		\begin{figure}[H]
+			
+
+		\begin{center}
+			
+
+		\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+		
+		% define coordinates
+		\coordinate (O) at (0,0) ;
+		\coordinate (A) at (0,4) ;
+		\coordinate (B) at (0,-4) ;
+		
+		% media
+		\fill[blue!15!,opacity=.3] (-4,0) rectangle (4,4);
+		\fill[blue!60!,opacity=.3] (-4,0) rectangle (4,-4);
+		\node[right] at (2,2) {Air};
+		\node[right] at (2,-2) {Water};
+		\node[] at (2,0) {Interface};
+	
+		
+		% axis
+		\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+
+		
+		% rays
+		\draw[red,ultra thick,reverse directed] (O) -- (130:5.2);
+		\draw[red,directed,ultra thick] (O) -- (-70:4.24);
+		
+		% angles
+		\draw (0,1) arc (90:130:1);
+		\draw (0,-1.4) arc (270:290:1.4) ;
+		\node[] at (280:1.8)  {$\theta_{r}$};
+		\node[] at (110:1.4)  {$\theta_{i}$};
+		
+		\end{tikzpicture}
+		\caption{A diagram of light traveling from air into water.}
+		\end{center}
+		\end{figure}		
+		
+		In a diagram such as above, it can be seen that the path of least time is given by the following mathematical representation of Snell's Law: 
+		
+		
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+			
+			\begin{equation}
+			n_i \sin(\theta_{i}) = n_r \sin(\theta_{r})
+			\label{equation:snellslaw}
+			\end{equation}
+		\end{mdframed}
+	
+	
+		 	\begin{mdframed}[backgroundcolor=blue!10!white]
+			\begin{center}	
+				\textbf{Example \thesection.2}	
+			\end{center}
+			
+			\textbf{Problem: } Light travels from water (n=1.33) into diamond (n=2.417).  If the angle of incidence is $45 \degree$, what is the refracted angle?  
+			
+			\textbf{Solution:} Begin by drawing a (partial) diagram:
+			
+			\begin{center}
+			
+			
+			
+			\begin{tikzpicture} [thick,scale=0.5, every node/.style={scale=0.5}]
+			
+			% define coordinates
+			\coordinate (O) at (0,0) ;
+			\coordinate (A) at (0,4) ;
+			\coordinate (B) at (0,-4) ;
+			
+			% media
+			\fill[blue!15!,opacity=.3] (-4,0) rectangle (4,4);
+			\fill[gray!60!,opacity=.3] (-4,0) rectangle (4,-4);
+			\node[right] at (2,2) {Water, n=1.33};
+			\node[right] at (2,-2) {Diamond, n=2.417};
+
+			
+			
+			% axis
+			\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+			
+			
+			% rays
+			\draw[red,ultra thick,reverse directed] (O) -- (135:5.2);
+			
+			% angles
+			\draw (0,1) arc (90:135:1);
+
+
+			\node[] at (110:1.4)  {$45 \degree$};
+			
+			\end{tikzpicture}
+			
+			
+		\end{center}
+			
+			Snell's law states:
+			
+			\begin{equation*}
+			n_i \sin(\theta_{i}) = n_r \sin(\theta_{r})
+			\end{equation*}
+	
+		
+		Solving this for $\theta_{r}$ yields:
+		
+		\begin{equation}
+	  \theta_{r} =	\sin^{-1}(\frac{n_i \sin(\theta_{i})}{n_r}) = \sin^{-1}(\frac{1.33 \sin(45 \degree)}{2.417}) \approx \boxed{22.898 \degree}
+		\end{equation}
+		
+		The completed diagram would look like this:
+		
+			
+		\begin{center}
+			
+			
+			
+			\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+			
+			% define coordinates
+			\coordinate (O) at (0,0) ;
+			\coordinate (A) at (0,4) ;
+			\coordinate (B) at (0,-4) ;
+			
+			% media
+			\fill[blue!15!,opacity=.3] (-4,0) rectangle (4,4);
+			\fill[gray!60!,opacity=.3] (-4,0) rectangle (4,-4);
+			\node[right] at (2,2) {Water, n=1.33};
+			\node[right] at (2,-2) {Diamond, n=2.417};
+			
+			
+			
+			% axis
+			\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+			
+			
+			% rays
+			\draw[red,ultra thick,reverse directed] (O) -- (135:5.2);
+			\draw[red,directed,ultra thick] (O) -- (-67.1:4.24);
+			
+			% angles
+			\draw (0,1) arc (90:135:1);
+			\draw (0,-2.5) arc (270:292.8:2.5) ;
+			
+			
+			\node[] at (110:1.4)  {$45 \degree$};
+			\node[] at (282:3.4)  {$22.898 \degree$};
+			
+			\end{tikzpicture}
+			
+			
+		\end{center}
+		
+				
+		
+	
+		
+		
+		
+		
+		\end{mdframed}	
+	\newpage
+		
+		\paragraph{Total Internal Reflection} \index{Total Internal Reflection}
+			In the specific case that light is traveling from a material with a higher index of refraction into a material with a lower index of refraction, the refracted angle will be larger than the incident angle.  In this case, it is possible that the refracted angle could refract at exactly $90 \degree$.  The incident angle that causes a ray to be refracted at $90 \degree$ is called the \textit{critical angle}\index{critical angle}.  If the angle of the incident ray exceeds the critical angle, the ray does not refract out of the material.  Instead, it reflects back into the material.
+			
+		\begin{figure}[H]
+			
+
+		\begin{center}
+		
+		\begin{tabular}{c c c}
+					
+					Refraction & Critical Angle & Total Internal Reflection \\
+					
+					
+						\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+					
+					% define coordinates
+					\coordinate (O) at (0,0) ;
+					\coordinate (A) at (0,4) ;
+					\coordinate (B) at (0,-4) ;
+					
+					% media
+					\fill[gray!25!,opacity=.3] (-4,0) rectangle (4,4);
+					\fill[blue!5!,opacity=.3] (-4,0) rectangle (4,-4);
+					\node[right] at (2,2) {Glass, n=1.517};
+					\node[right] at (2,-2) {Air, n=1};
+					
+					
+					
+					% axis
+					\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+					
+					
+					% rays
+					\draw[red,ultra thick,reverse directed] (O) -- (125:5.2);
+					\draw[red,directed,ultra thick] (O) -- (330:4.5);
+					
+					% angles
+					\draw (0,1) arc (90:125:1);
+					\draw (0,-1) arc (270:330:1) ;
+					
+					
+					\node[] at (110:1.9)  {$35 \degree$};
+					\node[] at (110:2.5)  {$\theta_{i}$=};
+					\node[] at (300:1.5)  {$60.47 \degree$};
+					
+					\end{tikzpicture} 
+					
+					&
+	\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+	
+	% define coordinates
+	\coordinate (O) at (0,0) ;
+	\coordinate (A) at (0,4) ;
+	\coordinate (B) at (0,-4) ;
+	
+	% media
+	\fill[gray!25!,opacity=.3] (-4,0) rectangle (4,4);
+	\fill[blue!5!,opacity=.3] (-4,0) rectangle (4,-4);
+	\node[right] at (2,2) {Glass, n=1.517};
+	\node[right] at (2,-2) {Air, n=1};
+	
+	
+	
+	% axis
+	\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+	
+	
+	% rays
+	\draw[red,ultra thick,reverse directed] (O) -- (131:5.2);
+	\draw[red,directed,ultra thick] (O) -- (0:4);
+	
+	% angles
+	\draw (0,1) arc (90:135:1);
+	\draw (0,-1) arc (270:360:1) ;
+	
+	
+	\node[] at (110:1.9)  {$41.239 \degree$};
+		\node[] at (110:2.5)  {$\theta_{c}$=};
+	\node[] at (315:1.4)  {$90 \degree$};
+	
+	\end{tikzpicture} 
+	
+	
+	& 
+	
+		\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+	
+	% define coordinates
+	\coordinate (O) at (0,0) ;
+	\coordinate (A) at (0,4) ;
+	\coordinate (B) at (0,-4) ;
+	
+	% media
+	\fill[gray!25!,opacity=.3] (-4,0) rectangle (4,4);
+	\fill[blue!5!,opacity=.3] (-4,0) rectangle (4,-4);
+	\node[right] at (2,2) {Glass, n=1.517};
+	\node[right] at (2,-2) {Air, n=1};
+	
+	
+	
+	% axis
+	\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+	
+	
+	% rays
+	\draw[red,ultra thick,reverse directed] (O) -- (131:5.2);
+	\draw[red,directed,ultra thick] (O) -- (45:5.2);
+	
+	% angles
+	\draw (0,1) arc (90:135:1);
+	\draw (0,1) arc (90:45:1) ;
+	
+	
+	\node[] at (110:1.9)  {$45 \degree$};
+	\node[] at (110:2.5)  {$\theta_{i}$=};
+	\node[] at (65:1.4)  {$45 \degree$};
+	
+	\end{tikzpicture} 
+	
+	
+	
+	
+	
+	 \\
+\end{tabular}
+	
+			\end{center}
+		\caption{Total internal reflection occurs when the critical angle is exceeded.}
+\end{figure}					
+
+
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}	
+		\textbf{Example \thesection.3}	
+	\end{center}
+	
+	\textbf{Problem:} Light travels from glass (n=1.517) into water (n=1.33).  Calculate the critical angle, and draw a diagram of the situation. 
+	\vspace{0.1in}
+	
+	\textbf{Solution:} We know that the refracted ray must travel at a $90 \degree$ angle to the normal, so $\theta_{r} = 90 \degree$.  
+	
+	Snell's Law states:
+	
+	\begin{equation*}
+		n_i \sin(\theta_i) = n_r \sin(\theta_{r})
+	\end{equation*}
+	
+	Solving for $\theta_{i}$ gives:
+	
+	
+	\begin{equation}
+	\theta_{i} = \sin^{-1} (\frac{n_r \sin(\theta_{r})}{n_i}) = \sin^{-1} (\frac{1.33 \sin(90)}{1.517}) \approx \boxed{ 61.250 \degree}
+	\end{equation}
+	
+	
+	The corresponding diagram should look like the following:
+	\begin{center}
+		
+
+	
+		\begin{tikzpicture}[thick,scale=0.5, every node/.style={scale=0.5}]
+	
+	% define coordinates
+	\coordinate (O) at (0,0) ;
+	\coordinate (A) at (0,4) ;
+	\coordinate (B) at (0,-4) ;
+	
+	% media
+	\fill[gray!25!,opacity=.3] (-4,0) rectangle (4,4);
+	\fill[blue!25!,opacity=.3] (-4,0) rectangle (4,-4);
+	\node[right] at (2,2) {Glass, n=1.517};
+	\node[right] at (2,-2) {water, n=1.33};
+	
+	
+	
+	% axis
+	\draw[dash pattern=on5pt off3pt] (A) -- (B) ;
+	
+	
+	% rays
+	\draw[red,ultra thick,reverse directed] (O) -- (151:5.2);
+	\draw[red,directed,ultra thick] (O) -- (0:4);
+	
+	% angles
+	\draw (0,1) arc (90:151:1);
+	\draw (0,-1) arc (270:360:1) ;
+	
+	
+	\node[] at (110:1.9)  {$61.250 \degree$};
+	\node[] at (110:2.5)  {$\theta_{c}$=};
+	\node[] at (315:1.4)  {$90 \degree$};
+	
+	\end{tikzpicture} 
+	
+	\end{center}	
+	
+\end{mdframed}
+
+		\subsubsection{Lenses} \index{Lens}
+
+		
 
 	\subsection{Reflection}
 		\subsubsection{The Law of Reflection}
