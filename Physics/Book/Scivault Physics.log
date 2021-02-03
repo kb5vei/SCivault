@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  2 FEB 2021 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  3 FEB 2021 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1898,20 +1898,479 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Package mdframed Info: mdframed works in twoside mode on input line 374.
 Missing character: There is no ; in font nullfont!
-) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex [45pdfTeX warning (ext4
-): destination with the same identifier (name{figure.11.2}) has been already us
-ed, duplicate ignored
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \chapter
-            {Heat and Thermodynamics}] [46]
+l.445 	\item \textit
+                    {Convex} lenses, sometimes called \textit{converging} le...
+]
+Package mdframed Info: mdframed works in twoside mode on input line 544.
+Package mdframed Info: Not enough space on this page on input line 762.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.762 \end{mdframed}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.11.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.762 \end{mdframed}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.11.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.762 \end{mdframed}
+                    ]
+Package mdframed Info: Not enough space on this page on input line 762.
+ [47]
+Package mdframed Info: mdframed works in twoside mode on input line 766.
+
+
+Package mdframed Warning: You got a bad break
+(mdframed)                because the last box will be empty
+(mdframed)                you have to change it manually
+(mdframed)                by changing the text, the space
+(mdframed)                or something else on input line 772.
+
+
+Overfull \vbox (22.81459pt too high) detected at line 772
+ []
+
+Package mdframed Info: Box was splittet wrong
+ starting loop to iterate the splitting point
+(mdframed)              on input line 772.
+
+Overfull \vbox (23.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (24.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (25.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (26.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (27.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (28.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (29.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (30.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (31.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (32.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (33.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (34.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (35.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (36.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (37.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (38.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (39.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (40.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (41.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (42.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (43.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (44.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (45.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (46.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (47.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (48.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (49.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (50.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (51.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (52.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (53.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (54.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (55.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (56.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (57.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (58.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (59.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (60.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (61.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (62.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (63.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (64.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (65.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (66.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (67.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (68.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (69.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (70.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (71.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (72.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (73.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (74.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (75.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (76.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (77.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (78.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (79.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (80.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (81.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (82.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (83.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (84.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (85.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (86.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (87.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (88.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (89.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (90.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (91.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (92.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (93.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (94.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (95.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (96.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (97.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (98.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (99.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (100.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (101.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (102.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (103.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (104.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (105.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (106.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (107.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (108.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (109.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (110.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (111.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (112.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (113.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (114.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (115.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (116.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (117.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (118.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (119.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (120.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (121.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (122.81459pt too high) detected at line 772
+ []
+
+
+Overfull \vbox (123.81459pt too high) detected at line 772
+ []
+
+
+Package mdframed Warning: correct box splittet fails
+ It seems you are using a non splittable contents
+(mdframed)                 on input line 772.
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 772.
+[48]
+Package mdframed Info: mdframed works in twoside mode on input line 776.
+Package mdframed Info: mdframed works in twoside mode on input line 788.
+) (./Chapters/Ch12-HeatandThermo/Ch12-HeatandThermo.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+[50]
 Chapter 12.
-) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [47
+) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [51
 
 ]
 Chapter 13.
-[48
+[52
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.13.1}) 
 has been already used, duplicate ignored
@@ -1925,15 +2384,15 @@ Package mdframed Info: mdframed works in twoside mode on input line 53.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [49]
+) [53]
 Package mdframed Info: mdframed works in twoside mode on input line 117.
 Package mdframed Info: mdframed works in twoside mode on input line 130.
 Package mdframed Info: mdframed works in twoside mode on input line 142.
 )
-(./Chapters/Ch14-Circuits/Ch14-Circuits.tex [50]
+(./Chapters/Ch14-Circuits/Ch14-Circuits.tex [54]
 Chapter 14.
 ) (./Chapters/Ch15-MagneticForcesandFields/Ch15-MagneticForcesandFields.tex
-[51
+[55
 
 ]
 Chapter 15.
@@ -1942,31 +2401,31 @@ Overfull \hbox (14.08932pt too wide) in paragraph at lines 10--10
 []\T1/cmr/bx/n/17.28 Magnetic Field Pro-duced by a Current-Carrying Wire 
  []
 
-) (./Chapters/Ch16-MagneticInduction/ch16-magneticinduction.tex [52
+) (./Chapters/Ch16-MagneticInduction/ch16-magneticinduction.tex [56
 
 ]
 Chapter 16.
 Package mdframed Info: mdframed works in twoside mode on input line 9.
-[53
+[57
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 69.
-) [54] [55
+) [58] [59
 
 ]
 (./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex
 Appendix A.
-[56
+[60
 
 ])
 (./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex
-[57]
+[61]
 Appendix B.
 
 Underfull \vbox (badness 10000) detected at line 48
  []
 
-[58
+[62
 
 ]
 Overfull \hbox (4.29547pt too wide) in paragraph at lines 73--103
@@ -1977,22 +2436,22 @@ Overfull \hbox (4.29547pt too wide) in paragraph at lines 73--103
 Underfull \vbox (badness 10000) detected at line 139
  []
 
-[59pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}
+[63pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.146 \newpage
+l.147 \newpage
               pdfTeX warning (ext4): destination with the same identifier (name
 {table.B.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.146 \newpage
-              ]) [60] (./Scivault Physics.ind [61
+l.147 \newpage
+              ]) [64] (./Scivault Physics.ind [65
 
 
-] [62
+] [66
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
@@ -2006,10 +2465,10 @@ Package rerunfilecheck Info: File `"Scivault Physics".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
- 46536 strings out of 493039
- 1074069 string characters out of 6136944
- 1560323 words of memory out of 5000000
- 49026 multiletter control sequences out of 15000+600000
+ 46631 strings out of 493039
+ 1075648 string characters out of 6136944
+ 1560645 words of memory out of 5000000
+ 49103 multiletter control sequences out of 15000+600000
  35673 words of font info for 102 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  59i,18n,107p,10389b,2028s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2038,10 +2497,10 @@ er/sfrm1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm
 2074.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "Scivault Physics.pdf" (68 pages, 908140 bytes).
+Output written on "Scivault Physics.pdf" (72 pages, 916949 bytes).
 PDF statistics:
- 1366 PDF objects out of 1440 (max. 8388607)
- 1243 compressed objects within 13 object streams
- 325 named destinations out of 1000 (max. 500000)
+ 1400 PDF objects out of 1440 (max. 8388607)
+ 1273 compressed objects within 13 object streams
+ 343 named destinations out of 1000 (max. 500000)
  1069 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -440,6 +440,391 @@
 
 		\subsubsection{Lenses} \index{Lens}
 
+There are two basic types of lenses that are discussed in this text: \index{Lens}
+\begin{itemize}
+	\item \textit{Convex} lenses, sometimes called \textit{converging} lenses are larger in the center than at the edges.  These lenses are often used as magnifying glasses.  	
+
+	\begin{figure} [H]
+
+		\begin{center}
+		\begin{tikzpicture}
+		%sets the lens shape
+		\pgfmathsetmacro{\lensRadius}{2}
+		\pgfmathsetmacro{\lensHeight}{1}
+		\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+		
+		%draws the lens
+		\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+		\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+		
+		%draws a dotted line through the middle of the lens
+		%\draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1) ;
+		\end{tikzpicture}
+				\caption{A Simple diagram representation of a convex lens}
+	\end{center}
+	\end{figure}
+
+
+
+\item \textit{Concave} lenses, sometimes called \textit{diverging} lenses are larger at the edges than the center.  They are found in lenses for near-sightedness.  
+
+\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+
+	\begin{tikzpicture}
+	
+
+	
+	\draw [thick, fill=white] (-.4,-.9) 	arc[start angle=-35, end angle=35,radius=1.5];
+	\draw [thick, fill=white] (.4,-.9) 	arc[start angle=215, end angle=145,radius=1.5];
+	
+	\begin{scope}[>=latex]
+	\draw [] (-.4,-.9) -- (.4,-.9);
+	\draw [] (-.4,.82) -- (.4,.82);
+	\end{scope}
+
+		\end{tikzpicture}
+				\caption{A Simple diagram representation of a concave lens}
+				\end{center}
+	\end{figure}
+\end{center}
+
+\end{itemize}
+
+
+\paragraph{Convex Lenses} \index{Lens, Convex}
+
+When parallel rays of light strike a convex lens, the light can be focused into a very small area.  The point at which the light is focused is called the focal point \index{Focal Point}.  
+
+	\begin{figure} [H]
+	
+	\begin{center}
+		\begin{tikzpicture}
+		%sets the lens shape
+		\pgfmathsetmacro{\lensRadius}{2}
+		\pgfmathsetmacro{\lensHeight}{1}
+		\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+		
+		%draws the lens
+		\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+		\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+		
+		%draws a dotted line through the middle of the lens
+		\draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1) ;
+		
+		%incident Rays
+		\draw[red,directed] (-5,.8) -- (0,.8) ;
+		\draw[red,directed] (-5,.4) -- (0,.4) ;
+		\draw[red,directed] (-5,.0) -- (0,.0) ;
+		\draw[red,directed] (-5,-.4) -- (0,-.4) ;
+		\draw[red,directed] (-5,-.8) -- (0,-.8) ;
+		
+		%Refracted rays
+		\draw[red,directed] (0,.8) -- (5,-.8) ;
+		\draw[red,directed] (0,.4) -- (5,-.4) ;
+		\draw[red,directed] (0,.0) -- (5,.0) ;
+		\draw[red,directed] (0,-.4) -- (5,.4) ;
+		\draw[red,directed] (0,-.8) -- (5,.8) ;
+		
+		\node[below] at (2.5,0) {$f$};
+		
+		\end{tikzpicture}
+		\caption{Light focused by a convex lens.  The focal point is labeled $f$.}
+	\end{center}
+\end{figure}
+
+The distance from the center of the lens to the focal point is called the \textit{Focal Length.} \index{Focal Length}  Because light call pass through the lens either way, lenses have two focal points, both equidistant from the center of the lens.  
+
+\subparagraph{Image Formation with Convex Lenses}
+When a lens interacts with an object, an image is normally formed.  There are two often-used methods for determining where images form: \textit{Ray Tracing} and use of \textit{the lens equation.}
+
+The method of ray tracing is performed in the following example: 
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}	
+		\textbf{Example \thesection.4}	
+	\end{center}
+	
+	\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a lens of focal length $f=2 \si{cm}$.  Use ray-tracing to determine the position, size, and orientation of the image.  
+
+\textbf{Solution}: 
+
+
+\begin{enumerate}
+	\item Begin by drawing a horizontal line across your paper.  This is your optical axis: 
+	\vspace{.5 in}
+	\begin{center}
+		
+
+	\begin{tikzpicture}
+	%optical axis
+	\draw (-7,0) -- (7,0);
+	\end{tikzpicture}
+		\end{center}
+	\vspace{.5 in}
+	
+	
+	
+	\item Draw a lens on the optical axis.  Use a dotted line to represent the center of the lens.  
+	
+
+	\begin{center}
+		
+		
+		\begin{tikzpicture}
+		%draws the optical axis
+		\draw (-7,0) -- (7,0);
+		
+			
+		%sets the lens shape
+		\pgfmathsetmacro{\lensRadius}{8}
+		\pgfmathsetmacro{\lensHeight}{2}
+		\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+		
+		%draws the lens
+		\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+		\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+		
+		%draws a dotted line through the middle of the lens
+		\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+		\end{tikzpicture}
+	\end{center}
+
+	\item Measure and label focal points from the center of the lens, along the optical axis, and draw the object as an arrow with its base on the optical axis.
+		\begin{center}
+		
+		
+		\begin{tikzpicture}[place/.style={circle,fill=red}]
+		%draws the optical axis
+		\draw (-7,0) -- (7,0);
+		
+		
+		%sets the lens shape
+		\pgfmathsetmacro{\lensRadius}{8}
+		\pgfmathsetmacro{\lensHeight}{2}
+		\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+		
+		%draws the lens
+		\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+		\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+		
+		%draws a dotted line through the middle of the lens
+		\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;	
+		
+		%draws focal points
+		\node (n1) at (-2,0) [place] {};	
+		\node (n21) at (2,0) [place] {};
+		
+			
+		
+		%draws object
+		\draw [->,ultra thick] (-4,0) --(-4,1);
+		\end{tikzpicture}
+	\end{center}
+	
+\item The first ray of light will begin on the left of the diagram, graze the top of the object, and continue to the center of the lens.  It will then be directed down, through the far focal point.  
+
+		\begin{center}
+	
+	
+	\begin{tikzpicture}[place/.style={circle,fill=red}]
+	%draws the optical axis
+	\draw (-7,0) -- (7,0);
+	
+	
+	%sets the lens shape
+	\pgfmathsetmacro{\lensRadius}{8}
+	\pgfmathsetmacro{\lensHeight}{2}
+	\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+	
+	%draws the lens
+	\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+	\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+	
+	%draws a dotted line through the middle of the lens
+	\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;	
+	
+	%draws focal points
+	\node (n1) at (-2,0) [place] {};	
+	\node (n21) at (2,0) [place] {};
+	
+	
+	
+	%draws object
+	\draw [->, ultra thick] (-4,0) --(-4,1);
+	
+	
+	%First Ray
+	\draw [directed, ultra thick,red] (-7,1) --(0,1);
+	\draw [directed, ultra thick,red] (0,1) --(6,-2);	
+	\end{tikzpicture}
+\end{center}
+
+\item The second ray of light will graze the top of the object, pass through the near focal point, continuing until it hits the center of the lens.  There, the ray will be directed parallel to the optical axis.  
+
+		\begin{center}
+	
+	
+	\begin{tikzpicture}[place/.style={circle,fill=red}]
+	%draws the optical axis
+	\draw (-7,0) -- (7,0);
+	
+	
+	%sets the lens shape
+	\pgfmathsetmacro{\lensRadius}{8}
+	\pgfmathsetmacro{\lensHeight}{2}
+	\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+	
+	%draws the lens
+	\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+	\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+	
+	%draws a dotted line through the middle of the lens
+	\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;	
+	
+	%draws focal points
+	\node (n1) at (-2,0) [place] {};	
+	\node (n21) at (2,0) [place] {};
+	
+	
+	
+	%draws object
+	\draw [->, ultra thick] (-4,0) --(-4,1);
+	
+	
+	%First Ray
+	\draw [directed, ultra thick,red] (-7,1) --(0,1);
+	\draw [directed, ultra thick,red] (0,1) --(6,-2);	
+	
+	%Second Ray
+	\draw [directed, ultra thick,blue] (-6,2) --(0,-1);
+	\draw [directed, ultra thick,blue] (0,-1) --(7,-1);	
+	
+	\end{tikzpicture}
+\end{center}
+	
+	\item The final ray of light will graze the top of the object, directed toward the intersection of center of the lens and the optical axis.  This ray will not change direction.  The intersection of the three rays is where the top of the image will form.  
+	
+			\begin{center}
+		
+		
+		\begin{tikzpicture}[place/.style={circle,fill=red}]
+		%draws the optical axis
+		\draw (-7,0) -- (7,0);
+		
+		
+		%sets the lens shape
+		\pgfmathsetmacro{\lensRadius}{8}
+		\pgfmathsetmacro{\lensHeight}{2}
+		\pgfmathsetmacro{\startAngle}{asin(\lensHeight/\lensRadius)}
+		
+		%draws the lens
+		\draw (0,\lensHeight) arc[start angle=180-\startAngle,delta angle=2*\startAngle,radius=\lensRadius];
+		\draw (0,\lensHeight) arc[start angle=\startAngle,delta angle=-2*\startAngle,radius=\lensRadius];
+		
+		%draws a dotted line through the middle of the lens
+		\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;	
+		
+		%draws focal points
+		\node (n1) at (-2,0) [place] {};	
+		\node (n21) at (2,0) [place] {};
+		
+		
+		
+		%draws object
+		\draw [->, ultra thick] (-4,0) --(-4,1);
+		
+		
+		%First Ray
+		\draw [directed, ultra thick,red] (-7,1) --(0,1);
+		\draw [directed, ultra thick,red] (0,1) --(6,-2);	
+		
+		%Second Ray
+		\draw [directed, ultra thick,blue] (-6,2) --(0,-1);
+		\draw [directed, ultra thick,blue] (0,-1) --(7,-1);	
+		
+		%Third Ray
+		\draw [directed, ultra thick,green] (-6,1.5) --(0,0);
+		\draw [directed, ultra thick,green] (0,0) --(6,-1.5);	
+		
+		\draw [->, ultra thick] (4,0) --(4,-1);
+		
+		
+		\end{tikzpicture}
+	\end{center}
+	
+	The diagram can then be measured.  In this case, the image is 4 cm to the right of the lens, inverted, and the same size as the object.  
+	
+\end{enumerate}
+
+
+\end{mdframed}
+
+The \textit{lens equation} \index{Lens Equation} can also be used to determine the distance to the image.  The lens equation is:
+
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+	
+	\begin{equation}
+	\frac{1}{f} = \frac{1}{o} + \frac{1}{i}
+	\label{equation:lens}
+	\end{equation}
+\end{mdframed}
+ where $f$ is the focal length of the lens, $o$ is the object distance from the lens, and $i$ is the image distance from the lens.  
+ 
+ The magnification of an image can be determined by the following equation:
+ 	\begin{mdframed}[backgroundcolor=orange!20!white]
+ 	
+ 	\begin{equation}
+ 	m = - \frac{i}{o} = \frac{h_i}{h_o}
+ 	\label{equation:magnification}
+ 	\end{equation}
+ \end{mdframed}
+ 
+ where $h_i$ is the image height, and $h_o$ is the object height.  
+ 
+ 
+ 
+ \begin{mdframed}[backgroundcolor=blue!10!white]
+ 	\begin{center}	
+ 		\textbf{Example \thesection.5}	
+ 	\end{center}
+ 	
+ 	\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a lens of focal length $f=2 \si{cm}$.  Use the lens equation and the magnification formula to determine the position, size, and orientation of the image.  
+ 	
+ 	\textbf{Solution}: In this case, we are given $h_o = 1 \si{cm}$, $o = 4 \si{cm}$ and $f = 2 \si{cm}$.  First, the lens equation is solved for $i$:
+ 	
+ 	\begin{equation*}
+ 	\frac{1}{f} = \frac{1}{o} + \frac{1}{i}  
+ 	\end{equation*}
+ 	
+ 	
+ 	\begin{equation*}
+ 	i = \frac{1}{\frac{1}{f}-\frac{1}{o}} = \frac{1}{\frac{1}{2\si{cm}}-\frac{1}{4\si{cm}}} = \boxed{4 \si{cm}}
+ 	\end{equation*}
+ 
+ 	
+ 	Calculating the magnification gives: 
+ 	
+ 	\begin{equation*}
+ 	m = - \frac{i}{o} = -\frac{4}{4} = \boxed{-1}
+ 	\end{equation*}
+ 	The negative magnification means that the image is inverted.  Finally, calculating the height of the image shows that the image is the same size (thought inverted).  
+ 	
+ 	\begin{equation*}
+ 	m = \frac{h_i}{h_o} \longrightarrow h_i = m h_o = (-1)(1 \si{cm}) = \boxed{-1 \si{cm}}
+ 	\end{equation*}
+ 	
+ 	
+ 	
+ \end{mdframed}
+ 
+
+
+
+\paragraph{Concave Lenses} \index{Lens, Concave}
+
+
 		
 
 	\subsection{Reflection}
