@@ -493,7 +493,7 @@ There are two basic types of lenses that are discussed in this text: \index{Lens
 \end{itemize}
 
 
-\paragraph{Convex Lenses} \index{Lens, Convex}
+\paragraph{Convex Lenses} \index{Lens, Convex} \index{Convex Lens}
 
 When parallel rays of light strike a convex lens, the light can be focused into a very small area.  The point at which the light is focused is called the focal point \index{Focal Point}.  
 
@@ -807,9 +807,9 @@ The \textit{lens equation} \index{Lens Equation} can also be used to determine t
  	Calculating the magnification gives: 
  	
  	\begin{equation*}
- 	m = - \frac{i}{o} = -\frac{4}{4} = \boxed{-1}
+ 	m = - \frac{i}{o} = -\frac{4\si{cm}}{4\si{cm}} = \boxed{-1}
  	\end{equation*}
- 	The negative magnification means that the image is inverted.  Finally, calculating the height of the image shows that the image is the same size (thought inverted).  
+ 	The negative magnification means that the image is inverted.  You may also notice that magnification is a unitless quantity.  Finally, calculating the height of the image shows that the image is the same size (thought inverted).  
  	
  	\begin{equation*}
  	m = \frac{h_i}{h_o} \longrightarrow h_i = m h_o = (-1)(1 \si{cm}) = \boxed{-1 \si{cm}}
@@ -821,8 +821,55 @@ The \textit{lens equation} \index{Lens Equation} can also be used to determine t
  
 
 
+\newpage
+\paragraph{Concave Lenses} \index{Lens, Concave} \index{Concave Lens}
+Instead of being focused to a point, parallel rays of light that are incident upon a concave lens diverge, as shown below:
 
-\paragraph{Concave Lenses} \index{Lens, Concave}
+\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+			
+			\begin{tikzpicture}
+				
+				
+				
+				\draw [thick, fill=white] (-.4,-.9) 	arc[start angle=-35, end angle=35,radius=1.5];
+				\draw [thick, fill=white] (.4,-.9) 	arc[start angle=215, end angle=145,radius=1.5];
+				
+				\begin{scope}[>=latex]
+					\draw [] (-.4,-.9) -- (.4,-.9);
+					\draw [] (-.4,.82) -- (.4,.82);
+				\end{scope}
+				
+					%incident Rays
+				\draw[red,directed] (-5,.6) -- (0,.6) ;
+				\draw[red,directed] (-5,.3) -- (0,.3) ;
+				\draw[red,directed] (-5,.0) -- (0,.0) ;
+				\draw[red,directed] (-5,-.3) -- (0,-.3) ;
+				\draw[red,directed] (-5,-.6) -- (0,-.6) ;
+				%center line of lens
+				
+						\draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1) ;
+				
+				%Refracted rays
+				\draw[red,directed] (0,.6) -- (5,2) ;
+				\draw[red,directed] (0,.3) -- (5,1) ;
+				\draw[red,directed] (0,.0) -- (5,.0) ;
+				\draw[red,directed] (0,-.3) -- (5,-1) ;
+				\draw[red,directed] (0,-.6) -- (5,-2) ;
+				
+				
+				
+				
+				
+			\end{tikzpicture}
+			\caption{A concave lens causes light rays to diverge.}
+		\end{center}
+	\end{figure}
+\end{center}
+
+
+
 
 
 		
