@@ -57,6 +57,8 @@
 \contentsline {subsubsection}{Elastic Potential Energy}{19}{section*.12}%
 \contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{20}{section.6.3}%
 \contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{20}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Springs}{20}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Pendulums}{20}{section.6.6}%
 \contentsline {chapter}{\numberline {7}Impulse and Momentum}{21}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Momentum}{21}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Impulse}{21}{section.7.2}%
