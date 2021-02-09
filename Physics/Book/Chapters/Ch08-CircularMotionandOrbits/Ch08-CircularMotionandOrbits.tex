@@ -83,20 +83,128 @@
 	
 	\section{Kepler's Laws of Planetary Motion} \index{Kepler's Laws of Planetary Motion} \index{Planetary Motion, Kepler's Laws of}
 	\subsection{Kepler's First Law}
-	    Kepler's first law stathes that the orbit of a planet is an ellipse with the Sun at one of the two foci:
+	    Kepler's first law states that the orbit of a planet is an ellipse with the Sun at one of the two foci:
+	    
 	    
 
+		\begin{figure}[H]	    	
+	    \begin{center}
 
-		The Eccentricity of an elipse can be found using: 
+
+ 
+ 
+ \begin{tikzpicture}[x=0.1cm,y=0.1cm]
+ \draw[yellow] (2,0)
+ arc (0:360:2);
+ \foreach \angle in { 0,45,...,360 }{
+ 	\draw [yellow,rotate around={\angle:(0,0)}]
+ 	(2.5,0)    
+ 	-- +(0,-1.5)
+ 	-- +(3,0)
+ 	-- +(0,1.5)
+ 	-- cycle; }
+ 
+\draw (-10,0) ellipse (4cm and 2cm);
+\draw[fill=blue] (-50,0) circle (.5);
+ 
+ 
+ 
+
+	    \end{tikzpicture}
+	    \caption{Planets orbit the sun along elliptical path.  This diagram exaggerates the eccentricity of the orbital path to show the placement of the sun.}
+    \end{center}
+\end{figure}
+	    
+One should note that most planet's orbital path is much closer to circular than the diagram above.  For instance, here is earth's orbit compared to a perfect circle:
+
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{c c}
+
+\begin{tikzpicture}
+\draw (0,0) ellipse (2 and 1.98);
+\end{tikzpicture}
+&
+\begin{tikzpicture}
+\draw (0,0) circle (2);
+
+\end{tikzpicture}	
+\\
+Earth's Orbit & Circle
+\end{tabular}
+\caption{Earth's orbit shape compared to a circle.}
+\end{center}
+\end{figure}
+
+
+
+
+		The Eccentricity of an ellipse can be found using: 
 		
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+			
+			\begin{equation}
+			\varepsilon = \sqrt{1-\frac{b^2}{a^2}} 
+			\label{equation:eccentricity}
+			\end{equation}
+		\end{mdframed}
+		where a is the semimajor axis and b is the semiminor axis, as shown in the diagram:
+		
+
+			\begin{figure}[H]
+\begin{center}
 	
+
+		\begin{tikzpicture}
+		\draw (0,0) ellipse (2cm and 1cm);
+		\draw [blue](0,0) -- (2,0); 
+		\draw[red] (0,0) -- (0,1); 
+		\node (n1) at (1,0) [below,blue] {$a$};
+		\node (n2) at (0,.5) [left,red] {$b$};
+		\end{tikzpicture}
+		\caption{The semimajor axis ($a$) and semiminor axis ($b$) of an ellipse.}
+		\end{center}
+		\end{figure}
+			
 	\subsection{Kepler's Second Law}
 		A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
+		
+		This can be expressed as: 
+		
+				
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+			
+			\begin{equation}
+			\frac{A_1}{t_1} = \frac{A_2}{t_2}
+			\label{equation:kep2nd}
+			\end{equation}
+		\end{mdframed}
+		
+		It can be shown that this expression is equivalent to:
+		
+		
+					
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+			
+			\begin{equation}
+			r_1 v_1 = r_2 v_2
+			\label{equation:kep2ndalt}
+			\end{equation}
+		\end{mdframed}
+		Where $r_1$ and {$r_2$} are the average radii for each segment of arc, and $v_1$ and $v_2$ are the average velocities, respectively. 
 		
 		
 		
 	\subsection{Kepler's Third Law}
-			The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit.
+			The square of the orbital period of a planet is directly proportional to the cube of the semi-major axis of its orbit. Thus, for any two planets orbiting the sun, 
+			
+					\begin{mdframed}[backgroundcolor=orange!20!white]
+						\begin{equation}
+			\frac{{T_1}^2}{{R_1}^3} = \frac{{T_2}^2}{{R_2}^3}
+			\label{equation:kep3rd}
+			\end{equation}
+		\end{mdframed}
 	
 	
 	
@@ -113,7 +221,18 @@
 		\label{equation:UniversalGravitation}
 		\end{equation}
 	\end{mdframed}
-	where G is the Universal Gravitational Constant, ($G = 6.67 \times 10^{-11} \frac{Nm^2}{kg^2}$), $m_1$ and $m_2$ are the masses of the objects, and $r$ is the distance between these objects.   
+	where G is the Universal Gravitational Constant:
+	
+		\begin{mdframed}[backgroundcolor=green!20!white]
+		\begin{equation*}
+		G = 6.67 \times 10^{-11} \si{\frac{Nm^2}{kg^2}}
+		\label{equation:universalgravconstant}
+		\end{equation*}
+	\end{mdframed}	
+	
+	 
+	 
+	 The masses of the two objects are $m_1$ and $m_2$, and $r$ is the distance between these objects.   
 	
 	
 	Sometimes, you will see equation \ref{equation:UniversalGravitation} written with a negative sign in order to make it consistent with some of the laws of electrostatics, studied in \autoref{chap:Electrostatics}. However, you will likely end up assigning a sign to the force, according to the coordinate system you have defined for the problem. 

@@ -1258,11 +1258,58 @@ The same problem can be solved using the lens equation as well:
 		\subsubsection{Mirrors} \index{Mirrors}		
 		\paragraph{Flat Mirrors} \index{Mirrors, Flat}
 		Flat mirrors are quite easy to work with.  The images produced by a flat mirror are always virtual, always the same size as the original object, and always upright.  For this reason, flat mirrors are often used in bathrooms and fitting rooms to give an accurate assessment of one's appearance.  		
+		
 		\paragraph{Concave Mirrors} \index{Mirrors, Concave}
+		Like convex lenses, Concave mirrors are converging optical devices - that is, they focus parallel rays of light to a point.  Unlike lenses, mirrors only have one focal point, since light can only interact with the mirror from one direction.  
+		
 		
 		
 				
+
+		
+		
+		\begin{center}
+			\begin{figure}[H]
+				\begin{center}
+					
+					\begin{tikzpicture}
+					
+					
+					
+					\draw [thick, fill=white] (-.2,-.9) 	arc[start angle=-35, end angle=35,radius=1.5];
+				
+					
+				
+					
+					%incident Rays
+					\draw[red,directed] (-5,.6) -- (0,.6) ;
+					\draw[red,directed] (-5,.3) -- (0,.3) ;
+					\draw[red,directed] (-5,.0) -- (0,.0) ;
+					\draw[red,directed] (-5,-.3) -- (0,-.3) ;
+					\draw[red,directed] (-5,-.6) -- (0,-.6) ;
+					%center line of lens
+					
+					\draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1) ;
+					
+				
+					
+					
+					\draw[red,reverse directed] (-5,-.8) -- (0,.6) ;
+					\draw[red,reverse directed] (-5,.8) -- (0,-.6) ;			
+					\draw[red,reverse directed] (-5,-.4) -- (0,.3) ;			
+					\draw[red,reverse directed] (-5,.4) -- (0,-.3) ;	
+					\draw[red,reverse directed] (-5,0) -- (0,0) ;	
+					
+					
+					\end{tikzpicture}
+					\caption{A concave mirror focuses light to a point.}
+					\label{fig:concavemirror}
+				\end{center}
+			\end{figure}
+		\end{center}
+		
 		\paragraph{Convex Mirrors} \index{Mirrors, Convex}
+				
 		
 		
 	\section{Physical Optics}
