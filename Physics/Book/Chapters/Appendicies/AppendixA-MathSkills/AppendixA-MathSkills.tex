@@ -166,12 +166,12 @@ This equation can be used to convert an angle from radians to degrees or vice-ve
    		\label{equation:arclength}
    	\end{equation}
    \end{mdframed}
-where $r$ is the radius of the circle and $\theta$ is the internal angle, measured in radians.
+where $r$ is the radius of the circle and $\theta$ is the internal angle, measured in radians. Additionally, while meters are the proper SI units for these measurements, this formula will work with any units of length as long as both arc-length, $s$, and radius, $r$ are measured using the same units.  
 
 
 
 
-
+\newpage
 
   \begin{mdframed}[backgroundcolor=blue!10!white]
 	\begin{center}	
@@ -201,10 +201,16 @@ where $r$ is the radius of the circle and $\theta$ is the internal angle, measur
 			\draw[|-|]
 			(3 cm +10pt,0)
 			arc[start angle=0,end angle=30,radius=3cm+10pt]
-			node[midway,fill=white] {$s$};
+			node[midway,fill=blue!10!white] {$s$};
 		\end{tikzpicture}
 	\end{center}
-	The Arc length can be found using equation \ref{equation:arclength}.
+
+	In order to find arc length, we must first convert the angle from degrees to radians:
+	\begin{equation*}
+	\theta = 30 \degree \times \frac{2 \pi \si{rad}} {360 \degree} = \frac{\pi}{6} \si{rad}
+	\end{equation*}
+	
+	Now, arc length can be found using equation \ref{equation:arclength}.
 	\begin{equation*}
 		s = r \theta = (0.2 \si{m})(\frac{\pi}{6} \si{rad}) \approx 0.105 \si{m}
 	\end{equation*}
