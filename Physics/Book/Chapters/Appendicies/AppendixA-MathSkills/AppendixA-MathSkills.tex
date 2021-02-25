@@ -66,4 +66,149 @@
 
 \section{Algebra}
 \section{Trigonometry}
-\section{Arc Length and Radians}
+
+\newpage
+\section {Radians and Arc Length}
+\subsection{Radians} \index{Radians}
+
+Just like there are many different units that measure distance (meters, feet, inches, miles, furlongs, etc.), there are also different ways of measuring angles.  You are probably already familiar with degrees. A right angle is $90 \degree$, and a full circle is $360 \degree$.  When calculating arc length or using the angular kinematic equations, the standard units for angles are \textit{radians}\footnote{It should be noted that strictly speaking, radians are not a unit; since the definition of a radian has to do with a ratio, all numbers with radians as the unit are actually unitless.}  There are $2 \pi$ radians in a complete circle, so,
+
+	\begin{mdframed}[backgroundcolor=green!20!white]
+	\begin{equation*}
+		360 \degree = 2 \pi \, \si{radians}
+		\label{conversion:radiandegree}
+	\end{equation*}
+\end{mdframed}	
+
+This equation can be used to convert an angle from radians to degrees or vice-versa.  
+
+ \begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}	
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem:} An angle measures $34 \degree$.  What is this angle in radians? 
+	
+	\vspace{0.2 in} 
+	\textbf{Solution}: Begin by creating a conversion factor.  In this case, since we have degrees and want radians, we create a fraction with $2\pi$ radians on top of the fraction, and $360\degree$ on the bottom.  Multiplying by this fraction gives:
+	
+\begin{equation*}
+	34 \degree \times \frac{2 \pi \, \si{rad}}{360 \degree} = \frac{17 \pi}{90}\si{rad} \approx 0.593 \, \si{rad}  
+\end{equation*}
+	
+	It should be noted that the fraction $\frac{2 \pi \, \si{rad}}{360 \degree}$ can easily be reduced to $\frac{ \pi \, \si{rad}}{180 \degree}$ .  Using this as your conversion factor will yield the same results.  It is also often easier and more accurate to leave measurements involving radians in terms of $\pi$.  
+	
+\end{mdframed}
+   
+   
+    \begin{mdframed}[backgroundcolor=blue!10!white]
+   	\begin{center}	
+   		\textbf{Example \thesection.2}	
+   	\end{center}
+   	
+   	\textbf{Problem:} An angle measures $\frac{\pi}{2} \si{rad}$.  What is this angle in degrees? 
+   	
+   	\vspace{0.2 in} 
+   	\textbf{Solution}: Again, we begin by creating a conversion factor.  Because we have a measurement in radians and are asked to find degrees, we create a fraction with $360\degree$ on top of the fraction, and  $2\pi$ radians on the bottom:
+   	
+   	\begin{equation*}
+   		\frac{\pi}{2}  \times \frac{360 \degree}{2 \pi \, \si{rad}} = 90 \degree
+   	\end{equation*}
+ 
+   	
+   \end{mdframed}
+
+\newpage
+   \subsection{Arc Length} \index{Arc Length}
+   
+   The distance along the circumference of a circle that corresponds to an internal angle of the circle is called \textit{Arc Length}.  Though arc-length is a measurement of length, the symbol used for Arc Length is $s$. 
+ \begin{figure}[h]
+ 	  \begin{center}
+   	 	\begin{tikzpicture}
+   		% the origin
+   		\coordinate (O) at (0,0);
+   		% the circle and the dot at the origin
+   		\draw (O) node[circle,inner sep=1.5pt,fill] {} circle [radius=3cm];
+   		% the ``\theta'' arc
+   		\draw 
+   		(3 cm,0) coordinate (xcoord) -- 
+   		node[midway,below] {$r$} (O) -- 
+   		(60:3 cm) coordinate (slcoord)
+   		pic [draw,->,angle radius=1cm,"$\theta$"] {angle = xcoord--O--slcoord};
+   		% the outer ``s'' arc
+   		\draw[|-|]
+   		(3 cm +10pt,0)
+   		arc[start angle=0,end angle=60,radius=3cm+10pt]
+   		node[midway,fill=white] {$s$};
+   	\end{tikzpicture}
+   \end{center}
+ \caption{The relationship between arc-length, radius, and angle}
+ \end{figure}
+   	
+  
+   	
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    Arc Length can be found using the following equation:
+   
+   	\begin{mdframed}[backgroundcolor=orange!20!white]
+   	
+   	\begin{equation}
+   		s = r \theta
+   		\label{equation:arclength}
+   	\end{equation}
+   \end{mdframed}
+where $r$ is the radius of the circle and $\theta$ is the internal angle, measured in radians.
+
+
+
+
+
+
+  \begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}	
+		\textbf{Example \thesection.2}	
+	\end{center}
+	
+	\textbf{Problem:} Find the arc length of $30\degree$ of a circle with a radius of 0.2 meters.  
+	 
+	
+	\vspace{0.2 in} 
+	\textbf{Solution}: Begin by drawing a diagram:
+	
+	
+	 	  \begin{center}
+		\begin{tikzpicture}
+			% the origin
+			\coordinate (O) at (0,0);
+			% the circle and the dot at the origin
+			\draw (O) node[circle,inner sep=1.5pt,fill] {} circle [radius=3cm];
+			% the ``\theta'' arc
+			\draw 
+			(3 cm,0) coordinate (xcoord) -- 
+			node[midway,below] {$0.2 \si{m}$} (O) -- 
+			(30:3 cm) coordinate (slcoord)
+			pic [draw,->,angle radius=1.6cm,"$30 \degree$"] {angle = xcoord--O--slcoord};
+			% the outer ``s'' arc
+			\draw[|-|]
+			(3 cm +10pt,0)
+			arc[start angle=0,end angle=30,radius=3cm+10pt]
+			node[midway,fill=white] {$s$};
+		\end{tikzpicture}
+	\end{center}
+	The Arc length can be found using equation \ref{equation:arclength}.
+	\begin{equation*}
+		s = r \theta = (0.2 \si{m})(\frac{\pi}{6} \si{rad}) \approx 0.105 \si{m}
+	\end{equation*}
+	
+	
+\end{mdframed}
+  
