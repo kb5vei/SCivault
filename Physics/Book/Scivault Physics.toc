@@ -146,16 +146,27 @@
 \contentsline {chapter}{\numberline {16}Magnetic Induction}{64}{chapter.16}
 \contentsline {section}{\numberline {16.1}Lenz's Law}{64}{section.16.1}
 \contentsline {section}{\numberline {16.2}Faraday's Law}{65}{section.16.2}
-\contentsline {chapter}{Appendices}{}{section*.35}
-\contentsline {chapter}{\numberline {A}Math Skills}{67}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{67}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{68}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{68}{section.A.3}
-\contentsline {section}{\numberline {A.4}Radians and Arc Length}{69}{section.A.4}
-\contentsline {subsection}{\numberline {A.4.1}Radians}{69}{subsection.A.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Arc Length}{70}{subsection.A.4.2}
-\contentsline {chapter}{\numberline {B}Reference Tables}{72}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{72}{section.B.1}
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{73}{section.B.2}
-\contentsline {section}{\numberline {B.3}Common Indices of Refraction}{73}{section.B.3}
-\contentsline {section}{\numberline {B.4}Physical Constants}{74}{section.B.4}
+\contentsline {chapter}{\numberline {17}Nuclear Physics}{66}{chapter.17}
+\contentsline {section}{\numberline {17.1}Elements, Isotopes, and Ions}{66}{section.17.1}
+\contentsline {section}{\numberline {17.2}Radioactive Decay}{67}{section.17.2}
+\contentsline {subsection}{\numberline {17.2.1}Types of Radioactive Decay}{67}{subsection.17.2.1}
+\contentsline {subsubsection}{Alpha Decay}{67}{section*.35}
+\contentsline {subsubsection}{Beta Decay}{68}{section*.36}
+\contentsline {subsubsection}{Gamma Decay}{68}{section*.37}
+\contentsline {subsection}{\numberline {17.2.2}Half-Life}{68}{subsection.17.2.2}
+\contentsline {section}{\numberline {17.3}Fission and Fusion}{68}{section.17.3}
+\contentsline {subsection}{\numberline {17.3.1}Fission}{68}{subsection.17.3.1}
+\contentsline {subsection}{\numberline {17.3.2}Fusion}{68}{subsection.17.3.2}
+\contentsline {chapter}{Appendices}{}{section*.38}
+\contentsline {chapter}{\numberline {A}Math Skills}{70}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{70}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{71}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{71}{section.A.3}
+\contentsline {section}{\numberline {A.4}Radians and Arc Length}{72}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Radians}{72}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Arc Length}{73}{subsection.A.4.2}
+\contentsline {chapter}{\numberline {B}Reference Tables}{75}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{75}{section.B.1}
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{76}{section.B.2}
+\contentsline {section}{\numberline {B.3}Common Indices of Refraction}{76}{section.B.3}
+\contentsline {section}{\numberline {B.4}Physical Constants}{77}{section.B.4}
