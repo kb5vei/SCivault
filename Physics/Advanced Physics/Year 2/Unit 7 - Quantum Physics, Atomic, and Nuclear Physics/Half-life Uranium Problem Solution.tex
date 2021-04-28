@@ -1,0 +1,126 @@
+\documentclass[letterpaper, 12pt]{article}
+\usepackage[top=.5in,bottom=.5in,left=.75in,right=.75in,headheight=30pt, % as per the warning by fancyhdr
+includehead,includefoot,
+heightrounded, % to avoid spurious underfull messages
+]{geometry}
+\addtolength{\topmargin}{-.25in}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{gensymb}
+\usepackage{amsmath} 
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{angles, quotes}
+\usepackage{amssymb}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{multicol}
+\usepackage{siunitx}
+\newcommand{\assnum}{Assignment 7.03}
+\newcommand{\assname}{Question 5 \color{red} - Solution\color{black}}
+
+\begin{document}
+
+
+\fancyfoot[c]{\thepage\ of \pageref{LastPage}}
+\fancyfoot[r]{\assnum}	
+
+
+\begin{center} \assnum{} - \assname{}
+\end{center}
+\textit{The Uranium-235 and Uranium-238 on earth are assumed to have been formed in a supernova long before the earth was formed.  Currently, only 0.72\% of the uranium in earth is \textsuperscript{235}U while the remaining uranium is \textsuperscript{238}U.  If we assume that the two isotopes were created in equal proportions, how long ago did this supernova take place?}
+\\
+
+We know the following information from the question and the table of half-lives:
+\\
+
+$t_{1/2-235} = 703.8$ Million Years$ = 7.038 \times 10^8$ Years
+
+$t_{1/2-238} = 4.468$ Billion Years$ = 4.468 \times 10^9$ Years
+
+$A_{235} = 0.72\% = 0.0072 $
+
+$A_{238} = 99.28\% = 0.9928$
+\\
+
+The question states that we should assume that the two isotopes were created in equal proportions.  Thus:  
+\begin{equation}
+A_{0-235} = A_{0-238}
+\label{equal}
+\end{equation}
+
+The radioactive decay equation states:
+\begin{equation}
+A = A_0 e^{\frac{-\ln(2)\cdot t}{t_{1/2}}}
+\end{equation}
+
+Solving this equation for $A_0$ yields:
+
+
+\begin{equation}
+A_0 = \frac{A}{e^{\frac{-\ln(2)\cdot t}{t_{1/2}}}}
+\end{equation}
+
+Plugging this into both sides of equation \ref{equal} gives:
+
+\begin{equation}
+\frac{A_{235}}{e^{\frac{-\ln(2)\cdot t}{t_{1/2-235}}}} = \frac{A_{238}}{e^{\frac{-\ln(2)\cdot t}{t_{1/2-238}}}}
+\end{equation}
+
+Next, we take the natural log of both sides:
+\begin{equation}
+\ln\left(\frac{A_{235}}{e^{\frac{-\ln(2)\cdot t}{t_{1/2-235}}}}\right) = \ln\left(\frac{A_{238}}{e^{\frac{-\ln(2)\cdot t}{t_{1/2-238}}}}\right)
+\label{naturallog}
+\end{equation}
+
+Remembering that: \begin{equation}
+\ln\left(\frac{A}{B}\right) = \ln(A) - \ln(B)
+\end{equation}
+
+Equation \ref{naturallog} can be written as:
+
+\begin{equation}
+\ln(A_{235}) - \ln \left(e^{\frac{-\ln(2)\cdot t}{t_{1/2-235}}}\right) = \ln(A_{238}) - \ln \left(e^{\frac{-\ln(2)\cdot t}{t_{1/2-238}}}\right)
+\end{equation}
+
+Since taking the natural log of a number and raising e to a power are inverse operations, this can be simplified to:
+\begin{equation}
+\ln(A_{235}) - \frac{-\ln(2)\cdot t}{t_{1/2-235}} = \ln(A_{238}) -  \frac{-\ln(2)\cdot t}{t_{1/2-238}}
+\end{equation}
+
+Combining negatives gives:
+\begin{equation}
+\ln(A_{235}) + \frac{\ln(2)\cdot t}{t_{1/2-235}} = \ln(A_{238}) +  \frac{\ln(2)\cdot t}{t_{1/2-238}}
+\end{equation}
+
+We then move terms with a $t$ to the left side, and other terms to the right side:
+\begin{equation}
+\frac{\ln(2)\cdot t}{t_{1/2-235}} - \frac{\ln(2)\cdot t}{t_{1/2-238}} = \ln(A_{238}) - \ln(A_{235})
+\end{equation}
+
+Factoring $t$ from the left side of the equation gives:
+\begin{equation}
+\left(\frac{\ln(2)}{t_{1/2-235}} - \frac{\ln(2)}{t_{1/2-238}}\right) t = \ln(A_{238}) - \ln(A_{235})
+\end{equation}
+
+Finally, we divide by the expression in parenthesis:
+\begin{equation}
+t = \frac{\ln(A_{238}) - \ln(A_{235})}{\left(\frac{\ln(2)}{t_{1/2-235}} - \frac{\ln(2)}{t_{1/2-238}}\right)}
+\end{equation}
+
+While this expression is a bit messy and could be made a little nicer, our calculator should be able to handle it.  So, substituting numbers gives:  
+\begin{equation}
+t = \frac{\ln(99.28\%) - \ln(0.72\%)}{\left(\frac{\ln(2)}{7.038 \times 10^8\si{yrs}} - \frac{\ln(2)}{4.468 \times 10^9\si{yrs}}\right)}
+\end{equation}
+
+
+Evaluating this gives the final answer of:
+\begin{equation}
+\boxed{t=5.937 \times 10^9 \si{yrs}}
+\end{equation}
+
+Since the solar system is estimated to be $4.6 \times 10^9$ years old, this is a reasonable estimate.  While this problem assumes that the two isotopes were created in equal amounts, this may not be a reasonable assumption.  A better understanding of the probability of the creation of each isotope is necessary in order to refine this estimate.  
+
+
+\end{document}
