@@ -146,27 +146,36 @@
 \contentsline {chapter}{\numberline {16}Magnetic Induction}{64}{chapter.16}
 \contentsline {section}{\numberline {16.1}Lenz's Law}{64}{section.16.1}
 \contentsline {section}{\numberline {16.2}Faraday's Law}{65}{section.16.2}
-\contentsline {chapter}{\numberline {17}Nuclear Physics}{66}{chapter.17}
-\contentsline {section}{\numberline {17.1}Elements, Isotopes, and Ions}{66}{section.17.1}
-\contentsline {section}{\numberline {17.2}Radioactive Decay}{67}{section.17.2}
-\contentsline {subsection}{\numberline {17.2.1}Types of Radioactive Decay}{67}{subsection.17.2.1}
-\contentsline {subsubsection}{Alpha Decay}{67}{section*.35}
-\contentsline {subsubsection}{Beta Decay}{68}{section*.36}
-\contentsline {subsubsection}{Gamma Decay}{68}{section*.37}
-\contentsline {subsection}{\numberline {17.2.2}Half-Life}{68}{subsection.17.2.2}
-\contentsline {section}{\numberline {17.3}Fission and Fusion}{68}{section.17.3}
-\contentsline {subsection}{\numberline {17.3.1}Fission}{68}{subsection.17.3.1}
-\contentsline {subsection}{\numberline {17.3.2}Fusion}{68}{subsection.17.3.2}
+\contentsline {chapter}{\numberline {17}Modern and Atomic Physics}{66}{chapter.17}
+\contentsline {section}{\numberline {17.1}The Dual Nature of Light}{66}{section.17.1}
+\contentsline {subsection}{\numberline {17.1.1}Young's Double Slit Experiment}{66}{subsection.17.1.1}
+\contentsline {subsection}{\numberline {17.1.2}The Photoelectric Effect}{66}{subsection.17.1.2}
+\contentsline {section}{\numberline {17.2}The Dual Nature of Matter}{66}{section.17.2}
+\contentsline {subsection}{\numberline {17.2.1}Mass-Energy Equivalence}{66}{subsection.17.2.1}
+\contentsline {subsection}{\numberline {17.2.2}deBroigle Wavelength}{66}{subsection.17.2.2}
+\contentsline {section}{\numberline {17.3}Atomic Physics}{66}{section.17.3}
+\contentsline {subsection}{\numberline {17.3.1}Energy Level Diagrams and Atomic Spectra}{67}{subsection.17.3.1}
+\contentsline {chapter}{\numberline {18}Nuclear Physics}{68}{chapter.18}
+\contentsline {section}{\numberline {18.1}Elements, Isotopes, and Ions}{68}{section.18.1}
+\contentsline {section}{\numberline {18.2}Radioactive Decay}{69}{section.18.2}
+\contentsline {subsection}{\numberline {18.2.1}Types of Radioactive Decay}{69}{subsection.18.2.1}
+\contentsline {subsubsection}{Alpha Decay}{69}{section*.35}
+\contentsline {subsubsection}{Beta Decay}{70}{section*.36}
+\contentsline {subsubsection}{Gamma Decay}{70}{section*.37}
+\contentsline {subsection}{\numberline {18.2.2}Half-Life}{70}{subsection.18.2.2}
+\contentsline {section}{\numberline {18.3}Fission and Fusion}{70}{section.18.3}
+\contentsline {subsection}{\numberline {18.3.1}Fission}{70}{subsection.18.3.1}
+\contentsline {subsection}{\numberline {18.3.2}Fusion}{70}{subsection.18.3.2}
 \contentsline {chapter}{Appendices}{}{section*.38}
-\contentsline {chapter}{\numberline {A}Math Skills}{70}{appendix.A}
-\contentsline {section}{\numberline {A.1}Scientific Notation}{70}{section.A.1}
-\contentsline {section}{\numberline {A.2}Algebra}{71}{section.A.2}
-\contentsline {section}{\numberline {A.3}Trigonometry}{71}{section.A.3}
-\contentsline {section}{\numberline {A.4}Radians and Arc Length}{72}{section.A.4}
-\contentsline {subsection}{\numberline {A.4.1}Radians}{72}{subsection.A.4.1}
-\contentsline {subsection}{\numberline {A.4.2}Arc Length}{73}{subsection.A.4.2}
-\contentsline {chapter}{\numberline {B}Reference Tables}{75}{appendix.B}
-\contentsline {section}{\numberline {B.1}Greek Letters}{75}{section.B.1}
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{76}{section.B.2}
-\contentsline {section}{\numberline {B.3}Common Indices of Refraction}{76}{section.B.3}
-\contentsline {section}{\numberline {B.4}Physical Constants}{77}{section.B.4}
+\contentsline {chapter}{\numberline {A}Math Skills}{72}{appendix.A}
+\contentsline {section}{\numberline {A.1}Scientific Notation}{72}{section.A.1}
+\contentsline {section}{\numberline {A.2}Algebra}{73}{section.A.2}
+\contentsline {section}{\numberline {A.3}Trigonometry}{73}{section.A.3}
+\contentsline {section}{\numberline {A.4}Radians and Arc Length}{74}{section.A.4}
+\contentsline {subsection}{\numberline {A.4.1}Radians}{74}{subsection.A.4.1}
+\contentsline {subsection}{\numberline {A.4.2}Arc Length}{75}{subsection.A.4.2}
+\contentsline {chapter}{\numberline {B}Reference Tables}{77}{appendix.B}
+\contentsline {section}{\numberline {B.1}Greek Letters}{77}{section.B.1}
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{78}{section.B.2}
+\contentsline {section}{\numberline {B.3}Common Indices of Refraction}{78}{section.B.3}
+\contentsline {section}{\numberline {B.4}Physical Constants}{79}{section.B.4}
