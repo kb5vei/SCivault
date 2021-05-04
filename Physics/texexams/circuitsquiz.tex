@@ -1,0 +1,194 @@
+\documentclass[10pt]{examdesign}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{amsfonts}
+\usepackage{pgfplots}
+\usepackage{pifont}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage[american]{circuitikz}
+
+\SectionFont{\large\sffamily}
+\Fullpages
+\ContinuousNumbering
+\usepackage{ulem}
+\ProportionalBlanks{2}
+
+
+\DefineAnswerWrapper{}{}
+\NumberOfVersions{1}
+%\IncludeFromFile{foobar.tex}
+\examname{\Large{Quiz: Circuits}}
+\class{ {\Large Physics}}
+
+\def \namedata {Name: \hrulefill\\ 
+	Date: \hrulefill \\
+	Period: \hrulefill \\
+	Peer Reviewer: \hrulefill \\
+	Authentication Code: \hrulefill
+	\\
+		
+	\begin{tabular}{| p{1cm} | p{1cm} | p{1 cm} | p{1cm} |}
+	\hline
+		+1 & 0 & -1 & $\Sigma$ 
+		\\
+		\hline
+		& & & \vspace{.5cm}
+		\\ \hline
+	
+	\end{tabular}
+	\\
+ \vspace{-.6in}
+	
+}
+
+
+
+
+\begin{document}
+
+
+
+
+\begin{multiplechoice} [title={Multiple Choice},
+	rearrange=no]
+	\textit{Choose the best answer to each question.} 
+	
+	\begin{question}
+	 Are charges used up in the production of light in a light bulb?
+	 \choice {Yes, charge is used up. Charges moving through the filament produce ``friction" which heats up the filament and produces light.}
+	 \choice {Yes, charge is used up. Charges are emitted as photons and are lost.}
+	 \choice {Yes, charge is used up. Charges are absorbed by the filament and are lost.}
+	 \choice {No, charge is conserved. Charges are simply converted to another form such as heat and light.}
+	 \choice[!]{ No, charge is conserved. Charges moving through the filament produce ``friction" which heats up the filament and produces light.}
+	\end{question}
+
+	\begin{question}
+	How does the power delivered to resistor A change when resistor B is added to the circuit? (Both resistors are the same resistance.)
+
+	
+		\includegraphics[width=7cm]{"./c1".png}
+	\choice {The power quadruples.}
+	\choice {The power doubles}
+	\choice {The power stays the same.}
+	\choice {The power is reduced by half.}
+	\choice[!]{The power is reduced to one quarter.}
+\end{question}
+
+\begin{question}
+	Why do the lights in your home come on almost instantaneously when you turn on the switch?
+	\choice{When the circuit is completed, there is a rapid rearrangement of surface charges in the circuit.}
+	\choice{Charges store energy. When the circuit is completed, the energy is released.}
+	\choice{Charges in the wire travel very fast.}
+	\choice{The circuits in a home are wired in parallel. Thus, a current is already flowing.}
+	\choice[!]{Charges in the wire are like marbles in a tube. When the circuit is completed, the charges push each other through the wire.}
+\end{question}
+
+\begin{question}
+	The amount of charge that flows through a point on a wire per unit of time is called - 
+		\choice{Voltage}
+		\choice{Power}
+		\choice[!]{Current}
+		\choice{Resistance}
+		\choice{Energy}	
+\end{question}
+
+\begin{question}
+	A circuit that does not have a complete path between the two sides of the source is called - 
+		\choice[!]{Open}
+		\choice{Closed}
+		\choice{Short}
+		\choice{interrupted}
+		\choice{Parallel}
+\end{question}
+
+
+\begin{question}
+Which of the following symbols would represent a resistor?
+	\choice[!]{	\begin{circuitikz}
+			\vspace{1in}
+			\draw (0,0) to[R] (2,0);
+	\end{circuitikz} }
+
+	\choice{	\begin{circuitikz}
+		\vspace{1in}
+		\draw (0,0) to[C] (2,0);
+\end{circuitikz} }
+
+	\choice{	\begin{circuitikz}
+		\vspace{1in}
+		\draw (0,0) to[L] (2,0);
+\end{circuitikz} }
+
+	\choice{	\begin{circuitikz}
+		\vspace{1in}
+		\draw (0,0) to[battery] (2,0);
+\end{circuitikz} }
+
+	\choice{	\begin{circuitikz}
+		\vspace{1in}
+		\draw (0,0) to[leDo] (2,0);
+\end{circuitikz} }	
+\end{question}
+
+\begin{question}
+	What is the total current provided by the source in the circuit below?
+	
+ \begin{circuitikz}
+	\draw (0,0)
+	to[battery=$4V$] (0,2) % The voltage source
+	to[short] (2,2)
+	to[R=$2 \Omega$] (2,0) % The resistor
+	to[short] (0,0);
+	\draw (2,2)
+	to[short] (4,2)
+	to[R=$4 \Omega$] (4,0)
+	to[short] (2,0);
+\end{circuitikz}
+
+\choice{$6 A$}
+\choice{$4 A$}
+\choice{$3 A$}
+\choice[!]{$2 A$}
+\choice{$1.333 A$}
+
+\end{question}
+
+\begin{question}
+	What is the power dissipated by 6 $\Omega$ resistor in the circuit below?
+	
+	\begin{circuitikz}
+		\draw (0,0)
+		to[battery=$18V$] (0,2) % The voltage source
+		to[short] (2,2)
+		to[R=$6 \Omega$] (2,0) % The resistor
+		to[R=$12 \Omega$] (0,0) % The resistor
+		to[short] (0,0);
+	\end{circuitikz}
+	
+	\choice[!]{$6 W$}
+	\choice{$4 W$}
+	\choice{$2 W$}
+	\choice{$1 W$}
+	\choice{It cannot be determined.}
+	
+\end{question}
+
+
+
+
+
+
+\end{multiplechoice}
+
+
+
+
+
+
+
+
+\end{document}
+
+
