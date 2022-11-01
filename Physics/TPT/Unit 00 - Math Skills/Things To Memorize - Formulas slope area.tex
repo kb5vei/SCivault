@@ -1,0 +1,71 @@
+\documentclass[letterpaper,landscape, 12pt]{article}
+\usepackage[top=.5in,bottom=.5in,left=.75in,right=.75in,headheight=30pt, % as per the warning by fancyhdr
+includehead,includefoot,
+heightrounded, % to avoid spurious underfull messages
+]{geometry}
+\addtolength{\topmargin}{-.25in}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{gensymb}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{multicol}
+\newcommand{\assnum}{Unit 0: Math Skills}
+\newcommand{\assname}{Things To Memorize}
+
+\begin{document}
+\fancyhead[l]{	\includegraphics[height=0.5in]{../Logo/sp.png} Name:}
+\fancyhead[r]{REFERENCE MATERIAL}
+\fancyfoot[c]{\thepage\ of \pageref{LastPage}}
+\fancyfoot[r]{\assnum}	
+
+
+\begin{center} \assnum{} - \assname{}
+\end{center}
+
+
+ \begin{tabular}{|c|c|c|c|}
+	\hline
+	\textbf{X-axis} & \textbf{Y-axis} & \textbf{Slope} & \textbf{Area} \\
+	\hline
+	Time ($t$) & Position ($\vec{x}$) & Velocity ($\vec{v}$)& \\
+	\hline
+	Time ($t$) & Velocity ($\vec{v}$) & Acceleration ($\vec{a}$) & Displacement ($\vec{d}$) \\
+	\hline
+	Time ($t$) & Acceleration ($\vec{a}$)& Jerk ($\vec{j}$)& Change in Velocity ($\Delta\vec{v}$)\\
+	\hline
+	Time ($t$) & Force ($\vec{F}$) & & Impulse ($\vec{J}$) \\
+	\hline
+	Displacement ($\vec{d}$) & Force ($\vec{F}$) & & Work* ($W$)\\
+	\hline
+	Acceleration ($\vec{a}$) & Force ($\vec{F}$) & Mass ($m$) & \\
+	\hline
+	Velocity ($\vec{v}$) & Momentum ($\vec{p}$) & Mass ($m$) & \\
+	\hline
+	
+	Time  ($t$) & Angular Position ($\vec{\theta}$)& Angular Velocity ($\vec{\omega}$)& \\
+	\hline
+	Time ($t$) &Angular Velocity ($\vec{\omega}$) & Angular Acceleration ($\vec{\alpha}$) & Angular Displacement ($\vec{\theta}$)\\
+	\hline
+	Time ($t$) & Angular Acceleration ($\vec{\alpha}$) &  & Change in Angular Velocity ($\Delta\vec{\omega}$) \\
+	\hline
+	Time ($t$) & Torque ($\vec{\tau}$)& & Change in Angular Momentum ($\Delta\vec{L}$) \\
+	\hline
+	Angular Acceleration ($\vec{\alpha}$) & Torque ($\vec{\tau}$) & Moment of Rotational Inertia ($I$) & \\
+	\hline
+	Angular Velocity ($\vec{\omega}$) & Angular Momentum ($\vec{L}$)&  Moment of Rotational Inertia ($I$) & \\
+	\hline
+	
+	
+	
+	
+\end{tabular}
+
+ 
+
+
+
+\end{document}
