@@ -9,54 +9,92 @@
 			\label{equation:density}
 		\end{equation}
 	\end{mdframed}	
-	Where $\rho$ is density in $\frac{kg}{m^3}$, $m$ is mass in kg, and $V$ is volume in $m^3$.  The density of an object depends on the material from which it is made.  The density of pure water is $1000 \frac{kg}{m^3}$.
-	
-	The table below shows the density of some common materials:
-	\begin{center}
-		\begin{tabular}{|c|c|}
-			\hline
-			\textbf{Material} & \textbf{Density} ($\frac{kg}{m^3}$) \\
-			\hline
-			Ethanol &  789 \\
-			\hline
-			Olive Oil & 929 \\
-			\hline
-			Water (pure) & 1000 \\
-			\hline 
-			Water (ocean) & 1025 \\
-			\hline
-			
-			
-			
-		\end{tabular}
-	\end{center}
-	
-	
+	Where $\rho$ is density in $\frac{kg}{m^3}$, $m$ is mass in kg, and $V$ is volume in $m^3$.  The density of an object depends on the material from which it is made.  The density of pure water is $1000 \frac{kg}{m^3}$. The densities for various other materials can be found in Appendix \ref{tab:density} on  \cpageref{tab:density}.
 	
 	\section{Buoyant Force}
 	\index{Buoyant Force}
 	\index{Force, Buoyant}
+	
+	When an object is placed in a fluid, it displaces some of the fluid - that is, it pushes the fluid out of the way.  \textit{Archimedes Principle} \index{Archimedes Principle} states that the weight of the fluid displaced is equal to the buoyant force that acts on an object.  
 			\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
-			F_b = \rho V g
+			F_B = \rho V g
 			\label{equation:buoyantforce}
 		\end{equation}
 	\end{mdframed}	
+In this equation, $\rho$ is the density of the \textbf{fluid}, $V$ is the volume displaced by the object, and $g$ is the acceleration due to gravity.  One should note that buoyant force is present whenever an object interacts with a fluid, even when the object is completely immersed or sinks.
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A ball has a radius of 0.1 meters, and is held in place completely submerged in a (freshwater) lake.  What is the buoyant force that acts on the ball? 
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	First, calculate the volume of the ball.  The volume of a sphere is
+	
+		\begin{equation*}
+		V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi (\SI{0.1}{m})^3 \approx 4.189 \times 10^{-3}\si{m^3}
+	\end{equation*}
+	
+	
+	
+	The buoyant force on the ball is given by Equation \ref{equation:buoyantforce}:
+	
+	
+	\begin{equation*}
+		F_B = \rho V g = \SI{1000}{\frac{kg}{m^3}} \times 4.189 \times 10^{-3}\si{m^3} \times \SI{9.81}{m/s^2} \approx \SI{41.092}{N}
+	\end{equation*}
+	
+\end{mdframed}
+\vspace{0.1in}
+
+
+
 
 	\subsection{Percent Submerged}
 	\index{Percent Submerged}
+	If the density of a fluid and the density of a solid object are known, one can easily determine if an object will float in the fluid by comparing the densities.  If the density of the fluid is greater than the density of the object, the object will float,  However, if the density of the object is greater than the density of the fluid, the object will sink.  If the density of the object is the same as the density of the fluid, the object will display \textit{neutral buoyancy} - in which the object will neither sink nor float.  Instead it will "hang" in the fluid until its equilibrium is disturbed.  
+	
+	When an object floats in a fluid, the percentage of the volume of the object that is submerged can be determined using the following formula: 
 				\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
-			\% = \frac{\rho_{solid}}{\rho_{liquid}}
+			\% = \frac{\rho_{solid}}{\rho_{liquid}} \times 100
 			\label{equation:percentsubmerged}
 		\end{equation}
 	\end{mdframed}
 	
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.2}	
+		\end{center}
+		
+		\textbf{Problem: } You may have heard that "90\% of an iceberg is below the water.  Determine the percentage of an iceberg that is below the waterline.  The density of ice is $\SI{917}{\frac{kg}{m^3}}$ and the density of ocean water is $\SI{1025}{\frac{kg}{m^3}}$.
+		\vspace{0.1in}
+		
+		\textbf{Solution:} Use equation \ref{equation:percentsubmerged} to determine the percent submerged:  
+	
+
+		
+		\begin{equation*}
+		\% = \frac{\rho_{ice}}{\rho_{water}} = \frac{\SI{917}{\frac{kg}{m^3}}}{\SI{1025}{\frac{kg}{m^3}}} \times 100 = 89.463\%
+		\end{equation*}
+		
+	\end{mdframed}
+	\vspace{0.1in}
 	
 	
 	
 	\section{Pressure}
 	\index{Pressure}
+	Pressure is defined as force per unit area: 
 	
 			\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -64,6 +102,9 @@
 			\label{equation:pressure}
 		\end{equation}
 	\end{mdframed}	
+
+The units for pressure are \textit{Pascals} (abbreviated $\si{Pa}$) which are equivalent to $\si{\frac{N}{m^2}}$.
+
 
 		\subsection{Hydrostatic Pressure}
 		\index{Pressure, Hydrostatic}
@@ -75,7 +116,21 @@
 		\end{equation}
 	\end{mdframed}	
 
-\section{Continuity Equation}
+\section{The Fluid Continuity Equation}
+	\index{Fluid Continuity Equation}
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		A_1 v_1 = A_2 v_2
+		\label{equation:fluidcontinuity}
+	\end{equation}
+\end{mdframed}	
 
 \section{Bernouli's Equation}
+	\index{Bernouli's Equation}
+				\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+			\rho g h_1 + \frac{1}{2} \rho v_1^2 + P_ = \rho g h_2 + \frac{1}{2} \rho v_2^2 + P_2
+			\label{equation:bernouli}
+		\end{equation}
+	\end{mdframed}	
 
