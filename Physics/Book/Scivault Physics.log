@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  7 NOV 2022 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  8 NOV 2022 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1308,7 +1308,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 392.
  [6]
 Package mdframed Info: Not enough space on this page on input line 446.
 Package mdframed Info: mdframed works in twoside mode on input line 458.
-<./Chapters/Ch01-intro/righthandrule.JPG, id=973, 173.86098pt x 139.58434pt>
+<./Chapters/Ch01-intro/righthandrule.JPG, id=983, 173.86098pt x 139.58434pt>
 File: ./Chapters/Ch01-intro/righthandrule.JPG Graphic file (type jpg)
 <use ./Chapters/Ch01-intro/righthandrule.JPG>
 Package pdftex.def Info: ./Chapters/Ch01-intro/righthandrule.JPG  used on input
@@ -1476,25 +1476,25 @@ Package mdframed Info: mdframed works in twoside mode on input line 179.
 Package mdframed Info: mdframed works in twoside mode on input line 189.
 Package mdframed Info: Not enough space on this page on input line 230.
  [34]
-<Chapters/Ch10-Waves/Doppler1.png, id=1193, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler1.png, id=1203, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler1.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler1.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler1.png  used on input line 2
 44.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler2.png, id=1195, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler2.png, id=1205, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler2.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler2.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler2.png  used on input line 2
 53.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler3.png, id=1196, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler3.png, id=1206, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler3.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler3.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler3.png  used on input line 2
 62.
 (pdftex.def)             Requested size: 289.08673pt x 21.68127pt.
-<Chapters/Ch10-Waves/Doppler4.png, id=1197, 945.5325pt x 100.375pt>
+<Chapters/Ch10-Waves/Doppler4.png, id=1207, 945.5325pt x 100.375pt>
 File: Chapters/Ch10-Waves/Doppler4.png Graphic file (type png)
 <use Chapters/Ch10-Waves/Doppler4.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/Doppler4.png  used on input line 2
@@ -1616,7 +1616,7 @@ me{figure.10.18}) has been already used, duplicate ignored
 l.1087 	\newpage
                 ]
 Package mdframed Info: mdframed works in twoside mode on input line 1090.
-<Chapters/Ch10-Waves/trombone.png, id=1248, 129.1224pt x 240.6591pt>
+<Chapters/Ch10-Waves/trombone.png, id=1258, 129.1224pt x 240.6591pt>
 File: Chapters/Ch10-Waves/trombone.png Graphic file (type png)
 <use Chapters/Ch10-Waves/trombone.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/trombone.png  used on input line 1
@@ -1627,7 +1627,7 @@ File: Chapters/Ch10-Waves/trombone.png Graphic file (type png)
 Package pdftex.def Info: Chapters/Ch10-Waves/trombone.png  used on input line 1
 101.
 (pdftex.def)             Requested size: 29.08083pt x 54.2025pt.
-<Chapters/Ch10-Waves/conductor.png, id=1249, 115.632pt x 203.0787pt>
+<Chapters/Ch10-Waves/conductor.png, id=1259, 115.632pt x 203.0787pt>
 File: Chapters/Ch10-Waves/conductor.png Graphic file (type png)
 <use Chapters/Ch10-Waves/conductor.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/conductor.png  used on input line 
@@ -1637,7 +1637,7 @@ Package mdframed Info: Not enough space on this page on input line 1130.
  [41 <./Chapters/Ch10-Waves/trombone.png> <./Chapters/Ch10-Waves/conductor.png>
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 1153.
-<Chapters/Ch10-Waves/speakers.png, id=1259, 178.266pt x 159.4758pt>
+<Chapters/Ch10-Waves/speakers.png, id=1269, 178.266pt x 159.4758pt>
 File: Chapters/Ch10-Waves/speakers.png Graphic file (type png)
 <use Chapters/Ch10-Waves/speakers.png>
 Package pdftex.def Info: Chapters/Ch10-Waves/speakers.png  used on input line 1
@@ -1681,7 +1681,7 @@ Missing character: There is no ; in font nullfont!
 l.448 	\item \textit
                     {Convex} lenses, sometimes called \textit{converging} le...
 ]
-<./Chapters/Ch11-Optics/convex.png, id=1303, 240.9pt x 110.5731pt>
+<./Chapters/Ch11-Optics/convex.png, id=1313, 240.9pt x 110.5731pt>
 File: ./Chapters/Ch11-Optics/convex.png Graphic file (type png)
 <use ./Chapters/Ch11-Optics/convex.png>
 Package pdftex.def Info: ./Chapters/Ch11-Optics/convex.png  used on input line 
@@ -1712,7 +1712,7 @@ Package mdframed Info: mdframed works in twoside mode on input line 778.
 Package mdframed Info: mdframed works in twoside mode on input line 788.
 Package mdframed Info: mdframed works in twoside mode on input line 800.
  [51]
-<./Chapters/Ch11-Optics/concave.png, id=1334, 240.9pt x 137.313pt>
+<./Chapters/Ch11-Optics/concave.png, id=1344, 240.9pt x 137.313pt>
 File: ./Chapters/Ch11-Optics/concave.png Graphic file (type png)
 <use ./Chapters/Ch11-Optics/concave.png>
 Package pdftex.def Info: ./Chapters/Ch11-Optics/concave.png  used on input line
@@ -1763,7 +1763,7 @@ Missing character: There is no ; in font nullfont!
                                                   \fi \fi 
 l.1318 		\newpage
                  ]
-<./Chapters/Ch11-Optics/thinfilm.png, id=1373, 531.1845pt x 642.4803pt>
+<./Chapters/Ch11-Optics/thinfilm.png, id=1383, 531.1845pt x 642.4803pt>
 File: ./Chapters/Ch11-Optics/thinfilm.png Graphic file (type png)
 <use ./Chapters/Ch11-Optics/thinfilm.png>
 Package pdftex.def Info: ./Chapters/Ch11-Optics/thinfilm.png  used on input lin
@@ -1818,9 +1818,29 @@ Package mdframed Info: Not enough space on this page on input line 39.
 Package mdframed Info: mdframed works in twoside mode on input line 42.
 Package mdframed Info: mdframed works in twoside mode on input line 50.
 Package mdframed Info: mdframed works in twoside mode on input line 61.
-) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [64]
+Package mdframed Info: mdframed works in twoside mode on input line 97.
+Package mdframed Info: mdframed works in twoside mode on input line 105.
+ [64]
+Package mdframed Info: Not enough space on this page on input line 110.
+Package mdframed Info: mdframed works in twoside mode on input line 115.
+Package mdframed Info: mdframed works in twoside mode on input line 125.
+Package mdframed Info: mdframed works in twoside mode on input line 132.
+Package mdframed Info: mdframed works in twoside mode on input line 165.
+Package mdframed Info: mdframed works in twoside mode on input line 173.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/Ch13-Electrostatics/Ch13-Electrostatics.tex [65] [66pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.14.1}) has been alr
+eady used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Electrostatics} \label{chap:Electrostatics}]
 Chapter 15.
-[65
+[67
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.15.1}) 
 has been already used, duplicate ignored
@@ -1835,14 +1855,14 @@ Package mdframed Info: mdframed works in twoside mode on input line 63.
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 113.
- [66]
+ [68]
 Package mdframed Info: mdframed works in twoside mode on input line 127.
 Package mdframed Info: mdframed works in twoside mode on input line 140.
 Package mdframed Info: mdframed works in twoside mode on input line 152.
-) (./Chapters/Ch14-Circuits/Ch14-Circuits.tex [67]
+) (./Chapters/Ch14-Circuits/Ch14-Circuits.tex [69]
 Chapter 16.
 ) (./Chapters/Ch15-MagneticForcesandFields/Ch15-MagneticForcesandFields.tex
-[68
+[70
 
 ]
 Chapter 17.
@@ -1851,16 +1871,16 @@ Overfull \hbox (14.08932pt too wide) in paragraph at lines 10--10
 []\T1/cmr/bx/n/17.28 Magnetic Field Pro-duced by a Current-Carrying Wire 
  []
 
-) (./Chapters/Ch16-MagneticInduction/ch16-magneticinduction.tex [69
+) (./Chapters/Ch16-MagneticInduction/ch16-magneticinduction.tex [71
 
 ]
 Chapter 18.
 Package mdframed Info: mdframed works in twoside mode on input line 9.
-[70
+[72
 
 ]
 Package mdframed Info: mdframed works in twoside mode on input line 69.
-) (./Chapters/Ch20-ModernandAtomic/Ch20-ModernandAtomic.tex [71]
+) (./Chapters/Ch20-ModernandAtomic/Ch20-ModernandAtomic.tex [73]
 Chapter 19.
 Package mdframed Info: mdframed works in twoside mode on input line 18.
 Package mdframed Info: mdframed works in twoside mode on input line 32.
@@ -1868,9 +1888,9 @@ Package mdframed Info: mdframed inside float
  mdframed uses option nobreak mdframed on input line 69.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 69.
-[72
+[74
 
-]) (./Chapters/Ch21-Nuclear/Ch21-Nuclear.tex [73pdfTeX warning (ext4): destinat
+]) (./Chapters/Ch21-Nuclear/Ch21-Nuclear.tex [75pdfTeX warning (ext4): destinat
 ion with the same identifier (name{figure.19.1}) has been already used, duplica
 te ignored
 
@@ -1879,7 +1899,7 @@ te ignored
 l.1 \chapter
             {Nuclear Physics}]
 Chapter 20.
-[74
+[76
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.20.1})
  has been already used, duplicate ignored
@@ -1902,27 +1922,27 @@ MS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 m[] \OT1/cmr/m/n/12 + \OML
 Package mdframed Info: Box was splittet wrong
  starting loop to iterate the splitting point
 (mdframed)              on input line 99.
-[75]) (./Chapters/Ch22-Relativity/Ch22-Relativity.tex [76]
+[77]) (./Chapters/Ch22-Relativity/Ch22-Relativity.tex [78]
 Chapter 21.
 Package mdframed Info: mdframed works in twoside mode on input line 9.
 Package mdframed Info: mdframed works in twoside mode on input line 18.
 Package mdframed Info: mdframed works in twoside mode on input line 28.
-) [77
+) [79
 
-] [78
+] [80
 
 ]
 (./Chapters/Appendicies/AppendixA-MathSkills/AppendixA-MathSkills.tex
 Appendix A.
-[79
+[81
 
-] [80]
+] [82]
 Package mdframed Info: mdframed works in twoside mode on input line 76.
 Package mdframed Info: mdframed works in twoside mode on input line 85.
 Package mdframed Info: mdframed works in twoside mode on input line 104.
- [81]
+ [83]
 Package mdframed Info: mdframed works in twoside mode on input line 162.
- [82pdfTeX warning (ext4): destination with the same identifier (name{figure.A.
+ [84pdfTeX warning (ext4): destination with the same identifier (name{figure.A.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1933,13 +1953,13 @@ Package mdframed Info: mdframed works in twoside mode on input line 176.
 Package mdframed Info: Not enough space on this page on input line 219.
 )
 (./Chapters/Appendicies/AppendixB-ReferenceTables/AppendixB-ReferenceTables.tex
-[83]
+[85]
 Appendix B.
 
 Underfull \vbox (badness 10000) detected at line 48
  []
 
-[84
+[86
 
 ]
 Overfull \hbox (4.29562pt too wide) in paragraph at lines 73--103
@@ -1957,7 +1977,7 @@ Underfull \vbox (badness 10000) detected at line 167
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}
+[87pdfTeX warning (ext4): destination with the same identifier (name{table.B.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1973,7 +1993,7 @@ l.175 \newpage
 Underfull \vbox (badness 10000) detected at line 200
  []
 
-) [86pdfTeX warning (ext4): destination with the same identifier (name{table.B.
+) [88pdfTeX warning (ext4): destination with the same identifier (name{table.B.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1985,24 +2005,24 @@ l.137 	\backmatter
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.137 	\backmatter
-                  	] (./Scivault Physics.ind [87
+                  	] (./Scivault Physics.ind [89
 
 
-] [88])
+] [90])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./Scivault Physics.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `"Scivault Physics".out' has not changed.
-(rerunfilecheck)             Checksum: 267A33C843DDD39CCDCCA8E5AAEE42AF;11873.
+(rerunfilecheck)             Checksum: F6D0ABFF25A9C7C5024441EE621ABDAF;12032.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
  ) 
 Here is how much of TeX's memory you used:
- 41927 strings out of 482555
- 993866 string characters out of 5952145
- 1703562 words of memory out of 5000000
- 56321 multiletter control sequences out of 15000+600000
+ 42982 strings out of 482555
+ 1016496 string characters out of 5952145
+ 1703375 words of memory out of 5000000
+ 57365 multiletter control sequences out of 15000+600000
  565070 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,17n,109p,964b,2245s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2034,10 +2054,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr
 texlive/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on "Scivault Physics.pdf" (96 pages, 14852313 bytes).
+Output written on "Scivault Physics.pdf" (98 pages, 14865575 bytes).
 PDF statistics:
- 1906 PDF objects out of 2073 (max. 8388607)
- 1744 compressed objects within 18 object streams
- 467 named destinations out of 1000 (max. 500000)
- 1444 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1935 PDF objects out of 2073 (max. 8388607)
+ 1771 compressed objects within 18 object streams
+ 478 named destinations out of 1000 (max. 500000)
+ 1460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
