@@ -46,163 +46,165 @@
 \contentsline {section}{\numberline {5.3}Newton's Third Law}{18}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Applications of Newton's Laws}{18}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Friction}{18}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Elevators}{18}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Pulleys}{18}{subsection.5.4.3}%
-\contentsline {chapter}{\numberline {6}Work and Energy}{19}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Work}{19}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Energy}{19}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{19}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Potential energy}{19}{subsection.6.2.2}%
-\contentsline {subsubsection}{Gravitational Potential Energy}{19}{section*.11}%
-\contentsline {subsubsection}{Elastic Potential Energy}{19}{section*.12}%
-\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{20}{section.6.3}%
-\contentsline {section}{\numberline {6.4}The Law of Conservation of Energy}{20}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Springs}{20}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Pendulums}{20}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Impulse and Momentum}{21}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Momentum}{21}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Impulse}{21}{section.7.2}%
-\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{22}{section.7.3}%
-\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{22}{section.7.4}%
-\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{23}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{23}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{23}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{23}{subsection.8.1.2}%
-\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{24}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{24}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{26}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{26}{subsection.8.2.3}%
-\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{26}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Orbital Motion}{27}{section.8.4}%
-\contentsline {chapter}{\numberline {9}Rotational Mechanics}{28}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{28}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Angular Kinematics}{28}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Moment of Inertia}{28}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Torque}{28}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Angular Kinetic Energy}{28}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Angular Momentum}{29}{section.9.6}%
-\contentsline {subsection}{\numberline {9.6.1}The Definition of Angular Momentum}{29}{subsection.9.6.1}%
-\contentsline {subsection}{\numberline {9.6.2}Conservation of Angular Momentum}{29}{subsection.9.6.2}%
-\contentsline {chapter}{\numberline {10}Waves}{30}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Fundamentals of Waves}{30}{section.10.1}%
-\contentsline {subsection}{\numberline {10.1.1}Types of Waves}{30}{subsection.10.1.1}%
-\contentsline {subsection}{\numberline {10.1.2}Basic Wave Characteristics and Vocabulary}{32}{subsection.10.1.2}%
-\contentsline {subsubsection}{Extrema}{32}{section*.13}%
-\contentsline {subsubsection}{Amplitude}{32}{section*.14}%
-\contentsline {subsubsection}{Wavelength}{32}{section*.15}%
-\contentsline {subsubsection}{Period}{32}{section*.16}%
-\contentsline {subsubsection}{Frequency}{32}{section*.17}%
-\contentsline {subsection}{\numberline {10.1.3}Velocity of a Wave}{33}{subsection.10.1.3}%
-\contentsline {section}{\numberline {10.2}The Doppler Effect}{35}{section.10.2}%
-\contentsline {section}{\numberline {10.3}The Principle of Superposition and Interference}{37}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}The Principle of Superposition}{37}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Interference}{38}{subsection.10.3.2}%
-\contentsline {subsubsection}{Constructive Interference}{38}{section*.18}%
-\contentsline {subsubsection}{Destructive Interference}{39}{section*.19}%
-\contentsline {section}{\numberline {10.4}Resonance}{43}{section.10.4}%
-\contentsline {chapter}{\numberline {11}Optics}{44}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Geometric Optics}{44}{section.11.1}%
-\contentsline {subsection}{\numberline {11.1.1}Refraction}{44}{subsection.11.1.1}%
-\contentsline {subsubsection}{The Index of Refraction}{44}{section*.20}%
-\contentsline {subsubsection}{Snell's Law}{45}{section*.21}%
-\contentsline {paragraph}{Total Internal Reflection}{47}{section*.22}%
-\contentsline {subsubsection}{Lenses}{48}{section*.23}%
-\contentsline {paragraph}{Convex Lenses}{48}{section*.24}%
-\contentsline {subparagraph}{Image Formation with Convex Lenses}{49}{section*.25}%
-\contentsline {paragraph}{Concave Lenses}{52}{section*.26}%
-\contentsline {subsection}{\numberline {11.1.2}Reflection}{55}{subsection.11.1.2}%
-\contentsline {subsubsection}{The Law of Reflection}{55}{section*.27}%
-\contentsline {subsubsection}{Mirrors}{56}{section*.28}%
-\contentsline {paragraph}{Flat Mirrors}{56}{section*.29}%
-\contentsline {paragraph}{Concave Mirrors}{56}{section*.30}%
-\contentsline {paragraph}{Convex Mirrors}{56}{section*.31}%
-\contentsline {section}{\numberline {11.2}Physical Optics}{56}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}Young's Double Slit Experiment}{56}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}Thin Film Interference}{57}{subsection.11.2.2}%
-\contentsline {chapter}{\numberline {12}Fluids}{58}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Density}{58}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Buoyant Force}{58}{section.12.2}%
-\contentsline {subsection}{\numberline {12.2.1}Percent Submerged}{59}{subsection.12.2.1}%
-\contentsline {section}{\numberline {12.3}Pressure}{59}{section.12.3}%
-\contentsline {subsection}{\numberline {12.3.1}Hydrostatic Pressure}{59}{subsection.12.3.1}%
-\contentsline {section}{\numberline {12.4}The Fluid Continuity Equation}{60}{section.12.4}%
-\contentsline {section}{\numberline {12.5}Bernouli's Equation}{60}{section.12.5}%
-\contentsline {chapter}{\numberline {13}Heat and Thermodynamics}{61}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Modes of Heat Transfer}{61}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Laws of Thermodynamics}{61}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}0th Law}{61}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}1st Law}{62}{subsection.13.2.2}%
-\contentsline {subsection}{\numberline {13.2.3}2nd Law}{62}{subsection.13.2.3}%
-\contentsline {subsection}{\numberline {13.2.4}3rd Law}{62}{subsection.13.2.4}%
-\contentsline {section}{\numberline {13.3}Specific Heat Capacity}{62}{section.13.3}%
-\contentsline {chapter}{\numberline {14}Gas Laws}{63}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Boyle's, Charles's, Gay-Lussac's, and The Combined Gas Law}{63}{section.14.1}%
-\contentsline {section}{\numberline {14.2}The Ideal Gas Law}{64}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Internal Energy of a Gas}{65}{section.14.3}%
-\contentsline {subsection}{\numberline {14.3.1}Absolute Internal Energy}{65}{subsection.14.3.1}%
-\contentsline {subsection}{\numberline {14.3.2}Change in Internal Energy}{65}{subsection.14.3.2}%
-\contentsline {section}{\numberline {14.4}PV-Diagrams}{65}{section.14.4}%
-\contentsline {chapter}{\numberline {15}Electrostatics}{67}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Electrostatic Charge}{67}{section.15.1}%
-\contentsline {section}{\numberline {15.2}Coulomb's Law and Electrostatic Force}{68}{section.15.2}%
-\contentsline {section}{\numberline {15.3}Electrostatic Potential Energy}{69}{section.15.3}%
-\contentsline {section}{\numberline {15.4}Electric Field}{69}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Electric Potential and Voltage}{69}{section.15.5}%
-\contentsline {section}{\numberline {15.6}Capacitors}{69}{section.15.6}%
-\contentsline {subsection}{\numberline {15.6.1}Construction of Capacitors}{69}{subsection.15.6.1}%
-\contentsline {subsection}{\numberline {15.6.2}Capacitors in Circuits}{69}{subsection.15.6.2}%
-\contentsline {chapter}{\numberline {16}Circuits}{70}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Circuits Symbols}{70}{section.16.1}%
-\contentsline {section}{\numberline {16.2}Resistors}{70}{section.16.2}%
-\contentsline {chapter}{\numberline {17}Magnetic Forces and Fields}{71}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Types of Magnetism}{71}{section.17.1}%
-\contentsline {subsection}{\numberline {17.1.1}Permanent Magnetism}{71}{subsection.17.1.1}%
-\contentsline {subsubsection}{Paramagnetism}{71}{section*.32}%
-\contentsline {subsubsection}{Ferromagnetism}{71}{section*.33}%
-\contentsline {subsubsection}{Dimagnetism}{71}{section*.34}%
-\contentsline {subsection}{\numberline {17.1.2}Electromagnetism}{71}{subsection.17.1.2}%
-\contentsline {section}{\numberline {17.2}Magnetic Force on a Charged Particle}{71}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Magnetic Force on a Current-Carrying Wire}{71}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Magnetic Field Produced by a Current-Carrying Wire}{71}{section.17.4}%
-\contentsline {chapter}{\numberline {18}Magnetic Induction}{72}{chapter.18}%
-\contentsline {section}{\numberline {18.1}Lenz's Law}{72}{section.18.1}%
-\contentsline {section}{\numberline {18.2}Faraday's Law}{73}{section.18.2}%
-\contentsline {chapter}{\numberline {19}Modern and Atomic Physics}{74}{chapter.19}%
-\contentsline {section}{\numberline {19.1}The Dual Nature of Light}{74}{section.19.1}%
-\contentsline {subsection}{\numberline {19.1.1}Young's Double Slit Experiment}{74}{subsection.19.1.1}%
-\contentsline {subsection}{\numberline {19.1.2}The Photoelectric Effect}{74}{subsection.19.1.2}%
-\contentsline {section}{\numberline {19.2}The Dual Nature of Matter}{74}{section.19.2}%
-\contentsline {subsection}{\numberline {19.2.1}Mass-Energy Equivalence}{74}{subsection.19.2.1}%
-\contentsline {subsection}{\numberline {19.2.2}deBroigle Wavelength}{74}{subsection.19.2.2}%
-\contentsline {section}{\numberline {19.3}Atomic Physics}{74}{section.19.3}%
-\contentsline {subsection}{\numberline {19.3.1}Energy Level Diagrams and Atomic Spectra}{75}{subsection.19.3.1}%
-\contentsline {chapter}{\numberline {20}Nuclear Physics}{76}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Elements, Isotopes, and Ions}{76}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Radioactive Decay}{77}{section.20.2}%
-\contentsline {subsection}{\numberline {20.2.1}Types of Radioactive Decay}{77}{subsection.20.2.1}%
-\contentsline {subsubsection}{Alpha Decay}{77}{section*.35}%
-\contentsline {subsubsection}{Beta Decay}{78}{section*.36}%
-\contentsline {subsubsection}{Gamma Decay}{78}{section*.37}%
-\contentsline {subsection}{\numberline {20.2.2}Half-Life}{78}{subsection.20.2.2}%
-\contentsline {section}{\numberline {20.3}Fission and Fusion}{78}{section.20.3}%
-\contentsline {subsection}{\numberline {20.3.1}Fission}{78}{subsection.20.3.1}%
-\contentsline {subsection}{\numberline {20.3.2}Fusion}{78}{subsection.20.3.2}%
-\contentsline {chapter}{\numberline {21}Relativity}{79}{chapter.21}%
-\contentsline {section}{\numberline {21.1}Special Relativity}{79}{section.21.1}%
-\contentsline {subsection}{\numberline {21.1.1}Length Contraction}{79}{subsection.21.1.1}%
-\contentsline {subsection}{\numberline {21.1.2}Time Dilation}{79}{subsection.21.1.2}%
-\contentsline {subsection}{\numberline {21.1.3}Mass Increase}{79}{subsection.21.1.3}%
+\contentsline {subsection}{\numberline {5.4.2}Inclined Planes}{19}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Elevators}{19}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Pulleys and Atwood Machines}{19}{subsection.5.4.4}%
+\contentsline {chapter}{\numberline {6}Work and Energy}{20}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Work}{20}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Energy}{20}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Kinetic Energy}{20}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Potential energy}{20}{subsection.6.2.2}%
+\contentsline {subsubsection}{Gravitational Potential Energy}{20}{section*.11}%
+\contentsline {subsubsection}{Elastic Potential Energy}{20}{section*.12}%
+\contentsline {section}{\numberline {6.3}The Work-Energy Theorem}{21}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Power}{21}{section.6.4}%
+\contentsline {section}{\numberline {6.5}The Law of Conservation of Energy}{21}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Springs}{21}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Pendulums}{21}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Impulse and Momentum}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Momentum}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Impulse}{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}The Impulse-Momentum Theorem}{24}{section.7.3}%
+\contentsline {section}{\numberline {7.4}The Law of Conservation of Momentum}{24}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Circular Motion and Orbits}{25}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Centripetal Forces and Accelerations}{25}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Centripetal Force}{25}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Centripetal Acceleration}{25}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Kepler's Laws of Planetary Motion}{26}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Kepler's First Law}{26}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Kepler's Second Law}{28}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Kepler's Third Law}{28}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}Newton's Law of Universal Gravitation}{28}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Orbital Motion}{29}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Rotational Mechanics}{30}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{30}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Angular Kinematics}{30}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Moment of Inertia}{30}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Torque}{30}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Angular Kinetic Energy}{30}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Angular Momentum}{31}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}The Definition of Angular Momentum}{31}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}Conservation of Angular Momentum}{31}{subsection.9.6.2}%
+\contentsline {chapter}{\numberline {10}Waves}{32}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Fundamentals of Waves}{32}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Types of Waves}{32}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Basic Wave Characteristics and Vocabulary}{34}{subsection.10.1.2}%
+\contentsline {subsubsection}{Extrema}{34}{section*.13}%
+\contentsline {subsubsection}{Amplitude}{34}{section*.14}%
+\contentsline {subsubsection}{Wavelength}{34}{section*.15}%
+\contentsline {subsubsection}{Period}{34}{section*.16}%
+\contentsline {subsubsection}{Frequency}{34}{section*.17}%
+\contentsline {subsection}{\numberline {10.1.3}Velocity of a Wave}{35}{subsection.10.1.3}%
+\contentsline {section}{\numberline {10.2}The Doppler Effect}{37}{section.10.2}%
+\contentsline {section}{\numberline {10.3}The Principle of Superposition and Interference}{39}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}The Principle of Superposition}{39}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Interference}{40}{subsection.10.3.2}%
+\contentsline {subsubsection}{Constructive Interference}{40}{section*.18}%
+\contentsline {subsubsection}{Destructive Interference}{41}{section*.19}%
+\contentsline {section}{\numberline {10.4}Resonance}{45}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Optics}{46}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Geometric Optics}{46}{section.11.1}%
+\contentsline {subsection}{\numberline {11.1.1}Refraction}{46}{subsection.11.1.1}%
+\contentsline {subsubsection}{The Index of Refraction}{46}{section*.20}%
+\contentsline {subsubsection}{Snell's Law}{47}{section*.21}%
+\contentsline {paragraph}{Total Internal Reflection}{49}{section*.22}%
+\contentsline {subsubsection}{Lenses}{50}{section*.23}%
+\contentsline {paragraph}{Convex Lenses}{50}{section*.24}%
+\contentsline {subparagraph}{Image Formation with Convex Lenses}{51}{section*.25}%
+\contentsline {paragraph}{Concave Lenses}{54}{section*.26}%
+\contentsline {subsection}{\numberline {11.1.2}Reflection}{57}{subsection.11.1.2}%
+\contentsline {subsubsection}{The Law of Reflection}{57}{section*.27}%
+\contentsline {subsubsection}{Mirrors}{58}{section*.28}%
+\contentsline {paragraph}{Flat Mirrors}{58}{section*.29}%
+\contentsline {paragraph}{Concave Mirrors}{58}{section*.30}%
+\contentsline {paragraph}{Convex Mirrors}{58}{section*.31}%
+\contentsline {section}{\numberline {11.2}Physical Optics}{58}{section.11.2}%
+\contentsline {subsection}{\numberline {11.2.1}Young's Double Slit Experiment}{58}{subsection.11.2.1}%
+\contentsline {subsection}{\numberline {11.2.2}Thin Film Interference}{59}{subsection.11.2.2}%
+\contentsline {chapter}{\numberline {12}Fluids}{60}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Density}{60}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Buoyant Force}{60}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Percent Submerged}{61}{subsection.12.2.1}%
+\contentsline {section}{\numberline {12.3}Pressure}{61}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}Hydrostatic Pressure}{61}{subsection.12.3.1}%
+\contentsline {section}{\numberline {12.4}The Fluid Continuity Equation}{62}{section.12.4}%
+\contentsline {section}{\numberline {12.5}Bernouli's Equation}{62}{section.12.5}%
+\contentsline {chapter}{\numberline {13}Heat and Thermodynamics}{63}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Modes of Heat Transfer}{63}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Laws of Thermodynamics}{63}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}0th Law}{63}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}1st Law}{64}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}2nd Law}{64}{subsection.13.2.3}%
+\contentsline {subsection}{\numberline {13.2.4}3rd Law}{64}{subsection.13.2.4}%
+\contentsline {section}{\numberline {13.3}Specific Heat Capacity}{64}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Gas Laws}{65}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Boyle's, Charles's, Gay-Lussac's, and The Combined Gas Law}{65}{section.14.1}%
+\contentsline {section}{\numberline {14.2}The Ideal Gas Law}{66}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Internal Energy of a Gas}{68}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Absolute Internal Energy}{68}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}Change in Internal Energy}{68}{subsection.14.3.2}%
+\contentsline {section}{\numberline {14.4}PV-Diagrams}{69}{section.14.4}%
+\contentsline {chapter}{\numberline {15}Electrostatics}{70}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Electrostatic Charge}{70}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Coulomb's Law and Electrostatic Force}{71}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Electrostatic Potential Energy}{72}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Electric Field}{72}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Electric Potential and Voltage}{72}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Capacitors}{72}{section.15.6}%
+\contentsline {subsection}{\numberline {15.6.1}Construction of Capacitors}{72}{subsection.15.6.1}%
+\contentsline {subsection}{\numberline {15.6.2}Capacitors in Circuits}{72}{subsection.15.6.2}%
+\contentsline {chapter}{\numberline {16}Circuits}{73}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Circuits Symbols}{73}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Resistors}{73}{section.16.2}%
+\contentsline {chapter}{\numberline {17}Magnetic Forces and Fields}{74}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Types of Magnetism}{74}{section.17.1}%
+\contentsline {subsection}{\numberline {17.1.1}Permanent Magnetism}{74}{subsection.17.1.1}%
+\contentsline {subsubsection}{Paramagnetism}{74}{section*.32}%
+\contentsline {subsubsection}{Ferromagnetism}{74}{section*.33}%
+\contentsline {subsubsection}{Dimagnetism}{74}{section*.34}%
+\contentsline {subsection}{\numberline {17.1.2}Electromagnetism}{74}{subsection.17.1.2}%
+\contentsline {section}{\numberline {17.2}Magnetic Force on a Charged Particle}{74}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Magnetic Force on a Current-Carrying Wire}{74}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Magnetic Field Produced by a Current-Carrying Wire}{74}{section.17.4}%
+\contentsline {chapter}{\numberline {18}Magnetic Induction}{75}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Lenz's Law}{75}{section.18.1}%
+\contentsline {section}{\numberline {18.2}Faraday's Law}{76}{section.18.2}%
+\contentsline {chapter}{\numberline {19}Modern and Atomic Physics}{77}{chapter.19}%
+\contentsline {section}{\numberline {19.1}The Dual Nature of Light}{77}{section.19.1}%
+\contentsline {subsection}{\numberline {19.1.1}Young's Double Slit Experiment}{77}{subsection.19.1.1}%
+\contentsline {subsection}{\numberline {19.1.2}The Photoelectric Effect}{77}{subsection.19.1.2}%
+\contentsline {section}{\numberline {19.2}The Dual Nature of Matter}{77}{section.19.2}%
+\contentsline {subsection}{\numberline {19.2.1}Mass-Energy Equivalence}{77}{subsection.19.2.1}%
+\contentsline {subsection}{\numberline {19.2.2}deBroigle Wavelength}{77}{subsection.19.2.2}%
+\contentsline {section}{\numberline {19.3}Atomic Physics}{77}{section.19.3}%
+\contentsline {subsection}{\numberline {19.3.1}Energy Level Diagrams and Atomic Spectra}{78}{subsection.19.3.1}%
+\contentsline {chapter}{\numberline {20}Nuclear Physics}{79}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Elements, Isotopes, and Ions}{79}{section.20.1}%
+\contentsline {section}{\numberline {20.2}Radioactive Decay}{80}{section.20.2}%
+\contentsline {subsection}{\numberline {20.2.1}Types of Radioactive Decay}{80}{subsection.20.2.1}%
+\contentsline {subsubsection}{Alpha Decay}{80}{section*.35}%
+\contentsline {subsubsection}{Beta Decay}{81}{section*.36}%
+\contentsline {subsubsection}{Gamma Decay}{81}{section*.37}%
+\contentsline {subsection}{\numberline {20.2.2}Half-Life}{81}{subsection.20.2.2}%
+\contentsline {section}{\numberline {20.3}Fission and Fusion}{81}{section.20.3}%
+\contentsline {subsection}{\numberline {20.3.1}Fission}{81}{subsection.20.3.1}%
+\contentsline {subsection}{\numberline {20.3.2}Fusion}{81}{subsection.20.3.2}%
+\contentsline {chapter}{\numberline {21}Relativity}{82}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Special Relativity}{82}{section.21.1}%
+\contentsline {subsection}{\numberline {21.1.1}Length Contraction}{82}{subsection.21.1.1}%
+\contentsline {subsection}{\numberline {21.1.2}Time Dilation}{82}{subsection.21.1.2}%
+\contentsline {subsection}{\numberline {21.1.3}Mass Increase}{82}{subsection.21.1.3}%
 \contentsline {chapter}{Appendices}{}{section*.38}
-\contentsline {chapter}{\numberline {A}Math Skills}{81}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Scientific Notation}{81}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Algebra}{82}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Trigonometry}{82}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Radians and Arc Length}{83}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Radians}{83}{subsection.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Arc Length}{84}{subsection.A.4.2}%
-\contentsline {chapter}{\numberline {B}Reference Tables}{86}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Greek Letters}{86}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{87}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Densities of Common materials}{87}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{87}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Physical Constants}{88}{section.B.5}%
+\contentsline {chapter}{\numberline {A}Math Skills}{84}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Scientific Notation}{84}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Algebra}{85}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Trigonometry}{85}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Radians and Arc Length}{86}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Radians}{86}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Arc Length}{87}{subsection.A.4.2}%
+\contentsline {chapter}{\numberline {B}Reference Tables}{89}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Greek Letters}{89}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{90}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Densities of Common materials}{90}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{90}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Physical Constants}{91}{section.B.5}%

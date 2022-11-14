@@ -101,6 +101,8 @@ Rather than trying to remember each relationship, it is often easier to always a
 		\end{equation}
 	\end{mdframed}
 where P is pressure, V is volume, T is temperature, n is the number of moles of gas that make up the sample and R is the universal gas constant:
+\index{Universal Gas Constant}
+\index{Gas Constant}
 
 	\begin{mdframed}[backgroundcolor=green!20!white]
 	\begin{equation*}
@@ -119,7 +121,7 @@ Sometimes, it is useful to know the exact number of molecules in a sample withou
 		\end{equation}
 	\end{mdframed}
 
-In this equation, $k_B$ is known as \textbf{Boltzman's Constant}, which is the Universal Gas Constant divided by Avagadro's Number:
+In this equation, $k_B$ is known as \textbf{Boltzmann's Constant} \index{Boltzmann's Constant} , which is the Universal Gas Constant divided by Avagadro's Number:
 
 
 	\begin{mdframed}[backgroundcolor=green!20!white]
@@ -137,7 +139,7 @@ In this equation, $k_B$ is known as \textbf{Boltzman's Constant}, which is the U
 	\end{center}
 	
 	\textbf{Problem: } A sample of gas occupies $0.5 \si{m^3}$ at a pressure of $101325 \si{Pa}$ and a temperature of $300 \si{K}$.  Find
-	\begin{enumerate}
+	\begin{enumerate}[label=(\alph*)]
 		\item the number of moles the sample contains.
 		\item the number of molecules the sample contains.
 	\end{enumerate}
@@ -147,28 +149,51 @@ In this equation, $k_B$ is known as \textbf{Boltzman's Constant}, which is the U
 	
 	\textbf{Solution:} 
 
+	
+	\begin{enumerate}[label=(\alph*)]
+	
+		\item begin by using Equation \ref{equation:universalgaslawr}:
+		\begin{equation*}
+			PV = nRT
+		\end{equation*}
+		
+		Solving for n and substituting gives: 
+		
+		\begin{equation*}
+			n= \frac{PV}{RT} = \frac{(101325 \si{Pa})(0.5 \si{m^3})}{(\SI{8.314}{\frac{J}{mol\cdot K}})(300 \si{K})} \approx \boxed{\SI{20.312}{mol}}
+		\end{equation*}
+		
+		\item to solve for the number of molecules, use Equation \ref{equation:universalgaslawkb}:
+		\begin{equation*}
+			PV = N k_BT
+		\end{equation*}
+		
+		Solving for N and substituting gives: 
+		
+			\begin{equation*}
+			n= \frac{PV}{k_BT} = \frac{(101325 \si{Pa})(0.5 \si{m^3})}{(	k_B = 1.381 \times 10^{-23}\si{\frac{J}{K}})(300 \si{K})} \approx \boxed{1.228 \times 10^{25} \si{molecules}}
+		\end{equation*}
+		
+	\end{enumerate}
+
 \end{mdframed}	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	\section{Internal Energy of a Gas}
-	
-		\subsection{Absolute Internal Energy}
+			\subsection{Absolute Internal Energy}
+			\index{Internal Energy}
+				The internal energy of an ideal gas can be thought of as the total of the kinetic energies of all molecules in the sample.  The internal energy of the gas is given by:
+				
 	\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
 			U = \frac{3}{2}nRT = \frac{3}{2} N k_BT
 			\label{equation:internalenergy}
 		\end{equation}
 	\end{mdframed}
-	\subsection{Change in Internal Energy}
+
+	\subsection{Change in Internal Energy} \index{Internal Energy, Change in}
+	
+	Removing all the internal energy from a sample of gas would require the sample to reach a temperature of absolute zero, which is prohibited by the 3rd law of thermodynamics.  Therefore, it is often more important to think about the change in internal energy of the sample.  The internal energy of a gas will change when either heat ($Q$) or work ($W$) flow into or out of the system: 
 	
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -177,7 +202,13 @@ In this equation, $k_B$ is known as \textbf{Boltzman's Constant}, which is the U
 		\end{equation}
 	\end{mdframed}
 	
-	\section{PV-Diagrams}
+	There are several sign conventions associated with Equation \ref{equation:changeinternalenergy} that are sometimes confusing to students.  The easiest way to remember is that energy that flows \textit{into} a system causes its internal energy to \textit{increase}, and energy that flows \textit{out} of a system causes its energy to decrease.  Positive and negative signs should be assigned to work and heat that cause this to be true, despite any sign conventions of an equation.  Remember to \textit{understand} the process that is occurring, and do not just blindly follow an equation. 
+	
+	\newpage
+	
+	\section{PV-Diagrams} \index{PV Diagram}
+	\index{Pressure-Volume Diagram}
+	A \textbf{PV-Diagram} will show the relationship of pressure and volume for a sample of gas, with pressure on the y-axis and volume on the x-axis.  
 
 \begin{figure}[h]
 		\caption{A PV Diagram for a Sample of Gas} \label{figure:pv1}
@@ -207,5 +238,8 @@ In this equation, $k_B$ is known as \textbf{Boltzman's Constant}, which is the U
 
 \end{figure}
 	
+Different processes will have different characteristic shapes on the PV Diagram.  In figure \ref{figure:pv1}, the process labeled A is isobaric, because the pressure does not change.  Process B is Isochoric, since the volume is constant.  Process C would likely be either adiabatic or isothermal, since pressure and volume follow a hyperbolic curve.
 
+
+The area under any process on a PV diagram is equal to the amount of work that flows either into or out of the gas.  In general, in processes pointing toward the left, work is done \textit{on} the gas (and thus the internal energy increases), whereas in processes pointing toward the right, work is done \textit{by} the gas (causing the internal energy to decrease). 
 

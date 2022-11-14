@@ -16,7 +16,12 @@
   You may have heard Sir Isaac Newton's first law of physics stated in different ways than the above.  Often in grade school, students are taught a phrase beginning with ``objects in motion...''.  	Sometimes this law is called the ``Law of Inertia''.   This is a very basic understanding of the complexity of this law.  In fact, all non-accelerating systems are governed by this law.  As long as the vector sum of the forces upon an object is zero, the object will continue in a state of uniform motion (remaining at rest is a type of uniform motion) until something causes the equilibrium of the system to be lost.  
 	Likewise, if an object is known to have an acceleration of zero, we can state that the vector sum of the forces is equal to zero.  We can use this law to characterize non-accelerating systems:
 	
-	
+				\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+			\Sigma \vec{F} = 0  
+			\label{eqn:newtonsfirst}
+		\end{equation}
+	\end{mdframed}
 	
 	\section{Newton's Second Law}
 		\begin{tabular}{p{.75in} p{4.5in} p{.75in}}
@@ -24,11 +29,20 @@
 		& & \\
 		& \textit{The change in motion is proportional to the amount of force of motion imparted, and according to the straight line made by the force impressed. } & \\ 
 		& & \\
-		 & {-Newton, Isaac.  \textit{Philosophiae Naturalis Principia Mathematica}.  tr. J. Williamson} & \\
-		 
-		
-		
+		 & {-Newton, Isaac.  \textit{Philosophiae Naturalis Principia Mathematica}.  tr. J. Williamson} & \\		
+		 	& & \\
 	\end{tabular}
+
+Newton's Second Law describes objects and systems that have a constant acceleration.  The vector sum of the forces on an object is equal to the object's mass times its acceleration:
+
+				\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		\Sigma \vec{F} = m \vec{a}  
+		\label{eqn:newtonssecond}
+	\end{equation}
+\end{mdframed}
+	
+	
 	
 	\section{Newton's Third Law}
 		\begin{tabular}{p{.75in} p{4.5in} p{.75in}}
@@ -44,8 +58,87 @@
 	
 	\section{Applications of Newton's Laws}
 		\subsection{Friction}
+		\index{Friction}
+		
+		\index{Static Friction}
+		\index{Friction, Static}
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+			\begin{equation}
+				|F_f| \leq \mu_s |F_N|  
+				\label{eqn:frictionstatic}
+			\end{equation}
+		\end{mdframed}
+	
+			\index{Friction, Kinetic}
+			\index{Kinetic Friction}
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+			|F_f| = \mu_k |F_N|  
+			\label{eqn:frictionkinetic}
+		\end{equation}
+	\end{mdframed}
+		
+		
+		
+		\subsection{Inclined Planes}
+		\index{Inclined Plane}
+		
+		
+		\newcommand{\angler}{30}
+		\begin{figure}[H]
+			\centering
+		\begin{tikzpicture} [font = \small]
+			
+			% triangle:
+			\draw [draw = orange, fill = orange!15] (0,0) coordinate (O) -- (\angler:6)
+			coordinate [pos=.45] (M) |- coordinate (B) (O);
+			
+			% angles:
+			\draw [draw = orange] (O) ++(.8,0) arc (0:\angler:0.8) 
+			node [pos=.4, left] {$\theta$};
+			\draw [draw = orange] (B) rectangle ++(-0.3,0.3);
+			
+			\begin{scope} [-latex,rotate=\angler]
+				
+				% Object (rectangle)
+				\draw [fill = blue!30,
+				draw = blue!50] (M) rectangle ++ (1,.6);
+				
+				% Weight Force and its projections
+				\draw [dashed] (M) ++ (.5,.3) coordinate (MM) -- ++ (0,-1.29)
+				node [very near end, right] {$F_{gy}$};
+				
+				\draw [dashed] (3.2,-1) -- ++ (-0.75,0) 
+				node [right] {$F_{gx}$};
+				
+				\draw (MM) -- ++ (-\angler-90:1.5)
+				node [very near end,left ] {$\vec{F}_g$};
+				
+				% Normal Force
+				\draw (MM) -- ++ (0,1.29)
+				node [very near end, right] {$F_N$};
+				
+				% Frictional Force
+				\draw (MM) -- ++ (0.75,0)
+				node [very near end, above] {$F_f$};
+				
+			\end{scope}
+			
+		\end{tikzpicture} 
+		\caption{An inclined plane}
+				\end{figure}
+		
+		
+		
 		\subsection{Elevators}
-		\subsection{Pulleys}
+		\index{Elevator}
+		\index{Apparent Weight}
+		
+		
+		
+		
+		\subsection{Pulleys and Atwood Machines}
+		\index{Atwood Machine}
 		
 
 
