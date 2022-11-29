@@ -241,5 +241,115 @@ In this equation, $k_B$ is known as \textbf{Boltzmann's Constant} \index{Boltzma
 Different processes will have different characteristic shapes on the PV Diagram.  In figure \ref{figure:pv1}, the process labeled A is isobaric, because the pressure does not change.  Process B is Isochoric, since the volume is constant.  Process C would likely be either adiabatic or isothermal, since pressure and volume follow a hyperbolic curve.
 
 
-The area under any process on a PV diagram is equal to the amount of work that flows either into or out of the gas.  In general, in processes pointing toward the left, work is done \textit{on} the gas (and thus the internal energy increases), whereas in processes pointing toward the right, work is done \textit{by} the gas (causing the internal energy to decrease). 
+The area under any process on a PV diagram is equal to the amount of work that flows either into or out of the gas.  In general, in processes pointing toward the left, work is done \textit{on} the gas (and thus the internal energy increases), whereas in processes pointing toward the right, work is done \textit{by} the gas (causing the internal energy to decrease). One should note that there is no area under a vertical line.  Thus, in isochoric processes - such as process B in figure \ref{figure:pv1}, in which the volume does not change, there is no work done. 
 
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A sample of Gas is taken through the process ABC, as shown in the PV diagram below: 
+	
+
+\begin{center}
+		\begin{tikzpicture}
+			
+			\draw[thin,gray!40] (0,0) grid (5,5);
+			\draw[<->] (0,0)--(5,0) node[right]{$V (\si{m^3})$};
+			\draw[<->] (0,0)--(0,5) node[above]{$P (\si{kPa})$};
+			\draw[line width=2pt,blue,-stealth](4,1) -- (2.5,1) node[below]{A} -- (1,1) ;
+			\draw[line width=2pt,blue,-stealth](1,1)-- (1,2.5) node [left] {B} -- (1,4);
+			\draw[line width=2pt,blue,-stealth] plot[blue,variable=\t,samples=1000,domain=-33:0] ({16*sec(\t)-15},{4.6*(tan(\t))+4});
+			\draw [blue](2.5,2.5) node[right] {C};
+			\draw (0,1) node[left] {1};
+			\draw (0,2) node[left] {2};
+			\draw (0,3) node[left] {3};
+			\draw (0,4) node[left] {4};
+			\draw (0,5) node[left] {5};
+			
+			\draw (1,0) node[below] {1};
+			\draw (2,0) node[below] {2};
+			\draw (3,0) node[below] {3};
+			\draw (4,0) node[below] {4};
+			\draw (5,0) node[below] {5};		
+			
+		\end{tikzpicture}
+\end{center}		
+		
+	The temperature of the gas at the starting point is 300K.  Calculate:
+		\begin{enumerate}[label=(\alph*)]
+			\item The temperature of the gas at the end of Process A.
+			\item The number of molecules in the sample.
+			\item The amount of work done in process A.
+			\item the amount of work done in process B.
+		\end{enumerate}
+		
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	\begin{enumerate}[label=(\alph*)]
+		\item Use the combined gas law, Equation \ref{equation:combinedgaslaw} to find the temperature at the end of process A:
+		
+		\begin{equation*}
+			\frac{P_1V_1}{T_1}=\frac{P_2V_2}{T_2}
+		\end{equation*}
+	Since the pressure does not change, this equation reduces to Charles's Law:
+		\begin{equation*}
+		\frac{\cancel{P_1}V_1}{T_1}=\frac{\cancel{P_2}V_2}{T_2} \rightarrow \frac{V_1}{T_1}=\frac{V_2}{T_2}
+	\end{equation*}
+
+	Solving for $T_2$ gives:
+	\begin{equation*}
+		T_2 = \frac{V_2T_1}{V_1} =\frac{(1 \si{m^3}) (300 \si{K})}{4 \si{m^3}} = \boxed{75 \si{K}}
+	\end{equation*}
+
+	\item The Ideal Gas Law, Equation \ref{equation:universalgaslawkb}, can be applied to the gas at any point on the diagram.  Here, it is applied in the initial state:
+	
+	\begin{equation*}
+		PV=Nk_BT
+	\end{equation*}
+	Solving for N gives:
+		\begin{equation*}
+		N=\frac{PV}{k_BT} = \frac{(1 \times 10^3 \si{Pa})(4 \si{m^3})}{(1.381 \times 10^{-23} \si{J/K})(300 \si{K})} \approx \boxed{9.655 \times 10^{23} \si{molecules}}
+	\end{equation*}
+		
+		\item The work done by process A is equal to the area under the line for process A: 
+		
+		\begin{center}
+			\begin{tikzpicture}
+				
+				\draw[thin,gray!40] (0,0) grid (5,5);
+				\draw[<->] (0,0)--(5,0) node[right]{$V (\si{m^3})$};
+				\draw[<->] (0,0)--(0,5) node[above]{$P (\si{kPa})$};
+				\draw[line width=2pt,blue,-stealth](4,1) -- (2.5,1) node[below]{A} -- (1,1) ;
+				\draw[line width=2pt,blue,-stealth](1,1)-- (1,2.5) node [left] {B} -- (1,4);
+				\draw[line width=2pt,blue,-stealth] plot[blue,variable=\t,samples=1000,domain=-33:0] ({16*sec(\t)-15},{4.6*(tan(\t))+4});
+				\draw [blue](2.5,2.5) node[right] {C};
+				\draw (0,1) node[left] {1};
+				\draw (0,2) node[left] {2};
+				\draw (0,3) node[left] {3};
+				\draw (0,4) node[left] {4};
+				\draw (0,5) node[left] {5};
+				
+				\draw (1,0) node[below] {1};
+				\draw (2,0) node[below] {2};
+				\draw (3,0) node[below] {3};
+				\draw (4,0) node[below] {4};
+				\draw (5,0) node[below] {5};		
+				
+				\filldraw [fill=red, draw=black, fill opacity=0.5] (1,0) rectangle (4,1);
+			\end{tikzpicture}
+		\end{center}	
+		Since this shape is a rectangle, we merely multiply base times height:
+		
+		\begin{equation*}
+			W = A = BH = (3 \si{m^3}) (1 \times 10^3 \si{Pa}) = \boxed{3 \times 10^3 \si{J}}
+		\end{equation*}
+		
+		\item Since process B is a vertical segment on the PV-Diagram, there is no area underneath this segment.  Therefore, the are and the work done are both  0 Joules.
+		
+	\end{enumerate}
+	
+\end{mdframed}

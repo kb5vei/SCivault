@@ -1,6 +1,8 @@
 \chapter{Work and Energy}
-	\section{Work}
-	
+	\section{Work} 
+	\index{Work}
+	\textbf{Work} is the amount of energy that is transferred into or out of an object due to the application of a force that results in a displacement.  The formula for work is:
+		
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
 		W = \vec{F}\cdot\vec{d}  
@@ -8,8 +10,20 @@
 		\end{equation}
 	\end{mdframed}
 	
+	Note that both force and displacement are vectors, and work is the dot product of the two vectors.  Thus, referencing equation \ref{equation:dotproduct}
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		W = \vec{F}\cdot\vec{d}  = |\vec{F}| |\vec{d}| cos (\theta)
+		\label{eqn:workdotproduct}
+	\end{equation}
+\end{mdframed}	
+	It should also be noted that for work to be done, there must be a non-zero displacement.  No work is done on an object that does not move.  
+	
+	
 	\section{Energy}
-	\subsection{Kinetic Energy} \index{Kinetic Energy} \label{Kinetic Energy}
+	\index{Energy}
+	\subsection{Kinetic Energy} \index{Kinetic Energy} \label{Kinetic Energy} \index{Energy, Kinetic}
+	\textbf{Kinetic Energy} is energy of motion.  Any object that is moving has kinetic energy.  Kinetic energy cannot be negative.  The formula for kinetic energy is: 
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
 		K = \frac{1}{2}mv^2 
@@ -17,19 +31,27 @@
 		\end{equation}
 	\end{mdframed}
 	
-	\subsection{Potential energy}
-	\subsubsection{Gravitational Potential Energy} \index{Gravitational Potential Energy} \index{Potential Energy, Gravitational}
 	
+	\subsection{Potential energy} \index{Potential Energy} \index{Energy, Potential}
+	\textbf{Potential Energy} is energy that is stored.  Though there are many forms of potential energy, We will concentrate on two forms of stored energy in this section: gravitational potential energy and elastic potential energy.  In this text, potential energy is symbolized by the variable $U$, though it is quite common to find potential energy symbolized by the letters $PE$ as well. 
+	
+	\subsubsection{Gravitational Potential Energy} \index{Gravitational Potential Energy} \index{Potential Energy, Gravitational} \index{Energy, Gravitational Potential}
+	\textbf{Gravitational Potential Energy} is energy that is stored due to the interaction of an object with gravitational field.  When a relatively small object is in a uniform gravitational field (such as near the surface of a planet), the gravitational potential energy is given by: 
 			\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
-		U_g = mhg
+		U_g = mgh
 		\label{eqn:gravitationalpotentialenergy}
 		\end{equation}
 	\end{mdframed}
 	
+ 
+	
+	
+	
 	\subsubsection{Elastic Potential Energy} \index{Elastic Potential Energy} \index{Potential Energy, Elastic}
 	
 	\index{Potential Energy, Gravitational}
+	Springs and other stretchable materials that return to their original shape when not subjected to external forces store \textbf{Elastic Potential Energy}.  For an ideal spring, the force the spring exerts is proportional to the distance it has been stretched.  This is called Hooke's Law: 
 	
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -38,6 +60,7 @@
 		\end{equation}
 	\end{mdframed}
 	
+	Some calculus can show that the energy stored in a spring that obeys Hooke's Law is: 
 	
 	\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}

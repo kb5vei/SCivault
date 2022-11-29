@@ -8,7 +8,7 @@
 	There are three modes in which heat is transferred from one object to another.   \begin{itemize}
 		\item \textit{Conduction} occurs when objects are physically touching each other.  Metals tend to be good conductors of heat. 
 		\item   \textit{Convection} occurs when a moving fluid causes heat to be transferred.  Convection currents in fluids can occur naturally, or they can be forced. 
-		\item  \textit{Thermal Radiation} (not to be confused with Ionizing Radiation, which will be studied in chapter \ref{chap:nuclear}) occurs when heat is transferred via electromagnetic waves.  While infrared light is most often associated with heat transfer, all electromagnetic rays transfer energy - and that energy often ends up as thermal energy.  
+		\item  \textit{Thermal Radiation} (not to be confused with Ionizing Radiation, which will be studied in chapter \ref{chap:nuclear}) occurs when heat is transferred via electromagnetic waves.  While infrared light is most often associated with heat transfer, all electromagnetic rays transfer energy - and that energy often ends up as thermal energy.  Additionally, thermal radiation is the only mode of heat transfer that does not require a medium - it can happen through empty space.
 		\end{itemize}
 	
 	\section{Laws of Thermodynamics}
@@ -25,14 +25,57 @@
 	
 	\subsection{1st Law}
 			\index{Thermodynamics, 1st Law of}
+			Heat flows from higher temperature to lower temperature.
+			$\Delta U = Q + W $ 
 			
 	\subsection{2nd Law} 
 			\index{Thermodynamics, 2nd Law of}
+			Entropy Always increases.
 			
 	\subsection{3rd Law}
 			\index{Thermodynamics, 3rd Law of}
+			It is impossible to reach absolute zero.
+	
+	
 	
 	\section{Specific Heat Capacity}
+	\index{Specific Heat Capacity}
+	
+	Have you ever gone to the beach and found that the sand is extremely hot, while the water is quite cold?  This is an example of a difference in specific heat capacity.  Different materials respond to heat by warming at different rates; it takes more energy to warm 1 kg of water by $1 \si{\degreeCelsius}$ than it takes to warm 1 kg of sand by $1 \si{\degreeCelsius}$.  Thus, the sand tends to warm up faster than the water.  
+	
+	The amount of heat, $Q$, needed to cause a mass of $m$ to change its temperature by $\Delta T$ is given by the following formula:
+	
+					\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+			Q = m c \Delta T 
+			\label{eqn:specificheat}
+		\end{equation}
+	\end{mdframed}
+	The specific heat capacity of the material is $c$.  A list of specific heat capacities for common materials can be found in Appendix \ref{tab:specificheat} on  \cpageref{tab:specificheat}.
+	
+	
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.1}	
+		\end{center}
+		
+		\textbf{Problem: } How much energy is required to heat 2.5 kg of water from $20 \si{\degreeCelsius}$ to $60 \si{\degreeCelsius}$?
+				
+		\vspace{0.1in}
+		
+		\textbf{Solution:} The specific heat of water is $4180 \si{\frac{J}{kg \degreeCelsius}} $.  Applying equation \ref{eqn:specificheat} yields:
+		
+		\begin{equation*}
+			Q = m c \Delta T = (\SI{2.5}{kg}) (4180 \si{\frac{J}{kg \degreeCelsius}}) (60 \si{\degreeCelsius} - 20 \si{\degreeCelsius})= \SI{418000}{J} 
+		\end{equation*}
+	\end{mdframed}
+	
+	\section{Phase Changes and Latent Heat}
+	\subsection{Latent Heat of Fusion}
+	\subsection{Latent Heat of Vaporization}
+	\section{Heat Engines}
 	
 
 
