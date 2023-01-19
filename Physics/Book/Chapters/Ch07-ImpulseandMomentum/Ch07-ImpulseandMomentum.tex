@@ -16,15 +16,29 @@
 	 		\textbf{Example \thesection.1}	
 	 	\end{center}
 	 	
-	 	\textbf{Problem: } A 1400 kg car is traveling at 12 m/s.  What is its momentum? 
+	 	\textbf{Problem: } A 1400 kg bus is traveling at 12 m/s.  What is its momentum? 
 	 	\vspace{0.1in}
 	 	
 	 	\textbf{Solution:} 
 	 	Begin by drawing a diagram and identifying variables:
+	 		 \vspace{0.2in}
 	 	
+	 	\begin{tikzpicture}
+	 		\shade[top color=blue, bottom color=black, shading angle={-45}]
+	 		[draw=black,fill=red!20,rounded corners=1.2ex,very thick] (1.5,.5) rectangle (6.5,2.5);
+	 		\draw[draw=black,fill=gray!50,thick] (2.5,.5) circle (.5);
+	 		\draw[draw=black,fill=gray!50,thick] (5.5,.5) circle (.5);    
+	 		\draw[draw=black,fill=gray!80,semithick] (2.5,.5) circle (.4);
+	 		\draw[draw=black,fill=gray!80,semithick] (5.5,.5) circle (.4);
+	 		
+	 		\draw[->,semithick] (6.75,1.5) -- (8.5,1.5);
+	 		\draw (8,1) node {$\vec{v} = 12 \si{m/s}$};
+	 		\draw (4,1.5) node[text=white] {$m = 1400 \si{kg}$};
+	 	\end{tikzpicture}
 	 	
+	 	Using equation \ref{eqn:momentum}, we see:
 	 	\begin{equation*}
-	 	\vec{p} = m \vec{v} = 1400 kg \times 12 \frac{m}{s} = 16800 \frac{kg\cdot m}{s}
+	 	\vec{p} = m \vec{v} = 1400 kg \times 12 \frac{m}{s} = \boxed{16800 \frac{kg\cdot m}{s}}
 	 	\end{equation*}
 	 	
 	 \end{mdframed}
@@ -43,9 +57,11 @@
 	where $\vec{J}$ is impulse, $\vec{F}$ is force, and $t $ is time.  The units for impulse are $\si{N\cdot s}$, which are equivalent to $ \si{\frac{kg \cdot m}{s}}$.
 	
 	
+	
+	
 	\section{The Impulse-Momentum Theorem}
 	
-	Just as work causes an object's energy to change, Impulse causes an object's momentum to change:
+	Just as work causes an object's energy to change, impulse causes an object's momentum to change:
 	
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -58,12 +74,39 @@
 	
 	
 	\section{The Law of Conservation of Momentum}
+	\index{Law of Conservation of Momentum}
+	\index{Momentum, Law of Conservation of}
 	
-	The law of momentum states that momentum cannot be created or destroyed.  Thus, whatever momentum as system has in its initial state, plus any changes in momentum from outside the system (accounted for as impulse) must be the momentum it has in its final state.
+	The Law of Conservation of Momentum states that momentum cannot be created or destroyed.  Thus, the total momentum a system has in its initial state, plus any changes in momentum from outside the system (accounted for as impulse) must be equal to the total momentum the system has in its final state.
+	
+	
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+			\vec{p_i} + \vec{J} = \vec{p_f}
+			\label{eqn:ConservationofMomentum}
+		\end{equation}
+	\end{mdframed}
 	
 
-		
-
+	 \begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+	\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A 1000 kg car is traveling to the right at 12 m/s.  It collides head-on with an 800 kg car traveling to the left at 8 m/s.  The two cars get stuck together.  What is the velocity of the wreckage immediately after the collision?
+	
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by drawing a diagram and identifying variables:
+	
+	
+	\begin{equation*}
+		\vec{p} = m \vec{v} = 1400 kg \times 12 \frac{m}{s} = 16800 \frac{kg\cdot m}{s}
+	\end{equation*}
+	
+\end{mdframed}
+\vspace{0.1in}
 
 	
 

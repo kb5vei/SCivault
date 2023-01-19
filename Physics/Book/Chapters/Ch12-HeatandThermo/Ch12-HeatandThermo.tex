@@ -25,16 +25,40 @@
 	
 	\subsection{1st Law}
 			\index{Thermodynamics, 1st Law of}
-			Heat flows from higher temperature to lower temperature.
-			$\Delta U = Q + W $ 
+		
+		\textbf{The first law of thermodynamics} can be thought of as a restatement of the Law of Conservation of Energy. The change in internal thermal energy of a system ($\Delta U$) will be equal to the amount of energy that entered or left the system.  Energy can enter or leave a system as either work ($W$) or heat ($Q$).  Thus,
+		
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+				\Delta U = Q + W
+				\label{eqn:firstlawofthermo}
+		\end{equation}
+		\end{mdframed}
 			
+This equation is often printed with various sign conventions that can sometimes make it harder to understand.  Rather than memorizing sign conventions, the author of this book suggest developing an understanding that energy entering the system should increase the internal energy and energy exiting the system should decrease the internal energy.  Positives and negatives can then be chosen based on the situation.  
+
+	
 	\subsection{2nd Law} 
 			\index{Thermodynamics, 2nd Law of}
-			Entropy Always increases.
+			\textbf{The Second Law of Thermodynamics} states that systems tend to become more chaotic over time.  That is, the \textit{entropy} of a closed system will always increase.  
+			
+			This concept is fairly easy to understand.  The probability of an organized stack of books falling down into a disorganized pile is much greater than the probability of a disorganized pile of books spontaneously arranging themselves into an organized stack.  Thus, the Second Law of Thermodynamics merely states that events that are more probable also tend to be more disorganized.  
+			
+			There are two important implications of the Second Law of Thermodynamics:
+			\begin{enumerate}
+				\item Heat always flows from objects of higher temperature to objects of lower temperature.  
+				\item The direction of time can be determined by the increase in entropy of closed systems.  
+			\end{enumerate}
+			
+			
 			
 	\subsection{3rd Law}
 			\index{Thermodynamics, 3rd Law of}
-			It is impossible to reach absolute zero.
+ \textbf{The Third Law of Thermodynamics} states that the entropy of a system approaches a constant value as the temperature of a system approaches absolute zero.  
+ 
+ 
+ 
+ When combined with the 2nd law of thermodynamics, which states that the entropy of a closed system always increases, this means that the temperature of absolute zero can never be reached.  
 	
 	
 	
@@ -73,6 +97,64 @@
 	\end{mdframed}
 	
 	\section{Phase Changes and Latent Heat}
+	\subsection {The States of Matter}
+		There are 4 common states of matter that exist abundantly in the universe:
+		\begin{enumerate}
+			\item \textbf{Solid} - in which matter has both a definite shape and a definite volume.  Subatomically, atoms are packed together tightly, causing them to be stuck in place.  While they can vibrate, they are unable to move significantly.  
+			\item \textbf{Liquid} - in which matter has a definite volume, but not a definite shape.  Atoms are still packed together relatively tightly, but are free to move around. 
+			\item \textbf{Gas} - in which matter has no definite shape or size; gasses will expand to fill their container.  Individual atoms are far apart and rarely interact with each other.  
+			\item \textbf{Plasma} - in which atoms become ionized.  That is, electrons and nuclei are completely separated from each other.  Like gasses, plasmas have no definite shape or volume.  
+		\end{enumerate}
+		It is important to note that there are other states of matter, such as Bose-Einstein condensates, that are beyond the scope of this text.  
+		
+		\begin{figure}
+			
+			\definecolor{topgreen}{RGB}{242,255,225}
+			\definecolor{botgreen}{RGB}{220,253,174}
+			\definecolor{bordercol}{RGB}{158,174,125}
+			\definecolor{arrowcolor1}{RGB}{74,126,186}
+			\definecolor{arrowcolor2}{RGB}{255,126,74}
+			\tikzset{
+				box/.style={draw=bordercol, rectangle, font=\sffamily, top color=topgreen, bottom color=botgreen, drop shadow, minimum width=2cm, inner ysep=4pt},
+				myarr/.style={-{Straight Barb[angle=60:2pt 5]}, arrowcolor1},
+				myarr2/.style={-{Straight Barb[angle=60:2pt 5]}, arrowcolor2},
+				nodarr/.style={midway, fill=white, anchor=center, text=black, font=\sffamily}
+			}
+		\centering
+		\begin{tikzpicture}[auto, node distance=8cm]
+			
+			\node[box] (Solid) {Solid};
+			\node[box, right = of Solid] (Liquid) {Liquid};
+			\node[box, above = of Solid] (Gas) {Gas};
+			\node[box, above = of Liquid] (Plasma) {Plasma};
+			\node[below left = -.15cm of Plasma] (bp){};
+			\node[below right = -.15cm of Gas] (bg){};
+			\node[above left = -.15cm of Plasma] (ap){};
+			\node[above right = -.15cm of Gas] (ag){};
+			\node[below right = -.15cm of Solid] (bs){};
+			\node[below left = -.15cm of Liquid] (bl){};
+			\node[above right = -.15cm of Solid] (as){};
+			\node[above left = -.15cm of Liquid] (al){};
+			\node[below left = -.15cm of Gas] (bgl){};
+			\node[above left = -.15cm of Solid] (asl){};
+			\node[above right = -.15cm of Liquid] (alr){};
+			\node[below = -.15cm of Gas] (bgc){};
+			
+			\draw[myarr2] (ag) -- (ap) node[nodarr] {Ionization};
+			\draw[myarr] (bp) -- (bg) node[nodarr] {Recombination};
+			
+			\draw[myarr2] (as) -- (al) node[nodarr] {Melting};
+			\draw[myarr] (bl) -- (bs) node[nodarr] {Freezing};
+			
+			\draw[myarr2] (alr) -- (ag) node[nodarr] {Vaporization};
+			\draw[myarr] (bgl) -- (bl) node[nodarr] {Condensation};
+			
+			
+			\draw[myarr2] (as) -- (bg) node[nodarr] {Sublimation};
+			\draw[myarr] (bgl) -- (asl) node[nodarr] {Deposition};
+		\end{tikzpicture}
+		\caption{The Phase Changes of Matter}
+		\end{figure}
 	\subsection{Latent Heat of Fusion}
 	\subsection{Latent Heat of Vaporization}
 	\section{Heat Engines}
