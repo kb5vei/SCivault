@@ -73,112 +73,113 @@
 \BOOKMARK [1][-]{section.9.2}{Angular Kinematics}{chapter.9}% 73
 \BOOKMARK [1][-]{section.9.3}{Moment of Inertia}{chapter.9}% 74
 \BOOKMARK [1][-]{section.9.4}{Torque}{chapter.9}% 75
-\BOOKMARK [1][-]{section.9.5}{Angular Kinetic Energy}{chapter.9}% 76
-\BOOKMARK [1][-]{section.9.6}{Angular Momentum}{chapter.9}% 77
-\BOOKMARK [2][-]{subsection.9.6.1}{The Definition of Angular Momentum}{section.9.6}% 78
-\BOOKMARK [2][-]{subsection.9.6.2}{Conservation of Angular Momentum}{section.9.6}% 79
-\BOOKMARK [0][-]{chapter.10}{Waves}{}% 80
-\BOOKMARK [1][-]{section.10.1}{Fundamentals of Waves}{chapter.10}% 81
-\BOOKMARK [2][-]{subsection.10.1.1}{Types of Waves}{section.10.1}% 82
-\BOOKMARK [2][-]{subsection.10.1.2}{Basic Wave Characteristics and Vocabulary}{section.10.1}% 83
-\BOOKMARK [2][-]{subsection.10.1.3}{Velocity of a Wave}{section.10.1}% 84
-\BOOKMARK [1][-]{section.10.2}{The Doppler Effect}{chapter.10}% 85
-\BOOKMARK [1][-]{section.10.3}{The Principle of Superposition and Interference}{chapter.10}% 86
-\BOOKMARK [2][-]{subsection.10.3.1}{The Principle of Superposition}{section.10.3}% 87
-\BOOKMARK [2][-]{subsection.10.3.2}{Interference}{section.10.3}% 88
-\BOOKMARK [1][-]{section.10.4}{Resonance}{chapter.10}% 89
-\BOOKMARK [2][-]{subsection.10.4.1}{Resonance of a Tube that is Open on Both Ends}{section.10.4}% 90
-\BOOKMARK [2][-]{subsection.10.4.2}{Resonance of a Tube that is Open on One End and Closed on the Other}{section.10.4}% 91
-\BOOKMARK [2][-]{subsection.10.4.3}{Resonance of a String that is Fixed on Both Ends}{section.10.4}% 92
-\BOOKMARK [0][-]{chapter.11}{Optics}{}% 93
-\BOOKMARK [1][-]{section.11.1}{Geometric Optics}{chapter.11}% 94
-\BOOKMARK [2][-]{subsection.11.1.1}{Refraction}{section.11.1}% 95
-\BOOKMARK [2][-]{subsection.11.1.2}{Reflection}{section.11.1}% 96
-\BOOKMARK [1][-]{section.11.2}{Physical Optics}{chapter.11}% 97
-\BOOKMARK [2][-]{subsection.11.2.1}{Young's Double Slit Experiment}{section.11.2}% 98
-\BOOKMARK [2][-]{subsection.11.2.2}{Thin Film Interference}{section.11.2}% 99
-\BOOKMARK [0][-]{chapter.12}{Fluids}{}% 100
-\BOOKMARK [1][-]{section.12.1}{Density}{chapter.12}% 101
-\BOOKMARK [1][-]{section.12.2}{Buoyant Force}{chapter.12}% 102
-\BOOKMARK [2][-]{subsection.12.2.1}{Percent Submerged}{section.12.2}% 103
-\BOOKMARK [1][-]{section.12.3}{Pressure}{chapter.12}% 104
-\BOOKMARK [2][-]{subsection.12.3.1}{Hydrostatic Pressure}{section.12.3}% 105
-\BOOKMARK [1][-]{section.12.4}{The Fluid Continuity Equation}{chapter.12}% 106
-\BOOKMARK [1][-]{section.12.5}{Bernouli's Equation}{chapter.12}% 107
-\BOOKMARK [0][-]{chapter.13}{Heat and Thermodynamics}{}% 108
-\BOOKMARK [1][-]{section.13.1}{Modes of Heat Transfer}{chapter.13}% 109
-\BOOKMARK [1][-]{section.13.2}{Laws of Thermodynamics}{chapter.13}% 110
-\BOOKMARK [2][-]{subsection.13.2.1}{0th Law}{section.13.2}% 111
-\BOOKMARK [2][-]{subsection.13.2.2}{1st Law}{section.13.2}% 112
-\BOOKMARK [2][-]{subsection.13.2.3}{2nd Law}{section.13.2}% 113
-\BOOKMARK [2][-]{subsection.13.2.4}{3rd Law}{section.13.2}% 114
-\BOOKMARK [1][-]{section.13.3}{Specific Heat Capacity}{chapter.13}% 115
-\BOOKMARK [1][-]{section.13.4}{Phase Changes and Latent Heat}{chapter.13}% 116
-\BOOKMARK [2][-]{subsection.13.4.1}{The States of Matter}{section.13.4}% 117
-\BOOKMARK [2][-]{subsection.13.4.2}{Latent Heat of Fusion}{section.13.4}% 118
-\BOOKMARK [2][-]{subsection.13.4.3}{Latent Heat of Vaporization}{section.13.4}% 119
-\BOOKMARK [1][-]{section.13.5}{Heat Engines}{chapter.13}% 120
-\BOOKMARK [0][-]{chapter.14}{Gas Laws}{}% 121
-\BOOKMARK [1][-]{section.14.1}{Boyle's, Charles's, Gay-Lussac's, and The Combined Gas Law}{chapter.14}% 122
-\BOOKMARK [1][-]{section.14.2}{The Ideal Gas Law}{chapter.14}% 123
-\BOOKMARK [1][-]{section.14.3}{Internal Energy of a Gas}{chapter.14}% 124
-\BOOKMARK [2][-]{subsection.14.3.1}{Absolute Internal Energy}{section.14.3}% 125
-\BOOKMARK [2][-]{subsection.14.3.2}{Change in Internal Energy}{section.14.3}% 126
-\BOOKMARK [1][-]{section.14.4}{PV-Diagrams}{chapter.14}% 127
-\BOOKMARK [0][-]{chapter.15}{Electrostatics}{}% 128
-\BOOKMARK [1][-]{section.15.1}{Electrostatic Charge}{chapter.15}% 129
-\BOOKMARK [1][-]{section.15.2}{Coulomb's Law and Electrostatic Force}{chapter.15}% 130
-\BOOKMARK [1][-]{section.15.3}{Electrostatic Potential Energy}{chapter.15}% 131
-\BOOKMARK [1][-]{section.15.4}{Electric Field}{chapter.15}% 132
-\BOOKMARK [1][-]{section.15.5}{Electric Potential and Voltage}{chapter.15}% 133
-\BOOKMARK [1][-]{section.15.6}{Capacitors}{chapter.15}% 134
-\BOOKMARK [2][-]{subsection.15.6.1}{Construction of Capacitors}{section.15.6}% 135
-\BOOKMARK [2][-]{subsection.15.6.2}{Capacitors in Circuits}{section.15.6}% 136
-\BOOKMARK [0][-]{chapter.16}{Circuits}{}% 137
-\BOOKMARK [1][-]{section.16.1}{Circuits Symbols}{chapter.16}% 138
-\BOOKMARK [1][-]{section.16.2}{Resistors}{chapter.16}% 139
-\BOOKMARK [0][-]{chapter.17}{Magnetic Forces and Fields}{}% 140
-\BOOKMARK [1][-]{section.17.1}{Types of Magnetism}{chapter.17}% 141
-\BOOKMARK [2][-]{subsection.17.1.1}{Permanent Magnetism}{section.17.1}% 142
-\BOOKMARK [2][-]{subsection.17.1.2}{Electromagnetism}{section.17.1}% 143
-\BOOKMARK [1][-]{section.17.2}{Magnetic Force on a Charged Particle}{chapter.17}% 144
-\BOOKMARK [1][-]{section.17.3}{Magnetic Force on a Current-Carrying Wire}{chapter.17}% 145
-\BOOKMARK [1][-]{section.17.4}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.17}% 146
-\BOOKMARK [0][-]{chapter.18}{Magnetic Induction}{}% 147
-\BOOKMARK [1][-]{section.18.1}{Lenz's Law}{chapter.18}% 148
-\BOOKMARK [1][-]{section.18.2}{Faraday's Law}{chapter.18}% 149
-\BOOKMARK [0][-]{chapter.19}{Modern and Atomic Physics}{}% 150
-\BOOKMARK [1][-]{section.19.1}{The Dual Nature of Light}{chapter.19}% 151
-\BOOKMARK [2][-]{subsection.19.1.1}{Young's Double Slit Experiment}{section.19.1}% 152
-\BOOKMARK [2][-]{subsection.19.1.2}{The Photoelectric Effect}{section.19.1}% 153
-\BOOKMARK [1][-]{section.19.2}{The Dual Nature of Matter}{chapter.19}% 154
-\BOOKMARK [2][-]{subsection.19.2.1}{Mass-Energy Equivalence}{section.19.2}% 155
-\BOOKMARK [2][-]{subsection.19.2.2}{deBroigle Wavelength}{section.19.2}% 156
-\BOOKMARK [1][-]{section.19.3}{Atomic Physics}{chapter.19}% 157
-\BOOKMARK [2][-]{subsection.19.3.1}{Energy Level Diagrams and Atomic Spectra}{section.19.3}% 158
-\BOOKMARK [0][-]{chapter.20}{Nuclear Physics}{}% 159
-\BOOKMARK [1][-]{section.20.1}{Elements, Isotopes, and Ions}{chapter.20}% 160
-\BOOKMARK [1][-]{section.20.2}{Radioactive Decay}{chapter.20}% 161
-\BOOKMARK [2][-]{subsection.20.2.1}{Types of Radioactive Decay}{section.20.2}% 162
-\BOOKMARK [2][-]{subsection.20.2.2}{Half-Life}{section.20.2}% 163
-\BOOKMARK [1][-]{section.20.3}{Fission and Fusion}{chapter.20}% 164
-\BOOKMARK [2][-]{subsection.20.3.1}{Fission}{section.20.3}% 165
-\BOOKMARK [2][-]{subsection.20.3.2}{Fusion}{section.20.3}% 166
-\BOOKMARK [0][-]{chapter.21}{Relativity}{}% 167
-\BOOKMARK [1][-]{section.21.1}{Special Relativity}{chapter.21}% 168
-\BOOKMARK [2][-]{subsection.21.1.1}{Length Contraction}{section.21.1}% 169
-\BOOKMARK [2][-]{subsection.21.1.2}{Time Dilation}{section.21.1}% 170
-\BOOKMARK [2][-]{subsection.21.1.3}{Mass Increase}{section.21.1}% 171
-\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 172
-\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 173
-\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 174
-\BOOKMARK [1][-]{section.A.3}{Trigonometry}{appendix.A}% 175
-\BOOKMARK [1][-]{section.A.4}{Radians and Arc Length}{appendix.A}% 176
-\BOOKMARK [2][-]{subsection.A.4.1}{Radians}{section.A.4}% 177
-\BOOKMARK [2][-]{subsection.A.4.2}{Arc Length}{section.A.4}% 178
-\BOOKMARK [0][-]{appendix.B}{Reference Tables}{}% 179
-\BOOKMARK [1][-]{section.B.1}{Greek Letters}{appendix.B}% 180
-\BOOKMARK [1][-]{section.B.2}{Musical Notes and Frequencies}{appendix.B}% 181
-\BOOKMARK [1][-]{section.B.3}{Densities of Common materials}{appendix.B}% 182
-\BOOKMARK [1][-]{section.B.4}{Common Indices of Refraction}{appendix.B}% 183
-\BOOKMARK [1][-]{section.B.5}{Physical Constants}{appendix.B}% 184
+\BOOKMARK [2][-]{subsection.9.4.1}{Newton's Laws in a Rotational Setting}{section.9.4}% 76
+\BOOKMARK [1][-]{section.9.5}{Angular Kinetic Energy}{chapter.9}% 77
+\BOOKMARK [1][-]{section.9.6}{Angular Momentum}{chapter.9}% 78
+\BOOKMARK [2][-]{subsection.9.6.1}{The Definition of Angular Momentum}{section.9.6}% 79
+\BOOKMARK [2][-]{subsection.9.6.2}{Conservation of Angular Momentum}{section.9.6}% 80
+\BOOKMARK [0][-]{chapter.10}{Waves}{}% 81
+\BOOKMARK [1][-]{section.10.1}{Fundamentals of Waves}{chapter.10}% 82
+\BOOKMARK [2][-]{subsection.10.1.1}{Types of Waves}{section.10.1}% 83
+\BOOKMARK [2][-]{subsection.10.1.2}{Basic Wave Characteristics and Vocabulary}{section.10.1}% 84
+\BOOKMARK [2][-]{subsection.10.1.3}{Velocity of a Wave}{section.10.1}% 85
+\BOOKMARK [1][-]{section.10.2}{The Doppler Effect}{chapter.10}% 86
+\BOOKMARK [1][-]{section.10.3}{The Principle of Superposition and Interference}{chapter.10}% 87
+\BOOKMARK [2][-]{subsection.10.3.1}{The Principle of Superposition}{section.10.3}% 88
+\BOOKMARK [2][-]{subsection.10.3.2}{Interference}{section.10.3}% 89
+\BOOKMARK [1][-]{section.10.4}{Resonance}{chapter.10}% 90
+\BOOKMARK [2][-]{subsection.10.4.1}{Resonance of a Tube that is Open on Both Ends}{section.10.4}% 91
+\BOOKMARK [2][-]{subsection.10.4.2}{Resonance of a Tube that is Open on One End and Closed on the Other}{section.10.4}% 92
+\BOOKMARK [2][-]{subsection.10.4.3}{Resonance of a String that is Fixed on Both Ends}{section.10.4}% 93
+\BOOKMARK [0][-]{chapter.11}{Optics}{}% 94
+\BOOKMARK [1][-]{section.11.1}{Geometric Optics}{chapter.11}% 95
+\BOOKMARK [2][-]{subsection.11.1.1}{Refraction}{section.11.1}% 96
+\BOOKMARK [2][-]{subsection.11.1.2}{Reflection}{section.11.1}% 97
+\BOOKMARK [1][-]{section.11.2}{Physical Optics}{chapter.11}% 98
+\BOOKMARK [2][-]{subsection.11.2.1}{Young's Double Slit Experiment}{section.11.2}% 99
+\BOOKMARK [2][-]{subsection.11.2.2}{Thin Film Interference}{section.11.2}% 100
+\BOOKMARK [0][-]{chapter.12}{Fluids}{}% 101
+\BOOKMARK [1][-]{section.12.1}{Density}{chapter.12}% 102
+\BOOKMARK [1][-]{section.12.2}{Buoyant Force}{chapter.12}% 103
+\BOOKMARK [2][-]{subsection.12.2.1}{Percent Submerged}{section.12.2}% 104
+\BOOKMARK [1][-]{section.12.3}{Pressure}{chapter.12}% 105
+\BOOKMARK [2][-]{subsection.12.3.1}{Hydrostatic Pressure}{section.12.3}% 106
+\BOOKMARK [1][-]{section.12.4}{The Fluid Continuity Equation}{chapter.12}% 107
+\BOOKMARK [1][-]{section.12.5}{Bernouli's Equation}{chapter.12}% 108
+\BOOKMARK [0][-]{chapter.13}{Heat and Thermodynamics}{}% 109
+\BOOKMARK [1][-]{section.13.1}{Modes of Heat Transfer}{chapter.13}% 110
+\BOOKMARK [1][-]{section.13.2}{Laws of Thermodynamics}{chapter.13}% 111
+\BOOKMARK [2][-]{subsection.13.2.1}{0th Law}{section.13.2}% 112
+\BOOKMARK [2][-]{subsection.13.2.2}{1st Law}{section.13.2}% 113
+\BOOKMARK [2][-]{subsection.13.2.3}{2nd Law}{section.13.2}% 114
+\BOOKMARK [2][-]{subsection.13.2.4}{3rd Law}{section.13.2}% 115
+\BOOKMARK [1][-]{section.13.3}{Specific Heat Capacity}{chapter.13}% 116
+\BOOKMARK [1][-]{section.13.4}{Phase Changes and Latent Heat}{chapter.13}% 117
+\BOOKMARK [2][-]{subsection.13.4.1}{The States of Matter}{section.13.4}% 118
+\BOOKMARK [2][-]{subsection.13.4.2}{Latent Heat of Fusion}{section.13.4}% 119
+\BOOKMARK [2][-]{subsection.13.4.3}{Latent Heat of Vaporization}{section.13.4}% 120
+\BOOKMARK [1][-]{section.13.5}{Heat Engines}{chapter.13}% 121
+\BOOKMARK [0][-]{chapter.14}{Gas Laws}{}% 122
+\BOOKMARK [1][-]{section.14.1}{Boyle's, Charles's, Gay-Lussac's, and The Combined Gas Law}{chapter.14}% 123
+\BOOKMARK [1][-]{section.14.2}{The Ideal Gas Law}{chapter.14}% 124
+\BOOKMARK [1][-]{section.14.3}{Internal Energy of a Gas}{chapter.14}% 125
+\BOOKMARK [2][-]{subsection.14.3.1}{Absolute Internal Energy}{section.14.3}% 126
+\BOOKMARK [2][-]{subsection.14.3.2}{Change in Internal Energy}{section.14.3}% 127
+\BOOKMARK [1][-]{section.14.4}{PV-Diagrams}{chapter.14}% 128
+\BOOKMARK [0][-]{chapter.15}{Electrostatics}{}% 129
+\BOOKMARK [1][-]{section.15.1}{Electrostatic Charge}{chapter.15}% 130
+\BOOKMARK [1][-]{section.15.2}{Coulomb's Law and Electrostatic Force}{chapter.15}% 131
+\BOOKMARK [1][-]{section.15.3}{Electrostatic Potential Energy}{chapter.15}% 132
+\BOOKMARK [1][-]{section.15.4}{Electric Field}{chapter.15}% 133
+\BOOKMARK [1][-]{section.15.5}{Electric Potential and Voltage}{chapter.15}% 134
+\BOOKMARK [1][-]{section.15.6}{Capacitors}{chapter.15}% 135
+\BOOKMARK [2][-]{subsection.15.6.1}{Construction of Capacitors}{section.15.6}% 136
+\BOOKMARK [2][-]{subsection.15.6.2}{Capacitors in Circuits}{section.15.6}% 137
+\BOOKMARK [0][-]{chapter.16}{Circuits}{}% 138
+\BOOKMARK [1][-]{section.16.1}{Circuits Symbols}{chapter.16}% 139
+\BOOKMARK [1][-]{section.16.2}{Resistors}{chapter.16}% 140
+\BOOKMARK [0][-]{chapter.17}{Magnetic Forces and Fields}{}% 141
+\BOOKMARK [1][-]{section.17.1}{Types of Magnetism}{chapter.17}% 142
+\BOOKMARK [2][-]{subsection.17.1.1}{Permanent Magnetism}{section.17.1}% 143
+\BOOKMARK [2][-]{subsection.17.1.2}{Electromagnetism}{section.17.1}% 144
+\BOOKMARK [1][-]{section.17.2}{Magnetic Force on a Charged Particle}{chapter.17}% 145
+\BOOKMARK [1][-]{section.17.3}{Magnetic Force on a Current-Carrying Wire}{chapter.17}% 146
+\BOOKMARK [1][-]{section.17.4}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.17}% 147
+\BOOKMARK [0][-]{chapter.18}{Magnetic Induction}{}% 148
+\BOOKMARK [1][-]{section.18.1}{Lenz's Law}{chapter.18}% 149
+\BOOKMARK [1][-]{section.18.2}{Faraday's Law}{chapter.18}% 150
+\BOOKMARK [0][-]{chapter.19}{Modern and Atomic Physics}{}% 151
+\BOOKMARK [1][-]{section.19.1}{The Dual Nature of Light}{chapter.19}% 152
+\BOOKMARK [2][-]{subsection.19.1.1}{Young's Double Slit Experiment}{section.19.1}% 153
+\BOOKMARK [2][-]{subsection.19.1.2}{The Photoelectric Effect}{section.19.1}% 154
+\BOOKMARK [1][-]{section.19.2}{The Dual Nature of Matter}{chapter.19}% 155
+\BOOKMARK [2][-]{subsection.19.2.1}{Mass-Energy Equivalence}{section.19.2}% 156
+\BOOKMARK [2][-]{subsection.19.2.2}{deBroigle Wavelength}{section.19.2}% 157
+\BOOKMARK [1][-]{section.19.3}{Atomic Physics}{chapter.19}% 158
+\BOOKMARK [2][-]{subsection.19.3.1}{Energy Level Diagrams and Atomic Spectra}{section.19.3}% 159
+\BOOKMARK [0][-]{chapter.20}{Nuclear Physics}{}% 160
+\BOOKMARK [1][-]{section.20.1}{Elements, Isotopes, and Ions}{chapter.20}% 161
+\BOOKMARK [1][-]{section.20.2}{Radioactive Decay}{chapter.20}% 162
+\BOOKMARK [2][-]{subsection.20.2.1}{Types of Radioactive Decay}{section.20.2}% 163
+\BOOKMARK [2][-]{subsection.20.2.2}{Half-Life}{section.20.2}% 164
+\BOOKMARK [1][-]{section.20.3}{Fission and Fusion}{chapter.20}% 165
+\BOOKMARK [2][-]{subsection.20.3.1}{Fission}{section.20.3}% 166
+\BOOKMARK [2][-]{subsection.20.3.2}{Fusion}{section.20.3}% 167
+\BOOKMARK [0][-]{chapter.21}{Relativity}{}% 168
+\BOOKMARK [1][-]{section.21.1}{Special Relativity}{chapter.21}% 169
+\BOOKMARK [2][-]{subsection.21.1.1}{Length Contraction}{section.21.1}% 170
+\BOOKMARK [2][-]{subsection.21.1.2}{Time Dilation}{section.21.1}% 171
+\BOOKMARK [2][-]{subsection.21.1.3}{Mass Increase}{section.21.1}% 172
+\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 173
+\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 174
+\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 175
+\BOOKMARK [1][-]{section.A.3}{Trigonometry}{appendix.A}% 176
+\BOOKMARK [1][-]{section.A.4}{Radians and Arc Length}{appendix.A}% 177
+\BOOKMARK [2][-]{subsection.A.4.1}{Radians}{section.A.4}% 178
+\BOOKMARK [2][-]{subsection.A.4.2}{Arc Length}{section.A.4}% 179
+\BOOKMARK [0][-]{appendix.B}{Reference Tables}{}% 180
+\BOOKMARK [1][-]{section.B.1}{Greek Letters}{appendix.B}% 181
+\BOOKMARK [1][-]{section.B.2}{Musical Notes and Frequencies}{appendix.B}% 182
+\BOOKMARK [1][-]{section.B.3}{Densities of Common materials}{appendix.B}% 183
+\BOOKMARK [1][-]{section.B.4}{Common Indices of Refraction}{appendix.B}% 184
+\BOOKMARK [1][-]{section.B.5}{Physical Constants}{appendix.B}% 185

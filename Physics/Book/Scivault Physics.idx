@@ -50,131 +50,140 @@
 \indexentry{Momentum, Law of Conservation of|hyperpage}{24}
 \indexentry{Force, Centripetal|hyperpage}{25}
 \indexentry{Acceleration, Centripetal|hyperpage}{25}
-\indexentry{Kepler's Laws of Planetary Motion|hyperpage}{26}
-\indexentry{Planetary Motion, Kepler's Laws of|hyperpage}{26}
+\indexentry{Kepler's Laws of Planetary Motion|hyperpage}{27}
+\indexentry{Planetary Motion, Kepler's Laws of|hyperpage}{27}
 \indexentry{Universal Gravitation, Law of|hyperpage}{28}
 \indexentry{Orbits|hyperpage}{29}
-\indexentry{Angular Momentum|hyperpage}{31}
-\indexentry{Wave|hyperpage}{32}
-\indexentry{Medium|hyperpage}{32}
-\indexentry{Wave, medium|hyperpage}{32}
-\indexentry{Crest|hyperpage}{34}
-\indexentry{Trough|hyperpage}{34}
-\indexentry{Wave, Crest|hyperpage}{34}
-\indexentry{Wave, Trough|hyperpage}{34}
-\indexentry{Amplitude|hyperpage}{34}
-\indexentry{Wave, Amplitude|hyperpage}{34}
-\indexentry{Wavelength|hyperpage}{34}
-\indexentry{Period|hyperpage}{34}
-\indexentry{Wave, Period|hyperpage}{34}
-\indexentry{Frequency|hyperpage}{34}
-\indexentry{Wave, Frequency|hyperpage}{34}
-\indexentry{Velocity of a Wave|hyperpage}{35}
-\indexentry{Wave, Velocity|hyperpage}{35}
-\indexentry{Doppler Effect|hyperpage}{37}
-\indexentry{Superposition|hyperpage}{39}
-\indexentry{Interference|hyperpage}{39}
-\indexentry{Interference, Constructive|hyperpage}{40}
-\indexentry{Interference, Destructive|hyperpage}{41}
-\indexentry{Resonance|hyperpage}{45}
-\indexentry{Optics|hyperpage}{46}
-\indexentry{Speed of Light|hyperpage}{46}
-\indexentry{Geometric Optics|hyperpage}{46}
-\indexentry{Refraction|hyperpage}{46}
-\indexentry{Index of Refraction|hyperpage}{46}
-\indexentry{Snell's Law|hyperpage}{47}
-\indexentry{Total Internal Reflection|hyperpage}{49}
-\indexentry{critical angle|hyperpage}{49}
-\indexentry{Lens|hyperpage}{50}
-\indexentry{Lens|hyperpage}{50}
-\indexentry{Lens, Convex|hyperpage}{50}
-\indexentry{Convex Lens|hyperpage}{50}
-\indexentry{Focal Point.|hyperpage}{50}
-\indexentry{Focal Length|hyperpage}{50}
-\indexentry{Lens Equation|hyperpage}{52}
-\indexentry{Lens, Concave|hyperpage}{54}
-\indexentry{Concave Lens|hyperpage}{54}
-\indexentry{Reflection|hyperpage}{57}
-\indexentry{Reflection, Law of|hyperpage}{57}
-\indexentry{Law of Reflection|hyperpage}{57}
-\indexentry{Mirrors|hyperpage}{58}
-\indexentry{Mirrors, Flat|hyperpage}{58}
-\indexentry{Mirrors, Concave|hyperpage}{58}
-\indexentry{Mirrors, Convex|hyperpage}{58}
-\indexentry{Density|hyperpage}{60}
-\indexentry{Fluids|hyperpage}{60}
-\indexentry{Buoyant Force|hyperpage}{60}
-\indexentry{Force, Buoyant|hyperpage}{60}
-\indexentry{Archimedes Principle|hyperpage}{60}
-\indexentry{Percent Submerged|hyperpage}{61}
-\indexentry{Pressure|hyperpage}{61}
-\indexentry{Pressure, Hydrostatic|hyperpage}{61}
-\indexentry{Fluid Continuity Equation|hyperpage}{62}
-\indexentry{Bernouli's Equation|hyperpage}{62}
-\indexentry{Heat|hyperpage}{63}
-\indexentry{Thermodynamics|hyperpage}{63}
-\indexentry{Heat Transfer. Modes of|hyperpage}{63}
-\indexentry{Thermodynamics|hyperpage}{63}
-\indexentry{Thermodynamics, 0th Law of|hyperpage}{63}
-\indexentry{Thermodynamics, 1st Law of|hyperpage}{64}
-\indexentry{Thermodynamics, 2nd Law of|hyperpage}{64}
-\indexentry{Thermodynamics, 3rd Law of|hyperpage}{64}
-\indexentry{Specific Heat Capacity|hyperpage}{65}
-\indexentry{Adiabatic|hyperpage}{67}
-\indexentry{isothermal|hyperpage}{67}
-\indexentry{isobaric|hyperpage}{67}
-\indexentry{isochoric|hyperpage}{67}
-\indexentry{Boyle's Law|hyperpage}{67}
-\indexentry{Charles's Law|hyperpage}{67}
-\indexentry{Gay-Lussac Law|hyperpage}{68}
-\indexentry{Combined Gas Law|hyperpage}{68}
-\indexentry{Gas Law, Combined|hyperpage}{68}
-\indexentry{Ideal Gas Law|hyperpage}{68}
-\indexentry{Gas Law, Ideal|hyperpage}{68}
-\indexentry{Universal Gas Constant|hyperpage}{68}
-\indexentry{Gas Constant|hyperpage}{68}
-\indexentry{Boltzmann's Constant|hyperpage}{69}
-\indexentry{Internal Energy|hyperpage}{70}
-\indexentry{Internal Energy, Change in|hyperpage}{70}
-\indexentry{PV Diagram|hyperpage}{71}
-\indexentry{Pressure-Volume Diagram|hyperpage}{71}
-\indexentry{Electrostatic Charge|hyperpage}{74}
-\indexentry{Charge|hyperpage}{74}
-\indexentry{Elementary Charge|hyperpage}{74}
-\indexentry{Charge, Elementary|hyperpage}{74}
-\indexentry{Coulomb's Law|hyperpage}{75}
-\indexentry{Electrostatic Force|hyperpage}{75}
-\indexentry{Electrostatic Potential Energy|hyperpage}{76}
-\indexentry{Potential Energy, Electrostatic|hyperpage}{76}
-\indexentry{Electric Field|hyperpage}{76}
-\indexentry{Electrostatic Field|hyperpage}{76}
-\indexentry{Light, Dual Nature|hyperpage}{81}
-\indexentry{Young's Double Slit Experiment|hyperpage}{81}
-\indexentry{Photoelectric Effect|hyperpage}{81}
-\indexentry{Photoelectric Effect|hyperpage}{81}
-\indexentry{photon|hyperpage}{81}
-\indexentry{Energy of a Photon|hyperpage}{81}
-\indexentry{Planck's Constant|hyperpage}{81}
-\indexentry{Matter, Dual Nature|hyperpage}{82}
-\indexentry{Mass-Energy Equivilance|hyperpage}{82}
-\indexentry{deBroigle Wavelength|hyperpage}{82}
-\indexentry{Atomic Physics|hyperpage}{82}
-\indexentry{Energy Level Diagram|hyperpage}{82}
-\indexentry{Atomic Spectra|hyperpage}{82}
-\indexentry{Periodic Table of Elements|hyperpage}{84}
-\indexentry{Element|hyperpage}{84}
-\indexentry{Isotope|hyperpage}{84}
-\indexentry{Ion|hyperpage}{84}
-\indexentry{nucleons|hyperpage}{84}
-\indexentry{Relativity, Special|hyperpage}{87}
-\indexentry{Special Relativity|hyperpage}{87}
-\indexentry{Length Contraction|hyperpage}{87}
-\indexentry{Time Dialation|hyperpage}{87}
-\indexentry{Mass Increase|hyperpage}{87}
-\indexentry{Radians|hyperpage}{91}
-\indexentry{Arc Length|hyperpage}{92}
-\indexentry{Greek Letters|hyperpage}{94}
-\indexentry{Frequencies of Musical Notes|hyperpage}{95}
-\indexentry{Densities, of common materials|hyperpage}{95}
-\indexentry{Index of Refraction, Table of Common|hyperpage}{95}
-\indexentry{Physical Constants|hyperpage}{97}
+\indexentry{Moment of Inertia|hyperpage}{31}
+\indexentry{Inertia, Moment of|hyperpage}{31}
+\indexentry{rotational inertia|hyperpage}{31}
+\indexentry{Torque|hyperpage}{32}
+\indexentry{Newton's Laws, Rotational|hyperpage}{33}
+\indexentry{Angular Kinetic Energy|hyperpage}{33}
+\indexentry{Angular Momentum|hyperpage}{34}
+\indexentry{Wave|hyperpage}{35}
+\indexentry{Medium|hyperpage}{35}
+\indexentry{Wave, medium|hyperpage}{35}
+\indexentry{Crest|hyperpage}{37}
+\indexentry{Trough|hyperpage}{37}
+\indexentry{Wave, Crest|hyperpage}{37}
+\indexentry{Wave, Trough|hyperpage}{37}
+\indexentry{Amplitude|hyperpage}{37}
+\indexentry{Wave, Amplitude|hyperpage}{37}
+\indexentry{Wavelength|hyperpage}{37}
+\indexentry{Period|hyperpage}{37}
+\indexentry{Wave, Period|hyperpage}{37}
+\indexentry{Frequency|hyperpage}{37}
+\indexentry{Wave, Frequency|hyperpage}{37}
+\indexentry{Velocity of a Wave|hyperpage}{38}
+\indexentry{Wave, Velocity|hyperpage}{38}
+\indexentry{Doppler Effect|hyperpage}{40}
+\indexentry{Superposition|hyperpage}{42}
+\indexentry{Interference|hyperpage}{42}
+\indexentry{Interference, Constructive|hyperpage}{43}
+\indexentry{Interference, Destructive|hyperpage}{44}
+\indexentry{Resonance|hyperpage}{48}
+\indexentry{Optics|hyperpage}{49}
+\indexentry{Speed of Light|hyperpage}{49}
+\indexentry{Geometric Optics|hyperpage}{49}
+\indexentry{Refraction|hyperpage}{49}
+\indexentry{Index of Refraction|hyperpage}{49}
+\indexentry{Snell's Law|hyperpage}{50}
+\indexentry{Total Internal Reflection|hyperpage}{52}
+\indexentry{critical angle|hyperpage}{52}
+\indexentry{Lens|hyperpage}{53}
+\indexentry{Lens|hyperpage}{53}
+\indexentry{Lens, Convex|hyperpage}{53}
+\indexentry{Convex Lens|hyperpage}{53}
+\indexentry{Focal Point.|hyperpage}{53}
+\indexentry{Focal Length|hyperpage}{53}
+\indexentry{Lens Equation|hyperpage}{55}
+\indexentry{Lens, Concave|hyperpage}{57}
+\indexentry{Concave Lens|hyperpage}{57}
+\indexentry{Reflection|hyperpage}{60}
+\indexentry{Reflection, Law of|hyperpage}{60}
+\indexentry{Law of Reflection|hyperpage}{60}
+\indexentry{Mirrors|hyperpage}{61}
+\indexentry{Mirrors, Flat|hyperpage}{61}
+\indexentry{Mirrors, Concave|hyperpage}{61}
+\indexentry{Mirrors, Convex|hyperpage}{61}
+\indexentry{Density|hyperpage}{63}
+\indexentry{Fluids|hyperpage}{63}
+\indexentry{Buoyant Force|hyperpage}{63}
+\indexentry{Force, Buoyant|hyperpage}{63}
+\indexentry{Archimedes Principle|hyperpage}{63}
+\indexentry{Percent Submerged|hyperpage}{64}
+\indexentry{Pressure|hyperpage}{64}
+\indexentry{Pressure, Hydrostatic|hyperpage}{64}
+\indexentry{Fluid Continuity Equation|hyperpage}{65}
+\indexentry{Bernouli's Equation|hyperpage}{65}
+\indexentry{Heat|hyperpage}{66}
+\indexentry{Thermodynamics|hyperpage}{66}
+\indexentry{Heat Transfer. Modes of|hyperpage}{66}
+\indexentry{Thermodynamics|hyperpage}{66}
+\indexentry{Thermodynamics, 0th Law of|hyperpage}{66}
+\indexentry{Thermodynamics, 1st Law of|hyperpage}{67}
+\indexentry{Thermodynamics, 2nd Law of|hyperpage}{67}
+\indexentry{Thermodynamics, 3rd Law of|hyperpage}{67}
+\indexentry{Specific Heat Capacity|hyperpage}{68}
+\indexentry{Adiabatic|hyperpage}{70}
+\indexentry{isothermal|hyperpage}{70}
+\indexentry{isobaric|hyperpage}{70}
+\indexentry{isochoric|hyperpage}{70}
+\indexentry{Boyle's Law|hyperpage}{70}
+\indexentry{Charles's Law|hyperpage}{70}
+\indexentry{Gay-Lussac Law|hyperpage}{71}
+\indexentry{Combined Gas Law|hyperpage}{71}
+\indexentry{Gas Law, Combined|hyperpage}{71}
+\indexentry{Ideal Gas Law|hyperpage}{71}
+\indexentry{Gas Law, Ideal|hyperpage}{71}
+\indexentry{Universal Gas Constant|hyperpage}{71}
+\indexentry{Gas Constant|hyperpage}{71}
+\indexentry{Boltzmann's Constant|hyperpage}{72}
+\indexentry{Internal Energy|hyperpage}{73}
+\indexentry{Internal Energy, Change in|hyperpage}{73}
+\indexentry{PV Diagram|hyperpage}{74}
+\indexentry{Pressure-Volume Diagram|hyperpage}{74}
+\indexentry{Electrostatic Charge|hyperpage}{77}
+\indexentry{Charge|hyperpage}{77}
+\indexentry{Elementary Charge|hyperpage}{77}
+\indexentry{Charge, Elementary|hyperpage}{77}
+\indexentry{Coulomb's Law|hyperpage}{78}
+\indexentry{Electrostatic Force|hyperpage}{78}
+\indexentry{Electrostatic Potential Energy|hyperpage}{79}
+\indexentry{Potential Energy, Electrostatic|hyperpage}{79}
+\indexentry{Electric Field|hyperpage}{79}
+\indexentry{Electrostatic Field|hyperpage}{79}
+\indexentry{Light, Dual Nature|hyperpage}{84}
+\indexentry{Young's Double Slit Experiment|hyperpage}{84}
+\indexentry{Photoelectric Effect|hyperpage}{84}
+\indexentry{Photoelectric Effect|hyperpage}{84}
+\indexentry{photon|hyperpage}{84}
+\indexentry{Energy of a Photon|hyperpage}{84}
+\indexentry{Planck's Constant|hyperpage}{84}
+\indexentry{Matter, Dual Nature|hyperpage}{85}
+\indexentry{Mass-Energy Equivilance|hyperpage}{85}
+\indexentry{Law of Conservation of Mass-Energy|hyperpage}{85}
+\indexentry{deBroigle Wavelength|hyperpage}{85}
+\indexentry{deBroigle Wavelength|hyperpage}{85}
+\indexentry{Matter Waves|hyperpage}{85}
+\indexentry{Atomic Physics|hyperpage}{85}
+\indexentry{Energy Level Diagram|hyperpage}{86}
+\indexentry{Atomic Spectra|hyperpage}{86}
+\indexentry{Periodic Table of Elements|hyperpage}{87}
+\indexentry{Element|hyperpage}{87}
+\indexentry{Isotope|hyperpage}{87}
+\indexentry{Ion|hyperpage}{87}
+\indexentry{nucleons|hyperpage}{87}
+\indexentry{Relativity, Special|hyperpage}{90}
+\indexentry{Special Relativity|hyperpage}{90}
+\indexentry{Length Contraction|hyperpage}{90}
+\indexentry{Time Dialation|hyperpage}{90}
+\indexentry{Mass Increase|hyperpage}{90}
+\indexentry{Radians|hyperpage}{94}
+\indexentry{Arc Length|hyperpage}{95}
+\indexentry{Greek Letters|hyperpage}{97}
+\indexentry{Frequencies of Musical Notes|hyperpage}{98}
+\indexentry{Densities, of common materials|hyperpage}{98}
+\indexentry{Index of Refraction, Table of Common|hyperpage}{98}
+\indexentry{Physical Constants|hyperpage}{100}
