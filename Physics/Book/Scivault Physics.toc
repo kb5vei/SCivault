@@ -80,12 +80,12 @@
 \contentsline {section}{\numberline {9.1}Angular Velocity and Acceleration}{30}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Angular Kinematics}{30}{section.9.2}%
 \contentsline {section}{\numberline {9.3}Moment of Inertia}{31}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Torque}{32}{section.9.4}%
-\contentsline {subsection}{\numberline {9.4.1}Newton's Laws in a Rotational Setting}{33}{subsection.9.4.1}%
-\contentsline {subsubsection}{Newton's First Law for Rotation}{33}{section*.13}%
-\contentsline {subsubsection}{Newton's Second Law for Rotation}{33}{section*.14}%
-\contentsline {subsubsection}{Newton's Third Law for Rotation}{33}{section*.15}%
-\contentsline {section}{\numberline {9.5}Angular Kinetic Energy}{33}{section.9.5}%
+\contentsline {section}{\numberline {9.4}Torque}{31}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Newton's Laws in a Rotational Setting}{32}{subsection.9.4.1}%
+\contentsline {subsubsection}{Newton's First Law for Rotation}{32}{section*.13}%
+\contentsline {subsubsection}{Newton's Second Law for Rotation}{32}{section*.14}%
+\contentsline {subsubsection}{Newton's Third Law for Rotation}{32}{section*.15}%
+\contentsline {section}{\numberline {9.5}Angular Kinetic Energy}{32}{section.9.5}%
 \contentsline {section}{\numberline {9.6}Angular Momentum}{34}{section.9.6}%
 \contentsline {subsection}{\numberline {9.6.1}The Definition of Angular Momentum}{34}{subsection.9.6.1}%
 \contentsline {subsection}{\numberline {9.6.2}Conservation of Angular Momentum}{34}{subsection.9.6.2}%

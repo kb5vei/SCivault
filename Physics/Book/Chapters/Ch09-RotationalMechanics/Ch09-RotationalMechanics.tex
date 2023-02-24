@@ -17,14 +17,55 @@
 
 
 	\section{Angular Kinematics}
-	\newpage
+	
+	Using the definitions of angular velocity and angular acceleration and a little calculus (or a lot of algebra) we can prove the following four equations:
+	
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{center}
+			\textbf{The Angular Kinematic Equations}
+		\end{center}
+		\begin{multicols}{2}
+			\begin{equation}
+				\vec{\theta} = \frac{\overrightarrow{\omega_f} + \overrightarrow{\omega_i}}{2}  t
+				\label{equation:akinematic1}
+			\end{equation}
+			
+			\begin{equation}
+				\overrightarrow{\omega_f} = \overrightarrow{\omega_i} + \vec{\alpha} t
+				\label{equation:akinematic2}
+			\end{equation}	
+			
+			\begin{equation}
+				\vec{\theta} = \overrightarrow{\omega_i} t + \frac{1}{2}\vec{\alpha}{t}^2
+				\label{equation:akinematic3}
+			\end{equation}
+			
+			\begin{equation}
+				\overrightarrow{\omega_f}^2 = \overrightarrow{\omega_i}^2 + 2\vec{\alpha}\vec{\theta}
+				\label{equation:akinematic4}
+			\end{equation}
+			
+			
+			
+		\end{multicols}
+	\end{mdframed}
+	
+	You may notice that the form of the angular kinematic equations is equivalent to the form of the original, linear kinematic equations introduced in \cref{kinematicequations}. This means that all the intuition and skills developed previously are still valid.   
+	
+	
+
 	\section{Moment of Inertia}
 	\index{Moment of Inertia} \index{Inertia, Moment of} \index{rotational inertia}
 	The \textbf{Moment of Inertia} (sometimes called \textbf{rotational inertia}), symbolized $I$, of an object can be thought of as the rotational equivalent of mass.  An object of lesser mass will accelerate more than an object of greater mass when the same amount of force is applied.  Likewise, an object with a smaller moment of inertia will tend to have a greater angular acceleration than an object with a greater moment of inertia when the same forces are applied to the objects.  
 	
 	The moment of inertia of an object depends both on the mass of the object and the way in which the mass is distributed.  Some common moments of inertia can be found in the attached table.  
 	
-	\newpage 
+	\begin{longtable}{|c c|c c |}
+		\hline
+		Solid Sphere & $I=\frac{2}{5}mr^2$ & Hollow Sphere & $I = \frac{2}{3} m r^2 $  \\	
+		\hline
+		
+	\end{longtable}
 	
 	
 	
@@ -105,6 +146,8 @@
 	
 	\section{Angular Kinetic Energy}
 	\index{Angular Kinetic Energy}
+	\index{Kinetic Energy, Angular}
+	
 	\textbf{Angular Kinetic Energy}, sometimes called rotational kinetic energy, is energy of rotational motion.  An object that is only rotating - like a fan - has angular kinetic energy only.  An object that is rolling - like the wheel of a car - has both translational kinetic energy (found using $k = \frac{1}{2}mv^2$ ) and angular kinetic energy, found using:
 	
 				\begin{mdframed}[backgroundcolor=orange!20!white]
