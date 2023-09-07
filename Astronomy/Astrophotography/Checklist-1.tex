@@ -4,7 +4,7 @@
 \setlist[todolist]{label=$\square$}
 \begin{document}
 	\begin{center}
-			\huge {Telescope Setup Checklist}
+			\huge {Telescope Checklists}
 			
 			\Large For Astrophotography
 	\end{center}
@@ -12,9 +12,94 @@
 	\normalsize
 
 	
-	
+	 
 	\begin{itemize}
+		\item Software Setup (Once per Computer, asuming Fedora Linux)
+		\begin{todolist}
+			\item Add user to dialout group: \textit{sudo usermod -a -G dialout user}
+			\item Download QHY drivers: https://www.qhyccd.com/html/prepub/log\_en.html\#!log\_en.md
+			\item Extract and install QHY Drivers: \\ \textit{tar  -zxvf sdk\_linux64\_20.08.26.tgz} \\
+			cd sdk\_linux64\_20.08.26 \\
+			chmod +x install.sh \\
+			sudo ./install.sh
+			
+			
+			\item Enable INDI COPR: \\
+			sudo dnf copr enable xsnrg/indi-3rdparty-bleeding
+			
+			\item Install indi-qhy
+			sudo dnf install indi-qhy
+			
+			\item Update Packages
+			sudo dnf update -y
+			
+			\item Connect Equipment
+				\begin{todolist}
+					\item Guide Camera
+					\item Imaging Camera
+					\item Mount
+				\end{todolist}
+				
+			\item Verify all items connected
+			lsusb
+			
+			\item Open Kstars
+			\item Set Home Location
+			\item Download Extra Data
+			\item Launch Ekos
+			\item New Profile
+			\begin{todolist}
+				\item Unique Name
+				\item Select PHD2 Guiding
+				\item EQMOD Mount
+				\item QHY Camera
+				\item ASI2600mm pro camera
+				\item Aux Astrometry
+				\item 10" f/8 Truss Tube Ritchey-Chretien Astrograph 2000mm
+				\item 60mm Guidescope 240 mm
+				
+				\end{todolist}
+			\item Start INDI
+			
+			\item Set EQMOD Mount Baud Rate to 115200
+			
+			\item Set Port to ttyUSB0 (ls /dev $\|$ grep USB)
+			\item Set Camera Pixel Info
+			
+
+				
+			
+			
+			
+			
+			
+			
+		\end{todolist}
+		
 		\item Columnation
+		\begin{todolist}
+			\item Remove all Extension Rings
+			\item Attach Focuser to optical tube
+			\item Remove Dust covers
+			\item Point telescope at a light-colored surface, oriented horizontally.
+			\item Insert Cheshire eyepiece.
+			\item aim bright light into 45 degree surface.
+			\item Adjust Secondary Mirror to align central dot.
+			\item Adjust Primary to create uniform white ring around edge.
+				\begin{todolist}
+					\item Release Small Lock Screw
+					\item Use Large Screw to collumate.
+					\item Tighten Lock Screw
+				\end{todolist}
+								
+			
+			
+			
+			\end{todolist}
+		
+		
+		
+		
 		\item Physical Setup
 		
 		\begin{todolist}
@@ -26,21 +111,38 @@
 			\end{todolist}
 			\item Counterweights and endcap
 			\item Optical Tube on Dovetail
+			\item Powerbox
+			\item Connect power to Optical Tube Fan
 			\item Finderscope
 			\item Guide Scope
 				\begin{todolist}
 				\item Guidescope Camera
-				\item RJ45 cable to mount.	
 				\end{todolist}
 			\item Optical Train
 				\begin{todolist}
 					\item Extender Rings (optional)
 					\item Filter Wheel (optional)
-					\item Camera
+					\item ZWO ASI Imaging Camera 
 				\end{todolist}
-			\item Connect Hand Controller
-			\item Connect Power
+			\item Chairs
+			\item Computer
+
+			\item Cables
+				\begin{todolist}
+					\item USB Cable from Guidescope Camera to Imaging Camera
+					\item USB Cable from Imaging Camera to Computer
+					\item USB Cable from Mount to Computer
+					\item Power to Mount
+					\item Disconnect Power to Fans
+					\item Power to Imaging Camera
+				\end{todolist}
+					
 			\item Balance
+				\begin{todolist}
+					\item Balance Declination Axis (Slide tube on Dovetail)
+					\item Balance Right Ascention Axis (Slide Counterweights)
+				\end{todolist}
+				
 			\item Aim Telescope toward Polaris
 			\item Engage Clutch (light)
 			\end{todolist}
@@ -48,16 +150,47 @@
 		\item Rough Polar Alignment
 			\begin{todolist}
 			
-			\item  Power on.
+			\item Mount Power on.
 			\item Disengage clutches and turn 90 degrees in DEC.
 			\item Turn RA so that polar scope is oriented vertically.  
 			\item Rough Polar Align through Polar Scope
-			\item Return RA and DEC to Home position (toward Polaris).
-			
-			
-			
+			\item Return RA and DEC to Home position (toward Polaris).		
 	
 		\end{todolist}	
+	
+		\item Precise Polar Align
+			\begin{todolist}
+				\item Launch Kstars
+				\item launch Ekos
+				\item Mount Tracking: RA
+				\item Launch PHD2
+				\item Loop - Adjust Focus of Guidescope
+				\item PHD2 Polar Drift Align
+			\end{todolist}
+		
+		\item First Plate Solve
+		\begin{todolist}
+			\item Batinov Mask on
+			\item Test Exposure and Focus
+			\item Batinov mask off
+			\item Slew to Bright Star
+			\item Plate Solve
+		\end{todolist}
+	
+		\item Kstars order to target
+		\item Second Plate Solve
+		\item Frame
+		\item Focus Check
+		\item Test Exposure
+		
+		\item Full Sequence (cooled)
+		
+		\item Flats
+		\item Darks
+		\item Bias
+		
+		
+			
 	\end{itemize}
 
 \end{document}
