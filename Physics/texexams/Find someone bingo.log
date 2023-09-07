@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  20 JUL 2022 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.8.2)  20 JUL 2022 19:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**009-1st9weeks.tex
-(./009-1st9weeks.tex
+**"Find someone bingo.tex"
+(./Find someone bingo.tex
 LaTeX2e <2018-04-01> patch level 5
 (/usr/share/texlive/texmf-dist/tex/latex/examdesign/examdesign.cls
 File: examdesign.dtx 
@@ -125,7 +125,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \exam@n=\count120
 \exam@m=\count121
 
-Randomizer initialized to 1250968073.
+Randomizer initialized to 1340805205.
 \@toklist=\toks18
 \c@first=\count122
 \c@last=\count123
@@ -681,37 +681,58 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box70
+\extrarowheight=\dimen198
+\NC@list=\toks41
+\extratabsurround=\skip67
+\backup@length=\skip68
+\ar@cellbox=\box71
+)
+\TX@col@width=\dimen199
+\TX@old@table=\dimen256
+\TX@old@col=\dimen257
+\TX@target=\dimen258
+\TX@delta=\dimen259
+\TX@cols=\count165
+\TX@ftn=\toks42
+)
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
 ulem.sty refuses to load twice. 
-) (./009-1st9weeks.aux)
-\openout1 = `009-1st9weeks.aux'.
+) (./Find someone bingo.aux)
+\openout1 = `"Find someone bingo.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen197
-\scratchbox=\box70
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen198
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count166
+\scratchdimen=\dimen260
+\scratchbox=\box72
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count169
+\MPscratchDim=\dimen261
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -773,290 +794,43 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 47.
+ on input line 32.
 
-\qlist@sec1=\toks43
-\qlist@scr@sec1=\toks44
-\qlist@sec2=\toks45
-\qlist@scr@sec2=\toks46
-LaTeX Font Info:    Try loading font information for U+msa on input line 724.
+\qlist@sec1=\toks45
+\qlist@scr@sec1=\toks46
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 724.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Scrambling section 1, question: 
-11, 13, 29, 22, 26, 28, 27, 2, 23, 15, 17, 4, 20, 6, 25, 3, 32, 16, 31, 24,
-10, 12, 5, 7, 21, 19, 1, 30, 14, 8, 18, 9. [1
+1. [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-<train2.png, id=15, 175.65625pt x 96.36pt>
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [2 <./train2.png>] [3]
-<bball.png, id=27, 389.455pt x 135.50626pt>
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [4 <./bball.png>]
-[5]
-<building.png, id=35, 337.26pt x 391.4625pt>
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [6 <./building.png>] [7] [8]
-<lg1.png, id=48, 481.8pt x 369.38pt>
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-<lga.png, id=49, 435.6275pt x 147.55125pt>
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-<lgc.png, id=50, 435.6275pt x 160.6pt>
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-<lgb.png, id=51, 435.6275pt x 158.5925pt>
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-<lgd.png, id=52, 435.6275pt x 152.57pt>
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
-
-Scrambling section 2, question: 
-1, 2, 4, 5, 3. [9 <./lg1.png> <./lga.png> <./lgc.png> <./lgb.png> <./lgd.png>]
-[10] [1]
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [2] [3]
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [4] [5]
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [6] [7] [8]
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
- [9] [10]
 Scrambling section 1, question: 
-28, 9, 27, 18, 30, 22, 7, 31, 26, 15, 3, 29, 4, 1, 10, 13, 11, 14, 23, 12, 32,
-19, 24, 16, 5, 20, 25, 6, 21, 17, 8, 2.
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
- [1] [2]
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [3] [4] [5]
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [6] [7]
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [8]
-Scrambling section 2, question: 
-4, 2, 5, 3, 1. [9] [10]
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
- [1] [2]
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [3] [4] [5]
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [6] [7]
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [8] [9] [10]
+1. [1]
 Scrambling section 1, question: 
-30, 19, 21, 3, 24, 10, 26, 29, 2, 25, 17, 5, 12, 32, 15, 18, 7, 28, 13, 9, 22,
-20, 8, 16, 6, 31, 11, 27, 4, 14, 23, 1. [1]
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [2]
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [3]
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [4]
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
- [5] [6] [7] [8]
-Scrambling section 2, question: 
-1, 5, 3, 2, 4. [9] [10] [1]
-File: bball.png Graphic file (type png)
-<use bball.png>
-Package pdftex.def Info: bball.png  used on input line 724.
-(pdftex.def)             Requested size: 103.85281pt x 36.135pt.
- [2]
-File: train2.png Graphic file (type png)
-<use train2.png>
-Package pdftex.def Info: train2.png  used on input line 724.
-(pdftex.def)             Requested size: 65.87093pt x 36.135pt.
- [3]
-File: building.png Graphic file (type png)
-<use building.png>
-Package pdftex.def Info: building.png  used on input line 724.
-(pdftex.def)             Requested size: 62.26346pt x 72.26999pt.
- [4]
-File: lg1.png Graphic file (type png)
-<use lg1.png>
-Package pdftex.def Info: lg1.png  used on input line 724.
-(pdftex.def)             Requested size: 70.69362pt x 54.2025pt.
-File: lga.png Graphic file (type png)
-<use lga.png>
-Package pdftex.def Info: lga.png  used on input line 724.
-(pdftex.def)             Requested size: 160.02304pt x 54.2025pt.
-File: lgc.png Graphic file (type png)
-<use lgc.png>
-Package pdftex.def Info: lgc.png  used on input line 724.
-(pdftex.def)             Requested size: 147.02126pt x 54.2025pt.
-File: lgb.png Graphic file (type png)
-<use lgb.png>
-Package pdftex.def Info: lgb.png  used on input line 724.
-(pdftex.def)             Requested size: 148.88245pt x 54.2025pt.
-File: lgd.png Graphic file (type png)
-<use lgd.png>
-Package pdftex.def Info: lgd.png  used on input line 724.
-(pdftex.def)             Requested size: 154.76517pt x 54.2025pt.
- [5] [6] [7] [8] [9] [10]
-(./009-1st9weeks.aux) ) 
+1. [1] (./Find someone bingo.aux) ) 
 Here is how much of TeX's memory you used:
- 30728 strings out of 494587
- 818987 string characters out of 6177760
- 1138869 words of memory out of 5000000
- 33903 multiletter control sequences out of 15000+600000
- 8655 words of font info for 33 fonts, out of 8000000 for 9000
+ 29885 strings out of 494587
+ 798004 string characters out of 6177760
+ 1024536 words of memory out of 5000000
+ 33068 multiletter control sequences out of 15000+600000
+ 6740 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,11n,102p,728b,2216s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti10.pfb>
-Output written on 009-1st9weeks.pdf (60 pages, 412790 bytes).
+ 62i,8n,96p,735b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss12.pfb>
+Output written on "Find someone bingo.pdf" (3 pages, 46477 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
+ 29 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
