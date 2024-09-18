@@ -1,6 +1,103 @@
 \chapter{Kinematics in Two Dimensions}
-	\section{Horizontal Launch Projectiles}
-	\section{Projectiles Launched at an Arbitray Angle}
+	\section{Introduction}
+	
+	When an object is moving in two (or three) dimensions at once - like when it moves both horizontally and vertically at the same time - the motion of the object in each dimension is completely independent.  This means that each dimension will have its own set of kinematic variables.  The only kinematic variable that can be used in all directions is time, since time is a scalar and does not have a direction.  Thus, instead of only five kinematic variables, problems will have sets of five variables in each direction, with time counting for every dimension.  
+	
+	
+{\renewcommand{\arraystretch}{1.2}
+\begin{center}
+	
+	
+	\begin{table}[ht]\caption{\textbf{Kinematic Variable in Multiple Dimensions}}% title of Table 
+		\centering % used for centering table	
+		\begin{tabular}{|c|c||c|c|}
+			\hline \hline
+			\textbf{Quantity} & \textbf{Variable} & \textbf{Quantity} & \textbf{Variable}  \\
+			\hline
+			Horizontal Displacement & $\vec{d_x}$ or $\vec{x}-\vec{x_0}$  & Vertical Displacement & $\vec{d_y}$ or $\vec{y}-\vec{y_0}$ \\
+			\hline
+		
+			Horizontal Initial Velocity & $\vec{v_{ix}}$ or $\vec{v_{0x}}$  & Vertical Initial Velocity & $\vec{v_{iy}}$ or $\vec{v_{0y}}$ \\
+\hline
+
+			Horizontal Final Velocity & $\vec{v_{fx}}$ or $\vec{v_x}$  & Vertical Final Velocity & $ \vec{v_{fy}}$ or $\vec{v_y}$ \\ 
+	\hline
+	Horizontal Acceleration & $\vec{a_x}$  &  Vertical Acceleration & $\vec{a_y} $ \\
+	\hline
+	\multicolumn{2}{|c|}{Time} & \multicolumn{2}{|c|}{$t$} \\
+	\hline
+		
+		\end{tabular}
+		\label{table:kinematic2d}% is used to refer this table in the text
+	\end{table}
+\end{center}
+
+\section{Projectiles}
+\index{Projectiles}
+
+A \textbf{projectile} is any object that meets the following critera:
+\begin{itemize}
+	\item The object is in \textit{free-fall}.  That is, Gravity is the only force that acts on the object (all other forces are negligable).
+	\item The object is moving in two dimensions at the same time.  Most often, describe it as moving both horizontally and vertically at the same time.  
+\end{itemize}
+
+
+\subsection{Horizontally Launched Projectiles}
+	\index{Projectiles, Launched Horizontally}
+Often, projectiles will be launched horizontally, such as when a ball rolls off a table, or when an archer shoots a perfectly level arrow.  In this case, the math is somewhat easier to deal with.
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A ball is rolling 2.1 m/s when it rolls off the edge of a 1.3 meter high table.
+	\begin{enumerate}
+		\item How long is the ball in the air?
+		\item How far, horizontally, does the ball land from the edge of the table?
+		\item What is the magnitude of the final velocity of the ball?
+		\item What is the angle of impact?
+	\end{enumerate}
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by drawing a diagram:
+	
+	
+	
+	Then, we create a table with each of the kinematic variables for each dimension:
+	
+	\begin{longtable}{|c l | c l|}
+		\hline
+		\multicolumn{2}{|c|}{\textbf{Horizontal}} & \multicolumn{2}{|c|}{\textbf{ Vertical}} \\
+		\hline
+		$\vec{x}-\vec{x_0}$ =&     & $\vec{y}-\vec{y_0} = $ & $\SI{1.3}{m}$ \\
+		\hline
+		$\vec{v_{0x}} = $ & $\SI{2.1}{m/s}$ & $\vec{v_{0y}} = $ & $\SI{0}{m/s}$ \\
+		\hline
+		$v_x = $&  & $v_y = $ &  \\
+		\hline
+		$a_x = $ & $\SI{0}{m/s^2}$ & $a_y = $ & $\SI{9.81}{m/s^2}$ \\ 
+		\hline
+		\multicolumn{2}{|c|}{$t = $} & & \\
+		\hline
+	\end{longtable}
+	
+	
+	\begin{equation*}
+		v_{avg}  = \frac{d}{t} = \frac{73m \hspace{0.05in} \hat{i}}{12.5s}  = 5.84 \frac{m}{s} \hspace{0.05in} \hat{i}
+	\end{equation*}
+	
+\end{mdframed}	
+	
+	
+	
+	
+	
+	\subsection{Projectiles Launched at an Arbitrary Angle}
+	\index{Projectiles, Launched at an Arbitrary Angle}
 
 
 	

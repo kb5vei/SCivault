@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2019.4.2)  12 FEB 2020 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  13 SEP 2024 08:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Ch04-Kinematics2D.tex
 (./Ch04-Kinematics2D.tex
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 80 language(s) loaded.
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
 ! Undefined control sequence.
 l.1 \chapter
             {Kinematics in Two Dimensions}
@@ -146,11 +146,11 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
 
  
 Here is how much of TeX's memory you used:
- 5 strings out of 493039
- 167 string characters out of 6136944
- 53015 words of memory out of 5000000
- 3649 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
- 1137 hyphenation exceptions out of 8191
- 5i,0n,4p,76b,16s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16 strings out of 482555
+ 422 string characters out of 5952145
+ 234651 words of memory out of 5000000
+ 15758 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 12i,0n,15p,91b,16s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
