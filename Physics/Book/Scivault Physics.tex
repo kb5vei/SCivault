@@ -37,7 +37,8 @@
 \usepackage[linewidth=1pt]{mdframed}
 \setlength{\columnsep}{1cm}
 
-
+\usepackage{glossaries} % Include the glossaries package
+\makeglossaries % Command to create the glossaries
 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.11}
@@ -56,13 +57,18 @@
 %   makeindex "Scivault Physics.idx"
 %3) Compile again
 
+%%% To make glossaries work,
+% 1) Compile
+%2) From base directory, run:
+%   makeglossaries "Scivault Physics"
+%3) Compile again
+%for an entry to display in the glossary, it must be referenced using \glo{reference}
 
 
 
 
 
-
-
+\input{./Chapters/Appendicies/AppendixC-Glossary/AppendixC-Glossary.tex}
 
 
 
@@ -136,6 +142,7 @@
 		
 	\backmatter	
 	
+	\printglossary
 \printindex		
 
 

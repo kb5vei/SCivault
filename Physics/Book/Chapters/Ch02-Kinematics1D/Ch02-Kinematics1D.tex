@@ -1,21 +1,21 @@
 \chapter{Kinematics in One Dimension}
 \section{Distance and Displacement} \index{Distance}
 
-You are probably already familiar with the concept of \textbf{distance} - you might get in your car and drive a total of 1.2 miles to school, turning right after 0.45 miles, according to your car's odometer.  Distance is a scalar that tells you how far something traveled.  The symbol d usually represents distance.
+You are probably already familiar with the concept of \gls{distance} - you might get in your car and drive a total of 1.2 miles to school, turning right after 0.45 miles, according to your car's odometer.  Distance is a scalar that tells you how far something traveled.  The symbol d usually represents distance.
 
 While you may have traveled a total distance of 1.2 miles from your school, you are significantly less than 1.2 miles away from home; in fact, you are approximately 0.874 miles from home, following a direct path directly from your home to the school, at an angle of $59^\circ $(not worrying that this path might take you through someone's back yard or kitchen).
 
 
-  \textbf{Displacement} \index{Displacement} is a vector that tell you how far something is from the origin, and is independent of the path taken to get there.  The displacement vector is commonly symbolized by $\vec{r}$ though sometimes it may be written as $\vec{d}$ or $\vec{x}$. 
+  \gls{displacement} \index{Displacement} is a vector that tell you how far something is from the origin, and is independent of the path taken to get there.  The displacement vector is commonly symbolized by $\vec{d}$ though sometimes it may be written as $\vec{r}$ or $(\vec{x}-\vec{x_0})$. 
 
 \section{Average and Instantaneous Speed and Velocity}
 
-\textbf{Speed} is a scalar value that represents the change in distance per change in time of an object.  Speed is usually represented with the symbol $v$, without the vector sign.  You are probably already familiar with this quantity, since the speedometer on your family car measures speed.  For the purposes of physics, speed has little value because it is a scalar that tells us nothing of direction.  Much more useful is the concept called velocity.  Velocity and speed are related much like distance and displacement.  
+\gls{speed} \index{speed} is a scalar value that represents the change in distance per change in time of an object.  Speed is usually represented with the symbol $v$, without the vector sign.  You are probably already familiar with this quantity, since the speedometer on your family car measures speed.  For the purposes of physics, speed has little value because it is a scalar that tells us nothing of direction.  Much more useful is the concept called velocity.  Velocity and speed are related much like distance and displacement.  
 
-\textbf{Velocity} is the change in displacement of an object per unit time, and as such is a vector.  Positive velocities indicate that the object is moving forward, relative to the axis in question, and negative velocities generally mean that the object is moving backward, relative the the axis.  The average velocity of an object is given by:
+\gls{velocity} \index{velocity} is the change in displacement of an object per unit time, and as such is a vector.  Positive velocities indicate that the object is moving forward, relative to the axis in question, and negative velocities generally mean that the object is moving backward, relative the the axis.  The average velocity of an object is given by:
 \begin{mdframed}[backgroundcolor=orange!20!white]
 	\begin{equation}
-	\overrightarrow{v_{avg}} = \frac{\Delta\vec{r}}{\Delta t} 
+	\overrightarrow{v_{avg}} = \frac{\Delta\vec{d}}{\Delta t} 
 		\label{eqn:velocity}
 	\end{equation}
 \end{mdframed}
@@ -42,7 +42,44 @@ Average velocity is useful if an object's velocity is not changing.  However, ma
 
 \textbf{Solution:} 
 Begin by drawing a diagram:
+\vspace{0.1in}
 
+\begin{center}
+	
+
+\begin{tikzpicture}
+% Draw the starting point
+\filldraw[black] (0,0) circle (0.1);
+\node at (0,0) [above] {Start};
+
+Draw coordiante system:
+\draw[blue,->] (-1.5,1) -- (-1,1);
+\node at (-1, 1) [right,blue] {+x};
+
+% Draw the straight line representing the path
+
+
+\draw[thick, ->] (0,0) -- (7.3,0);
+\node at (3.65, 0.2) [above] {73 meters};
+
+% Draw the bicycle
+\draw (6.3, 0.1) circle (0.1); % Front wheel
+\draw (6.1, 0.1) circle (0.1); % Back wheel
+\draw (6.1, 0.1) -- (6.3, 0.1); % Frame
+\draw (6.3, 0.1) -- (6.3, 0.4); % Frame
+\draw (6.1, 0.1) -- (6.3, 0.3); % Frame
+\draw (6.25, 0.4) -- (6.3, 0.4); % Frame
+
+% Draw the end point
+%\filldraw[black] (7.3,0) circle (0.1);
+\node at (7.3,0) [above] {End};
+
+% Draw time indication
+\node at (3.65, -0.5) [below] {12.5 seconds};
+\end{tikzpicture}
+\end{center}
+
+Since we have both distance and time, average speed can be easily calculated:
 
 \begin{equation*}
  v_{avg}  = \frac{d}{t} = \frac{73m \hspace{0.05in} \hat{i}}{12.5s}  = 5.84 \frac{m}{s} \hspace{0.05in} \hat{i}
@@ -60,7 +97,7 @@ Begin by drawing a diagram:
 	
 	\textbf{Problem: }A bicyclist rides his bike to the east.  His position (in meters) is given by the following expression:
 	\begin{equation*}
-	\vec{r} = (0.5 t^2 + 4t) \hat{i}
+	\vec{r}(t) = (0.5 t^2 + 4t) \hat{i}
 	\end{equation*}
 	\begin{enumerate}[label=\alph*.]
 		\item What is his average velocity from t = 0 to t = 5 seconds?
@@ -70,7 +107,7 @@ Begin by drawing a diagram:
 	\textbf{Solution:} \begin{enumerate}[label=\alph*.]
 		\item The total displacement (in meters) after five seconds is given by: 
 		\begin{equation*}
-		\hat{r} = (0.5 \times (5s)^2+4\times 5s) \hspace{0.05in} m \hspace{0.05in} \hat{i} = 32.5 \hspace{0.05in} m \hspace{0.05in} \hspace{0.05in} \hat{i}
+		\vec{d} = \vec{r}(\SI{5}{s})-\vec{r}(\SI{0}{s}) = (0.5 \times (5s)^2+4\times 5s) \hspace{0.05in} m \hspace{0.05in} \hat{i} - 0 = 32.5 \hspace{0.05in} m \hspace{0.05in} \hspace{0.05in} \hat{i}
 		\end{equation*}
 		Thus, the average velocity is - 
 	\begin{equation*}
@@ -104,7 +141,7 @@ Begin by drawing a diagram:
 
 \section{Acceleration}
 \subsection{Average Acceleration} \index{Acceleration, Average}
-Velocity is not always constant.  For instance, when you are driving through a city, there are times when you might be going 30 mph, and there are times when you might be stopped at a streetlight.  City driving requires you to speed up at some times, and slow down at other times – your velocity changes as a function of time.  Change in velocity per change in time is called acceleration.  
+Velocity is not always constant.  For instance, when you are driving through a city, there are times when you might be going 30 mph, and there are times when you might be stopped at a streetlight.  City driving requires you to speed up at some times, and slow down at other times – your velocity changes as a function of time.  Change in velocity per change in time is called \gls{acceleration}.  
 Keep in mind, both speeding up and slowing down are forms of acceleration.  In the case that an object is traveling with a positive velocity, slowing down causes negative acceleration (or deceleration).
 Like velocity, acceleration comes in two basic types – average and instantaneous.  To find average velocity, we calculate the change in velocity per change in time:
 
@@ -154,7 +191,62 @@ Combining this with equation \ref{equation:instantaneousvelocity}, we find:
 	
 	\vspace{0.1in}
 	
-	\textbf{Solution:} Using the definition of Average Acceleration from Equation \ref{equation:averageaccelerationalt}, we find:
+	\textbf{Solution:} First, draw the diagram:
+	\vspace{0.1 in}
+	\begin{center}
+		
+
+	
+\begin{tikzpicture}
+% Define car dimensions
+\def\carlength{1.2} % Length of the car
+\def\carheight{0.4} % Height of the car body
+\def\wheelradius{0.15} % Radius of the wheels
+
+Draw coordiante system:
+\draw[blue,->] (-1.5,1) -- (-1,1);
+\node at (-1, 1) [right,blue] {+x};
+
+
+% Draw the initial position of the car
+\draw[fill=blue!40] (0,0) rectangle (\carlength,\carheight); % Car body
+\draw[fill=gray] (0.2,0) circle (\wheelradius); % Rear wheel
+\draw[fill=gray] (\carlength-0.2,0) circle (\wheelradius); % Front wheel
+\draw[fill=white] (0.2, \carheight-0.2) rectangle (0.5, \carheight); % Rear window
+\draw[fill=white] (0.7, \carheight-0.2) rectangle (1, \carheight); % Front window
+%\node at (\carlength/2, \carheight + 0.3) {20 m/s}; % Initial speed label
+\node at (\carlength/2, -0.7) [below] {Start}; % Starting point label
+\draw[->] (\carlength,\carheight/2) -- (\carlength+1,\carheight/2);
+\node at (\carlength+0.6,\carheight/2) [above] {20 m/s};
+
+% Draw the deceleration arrow
+%\draw[thick, ->, red] (\carlength + 0.2, \carheight/2) -- (5.5, \carheight/2);
+%\node at (3.5, \carheight + 0.2) [above] {Decelerating};
+
+% Draw the red light symbol
+\draw[fill=yellow] (8.5,0.75) rectangle (10.1,1.25);
+\filldraw[red] (8.8, 1) circle (0.2); % Red light circle
+\filldraw[black] (9.3, 1) circle (0.2); % Red light circle
+\filldraw[black] (9.8, 1) circle (0.2); % Red light circle
+
+
+% Draw the final position of the car
+\draw[fill=blue!40] (6.5,0) rectangle (6.5+\carlength,\carheight); % Car body at final position
+\draw[fill=gray] (6.7,0) circle (\wheelradius); % Rear wheel
+\draw[fill=gray] (6.5+\carlength-0.2,0) circle (\wheelradius); % Front wheel
+\draw[fill=white] (6.7, \carheight-0.2) rectangle (7, \carheight); % Rear window
+\draw[fill=white] (7.2, \carheight-0.2) rectangle (7.5, \carheight); % Front window
+\node at (6.5+\carlength/2, \carheight + 0.3) {0 m/s}; % final speed label
+\node at (7.1, -0.7) [below] {Stop}; % Final point label
+
+% Indicate time taken to stop
+\node at (3.5, -1.2) [below] {Time to stop: 4 seconds}; 
+
+\end{tikzpicture}
+	\end{center}	
+	
+	
+	 Using the definition of Average Acceleration from Equation \ref{equation:averageaccelerationalt}, we find:
 	
 	\begin{equation*}
 			\overrightarrow{a_{avg}} = \frac{\overrightarrow{v_f} - \overrightarrow {v_i}}{\Delta t} = \frac{0 \frac{m}{s} \hat{i} - 20 \frac{m}{s} \hat{i}}{4 s}   = -5 \frac{m}{s^2} \hat{i}
@@ -233,11 +325,11 @@ These equations enable you to solve the vast majority of kinematic problems.  Ke
 
 \section{Vertical Motion and Gravity}
 
-One of the most common types of acceleration we experience every day is the acceleration due to gravity.  Acceleration due to gravity is given a special symbol: g.  On Earth, $g \approx  9.81 \frac{m}{s^2}$.  Keep in mind that this value is only useful for calculations involving gravity that take place on the Earth's surface.  All planets, stars, and celestial bodies (in fact, all objects with any mass) have their own gravitational acceleration.  Acceleration due to gravity on the moon, for instance, is $1.62 \frac{m}{s^2}$.    
+One of the most common types of acceleration we experience every day is the \gls{gravity}. \index{Gravity, acceleration due to}  Acceleration due to gravity is given a special symbol: $g$.  On Earth, $g \approx  \SI{9.81}{m/s^2}$.  Keep in mind that this value is only useful for calculations involving gravity that take place on the Earth's surface.  All planets, stars, and celestial bodies (in fact, all objects with any mass) have their own gravitational acceleration.  Acceleration due to gravity on the moon, for instance, is $\SI{1.62}{m/s^2}$.    
 
-Objects undergo free fall when they are allowed to continue to accelerate due to gravity until they impact something that breaks their fall (often this is the ground).  In order to make the calculations easier, we often ignore air resistance.
+Objects undergo \gls{freefall} when the only force acting on the object is gravity.  In order to make the calculations easier, we often ignore air resistance.
 
-Because gravity at the Earth's surface is downward, sign conventions become a little more important than previously.  If upward is positive, g will have a negative sign attached to it to indicate the direction of acceleration.  
+Because gravity at the Earth's surface is downward, sign conventions become a little more important than previously.  If upward is positive, $g$ will have a negative sign attached to it to indicate the direction of acceleration.  
 
 
 \begin{mdframed}[backgroundcolor=blue!10!white]
@@ -251,12 +343,81 @@ Because gravity at the Earth's surface is downward, sign conventions become a li
 	\textbf{Problem: } You are standing on top of a building.  You drop a rock  from the top of the building, and let it free fall until it hits the ground, 3.2 seconds later.  
 	\begin{enumerate}[label=\alph*.]
 		\item What is the height of the building?
-		\item An identical building is build on the moon.  How long does it take the rock to fall in this case?
+		\item An identical building is build on the moon ($g_{moon} = \SI{1.62}{m/s^2}$).  How long does it take the rock to fall in this case?
 	\end{enumerate}
 
-	\textbf{Solution:}
+	\textbf{Solution:} First, draw the diagram:
+	\vspace{0.1in}
+	\begin{center}
+
+	\begin{tikzpicture}
+
+
+		% Draw the building
+	\draw[thick] (0,0) rectangle (0.7,5.1);
+%	\node at (0.5, 6.1) [above] {Top of Building}; % Label for the top of the building
+	
+	% Draw the person
+	\draw[thick] (0.5, 6) circle (0.2); % Head
+	\draw[thick] (0.5, 5.8) -- (0.5, 5.4); % Body
+	\draw[thick] (0.5, 5.7) -- (0.3, 5.5); % Left arm
+	\draw[thick] (0.5, 5.7) -- (0.8, 5.7); % Right arm
+	\draw[thick] (0.5, 5.4) -- (0.3, 5.1); % Left leg
+	\draw[thick] (0.5, 5.4) -- (0.7, 5.1); % Right leg
+	
+	% Draw the path of the rock
+	\draw[dashed, thick, blue] (0.9, 5.7) -- (0.9, 0);
+%	\node at (0.9, 3) [right] {Rock's Path}; % Label for rock's path
+	
+	\draw[->, blue] (-1, 5.7) -- (-1, 5.2);
+	\node at (-1, 5.2) [below,blue] {+y};
+	
+	% Draw the rock at the top
+	\filldraw[black] (0.9, 5.7) circle (0.1);
+	\node at (0.9, 5.7) [right]{} ;
+	
+	% Draw the rock at the ground
+	\filldraw[black] (0.9, 0) circle (0.1);
+%	\node at (0.8, 0.2) [right] {Rock Hits Ground};
+	
+	% Time indication
+	\node at (2, 3) [right] {$t=\SI{3.2}{s}$};
+	
+	% Draw the ground
+	\draw[thick] (-0.5, 0) -- (2, 0);
+	\node at (-0.5, 0) [below] {Ground};
+	\end{tikzpicture}
+	\end{center}
+	
+	
+	\vspace{0.1 in}
+	Note that we have chosen downward to be positive.  This means that gravity, displacement, and final velocity will all be positive.  Next, create a table of kinematic variables:
+	
+	\begin{center}
+		\begin{tabular}{| r  l |}
+			\hline
+			$y-y_0 =$ & \\
+			\hline
+			$v_{0y} = $ & $\SI{0}{m/s^2}$ \\
+			\hline
+			$v_y = $ & \\
+			\hline
+			$a_y = $ & $\SI{9.81}{m/s^2}$ \\
+			\hline
+			$t = $ &$\SI{3.2}{s}$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	
+	
 	\begin{enumerate}[label=\alph*.]
-		\item To solve for distance, we apply equation 1.5.3 in the y-direction, and substitute ay = g and vi = 0 m/s,:
+		
+		
+		\item To solve for distance, we apply equation 1.5.3 in the y-direction:
+		\begin{equation*}
+		y-y_0 = \cancelto{0}{v_{0y}t} + \frac{1}{2}a_yt^2 = \frac{1}{2}(\SI{9.81}{m/s^2})(\SI{3.2}{s})^2 \approx \SI{50.227}{m}
+		\end{equation*}
 		
 		\item Because we know that vi = 0 m/s, and ay = gm = 1.62 m/s2, we can let the final term drop out of equation 1.5.3 to yield:
 	\end{enumerate}

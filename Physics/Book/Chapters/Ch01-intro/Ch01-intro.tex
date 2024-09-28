@@ -1,7 +1,7 @@
 \chapter{Introduction}
 \section{Dimensional Analysis and SI units}
 \subsection{SI Units}
-The \textbf{SI}\index{SI system of units} system of units is the standard used by many scientists throughout the world.  There are seven \textit{fundamental} or \textit{base} quantities from which all other measurements are derived.  These quantities are listed below:
+The \index{SI system of units} \gls{siunits} is the standard used by many scientists throughout the world.  There are seven \textit{fundamental} or \textit{base} quantities from which all other measurements are derived.  These quantities are listed below:
  \index{Units, Fundamental}
 
 \begin{center}
@@ -35,12 +35,12 @@ The \textbf{SI}\index{SI system of units} system of units is the standard used b
 	Of these quantities, mass, time and length are quite common.  Thus, this system is sometimes called the MKS (meter, kilogram, second) system. In order to use any equations, all measurements must have correct units.  For example, if a time is expressed in hours, it must first be converted into seconds before any calculations can be attempted.  
 	
 	\subsection{Dimensional Analysis}
-	Dimensional analysis \index{Dimensional Analysis} is the process in which the units associated with quantities create \textit{derived units}. \index{Units, Derived} For instance, when a distance is divided by a time, the units will be $ \frac{m}{s}$ (read \textit{meters per second}).  	
+	\gls{dimensionalanalysis} \index{Dimensional Analysis} is the process in which the units associated with quantities create \textit{derived units}. \index{Units, Derived} For instance, when a distance is divided by a time, the units will be $ \frac{m}{s}$ (read \textit{meters per second}).  	
 	
 	Dimensional analysis is an important part of solving physics problems.  Often, correct dimensional analysis can help you determine if a problem has been solved correctly.  One should not even attempt to calculate an answer to a problem until the correct units have been verified. 
 
 	\subsection{Unit Conversions} \index{Unit Conversions}
-	Often you will find that you need to convert a measurement from one unit to another.  In order to do this, you must use a \textit{conversion factor.}  A conversion factor is a fraction that is based upon a statement of equality.  For instance, since 60 seconds = 1 minute, a conversion factor will look like either $\frac{60s}{1 min}$ or $\frac{1 min}{60s}$.  You should chose the version of the conversion factor that eliminates the units that you wish to convert.  
+	Often you will find that you need to convert a measurement from one unit to another.  In order to do this, you must use a \gls{conversionfactor}.  A conversion factor is a fraction that is based upon a statement of equality.  For instance, since 60 seconds = 1 minute, a conversion factor will look like either $\frac{60s}{1 min}$ or $\frac{1 min}{60s}$.  You should chose the version of the conversion factor that eliminates the units that you wish to convert.  
 	
 	
 		\begin{mdframed}[backgroundcolor=blue!10!white]
@@ -95,9 +95,9 @@ The \textbf{SI}\index{SI system of units} system of units is the standard used b
 \section{Vectors and Scalars}
 In the study of physics, there are two types of quantities that we will deal with on a regular basis: \textit{scalars} and \textit{vectors}.  
 
-A \textbf{scalar} is a quantity that you are already most likely very familiar with, as it is just a number; scalars have only a \textit{magnitude} (a number that represents how big or strong it is), and can sometimes include units.  Examples of scalars might be the number of people in a room, the mass of a car, or your age in years.  
+A \gls{scalar} is a quantity that you are already most likely very familiar with, as it is just a number; scalars have only a \gls{magnitude} (a number that represents how big or strong it is), and can sometimes include units.  Examples of scalars might be the number of people in a room, the mass of a car, or your age in years.  
 
-\textbf{Vectors} are different from scalars because in addition to a magnitude, they contain a direction as well.  Examples of vectors might include 50 feet to the north, 5 m/s at a 33$^\circ$ angle, or 200 miles straight up.  
+\gls{vector}s are different from scalars because in addition to a magnitude, they contain a direction as well.  Examples of vectors might include 50 feet to the north, 5 m/s at a 33$^\circ$ angle, or 200 miles straight up.  
 There are many ways of expressing vectors.  Symbollically, they are often written with an arrow over them.  For example, in the equation \color{blue} $\vec{F} = m \vec{a}$ \color{black}  both force and acceleration are vectors - meaning that both force and acceleration have a direction.  Sometimes vectors will be expressed in \textbf{bold} typeface.   Hence, the expression \\ \color{blue} \textbf{F} = m \textbf{a}  \color{black} is equivalent to the expression shown above.
 
 The direction for vectors in 1 dimension is easy - all you need is a positive or a negative.  Usually, 1-dimensional motion takes place along the x-axis (left and right), but sometimes it will take place in the y- (forward and backward) and z- (up and down) dimensions.  For the purposes of this book, positive is to the right and up unless otherwise stated. 
@@ -132,7 +132,9 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 	
 	The magnitude of the above vector is 4 cm.  Mathematically, the magnitude of a vector can be written several ways, the most common being $\lvert \vec{A} \rvert$, though sometimes the magnitude of a vector can be written as the vector without the vector sign, as in $A$. 
 	
-	Unit vectors are vectors that have a length of one unit and are oriented along one axis.  The unit vector for the x-direction is written as $\hat{i}$ (pronounced i-hat).  $\hat{i}$ is a 1-unit long vector that is always parallel to the x-axis, and points in the direction of increasing x values.  Likewise, the y-direction and z-direction unit vectors are written as $\hat{j}$ and $\hat{k}$ respectively.  
+	\subsection{Unit Vectors}
+	\index{Unit Vectors}
+	\gls{unitvector} are vectors that have a length of one unit and are oriented along one axis.  The unit vector for the x-direction is written as $\hat{i}$ (pronounced i-hat).  $\hat{i}$ is a 1-unit long vector that is always parallel to the x-axis, and points in the direction of increasing x values.  Likewise, the y-direction and z-direction unit vectors are written as $\hat{j}$ and $\hat{k}$ respectively.  
 	
 	
 	Because the surface of a paper is effectively 2-dimensional, it is very hard to draw lines that are oriented directly into or out of your paper. For this purpose, physicists have agreed to the following convention: vectors that point directly into your paper are notated by $\bigotimes$ .  Vectors that point directly out of your paper are shown by the symbol $\bigodot$.  
@@ -176,7 +178,7 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 \section{Vector Mathematics}
 	\subsection{Vector Addition} \index{Vectors, Addition}
 	\subsubsection{Graphical Addition of Vectors} 
-	When vectors are added graphically, they are added \textbf{head} to \textbf{tail}.  This means that the arrowhead for a first vector becomes the origin for the second vector.  The \textbf{resultant} vector is a straight line between the origin of the first vector and the head of the second.  
+	When vectors are added graphically, they are added \textbf{head} to \textbf{tail}.  This means that the arrowhead for a first vector becomes the origin for the second vector.  The \gls{resultant} vector is a straight line between the origin of the first vector and the head of the second.  
 	
 	
 	\begin{mdframed}[backgroundcolor=blue!10!white]
@@ -266,7 +268,7 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 	
 	\subsection{The Dot Product} \index{Dot Product} \index{Vectors, Dot Product}
 	\subsubsection{In Cartesian Form}
-	When multiplying vectors, it is sometimes necessary to obtain a scalar result.  This is done through use of a dot product.  A dot product is written as $\vec{A} \cdot \vec{B} $.  This means to only multiply the components of the vectors that are in the same direction.  In cartesian coordinates, this can be done by multiplying corresponding components, then adding the products.  
+	When multiplying vectors, it is sometimes necessary to obtain a scalar result.  This is done through use of a \gls{dotproduct}.  A dot product is written as $\vec{A} \cdot \vec{B} $.  This means to only multiply the components of the vectors that are in the same direction.  In cartesian coordinates, this can be done by multiplying corresponding components, then adding the products.  
 	
 		\begin{mdframed}[backgroundcolor=blue!10!white]
 			\begin{center}
@@ -348,7 +350,7 @@ In two dimensions, a vector requires two pieces of information.  One way of expr
 	
 	\subsection{The Cross Product}  \index{Cross Product} \index{Vectors, Cross Product}
 	\subsubsection{Cross Products In Cartesian Form}
-	Sometimes two vectors will be multiplied in such a way that they will result in another vector.  This is called a \textbf{Cross Product}.  A cross product is inherently a three-dimensional operation.  A cross product can be found by calculating the determinant of a matrix:  
+	Sometimes two vectors will be multiplied in such a way that they will result in another vector.  This is called a \gls{crossproduct}.  A cross product is inherently a three-dimensional operation.  A cross product can be found by calculating the \gls{determinant} of a matrix:  
 	
 \begin{mdframed}[backgroundcolor=orange!20!white]
 \begin{equation}
@@ -464,7 +466,7 @@ Both the x-component and the y-components of this cross product are zero.  Thus,
 \end{mdframed}	
 
 \label{RHR1}
-In Equation \ref{Equation:17}, $\theta$ is the angle between the two vectors.  To find the direction of the resulting vector, use the \textbf{First Right Hand Rule}.  \index{Right Hand Rule, First} \index{First Right Hand Rule} To use this rule, you point your index finger in the direction of the first vector to be multiplied.  Your middle finger is then pointed in the direction of the second vector to be multiplied.  Your thumb will point in the direction of the resultant vector, as shown in the image: 
+In Equation \ref{Equation:17}, $\theta$ is the angle between the two vectors.  To find the direction of the resulting vector, use the \gls{righthandrulefirst}.  \index{Right Hand Rule, First} \index{First Right Hand Rule} To use this rule, you point your index finger in the direction of the first vector to be multiplied.  Your middle finger is then pointed in the direction of the second vector to be multiplied.  Your thumb will point in the direction of the resultant vector, as shown in the image: 
 
 \begin{center}
 	\begin{figure}[h]
@@ -478,38 +480,38 @@ In Equation \ref{Equation:17}, $\theta$ is the angle between the two vectors.  T
 The right had rule is easiest to use when the first two vectors are at $90^\circ$ to each other.  However, even if the first two vectors are not at right angles to each other, the resultant vector of a cross product will always be perpendicular to the plane of the first two vectors.  
 
 
-\newpage
-\section{Exercises for Chapter 1}
+%\newpage
+%\section{Exercises for Chapter 1}
 
-\begin{multicols}{2}
-
-
-	\begin{enumerate}
+%\begin{multicols}{2}
 
 
-	\subsection*{Section 1.1: Dimensional Analysis}
-		\item What are the units for each of the following?
-			\begin{enumerate}
-				\item $\frac{5 m}{2 s}$
-				\item $\frac{10kg}{5s}$
-				\item $\frac{140 kg \cdot 15 m}{23 s} $
-				\item $\frac{(\frac{15m}{15s})}{14 s} $
-				
-			\end{enumerate}
-	\subsection*{Section 1.2: Vectors and Scalars}
-		\item Given the vector $4\hat{i} - 3 \hat{j}$, represent the vector (a) graphically and (b) in polar form.  
-		\item George walks 200 meters north, then walks 400 meters north.  What is the vector from his starting position to his ending position in (a) cartesian form and (b) polar form (take north as 0 degrees).  
-	\subsection*{Section 1.3: Vector Mathematics}
-		\item Addition - cartesian
-		\item Addition - polar
-		\item Dot Product - Cartesian
-		\item Dot Product - polar
-		\item Cross Product - cartesian
-		\item Cross Product - polar
-		
-		
-	\end{enumerate}	
-\end{multicols}	
+%	\begin{enumerate}
+
+
+%	\subsection*{Section 1.1: Dimensional Analysis}
+%		\item What are the units for each of the following?
+%			\begin{enumerate}
+%				\item $\frac{5 m}{2 s}$
+%				\item $\frac{10kg}{5s}$
+%				\item $\frac{140 kg \cdot 15 m}{23 s} $
+%				\item $\frac{(\frac{15m}{15s})}{14 s} $
+%				
+%			\end{enumerate}
+%	\subsection*{Section 1.2: Vectors and Scalars}
+%		\item Given the vector $4\hat{i} - 3 \hat{j}$, represent the vector (a) graphically and (b) in polar form.  
+%		\item George walks 200 meters north, then walks 400 meters north.  What is the vector from his starting position to his %nding position in (a) cartesian form and (b) polar form (take north as 0 degrees).  
+%	\subsection*{Section 1.3: Vector Mathematics}
+%		\item Addition - cartesian
+%		\item Addition - polar
+%		\item Dot Product - Cartesian
+%		\item Dot Product - polar
+%		\item Cross Product - cartesian
+%		\item Cross Product - polar
+%		
+%		
+%	\end{enumerate}	
+%\end{multicols}	
 	
 
 
