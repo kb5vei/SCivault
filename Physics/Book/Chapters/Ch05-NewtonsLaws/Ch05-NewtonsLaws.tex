@@ -1,4 +1,140 @@
-\chapter{Newtons Laws} \index{Newton's Laws of Motion}
+\chapter{Forces and Newtons Laws} \index{Newton's Laws of Motion}
+\section{Forces}
+\gls{force} is a vector quantity that measures how hard a push or a pull on an object is.  Though all forces we encounter in everyday life can be explained in terms of the four \gls{fundamentalforces}, these forces manifest themselves in different ways.  In fact, with the exception of gravity, almost all forces humans deal with are electromagnetic.  
+
+ \section{Free Body Diagrams}
+\index{Free Body Diagram}
+A \gls{freebodydiagram} is a diagram that includes all external forces acting on an object or system.  In general, free body diagrams should follow the following rules:
+\begin{itemize}
+	\item Draw a coordinate system, which shows what direction is +x and +y.
+	\item Objects should be represented by a dot, a box, or a sketch of the object.  Systems can be represented by multiple dots, boxes, or sketches.  
+	\item Unless otherwise stated, forces act on the center of mass.
+	\item Forces are represented as arrows.  Arrows should start at the center of mass (or other point they act on) and point away from the object.  
+	\item The length of force arrows should be proportional to the strength of the force.
+	\item All forces should be labeled.
+	\item No arrows other than forces should appear on the diagram.  (Don't include accleration, displacements, velocities, etc.) 	
+\end{itemize}
+\newpage
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A book is at rest on top of a table.  Draw the free-body diagram of the book on the table.
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	The diagram should look as follows:
+	\begin{center}
+		
+		
+		\begin{tikzpicture}
+			
+			% Draw the book
+			\draw[fill=red!30] (0,0) rectangle (4,1); % The book as a rectangle
+			%	\node at (2,0.5) {}; % Label for the book
+			
+			% Draw the table (optional)
+			\draw[thick] (-1,0) -- (5,-0); % Table surface
+			
+			% Center of Mass (dot in the middle)
+			\filldraw[black] (2,0.5) circle (2pt); % Dot for the center of mass
+			%		\node at (2.5,0.8) {};
+			
+			% Draw the forces acting on the book
+			% Normal force (upward)
+			\draw[->, thick, red] (2,0.5) -- (2,2) node[midway, right] {$F_N$};
+			
+			% Weight (downward)
+			\draw[->, thick, blue] (2,0.5) -- (2,-1) node[midway, right] {$F_g$};
+			
+			% Add labels for the diagram
+			%	\node at (2,-2) {Free Body Diagram of a book on a table};
+			%Draw the coordinate system
+			\draw[->,blue] (-1.5,1) -- (-1.5,1.5);
+			\node at (-1.5,1.6) [above,blue] {+y};
+			
+			\draw[->,blue] (-1.5,1) -- (-1,1);
+			\node at (-0.9,1) [right,blue] {+x};
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	In this diagram, the normal force and the gravitational force are balanced.  Thus, the object remains at rest, according to Newton's 1st Law.  
+	
+\end{mdframed}	
+
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+
+		
+		\textbf{Example \thesection.2}	
+	\end{center}
+	
+	\textbf{Problem: } As a person walks through an airport, she pulls a suitcase at a constant speed using a strap at a 25\textdegree angle above horizontal.  Friction is significant.  Draw a free body diagram of the situation.
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	The diagram should look as follows:
+	
+	\begin{center}
+		
+		\begin{tikzpicture}
+			
+			% Draw the suitcase
+			\draw[fill=brown!30] (0,0) rectangle (3,1.5); % Suitcase as a rectangle
+			%	\node at (1.5,0.75) {Suitcase}; % Label for suitcase
+			\draw[fill=black] (0.1,0) circle (3 pt); % wheel 1
+			\draw[fill=black] (2.9,0) circle (3 pt); % wheel 2
+			
+			
+			% Draw the ground (optional)
+			\draw[thick] (-1,-0.1) -- (5,-0.1); % Ground line
+			
+			% Center of mass (dot in the middle)
+			\filldraw[black] (1.5,0.75) circle (2pt); % Dot for center of mass
+			
+			% Draw the forces acting on the suitcase
+			% Tension force (pulling force at 25-degree angle)
+			\draw[->, thick, red] (1.5,0.75) -- ++(2,1) node[midway, below] {$F_T$};
+			%\node at (1.6,0.75) [right,red] {$25^\circ$}; % Angle of the tension force
+			
+			% Normal force (upward)
+			\draw[->, thick, blue] (1.5,0.75) -- ++(0,1) node[midway, right] {$F_N$};
+			
+			% Weight force (downward)
+			\draw[->, thick, purple] (1.5,0.75) -- (1.5,-1.25) node[midway, below right] {$F_g$};
+			
+			% Friction force (leftward)
+			\draw[->, thick, green] (1.5,0.75) -- (-0.5,0.75) node[midway, below] {$F_f$};
+			
+			% Add labels for the diagram
+			%	\node at (1.5,-1.8) {Free Body Diagram of a suitcase being pulled at a 25-degree angle};
+			
+			
+			%Draw the coordinate system
+			\draw[->,blue] (-2,1) -- (-2,1.5);
+			\node at (-2,1.6) [above,blue] {+y};
+			
+			\draw[->,blue] (-2,1) -- (-1.5,1);
+			\node at (-1.4,1) [right,blue] {+x};
+		\end{tikzpicture}
+		
+		
+		
+	\end{center}
+	
+	In this diagram, the sum of the forces that act in the x-direction (friction, and the x-component of tension) must equal zero to ensure the suitcase maintains a constant horizontal speed.  In addition, the forces that act in the y-direction (Gravity, Normal Force, and the Y-component of tension) must sum to equal zero as well so that the suitcase does not accelerate vertically.  
+	
+\end{mdframed}	
+
+
+\newpage
 	\section{Newton's First Law} \index{Newton's First Law} \index{Law of Inertia}
 	\begin{tabular}{p{.75in} p{4.5in} p{.75in}}
 		 & \textit{Corpus omne perseverare in statu suo quiescendi vel movendi uniformiter in directum, nisi quatenus a viribus impressis cogitur statum illum mutare.} &  \\
@@ -22,6 +158,9 @@
 			\label{eqn:newtonsfirst}
 		\end{equation}
 	\end{mdframed}
+
+\newpage
+
 	
 	\section{Newton's Second Law}
 	\index{Newton's Second Law}
