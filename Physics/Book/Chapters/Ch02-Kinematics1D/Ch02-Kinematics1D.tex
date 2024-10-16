@@ -331,7 +331,7 @@ Objects undergo \gls{freefall} when the only force acting on the object is gravi
 
 Because gravity at the Earth's surface is downward, sign conventions become a little more important than previously.  If upward is positive, $g$ will have a negative sign attached to it to indicate the direction of acceleration.  
 
-
+\newpage
 \begin{mdframed}[backgroundcolor=blue!10!white]
 	\begin{center}
 		
@@ -419,7 +419,33 @@ Because gravity at the Earth's surface is downward, sign conventions become a li
 		y-y_0 = \cancelto{0}{v_{0y}t} + \frac{1}{2}a_yt^2 = \frac{1}{2}(\SI{9.81}{m/s^2})(\SI{3.2}{s})^2 \approx \SI{50.227}{m}
 		\end{equation*}
 		
-		\item Because we know that vi = 0 m/s, and ay = gm = 1.62 m/s2, we can let the final term drop out of equation 1.5.3 to yield:
+		\item On the moon, we have new kinematic variables:
+			\begin{center}
+			\begin{tabular}{| r  l |}
+				\hline
+				$y-y_0 =$ &\SI{50.227}{m} \\
+				\hline
+				$v_{0y} = $ & $\SI{0}{m/s^2}$ \\
+				\hline
+				$v_y = $ & \\
+				\hline
+				$a_y = $ & $\SI{1.62}{m/s^2}$ \\
+				\hline
+				$t = $ & \\
+				\hline
+			\end{tabular}
+		\end{center}
+		
+		We can use equation 1.5.3 again, this time solving for time:
+			\begin{equation*}
+		y-y_0 = \cancelto{0}{v_{0y}t} + \frac{1}{2}a_yt^2 
+		\end{equation*}
+		
+		\begin{equation*}
+		 t = \sqrt{\frac{2(y-y_0)}{a_y}} = \sqrt{\frac{2(\SI{50.227}{m})}{\SI{1.62}{m/s^2}}} \approx \SI{7.875}{s}
+		\end{equation*}
+		
+		
 	\end{enumerate}
 \end{mdframed}
 
