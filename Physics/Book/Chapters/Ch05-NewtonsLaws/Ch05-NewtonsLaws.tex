@@ -244,7 +244,7 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 			\begin{center}
 				
 				
-				\textbf{Example \thesection.2}	
+				\textbf{Example \thesection.1}	
 			\end{center}
 			
 			\textbf{Problem: } In the game of curling, a stone of mass 19.1 kg is pushed across the ice with an initial speed of 4 m/s.  The coefficient of kinetic friction is 0.045.  How far does the rock slide until it comes to a stop?
@@ -466,7 +466,10 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 	\newpage
 		
 		\subsection{Inclined Planes}
-		\index{Inclined Plane}
+		\index{Inclined Plane} The normal force that a surface exerts on an object is always perpendicular to the surface.  Thus, when an object is placed on an inclined plane, the normal force exerted on the object will not be vertical.  Similarly, any frictional forces will be parallel to the inclined plane, and the motion of the object will be along the plane as well.  Thus, it is easier to deal with inclined planes by creating a coordinate system that is rotated to align with the inclined plane, as seen in the figure below:
+		
+		
+		
 		
 		
 		\newcommand{\angler}{30}
@@ -507,11 +510,22 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 				\draw (MM) -- ++ (0.75,0)
 				node [very near end, above] {$F_f$};
 				
+						%Draw the coordinate system
+				\draw[->,blue] (-2,1) -- (-2,1.5);
+				\node at (-2,1.6) [above,blue] {+y};
+				
+				\draw[->,blue] (-2,1) -- (-1.5,1);
+				\node at (-1.4,1) [right,blue] {+x};
+				
+				
 			\end{scope}
 			
 		\end{tikzpicture} 
 		\caption{An inclined plane}
 				\end{figure}
+		In this case, we have chosen to make the positive x direction up the ramp, and the positive y direction upward and to the left, perpendicular to the ramp.  This means that the normal force is in the postive y direction, and the frictional force is in the positive x direction.  The only force that does not align to the coordinate system is gravity.  However, it is easy to decompose gravity into two forces, one in the x-direction and one in the y-direction, as shown by the dashed arrows in the diagram. 
+		A little geometry proves that $F_{gx} = F_g \sin (\theta) $ and $F_{gx} = F_g \cos (\theta)$.  We can then assign positives and negatives based on the coordinate system we have chosen.  
+		
 		
 		
 		
@@ -526,7 +540,32 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 		\index{Atwood Machine}
 		
 
-
+\begin{tikzpicture}
+	
+	% Draw the pulley
+	\draw[fill=gray] (0,2) circle (1); % Pulley as a circle
+	\node at (0,2.5) {Pulley};
+	
+	% Draw the string going over the pulley
+	\draw[thick] (-1,2) -- (1,2); % Horizontal string
+	\draw[thick] (-1,2) -- (-1,0); % Left vertical string segment
+	\draw[thick] (1,2) -- (1,-0.1); % Right vertical string segment
+	
+	% Draw the 5 kg mass on the left side
+	\draw[fill=blue!30] (-1.5,0) rectangle (-.5,-1); % Mass box
+	\node at (-1,-.5) {5 kg}; % Label for the 5 kg mass
+	
+	% Draw the 2 kg mass on the right side
+	\draw[fill=red!30] (0.5,-0.1) rectangle (1.5,-.7); % Mass box
+	\node at (1,-.5) {2 kg}; % Label for the 2 kg mass
+	
+	% Add arrows to represent forces (optional)
+	% Gravity on 5 kg mass
+	%\draw[->, thick, blue] (-1.5,-0.5) -- (-1.5,-1.5) node[midway, left] {};
+	% Gravity on 2 kg mass
+	%\draw[->, thick, red] (1.5,-0.5) -- (1.5,-1.5) node[midway, right] {};
+	
+\end{tikzpicture}
 	
 
 
