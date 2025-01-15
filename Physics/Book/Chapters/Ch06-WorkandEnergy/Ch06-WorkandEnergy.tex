@@ -139,6 +139,7 @@
 		\label{eqn:hookeslaw}
 		\end{equation}
 	\end{mdframed}
+	where $k$ is the \gls{springconstant}, \index{Spring Constant}  and $x$ is the distance the spring has been stretched or compressed from its equilibrium position.
 	
 	Some calculus can show that the energy stored in a spring that obeys Hooke's Law is: 
 	
@@ -150,6 +151,67 @@
 	\end{mdframed}
 
 	While all real springs convert mechanical energy into heat when stretching or compressing, the amount of energy lost as heat (a process called hysteresis) is usually negligible.  However, some stretchable objects, such as rubber bands, lose significant amounts of energy as heat.  Thus, equations \ref{eqn:hookeslaw} and \ref{eqn:elasticpotentialenergy} are not applicable to these objects.  
+	
+	
+		
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.1}	
+		\end{center}
+		
+		\textbf{Problem: } Spring is streched a distance of 0.2 m using a force of 20 N.  
+		\begin{enumerate}[label=(\alph*)]
+			\item What is the spring constant of the spring?
+			\item What is the elastic portential energy stored in the spring?
+		\end{enumerate}
+		\vspace{0.1in}
+		
+		\textbf{Solution:} 
+		Begin by drawing a diagram:
+		\vspace{0.1in}
+		\begin{center}
+			\begin{tikzpicture}
+				% Draw a fixed wall
+				\draw[thick] (0,0) -- (0,-1.5) -- (-0.3,-1.5) -- (-0.3,1.5) -- (0,1.5) -- cycle;
+				\foreach \y in {-1.4,-1.0,...,1.4}
+				\draw (-0.3,\y) -- (-0.5,\y+0.2);
+				
+				% Draw the spring
+				\draw[thick,decorate,decoration={coil,aspect=0.8,amplitude=5pt,segment length=10pt}] (0,0) -- (4,0);
+												
+				
+				% Add labels
+				\draw[->,thick,blue] (4,0) -- (5.5,0) node[midway,below] {$x=\SI{0.2}{m}$};
+				\draw[->,thick] (-0.3,-1.8) -- (5.5,-1.8) node[midway,below] {+x};
+			\end{tikzpicture}
+			
+		
+		\end{center}
+		
+\begin{enumerate}[label=(\alph*)]
+	\item To find the spring constant, we can use Hooke's Law, Equation \ref{eqn:hookeslaw}:
+	
+		\begin{equation*}
+			\overrightarrow{F_s} = -k\vec{x} \longrightarrow k = \frac{\overrightarrow{F_s}}{\vec{x}} = \frac{\SI{20}{N}}{\SI{0.2}{m}} = \SI{100}{N/m}
+		\end{equation*}
+	
+	\item Now that the spring constant is known, we can use equation \ref{eqn:elasticpotentialenergy} to find the elastic potential energy.  
+	
+			\begin{equation*}
+		U_s = \frac{1}{2}kx^2 = \frac{1}{2}(\SI{100}{N/m})(\SI{0.2}{m})^2 = \SI{2}{J}
+	\end{equation*}
+\end{enumerate}
+		
+		
+		
+		
+		
+	\end{mdframed}
+	
+	
+	
 	
 	\section{Work} 
 \index{Work}
@@ -170,6 +232,64 @@ Note that both force and displacement are vectors, and work is the dot product o
 	\end{equation}
 \end{mdframed}	
 It should also be noted that for work to be done, there must be a non-zero displacement.  No work is done on an object that does not move.  
+
+
+
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A person pulls a 10-kg sled along a flat surface by applying a force of 50 N at an angle of 30° above the horizontal. The sled moves a distance of 5 m. Assume there is no friction. How much work is done on the sled by the person?
+
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by drawing a diagram:
+	\vspace{0.1in}
+	\begin{center}
+\begin{tikzpicture}
+	% Draw the ground
+	\draw[thick] (-1,0) -- (8,0);
+	
+	% Draw the sled
+	\draw[thick,fill=gray!30] (3,0) rectangle (4.5,0.5);
+
+	
+	% Draw the force vector
+	\draw[->,thick,red] (4,0.5) -- ++(3,2) node[midway,above] {$\vec{F}$};
+	
+	% Label the angle
+	\draw[thick] (4.4,0.5) arc[start angle=0, end angle=30, radius=0.5];
+	\node at (4.8,0.7) {$30^\circ$};
+	
+	% Draw the displacement vector
+	\draw[->,thick,blue] (3.75,0.25) -- ++(4,0) node[midway,above] {$\vec{d}$};
+	
+	% Indicate mass of the sled
+	\node at (4,-0.5) {\small $m = 10\,\mathrm{kg}$};
+\end{tikzpicture}
+
+
+		
+		
+	\end{center}
+	
+The work done on the sled can be found by applying equation \ref{eqn:workdotproduct}.
+
+
+		\begin{equation*}
+		W = \vec{F}\cdot\vec{d}  = |\vec{F}| |\vec{d}| cos (\theta) = (\SI{50}{N})(\SI{5}{m})cos(30 ^\circ) \approx \SI{216.506}{J}
+	\end{equation*}
+	
+	
+	
+	
+	
+\end{mdframed}
 
 	
 	\section{The Work-Energy Theorem}
