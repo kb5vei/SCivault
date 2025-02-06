@@ -2,7 +2,7 @@
 	\section{Density}
 	\index{Density}
 	\index{Fluids}
-	The density of an object measures mass per unit volume.  It is calculated using the following formula:
+	The \gls{density} of an object measures mass per unit volume.  It is calculated using the following formula:
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
 		\rho = \frac{m}{V}
@@ -104,10 +104,41 @@ In this equation, $\rho$ is the density of the \textbf{fluid}, $V$ is the volume
 	\end{mdframed}	
 
 The units for pressure are \textit{Pascals} (abbreviated $\si{Pa}$) which are equivalent to $\si{\frac{N}{m^2}}$.
+\newpage
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A box has a mass of 2.5 kg.  Its has an area of $\SI{0.2}{m^2}$ at its base.  What is the pressure the box puts on the table?   
+	\vspace{0.1in}
+	
+	\textbf{Solution:} The force due to gravity is:
+	\begin{equation*}
+		F_g = mg = \SI{2.5}{kg} \SI{9.81}{m/s^2}  = \SI{24.525}{N} 
+	\end{equation*}
+
+Using equation \ref{equation:pressure}, we determine:
+\begin{equation*}
+	P = \frac{F}{A} = \frac{\SI{24.525}{N}}{\SI{0.2}{m^2}} =  \SI{122.625}{Pa}
+\end{equation*}
+	
+	
+	
+	
+\end{mdframed}
+\vspace{0.1in}
+
 
 
 		\subsection{Hydrostatic Pressure}
 		\index{Pressure, Hydrostatic}
+		\index{Hydrostatic Pressure}
+		\gls{hydrostaticpressure} is the pressure exerted on an object due to a non-moving fluid.  The hydrostatic pressure on a submerged object can be calculated using the following formula.  This is often called \textbf{gauge pressure}. 
+		
 
 				\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -116,7 +147,40 @@ The units for pressure are \textit{Pascals} (abbreviated $\si{Pa}$) which are eq
 		\end{equation}
 	\end{mdframed}	
 
+There are some important things you should note about this equation.  First, the $h$ represents depth under the surface, not height. Therefore, $h$ should be measured from the surface of the fluid downward.  Secondly, this formula assumes that the fluid is incompressible, and it will not work for compressible fluids like air, because the density of the fluid will change as it compresses.  Finally, the pressure calculated by this formula is the \gls{gaugepressure}.  That is, it is only the pressure due to the fluid, and does not take any additional atmospheric pressure into account.  To find \gls{absolutepressure}, one must add the external atmospheric pressure to the formula:
+
+\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		P_{absolute} = \rho g h + P_{atm}
+		\label{equation:absolutepressure}
+	\end{equation}
+\end{mdframed}	
+
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A scuba diver is in the ocean, where the density of the water is $\SI{1025}{kg/m^3}$ when he finds his pressure gauge reads $2.56 \times 10^5 \si{Pa}$.  What is the depth of the diver?  
+	\vspace{0.1in}
+	
+	\textbf{Solution:} Normally, a pressure gauge will read 0 Pa at the surface of the water, so we usre the   is Using equation \ref{equation:hydrostaticpressure}, we can solve for $h$.  
+	\begin{equation*}
+		P = \rho g h  \longrightarrow h = \frac{P}{\rho g} = \frac{2.56 \times 10^5 \si{Pa}}{(\SI{1025}{kg/m^3})(\SI{9.81}{m/s^2})} \approx \SI{25.459}{m}
+	\end{equation*}
+	
+	
+\end{mdframed}
+\vspace{0.1in}
+
+
+
 \section{The Fluid Continuity Equation}
+
+When a an incompressible fluid (ie. a liquid) is flowing through a pipe, and the pipe is completely full, the mass that enters one side of the pipe must be equal to the mass that exits the other side of the pipe.  From the law of conservation of mass, it can be shown that the relationship between the cross-sectional areas and the speed of the fluid are given by the fluid \textit{continuity equation}:
 	\index{Fluid Continuity Equation}
 			\begin{mdframed}[backgroundcolor=orange!20!white]
 	\begin{equation}
@@ -125,12 +189,22 @@ The units for pressure are \textit{Pascals} (abbreviated $\si{Pa}$) which are eq
 	\end{equation}
 \end{mdframed}	
 
+
+
+
+
+
 \section{Bernouli's Equation}
+
+Just as the continuity equation is derived from the law of conservation of mass, one can derive another equation from the law of conservation of energy.  This equation is named for Daniel Bernouli, who was the first to derive and publish it.
+
 	\index{Bernouli's Equation}
 				\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
-			\rho g h_1 + \frac{1}{2} \rho v_1^2 + P_ = \rho g h_2 + \frac{1}{2} \rho v_2^2 + P_2
+			\rho g h_1 + \frac{1}{2} \rho v_1^2 + P_1 = \rho g h_2 + \frac{1}{2} \rho v_2^2 + P_2
 			\label{equation:bernouli}
 		\end{equation}
 	\end{mdframed}	
+While Bernouli's equation may look intimidating, one should always start by determining if there are equivilant terms on each side of the equation.  Equivalent terms on both side of the equation can be subtracted from both sides, making the equation significantly easier to solve.  
+
 

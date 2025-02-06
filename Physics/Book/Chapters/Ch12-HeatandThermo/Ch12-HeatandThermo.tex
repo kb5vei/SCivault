@@ -26,7 +26,7 @@
 	\subsection{1st Law}
 			\index{Thermodynamics, 1st Law of}
 		
-		\textbf{The first law of thermodynamics} can be thought of as a restatement of the Law of Conservation of Energy. The change in internal thermal energy of a system ($\Delta U$) will be equal to the amount of energy that entered or left the system.  Energy can enter or leave a system as either work ($W$) or heat ($Q$).  Thus,
+		\textbf{The First Law of Thermodynamics} can be thought of as a restatement of the Law of Conservation of Energy. The change in internal thermal energy of a system ($\Delta U$) will be equal to the amount of energy that entered or left the system.  Energy can enter or leave a system as either work ($W$) or heat ($Q$).  Thus,
 		
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
@@ -144,7 +144,7 @@ This equation is often printed with various sign conventions that can sometimes 
 			\draw[myarr] (bp) -- (bg) node[nodarr] {Recombination};
 			
 			\draw[myarr2] (as) -- (al) node[nodarr] {Melting};
-			\draw[myarr] (bl) -- (bs) node[nodarr] {Freezing};
+			\draw[myarr] (bl) -- (bs) node[nodarr] {Freezing/Solidification};
 			
 			\draw[myarr2] (alr) -- (ag) node[nodarr] {Vaporization};
 			\draw[myarr] (bgl) -- (bl) node[nodarr] {Condensation};
@@ -155,8 +155,73 @@ This equation is often printed with various sign conventions that can sometimes 
 		\end{tikzpicture}
 		\caption{The Phase Changes of Matter}
 		\end{figure}
+	
+	
 	\subsection{Latent Heat of Fusion}
+	In order change from a solid to a liquid, an object must absorb energy.  This energy does not contribute to a change in temperature.  Instead, it is used to break intermolecular bonds in the solid.  This energy is called the \gls{latentheatfusion}.  One can calculate the energy required to melt an object by using the following equation:
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		Q = m L
+		\label{eqn:latentheatoffusion}
+	\end{equation}
+	\end{mdframed}
+	
+		
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } How much energy does it take to turn 0.25 kg of ice at $-20 \si{\degreeCelsius}$ into water at $10 \si{\degreeCelsius}$?  Use the following numbers in your calculation: 
+	\vspace{0.1 in}
+	\begin{center}
+		
+
+	\begin{tabular}{|c|}
+		\hline
+			$c_{ice} = 2090 \si{\frac{J}{kg \degreeCelsius}}$ \\
+			\hline
+			$c_{water} = 4090 \si{\frac{J}{kg \degreeCelsius}}$\\
+	\hline
+	$L_{f_{water}} = 3.34 \times 10^5 \si{\frac{J}{kg}}$
+	\\
+	\hline
+
+	\end{tabular}
+	\end{center}
+	
+	\vspace{0.1in}
+	
+	\textbf{Solution:} There are three parts to this transition.  First, the ice heats up from $-10 \si{\degreeCelsius}$ to $0 \si{\degreeCelsius}$, absorbing energy ($Q_{ice}$).  Then the ice melts, absorbing the latent heat of fusion ($Q_{melt}$).  Finally the water warms up from $0 \si{\degreeCelsius}$ to $10 \si{\degreeCelsius}$, absorbing energy ($Q_{water}$).  So the total amount of energy is:
+	
+	\begin{equation*}
+	Q_{total} = Q_{ice} + Q_{melt} + Q_{water}
+	\end{equation*}
+	Using equations \ref{eqn:specificheat} and \ref{eqn:latentheatoffusion}, we can make the following substitutions:
+	
+		\begin{equation*}
+		Q_{total} = m c_{ice} \Delta T_{ice} + m L_{f_{water}} + m c_{water} \Delta T_{water} 
+	\end{equation*}
+
+	\begin{equation*}
+		Q_{total} = (\SI{0.25}{kg})(2090 \si{\frac{J}{kg \degreeCelsius}})(20 \si{\degreeCelsius}) + (\SI{0.25}{kg})(3.34 \times 10^5 \si{\frac{J}{kg}}) + (\SI{0.25}{kg})(4180 \si{\frac{J}{kg \degreeCelsius}})(10 \si{\degreeCelsius}) 
+	\end{equation*}
+
+Evaluating this expression yields:
+
+\begin{equation*}
+	Q_{total} = \SI{104400}{J}
+\end{equation*}
+\end{mdframed}
+
+	It should be noted that this process is reversible.  Removing $mL_f$ from a liquid that is at its freezing point will cause the liquid to freeze (solidify).  
+	
+	
 	\subsection{Latent Heat of Vaporization}
+	The energy required to convert a liquid into a gas is called the latent heat of vaporization, and is symbolized as $L_v$.  Like the latent heat of fusion, adding the latent heat of vaporization to a liquid that is at its boiling point does not cause its temperature to change. Instead, this energy breaks intermolecular bonds, causing the liquid to become a gas at the same temperature.   
+	
 	\section{Heat Engines}
 	
 
