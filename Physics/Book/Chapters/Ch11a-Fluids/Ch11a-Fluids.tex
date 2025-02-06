@@ -161,7 +161,7 @@ There are some important things you should note about this equation.  First, the
 	\begin{center}
 		
 		
-		\textbf{Example \thesection.1}	
+		\textbf{Example \thesection.2}	
 	\end{center}
 	
 	\textbf{Problem: } A scuba diver is in the ocean, where the density of the water is $\SI{1025}{kg/m^3}$ when he finds his pressure gauge reads $2.56 \times 10^5 \si{Pa}$.  What is the depth of the diver?  
@@ -190,7 +190,63 @@ When a an incompressible fluid (ie. a liquid) is flowing through a pipe, and the
 \end{mdframed}	
 
 
-
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } Water flows in a pipe with a 2.5 cm diameter at a speed of 1.5 m/s.  It enters a smaller area of pipe, where the diameter is 1 cm in diameter.  What is the speed of the pipe in the smaller section?  
+	\vspace{.1in}
+	
+	\textbf{Solution:} First, draw a diagram:
+	
+		\vspace{.1in}
+			\begin{tikzpicture}
+			
+			% Large pipe section
+			\draw[thick] (-3,0.5) -- (0,0.5);
+			\draw[thick] (-3,-0.5) -- (0,-0.5)  node[midway, below] {$v_1 = 1.5$ m/s} ;
+			\draw[thick] (-2.5,0) arc[start angle=0, end angle=360, radius=0.5];
+			\node[left] at (-3.5,0) {D=2.5 cm};
+			
+			% Narrowing section
+			\draw[thick] (0,0.5) -- (1,0.3);
+			\draw[thick] (0,-0.5) -- (1,-0.3);
+			
+			% Small pipe section
+			\draw[thick] (1,0.3) -- (4,0.3);
+			\draw[thick] (1,-0.3) -- (4,-0.3)  node[midway, below] {$v_2 = ?$};
+			\draw[thick] (4,0.3) arc[start angle=90, end angle=-90, radius=0.3];
+			\draw[dotted] (4,0.3) arc[start angle=90, end angle=270, radius=0.3];
+			\node[right] at (4.3,0) {D= 1 cm};
+			
+			% Velocity arrows
+			\draw[->,thick,blue] (-2,0) -- (-1,0);
+			\draw[->,thick,blue] (1.5,0) -- (3.5,0);
+			
+			% Water flow direction
+		%	\draw[->,thick] (-3.5,0) -- (-3,0) node[left] {Water Flow};
+			
+		\end{tikzpicture}
+		
+	\vspace{0.1 in}
+	
+	In order to apply the continuity equation, we need to know the radius of each side.  Since we are given the diameter, $r_1 = \frac{\SI{2.5}{cm}}{2} = \SI{1.25}{cm}$ and $r_2 = \frac{\SI{1}{cm}}{2} = \SI{0.5}{cm}$.  We can now apply the continuity equation, seen above as equation \ref{equation:fluidcontinuity}.  Solving for $v_2$ yields:
+	
+	
+	\begin{equation*}
+		A_1 v_1 = A_2 v_2 \longrightarrow v_2 = \frac{A_1 v_1} {A_2}
+	\end{equation*}
+	Since both sides have a circular cross section, we can substitude $A=\pi r^2$.  
+	
+		\begin{equation*}
+		v_2 = \frac{A_1 v_1} {A_2} = \frac{\cancel{\pi} {r_1}^2 v_1}{\cancel{\pi} {r_2}^2} = \frac{(\SI{1.25}{cm})^2(\SI{1.5}{m/s})}{(\SI{0.5}{cm})^2} \approx \SI{4.688}{m/s}
+	\end{equation*}
+	
+\end{mdframed}
+\vspace{0.1in}
 
 
 
