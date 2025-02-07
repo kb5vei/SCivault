@@ -1220,13 +1220,176 @@ where $\Delta \ell$ is how far the waves are shifted, and $m$ is any integer.
 	
 	\section{Resonance}
 	\index{Resonance}
-	\textbf{Resonance} is a process in which waves reinforce each other through constructive interference, resulting a wave with much greater amplitude than the original wave.  
+	\textbf{Resonance} is a process in which waves reinforce each other through constructive interference, resulting a wave with much greater amplitude than the original wave.   Musical instruments, lasers, microwave ovens, and radio antennas are a few examples of devices that make use of resonance. 
 	
 		\subsection{Resonance of a String that is Fixed on Both Ends}
-		\begin{center}
+		
+		\begin{figure}[h!]
+			\begin{center}
 			\includegraphics[height=2.75in]{Chapters/Ch10-Waves/ukelele.jpg}			
+			\caption{Stringed instruments like the Ukelele make use of resonance.}
 		\end{center}
+\end{figure}
+	
+	The strings on string instruments, such as the Ukelele above, are typically fixed at both ends.  One side is held in place by the bridge, while the other side is held in place either at the neck of the instrument, or by a finger placed somewhere along the string.  When energy is introduced into the string (typically by plucking or the use of a bow), the string typically creates a standing wave that looks like this:
+	
+	
+		
+		\begin{tikzpicture}
+			% Draw the fixed ends
+			\draw[thick] (0,-0.5) -- (0,0.5);
+			\draw[thick] (10,-0.5) -- (10,0.5);
+			
+			% Draw the string (standing wave with one antinode)
+			\draw[thick,blue,domain=0:10,samples=100] plot (\x,{sin(180*\x/10)});
+			\draw[thick,red,domain=0:10,samples=100] plot (\x,{-sin(180*\x/10)});
+			
+			% Mark nodes (fixed points)
+			\foreach \x in {0,10} {
+				\fill[red] (\x,0) circle (0.1);
+			}
+			
+			% Mark antinode (maximum displacement at center)
+			\fill[green] (5,1) circle (0.1);
+			\fill[green] (5,-1) circle (0.1);
+			
+			% Label fixed ends
+			%\node[left] at (0,0) {Fixed End};
+			%\node[right] at (10,0) {Fixed End};
+			
+			% Label nodes
+			\node[below left] at (0,0) {Node};
+			\node[below right] at (10,0) {Node};
+			
+			% Label antinode
+			\node[above] at (5,1) {Antinode};
+			
+			% Axis for wave representation
+			\draw[dotted,-] (-0.5,0) -- (10.5,0) ;
+			\draw[thick,<->] (5,-1) -- (5,1);
+		\end{tikzpicture}
+		
 
+	This mode of vibration has only one antinode.  It is called the Fundamental mode, the first harmonic, or the n=1 mode.    In this mode, the length of the string, $L$ must be equal to a half wavelength.  Therefore, 
+	\begin{equation}
+		L=\frac{\lambda}{2}
+	\end{equation}
+	
+	
+	It is possible to make this wave resonate differently.  Many string players know how to create "harmonics" by lightly placing their finger on the string in specific places.  A string vibrating in the second harmonic, or the n=2 mode would look like this:
+	
+			\begin{tikzpicture}
+		% Draw the fixed ends
+		\draw[thick] (0,-0.5) -- (0,0.5);
+		\draw[thick] (10,-0.5) -- (10,0.5);
+		
+		% Draw the string (standing wave with one antinode)
+		\draw[thick,blue,domain=0:10,samples=100] plot (\x,{sin(180*\x/5)});
+		\draw[thick,red,domain=0:10,samples=100] plot (\x,{-sin(180*\x/5)});
+		
+		% Mark nodes (fixed points)
+		\foreach \x in {0,5,10} {
+			\fill[red] (\x,0) circle (0.1);
+		}
+		
+		% Mark antinode (maximum displacement at center)
+		\fill[green] (2.5,1) circle (0.1);
+		\fill[green] (2.5,-1) circle (0.1);
+		
+		\fill[green] (7.5,1) circle (0.1);
+		\fill[green] (7.5,-1) circle (0.1);
+		
+		% Label fixed ends
+		%\node[left] at (0,0) {Fixed End};
+		%\node[right] at (10,0) {Fixed End};
+		
+		% Label nodes
+		\node[below left] at (0,0) {Node};
+		\node[below] at (5,-.25) {Node};
+		\node[below right] at (10,0) {Node};
+		
+		% Label antinode
+		\node[above] at (2.5,1) {Antinode};
+		\node[above] at (7.5,1) {Antinode};
+		% Axis for wave representation
+		\draw[dotted,-] (-0.5,0) -- (10.5,0) ;
+		\draw[thick,<->] (2.5,-1) -- (2.5,1);
+		\draw[thick,<->] (7.5,-1) -- (7.5,1);
+	\end{tikzpicture}
+	
+	In this case, we can see that the length of the string must be a full wavelength now:
+	
+	\begin{equation}
+		L = \lambda
+	\end{equation}
+	
+	Making the string vibrate in the third harmonic, or the n=3 mode, would look like this:
+		\begin{tikzpicture}
+		% Draw the fixed ends
+		\draw[thick] (0,-0.5) -- (0,0.5);
+		\draw[thick] (10,-0.5) -- (10,0.5);
+		
+		% Draw the string (standing wave with one antinode)
+		\draw[thick,blue,domain=0:10,samples=100] plot (\x,{sin(180*\x/3.3333)});
+		\draw[thick,red,domain=0:10,samples=100] plot (\x,{-sin(180*\x/3.3333)});
+		
+		% Mark nodes (fixed points)
+		\foreach \x in {0,3.333,6.666,10} {
+			\fill[red] (\x,0) circle (0.1);
+		}
+		
+		% Mark antinode (maximum displacement at center)
+		\fill[green] (1.666,1) circle (0.1);
+		\fill[green] (1.666,-1) circle (0.1);
+		
+		
+		\fill[green] (5,1) circle (0.1);
+		\fill[green] (5,-1) circle (0.1);
+		
+		\fill[green] (8.333,1) circle (0.1);
+		\fill[green] (8.333,-1) circle (0.1);
+		
+		
+		% Label fixed ends
+		%\node[left] at (0,0) {Fixed End};
+		%\node[right] at (10,0) {Fixed End};
+		
+		% Label nodes
+		\node[below left] at (0,0) {Node};
+		\node[below] at (3.333,-.3) {Node};
+		\node[below] at (6.666,-.3) {Node};
+		\node[below right] at (10,0) {Node};
+		
+		% Label antinode
+		\node[above] at (1.666,1) {Antinode};
+		\node[above] at (5,1) {Antinode};
+		\node[above] at (8.333,1) {Antinode};
+		% Axis for wave representation
+		\draw[dotted,-] (-0.5,0) -- (10.5,0) ;
+		\draw[thick,<->] (1.666,-1) -- (1.666,1);
+		\draw[thick,<->] (5,-1) -- (5,1);
+		\draw[thick,<->] (8.333,-1) -- (8.333,1);
+	\end{tikzpicture}
+	
+	Here we can see that there is 3/2 of a wave present.  Therefore, 
+	
+	\begin{equation}
+		L=\frac{3\lambda}{2}
+	\end{equation}
+	
+	
+	From the previous examples, we can generalize the relationship between string length and wavelength.  For strings fixed on both ends, 
+		\begin{mdframed}[backgroundcolor=orange!20!white]
+		\begin{equation}
+		L = \frac{n \lambda}{2}
+			\label{equation:destructiveinterference}
+		\end{equation}
+		\begin{center}
+			Where n = any positive integer (1,2,3,...)
+		\end{center}
+		
+	\end{mdframed}	
+	
 	
 	\subsection{Resonance of a Tube that is Open on Both Ends}
 	\subsection{Resonance of a Tube that is Open on One End and Closed on the Other}
