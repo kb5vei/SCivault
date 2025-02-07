@@ -242,7 +242,7 @@ When a an incompressible fluid (ie. a liquid) is flowing through a pipe, and the
 	Since both sides have a circular cross section, we can substitude $A=\pi r^2$.  
 	
 		\begin{equation*}
-		v_2 = \frac{A_1 v_1} {A_2} = \frac{\cancel{\pi} {r_1}^2 v_1}{\cancel{\pi} {r_2}^2} = \frac{(\SI{1.25}{cm})^2(\SI{1.5}{m/s})}{(\SI{0.5}{cm})^2} \approx \SI{4.688}{m/s}
+		v_2 = \frac{A_1 v_1} {A_2} = \frac{\cancel{\pi} {r_1}^2 v_1}{\cancel{\pi} {r_2}^2} = \frac{(\SI{1.25}{cm})^2(\SI{1.5}{m/s})}{(\SI{0.5}{cm})^2} \approx \SI{9.375}{m/s}
 	\end{equation*}
 	
 \end{mdframed}
@@ -263,4 +263,78 @@ Just as the continuity equation is derived from the law of conservation of mass,
 	\end{mdframed}	
 While Bernouli's equation may look intimidating, one should always start by determining if there are equivilant terms on each side of the equation.  Equivalent terms on both side of the equation can be subtracted from both sides, making the equation significantly easier to solve.  
 
+
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.2}	
+	\end{center}
+	
+	\textbf{Problem:}  
+	Water flows through a horizontal pipe with a diameter of \SI{8}{cm} at a speed of \SI{3}{m/s}. The pipe then narrows to a \SI{3}{cm} diameter section. Assuming incompressible, non-viscous flow, what is the pressure difference between the wider and narrower sections of the pipe?
+	
+	\vspace{0.2in}
+	
+	\textbf{Solution:}  
+	We apply \textbf{Bernoulli’s equation} between the two sections of the pipe:
+	
+	\begin{equation*}
+		P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2
+	\end{equation*}
+	
+	\textbf{Step 1: Solve for \( v_2 \) using the continuity equation}  
+	Since the flow is incompressible, we use the continuity equation:
+	
+	\begin{equation*}
+		A_1 v_1 = A_2 v_2
+	\end{equation*}
+	
+	where the cross-sectional area of a pipe is given by:
+	
+	\begin{equation*}
+		A = \pi \left(\frac{d}{2} \right)^2.
+	\end{equation*}
+	
+	Substituting for both pipe sections:
+	
+	\begin{equation*}
+		\pi \left(\frac{d_1}{2} \right)^2 v_1 = \pi \left(\frac{d_2}{2} \right)^2 v_2.
+	\end{equation*}
+	
+	Canceling \( \pi \) and solving for \( v_2 \):
+	
+	\begin{equation*}
+		v_2 = v_1 \left( \frac{d_1}{d_2} \right)^2
+	\end{equation*}
+	
+	Substituting \( d_1 = \SI{8}{cm} \) and \( d_2 = \SI{3}{cm} \):
+	
+	\begin{equation*}
+		v_2 = (\SI{3}{m/s}) \left( \frac{\SI{8}{cm}}{\SI{3}{cm}} \right)^2  \approx 21.333 \text{ m/s}
+	\end{equation*}
+	
+
+	
+	\textbf{Step 2: Solve for \( P_1 - P_2 \) using Bernoulli’s equation}  
+	
+	Rearranging Bernoulli’s equation:
+	
+	\begin{equation*}
+		P_1 - P_2 = \frac{1}{2} \rho \left(v_2^2 - v_1^2 \right).
+	\end{equation*}
+	
+	Substituting known values:
+	
+	\begin{equation*}
+		P_1 - P_2 = \frac{1}{2} (1000) \left( 21.33^2 - 3^2 \right) \approx 2.23 \times 10^5 \text{ Pa}.
+	\end{equation*}
+	
+	Thus, the pressure \textbf{decreases by} \( \mathbf{2.23 \times 10^5} \) \textbf{Pa} in the narrow section of the pipe.
+	
+
+	
+\end{mdframed}
+\vspace{0.1in}
 
