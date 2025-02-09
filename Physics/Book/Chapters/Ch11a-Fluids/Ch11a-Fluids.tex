@@ -277,13 +277,40 @@ While Bernouli's equation may look intimidating, one should always start by dete
 	
 	\vspace{0.2in}
 	
-	\textbf{Solution:}  
-	We apply \textbf{Bernoulli’s equation} between the two sections of the pipe:
+	\textbf{Solution:}   First, draw a diagram:
 	
-	\begin{equation*}
-		P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2
-	\end{equation*}
+		\vspace{.1in}
+	\begin{tikzpicture}
+		
+		% Large pipe section
+		\draw[thick] (-3,0.5) -- (0,0.5);
+		\draw[thick] (-3,-0.5) -- (0,-0.5)  node[midway, below] {$v_1 = 3$ m/s} ;
+		\draw[thick] (-2.5,0) arc[start angle=0, end angle=360, radius=0.5];
+		\node[left] at (-3.5,0) {D=8 cm};
+		
+		% Narrowing section
+		\draw[thick] (0,0.5) -- (1,0.3);
+		\draw[thick] (0,-0.5) -- (1,-0.3);
+		
+		% Small pipe section
+		\draw[thick] (1,0.3) -- (4,0.3);
+		\draw[thick] (1,-0.3) -- (4,-0.3)  node[midway, below] {$v_2 = ?$};
+		\draw[thick] (4,0.3) arc[start angle=90, end angle=-90, radius=0.3];
+		\draw[dotted] (4,0.3) arc[start angle=90, end angle=270, radius=0.3];
+		\node[right] at (4.3,0) {D= 3 cm};
+		
+		% Velocity arrows
+		\draw[->,thick,blue] (-2,0) -- (-1,0);
+		\draw[->,thick,blue] (1.5,0) -- (3.5,0);
+		
+		% Water flow direction
+		%	\draw[->,thick] (-3.5,0) -- (-3,0) node[left] {Water Flow};
+		
+	\end{tikzpicture}
 	
+	\vspace{0.1 in}
+	
+			
 	\textbf{Step 1: Solve for \( v_2 \) using the continuity equation}  
 	Since the flow is incompressible, we use the continuity equation:
 	
@@ -318,6 +345,22 @@ While Bernouli's equation may look intimidating, one should always start by dete
 
 	
 	\textbf{Step 2: Solve for \( P_1 - P_2 \) using Bernoulli’s equation}  
+	
+	We apply \textbf{Bernoulli’s equation} between the two sections of the pipe:
+	
+	\begin{equation*}
+		 \rho g h_1 +  \frac{1}{2} \rho v_1^2 + P_1 =  \rho g h_2 + \frac{1}{2} \rho v_2^2 + P_2 
+	\end{equation*}
+	
+	Since the pipe is horizontal, there is no change in the height of the pipe.  Therefore, the $rho g h$ can be subtracted from each side.
+	
+		\begin{equation*}
+		\cancel{\rho g h_1} +  \frac{1}{2} \rho v_1^2 +  P_1 =  \cancel{\rho g h_2 }+ \frac{1}{2} \rho v_2^2 + P_2 
+	\end{equation*}
+	
+	
+	
+	
 	
 	Rearranging Bernoulli’s equation:
 	
