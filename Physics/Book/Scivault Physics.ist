@@ -1,5 +1,9 @@
 % makeindex style file created by the glossaries package
+<<<<<<< HEAD
 % for document '"Scivault Physics"' on 2025-3-21
+=======
+% for document '"Scivault Physics"' on 2025-2-15
+>>>>>>> bd659323b4e51977fddd6853a5fbbedd95fe87d7
 actual '?'
 encap '|'
 level '!'
@@ -27,5 +31,3 @@ heading_suffix "\}\\relax \\glsresetentrylist "
 symhead_positive "glssymbols"
 numhead_positive "glsnumbers"
 page_compositor "."
-suffix_2p ""
-suffix_3p ""
