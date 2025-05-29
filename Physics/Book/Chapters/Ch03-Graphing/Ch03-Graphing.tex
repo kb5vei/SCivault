@@ -142,6 +142,7 @@ With these ideas in mind, let us examine several common types of motion.
 		
 	\section{Velocity vs Time Graphs}
 	
+<<<<<<< Updated upstream
 	Velocity vs Time graphs have different properties than position vs time graphs.  Important characteristics of this type of graph include:
 	\begin{itemize}
 		\item The slope of a velocity vs time graph is the acceleration of the object.
@@ -170,12 +171,43 @@ With these ideas in mind, let us examine several common types of motion.
 		
 		\end{axis}
 		\end{tikzpicture}
+=======
+	
+		\subsection{Constant Position}
+		
+		
+
+			
+			\begin{tikzpicture}
+				\begin{axis}[
+					xlabel={Time (s)},
+					ylabel={Velocity (m/s)},
+					grid=major,
+					title={Velocity-Time Graph for an Object with Constant Position},
+					ymin=-1, ymax=1, % Adjust the y-axis limits to show velocity clearly
+					xmin=0, xmax=10, % Adjust the x-axis limits for the time range
+					width=10cm,
+					height=6cm
+					]
+					% Plot a constant velocity of 0 m/s
+					\addplot [domain=0:10, samples=100, thick, red] {0};
+
+					
+					% Mark the velocity line with a label
+					\node at (0, 0) [left] {Zero Velocity};
+					
+				\end{axis}
+			\end{tikzpicture}
+			
+
+>>>>>>> Stashed changes
 		
 		
 		
 		\subsection{Constant Velocity}
 		
 		\begin{tikzpicture}
+<<<<<<< Updated upstream
 		\begin{axis}[
 		xlabel={Time (s)},
 		ylabel={Velocity (m/s)},
@@ -217,6 +249,50 @@ With these ideas in mind, let us examine several common types of motion.
 		\node at (0, 0) [below right] {Start};
 		
 		\end{axis}
+=======
+			\begin{axis}[
+				xlabel={Time (s)},
+				ylabel={Velocity (m/s)},
+				grid=major,
+				title={Velocity-Time Graph for an Object with Constant Velocity},
+				ymin=0, ymax=5, % Adjust the y-axis limits to show velocity clearly
+				xmin=0, xmax=10, % Adjust the x-axis limits for the time range
+				width=10cm,
+				height=6cm
+				]
+				% Plot a constant velocity of 3 m/s
+				\addplot [domain=0:10, samples=100, thick, blue] {3};
+				\addlegendentry{$v(t) = 3 \text{ m/s}$}
+				
+				% Mark the velocity line with a label
+				\node at (0, 3) [left] {Constant Velocity};
+				
+			\end{axis}
+		\end{tikzpicture}
+	
+		
+		\subsection{Constant Acceleration}
+		
+		\begin{tikzpicture}
+			\begin{axis}[
+				xlabel={Time (s)},
+				ylabel={Velocity (m/s)},
+				grid=major,
+				title={Velocity-Time Graph for an Object with Constant Acceleration},
+				ymin=0, ymax=20, % Adjust the y-axis limits to show velocity clearly
+				xmin=0, xmax=10, % Adjust the x-axis limits for the time range
+				width=10cm,
+				height=6cm
+				]
+				% Plot a linear velocity function with constant acceleration, v(t) = 2t
+				\addplot [domain=0:10, samples=100, thick, red] {2*x};
+				\addlegendentry{$v(t) = 2t \text{ m/s}$}
+				
+				% Mark the initial point with a label
+				\node at (0, 0) [below right] {Start};
+				
+			\end{axis}
+>>>>>>> Stashed changes
 		\end{tikzpicture}
 		
 	\section{Acceleration vs Time Graphs}
