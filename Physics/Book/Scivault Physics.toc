@@ -223,14 +223,14 @@
 \contentsline {chapter}{Appendices}{}{section*.41}
 \contentsline {chapter}{\numberline {A}Math Skills}{118}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Scientific Notation}{118}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Algebra}{119}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Trigonometry}{119}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Radians and Arc Length}{120}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Radians}{120}{subsection.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Arc Length}{121}{subsection.A.4.2}%
-\contentsline {chapter}{\numberline {B}Reference Tables}{123}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Greek Letters}{123}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{125}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Densities of Common materials}{125}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{125}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Physical Constants}{128}{section.B.5}%
+\contentsline {section}{\numberline {A.2}Algebra}{120}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Trigonometry}{121}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Radians and Arc Length}{122}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Radians}{122}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Arc Length}{123}{subsection.A.4.2}%
+\contentsline {chapter}{\numberline {B}Reference Tables}{125}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Greek Letters}{125}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{127}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Densities of Common materials}{127}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{127}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Physical Constants}{130}{section.B.5}%

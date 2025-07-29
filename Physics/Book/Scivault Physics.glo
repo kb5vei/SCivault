@@ -1,71 +1,71 @@
-\glossaryentry{SI System of Units?\glossentry{siunits}|setentrycounter[]{page}"\glsnumberformat}{1}
-\glossaryentry{Dimensional Analysis?\glossentry{dimensionalanalysis}|setentrycounter[]{page}"\glsnumberformat}{1}
-\glossaryentry{Conversion Factor?\glossentry{conversionfactor}|setentrycounter[]{page}"\glsnumberformat}{2}
-\glossaryentry{Scalar?\glossentry{scalar}|setentrycounter[]{page}"\glsnumberformat}{2}
-\glossaryentry{Magnitude?\glossentry{magnitude}|setentrycounter[]{page}"\glsnumberformat}{2}
-\glossaryentry{Vector?\glossentry{vector}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{Unit Vector?\glossentry{unitvector}|setentrycounter[]{page}"\glsnumberformat}{3}
-\glossaryentry{Resultant?\glossentry{resultant}|setentrycounter[]{page}"\glsnumberformat}{4}
-\glossaryentry{Dot Product?\glossentry{dotproduct}|setentrycounter[]{page}"\glsnumberformat}{5}
-\glossaryentry{Cross Product?\glossentry{crossproduct}|setentrycounter[]{page}"\glsnumberformat}{6}
-\glossaryentry{Determinant?\glossentry{determinant}|setentrycounter[]{page}"\glsnumberformat}{6}
-\glossaryentry{Right Hand Rule, First?\glossentry{righthandrulefirst}|setentrycounter[]{page}"\glsnumberformat}{8}
-\glossaryentry{Distance?\glossentry{distance}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Displacement?\glossentry{displacement}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Speed?\glossentry{speed}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Velocity?\glossentry{velocity}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{Acceleration?\glossentry{acceleration}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{Acceleration due to Gravity?\glossentry{gravity}|setentrycounter[]{page}"\glsnumberformat}{13}
-\glossaryentry{Free Fall?\glossentry{freefall}|setentrycounter[]{page}"\glsnumberformat}{13}
-\glossaryentry{Slope-Intercept Format?\glossentry{slopeinterceptformat}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{Slope?\glossentry{slope}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{y-Intercept?\glossentry{yintercept}|setentrycounter[]{page}"\glsnumberformat}{16}
-\glossaryentry{Jerk?\glossentry{jerk}|setentrycounter[]{page}"\glsnumberformat}{20}
-\glossaryentry{Force?\glossentry{force}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{Fundamental Forces?\glossentry{fundamentalforces}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{Free Body Diagram?\glossentry{freebodydiagram}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{Friction?\glossentry{friction}|setentrycounter[]{page}"\glsnumberformat}{30}
-\glossaryentry{Energy?\glossentry{energy}|setentrycounter[]{page}"\glsnumberformat}{35}
-\glossaryentry{Joule?\glossentry{joule}|setentrycounter[]{page}"\glsnumberformat}{35}
-\glossaryentry{Mechanical Energy?\glossentry{mechanicalenergy}|setentrycounter[]{page}"\glsnumberformat}{35}
-\glossaryentry{Kinetic Energy?\glossentry{kineticenergy}|setentrycounter[]{page}"\glsnumberformat}{35}
-\glossaryentry{Potential Energy?\glossentry{potentialenergy}|setentrycounter[]{page}"\glsnumberformat}{36}
-\glossaryentry{Gravitational Potential Energy?\glossentry{gravitationalpotentialenergy}|setentrycounter[]{page}"\glsnumberformat}{36}
-\glossaryentry{Elastic Potential Energy?\glossentry{elasticpotentialenergy}|setentrycounter[]{page}"\glsnumberformat}{37}
-\glossaryentry{Hooke's Law?\glossentry{hookeslaw}|setentrycounter[]{page}"\glsnumberformat}{37}
-\glossaryentry{Spring Constant?\glossentry{springconstant}|setentrycounter[]{page}"\glsnumberformat}{37}
-\glossaryentry{Work?\glossentry{work}|setentrycounter[]{page}"\glsnumberformat}{38}
-\glossaryentry{Oscillation?\glossentry{oscillation}|setentrycounter[]{page}"\glsnumberformat}{40}
-\glossaryentry{Wave?\glossentry{wave}|setentrycounter[]{page}"\glsnumberformat}{52}
-\glossaryentry{Medium?\glossentry{medium}|setentrycounter[]{page}"\glsnumberformat}{52}
-\glossaryentry{Wave, Transverse?\glossentry{transversewave}|setentrycounter[]{page}"\glsnumberformat}{52}
-\glossaryentry{Wave, Longitudinal?\glossentry{longitudinalwave}|setentrycounter[]{page}"\glsnumberformat}{52}
-\glossaryentry{Wave, Electromagnetic?\glossentry{electromagneticwave}|setentrycounter[]{page}"\glsnumberformat}{53}
-\glossaryentry{Amplitude?\glossentry{amplitude}|setentrycounter[]{page}"\glsnumberformat}{54}
-\glossaryentry{Wavelength?\glossentry{wavelength}|setentrycounter[]{page}"\glsnumberformat}{54}
-\glossaryentry{Period?\glossentry{period}|setentrycounter[]{page}"\glsnumberformat}{54}
-\glossaryentry{Frequency?\glossentry{frequency}|setentrycounter[]{page}"\glsnumberformat}{54}
-\glossaryentry{Resonance?\glossentry{resonance}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{Antinode?\glossentry{antinode}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{Node?\glossentry{node}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{Harmonic?\glossentry{harmonic}|setentrycounter[]{page}"\glsnumberformat}{66}
-\glossaryentry{Density?\glossentry{density}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{Hydrostatic Pressure?\glossentry{hydrostaticpressure}|setentrycounter[]{page}"\glsnumberformat}{85}
-\glossaryentry{Pressure, Gauge?\glossentry{gaugepressure}|setentrycounter[]{page}"\glsnumberformat}{85}
-\glossaryentry{Pressure, Absolute?\glossentry{absolutepressure}|setentrycounter[]{page}"\glsnumberformat}{85}
-\glossaryentry{Heat?\glossentry{heat}|setentrycounter[]{page}"\glsnumberformat}{89}
-\glossaryentry{Conduction?\glossentry{conduction}|setentrycounter[]{page}"\glsnumberformat}{89}
-\glossaryentry{Convection?\glossentry{convection}|setentrycounter[]{page}"\glsnumberformat}{89}
-\glossaryentry{Thermal Radiation?\glossentry{thermalradiation}|setentrycounter[]{page}"\glsnumberformat}{89}
-\glossaryentry{Specific Heat Capacity?\glossentry{specificheatcapacity}|setentrycounter[]{page}"\glsnumberformat}{91}
-\glossaryentry{Heat, Latent Heat of Fusion?\glossentry{latentheatfusion}|setentrycounter[]{page}"\glsnumberformat}{92}
-\glossaryentry{Adiabatic Process?\glossentry{adiabatic}|setentrycounter[]{page}"\glsnumberformat}{94}
-\glossaryentry{Isothermal Process?\glossentry{isothermal}|setentrycounter[]{page}"\glsnumberformat}{94}
-\glossaryentry{Isobaric Process?\glossentry{isobaric}|setentrycounter[]{page}"\glsnumberformat}{94}
-\glossaryentry{Isochoric Process?\glossentry{isochoric}|setentrycounter[]{page}"\glsnumberformat}{94}
-\glossaryentry{Element?\glossentry{element}|setentrycounter[]{page}"\glsnumberformat}{112}
-\glossaryentry{Isotope?\glossentry{isotope}|setentrycounter[]{page}"\glsnumberformat}{112}
-\glossaryentry{Ion?\glossentry{ion}|setentrycounter[]{page}"\glsnumberformat}{112}
-\glossaryentry{Alpha Decay?\glossentry{alphadecay}|setentrycounter[]{page}"\glsnumberformat}{113}
-\glossaryentry{Alpha Particle?\glossentry{alphaparticle}|setentrycounter[]{page}"\glsnumberformat}{113}
-\glossaryentry{Half-Life?\glossentry{halflife}|setentrycounter[]{page}"\glsnumberformat}{114}
+\glossaryentry{SI System of Units?\glossentry{siunits}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{Dimensional Analysis?\glossentry{dimensionalanalysis}|setentrycounter[]{page}\glsnumberformat}{1}
+\glossaryentry{Conversion Factor?\glossentry{conversionfactor}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Scalar?\glossentry{scalar}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Magnitude?\glossentry{magnitude}|setentrycounter[]{page}\glsnumberformat}{2}
+\glossaryentry{Vector?\glossentry{vector}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{Unit Vector?\glossentry{unitvector}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{Resultant?\glossentry{resultant}|setentrycounter[]{page}\glsnumberformat}{4}
+\glossaryentry{Dot Product?\glossentry{dotproduct}|setentrycounter[]{page}\glsnumberformat}{5}
+\glossaryentry{Cross Product?\glossentry{crossproduct}|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{Determinant?\glossentry{determinant}|setentrycounter[]{page}\glsnumberformat}{6}
+\glossaryentry{Right Hand Rule, First?\glossentry{righthandrulefirst}|setentrycounter[]{page}\glsnumberformat}{8}
+\glossaryentry{Distance?\glossentry{distance}|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{Displacement?\glossentry{displacement}|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{Speed?\glossentry{speed}|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{Velocity?\glossentry{velocity}|setentrycounter[]{page}\glsnumberformat}{9}
+\glossaryentry{Acceleration?\glossentry{acceleration}|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{Acceleration due to Gravity?\glossentry{gravity}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{Free Fall?\glossentry{freefall}|setentrycounter[]{page}\glsnumberformat}{13}
+\glossaryentry{Slope-Intercept Format?\glossentry{slopeinterceptformat}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{Slope?\glossentry{slope}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{y-Intercept?\glossentry{yintercept}|setentrycounter[]{page}\glsnumberformat}{16}
+\glossaryentry{Jerk?\glossentry{jerk}|setentrycounter[]{page}\glsnumberformat}{20}
+\glossaryentry{Force?\glossentry{force}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{Fundamental Forces?\glossentry{fundamentalforces}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{Free Body Diagram?\glossentry{freebodydiagram}|setentrycounter[]{page}\glsnumberformat}{26}
+\glossaryentry{Friction?\glossentry{friction}|setentrycounter[]{page}\glsnumberformat}{30}
+\glossaryentry{Energy?\glossentry{energy}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{Joule?\glossentry{joule}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{Mechanical Energy?\glossentry{mechanicalenergy}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{Kinetic Energy?\glossentry{kineticenergy}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{Potential Energy?\glossentry{potentialenergy}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{Gravitational Potential Energy?\glossentry{gravitationalpotentialenergy}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{Elastic Potential Energy?\glossentry{elasticpotentialenergy}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{Hooke's Law?\glossentry{hookeslaw}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{Spring Constant?\glossentry{springconstant}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{Work?\glossentry{work}|setentrycounter[]{page}\glsnumberformat}{38}
+\glossaryentry{Oscillation?\glossentry{oscillation}|setentrycounter[]{page}\glsnumberformat}{40}
+\glossaryentry{Wave?\glossentry{wave}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Medium?\glossentry{medium}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Wave, Transverse?\glossentry{transversewave}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Wave, Longitudinal?\glossentry{longitudinalwave}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{Wave, Electromagnetic?\glossentry{electromagneticwave}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{Amplitude?\glossentry{amplitude}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{Wavelength?\glossentry{wavelength}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{Period?\glossentry{period}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{Frequency?\glossentry{frequency}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{Resonance?\glossentry{resonance}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{Antinode?\glossentry{antinode}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{Node?\glossentry{node}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{Harmonic?\glossentry{harmonic}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{Density?\glossentry{density}|setentrycounter[]{page}\glsnumberformat}{83}
+\glossaryentry{Hydrostatic Pressure?\glossentry{hydrostaticpressure}|setentrycounter[]{page}\glsnumberformat}{85}
+\glossaryentry{Pressure, Gauge?\glossentry{gaugepressure}|setentrycounter[]{page}\glsnumberformat}{85}
+\glossaryentry{Pressure, Absolute?\glossentry{absolutepressure}|setentrycounter[]{page}\glsnumberformat}{85}
+\glossaryentry{Heat?\glossentry{heat}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Conduction?\glossentry{conduction}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Convection?\glossentry{convection}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Thermal Radiation?\glossentry{thermalradiation}|setentrycounter[]{page}\glsnumberformat}{89}
+\glossaryentry{Specific Heat Capacity?\glossentry{specificheatcapacity}|setentrycounter[]{page}\glsnumberformat}{91}
+\glossaryentry{Heat, Latent Heat of Fusion?\glossentry{latentheatfusion}|setentrycounter[]{page}\glsnumberformat}{92}
+\glossaryentry{Adiabatic Process?\glossentry{adiabatic}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{Isothermal Process?\glossentry{isothermal}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{Isobaric Process?\glossentry{isobaric}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{Isochoric Process?\glossentry{isochoric}|setentrycounter[]{page}\glsnumberformat}{94}
+\glossaryentry{Element?\glossentry{element}|setentrycounter[]{page}\glsnumberformat}{112}
+\glossaryentry{Isotope?\glossentry{isotope}|setentrycounter[]{page}\glsnumberformat}{112}
+\glossaryentry{Ion?\glossentry{ion}|setentrycounter[]{page}\glsnumberformat}{112}
+\glossaryentry{Alpha Decay?\glossentry{alphadecay}|setentrycounter[]{page}\glsnumberformat}{113}
+\glossaryentry{Alpha Particle?\glossentry{alphaparticle}|setentrycounter[]{page}\glsnumberformat}{113}
+\glossaryentry{Half-Life?\glossentry{halflife}|setentrycounter[]{page}\glsnumberformat}{114}
