@@ -224,13 +224,22 @@
 \contentsline {chapter}{\numberline {A}Math Skills}{118}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Scientific Notation}{118}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Algebra}{120}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Trigonometry}{121}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Radians and Arc Length}{122}{section.A.4}%
-\contentsline {subsection}{\numberline {A.4.1}Radians}{122}{subsection.A.4.1}%
-\contentsline {subsection}{\numberline {A.4.2}Arc Length}{123}{subsection.A.4.2}%
-\contentsline {chapter}{\numberline {B}Reference Tables}{125}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Greek Letters}{125}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{127}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Densities of Common materials}{127}{section.B.3}%
-\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{127}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Physical Constants}{130}{section.B.5}%
+\contentsline {subsection}{\numberline {A.2.1}Solve for a Variable}{120}{subsection.A.2.1}%
+\contentsline {subsubsection}{Solve for a Variable in the Denominator of a Fraction}{121}{section*.42}%
+\contentsline {subsubsection}{Solve for a Variable using the Quadratic Formula}{121}{section*.43}%
+\contentsline {subsection}{\numberline {A.2.2}Solve a System of Equations}{122}{subsection.A.2.2}%
+\contentsline {subsubsection}{Solve a System of Equations by Combination}{122}{section*.44}%
+\contentsline {subsubsection}{Solve a System of Equations by Substitution}{123}{section*.45}%
+\contentsline {subsubsection}{Solve a System of Equations using Matrices}{124}{section*.46}%
+\contentsline {section}{\numberline {A.3}Proportional Reasoning}{127}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Proportional Reasoning}{127}{subsection.A.3.1}%
+\contentsline {section}{\numberline {A.4}Trigonometry}{129}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Radians and Arc Length}{130}{section.A.5}%
+\contentsline {subsection}{\numberline {A.5.1}Radians}{130}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {A.5.2}Arc Length}{131}{subsection.A.5.2}%
+\contentsline {chapter}{\numberline {B}Reference Tables}{133}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Greek Letters}{133}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Musical Notes and Frequencies}{135}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Densities of Common materials}{135}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Common Indices of Refraction}{135}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Physical Constants}{138}{section.B.5}%

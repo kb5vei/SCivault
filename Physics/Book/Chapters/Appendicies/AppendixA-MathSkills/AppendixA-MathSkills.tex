@@ -66,6 +66,486 @@
 \newpage
 
 \section{Algebra}
+To study physics, you should have some knowledge of algebra. Though this appendix is too small to include all algebraic techniques, there are some things that are repeated often in physics. These commonly recurring algebraic themes are highlighted here.
+
+\subsection{Solve for a Variable}
+
+Solving for a variable is one of the most fundamental skills in algebra and physics. Whether you're isolating a variable to find a force, velocity, or time, this process involves rearranging equations using inverse operations.
+
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem:} Solve the Equation \color{blue}$2x+3 = 12x +1$  \color{black} for \color{blue}$x$\color{black}.
+	\vspace{0.1in}
+	
+	\textbf{Solution:} To solve this equation, we begin by combining like terms.  Terms involving \color{blue}$x $ \color{black} should be moved to one side, while terms involving only numbers are moved to the other.  
+	\color{blue}
+	
+	\begin{equation*}
+		2x + 3 = 12 x +1
+	\end{equation*}
+	\begin{equation*}
+	-10x +3  = 1
+\end{equation*}
+	\begin{equation*}
+	-10x = -2
+\end{equation*}
+\color{black}
+
+
+Now, dividing by -10 gives: 
+	\color{blue}
+	\begin{equation*}
+	x = 5
+\end{equation*}	
+	\color{black}
+\end{mdframed}
+\newpage
+
+\subsubsection{Solve for a Variable in the Denominator of a Fraction}
+
+Sometimes, the variable you're solving for appears in the denominator. This can often be confusing at first, but the trick is to eliminate the fraction by multiplying both sides by the denominator.
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+	
+	
+	\textbf{Example \thesection.1.2}	
+\end{center}
+
+\textbf{Problem:} Solve for \( R \) in the equation:
+
+	\begin{equation*}
+			V = \frac{I}{R}
+	\end{equation*}
+
+	
+
+
+\textbf{Solution:} Multiply both sides by \( R \) to eliminate the denominator:
+\[
+V \cdot R = I
+\]
+Then divide both sides by \( V \) to isolate \( R \):
+\[
+R = \frac{I}{V}
+\]
+
+\end{mdframed}
+
+\subsubsection{Solve for a Variable using the Quadratic Formula} \index{Quadratic Forumula}
+
+In some physics problems, especially those involving kinematics or energy, you might encounter equations that take the form of a quadratic:
+
+\[
+ax^2 + bx + c = 0
+\]
+
+The solution is given by the quadratic formula:
+\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1.3}	
+	\end{center}
+	
+	\textbf{Problem:}
+	Solve for \( t \):
+	\[
+	0 = 5t^2 - 20t + 15
+	\]
+
+
+\textbf{Solution:} Identify \( a = 5 \), \( b = -20 \), and \( c = 15 \). Plug into the quadratic formula:
+
+\[
+t = \frac{-(-20) \pm \sqrt{(-20)^2 - 4(5)(15)}}{2(5)} = \frac{20 \pm \sqrt{400 - 300}}{10} = \frac{20 \pm \sqrt{100}}{10}
+\]
+
+\[
+t = \frac{20 \pm 10}{10} = 3 \text{ or } 1
+\]
+
+It should be noted that negative answers can arise in physics, and negatives often indicate direction.  However, context tells you which solutions are meaningful.  While a negative velocity may just mean an object is traveling opposite the expected direction, a negative time is likely meaningless.
+
+\end{mdframed}
+\newpage
+
+\subsection{Solve a System of Equations}
+
+Many physics problems involve more than one equation and variable. These systems can be solved using several algebraic techniques.
+
+\subsubsection{Solve a System of Equations by Combination}
+
+Also called the addition or elimination method, this approach involves adding or subtracting equations to eliminate one variable.  This is particularly useful when coefficients are opposites or can easily be made opposites.
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1.4}	
+	\end{center}
+	
+	\textbf{Problem:}
+	Solve the system:
+	\[
+	\begin{aligned}
+		2x + 3y &= 12 \\
+		4x - 3y &= 6
+	\end{aligned}
+	\]
+
+
+\textbf{Solution:} Add the equations to eliminate \( y \):
+	\[
+\begin{aligned}
+	2x + 3y &= 12 \\
+	+  \hspace{0.1in} 4x - 3y &= 6\\
+	\hline
+	6x \hspace{0.3in} &= 18 \\
+	x&=3
+\end{aligned}
+\]
+
+Substitute \( x = 3 \) into the first equation:
+\[
+2(3) + 3y = 12 \Rightarrow 6 + 3y = 12 \Rightarrow y = 2
+\]
+
+
+\end{mdframed}
+
+\newpage
+\subsubsection{Solve a System of Equations by Substitution}
+
+This method is ideal when one of the equations is already solved for one variable, or can easily be rearranged to do so. 
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1.5}	
+	\end{center}
+	
+	\textbf{Problem:}
+	Solve the system:
+	\[
+	\begin{aligned}
+		y &= 2x + 1 \\
+		3x + y &= 16
+	\end{aligned}
+	\]
+
+
+\textbf{Solution:} Substitute the expression for \( y \) into the second equation:
+\begin{equation*}
+3x + (2x + 1) = 16 	
+\end{equation*}
+\begin{equation*}
+	 5x + 1 = 16 
+\end{equation*}
+\begin{equation*}
+	 5x = 15
+	 \end{equation*}
+ \begin{equation*}
+ 	x = 3
+ \end{equation*} 
+
+Now substitute back to find \( y \):
+\[
+y = 2(3) + 1 = 7
+\]
+
+\end{mdframed}
+
+\newpage
+\subsubsection{Solve a System of Equations using Matrices}
+
+Matrices are useful for solving larger systems of equations, especially in physics problems involving circuits or forces in multiple directions.  If you have three or more variables an equal number of equations, using a matrix to solve the problem keeps your work organized as well.  You may use any of the following operations:
+\begin{itemize}
+	\item Multiply or divide any row by a constant.
+	\item Add two rows together, and replace either row with the result.
+	\item Swap the order of rows.
+\end{itemize}
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1.5}	
+	\end{center}
+	
+	\textbf{Problem:}
+
+	Solve the system using matrices:
+\begin{equation*}
+	\begin{aligned}
+	2x + 3y + z &= 8 \\
+	x + y - z &= 1 \\
+	3x + 2y + z &= 15
+\end{aligned}
+\end{equation*}
+
+
+\textbf{Solution:} Begin by writing the equations as an augmented matrix: 
+\vspace{-0.2in}
+
+	\begin{equation*}
+\begin{bmatrix}
+	2 & 3 & 1 & 8 \\
+	1 & 1 & -1 & 1\\
+	3 & 2 & 1 & 15 
+\end{bmatrix} 		
+	\end{equation*}
+
+First, we can multiply the 2nd row by -2.
+
+	\begin{equation*}
+		R_2 = -2 R_2 \longrightarrow
+	\begin{bmatrix}
+		2 & 3 & 1 & 8 \\
+		-2 & -2 & 2 & -2\\
+		3 & 2 & 1 & 15 
+	\end{bmatrix} 		
+\end{equation*}
+
+Now we add Row 1 to Row 2:
+
+\begin{equation*}
+	R_2 = R_1 + R_2 \longrightarrow
+	\begin{bmatrix}
+		2 & 3 & 1 & 8 \\
+		0 & 1 & 3 & 6\\
+		3 & 2 & 1 & 15 
+	\end{bmatrix} 		
+\end{equation*}
+
+Next, we multiply Row 1 by 3 and row 3 by -2:
+
+\begin{equation*}
+	\begin{aligned}
+		R_1 &= 3 R_1 \\
+		R_3 &= -2 R_3
+	\end{aligned}
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & 1 & 3 & 6\\
+		-6 & -4 & -2 & -30 
+	\end{bmatrix} 		
+\end{equation*}
+
+Now we can add Row 1 to Row 3:
+\begin{equation*}
+	R_3 = R_1 + R_3
+	\longrightarrow
+\begin{bmatrix}
+	6 & 9 & 3 & 24 \\
+	0 & 1 & 3 & 6\\
+	0 & 5 & 1 & -6 
+\end{bmatrix} 	
+\end{equation*}
+
+Multiplying row 2 by -5 gives:
+\begin{equation*}
+	R_2 = -5R_2
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & -5 & -15 & -30\\
+		0 & 5 & 1 & -6 
+	\end{bmatrix} 	
+\end{equation*}
+
+Adding Row 2 and row 3 yields:
+\begin{equation*}
+	R_3 = R_2 + R_3
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & -5 & -15 & -30\\
+		0 & 0 & -14 & -36 
+	\end{bmatrix} 	
+\end{equation*}
+
+Now we can divide Row 3 by -14:
+
+\begin{equation*}
+	R_3 = \frac{R_3}{-14}
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & -5 & -15 & -30\\
+		0 & 0 & 1 & \frac{18}{7} 
+	\end{bmatrix} 	
+\end{equation*}
+
+This means that $z = \frac{18}{7}$.  Continuing to solve the problem, we can multiply row 3 by 15 and add it to row 2 to to get: 
+
+\begin{equation*}
+	R_2 = R_2 + 15 R_3  
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & -5 & 0 & \frac{60}{7}\\
+		0 & 0 & 1 & \frac{18}{7} 
+	\end{bmatrix} 	
+\end{equation*}
+
+Now, divide row 2 by -5:
+
+\begin{equation*}
+	R_2 = \frac{R_2}{5}   
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 9 & 3 & 24 \\
+		0 & 1 & 0 & \frac{-12}{7}\\
+		0 & 0 & 1 & \frac{18}{7} 
+	\end{bmatrix} 	
+\end{equation*}
+
+Which means we now know $y = \frac{-12}{7}$.  We can now use row 2 and row 3 to eliminate variables in row 1:  
+
+\begin{equation*}
+	R_1 = R1 + (-9 R_2) + (-3 R_3)  
+	\longrightarrow
+	\begin{bmatrix}
+		6 & 0 & 0 & \frac{222}{7} \\
+		0 & 1 & 0 & \frac{-12}{7}\\
+		0 & 0 & 1 & \frac{18}{7} 
+	\end{bmatrix} 	
+\end{equation*}
+
+Finally, dividing Row 1 by 6 gives: 
+\begin{equation*}
+	R_1 = \frac{R_1}{6}
+	\longrightarrow
+	\begin{bmatrix}
+		1 & 0 & 0 & \frac{37}{7} \\
+		0 & 1 & 0 & \frac{-12}{7}\\
+		0 & 0 & 1 & \frac{18}{7} 
+	\end{bmatrix} 	
+\end{equation*}
+
+
+\end{mdframed}
+
+
+
+\newpage
+\section{Proportional Reasoning}
+\subsection{Proportional Reasoning}
+
+Proportional reasoning is a powerful tool in physics. Often, you don’t need to plug in numbers to figure out how a change in one variable affects another. You only need to understand how variables are related in a formula.
+
+\textbf{The idea:} If a formula contains multiple variables, and you know how one variable changes, you can predict how the output will change—assuming all other variables stay constant or have known changes.
+
+
+	The force of gravity between two masses is given by:
+	\[
+	F = G \frac{m_1 m_2}{r^2}
+	\]
+	A planet has twice Earth’s mass and three times Earth’s radius. If the gravitational force on a mass on Earth is \( F_E \), what is the gravitational force on the same mass on the new planet, in terms of \( F_E \)?
+
+
+\textbf{Solution:} Let Earth have mass \( M \), and radius \( R \), so:
+\[
+F_E = G \frac{m M}{R^2}
+\]
+
+On the new planet:
+\[
+F' = G \frac{m (2M)}{(3R)^2} = G \frac{2mM}{9R^2} = \frac{2}{9} F_E
+\]
+
+\textbf{Answer:} \( \frac{2}{9} F_E \)
+
+\textbf{Comment:} The trick is to substitute the new values into the formula and simplify. Don’t calculate anything you don’t need.
+
+\vspace{1em}
+
+	The period \( T \) of a pendulum is given by:
+	\[
+	T = 2\pi \sqrt{\frac{L}{g}}
+	\]
+	If the length \( L \) of a pendulum is quadrupled, by what factor does the period \( T \) change?
+
+
+\textbf{Solution:}
+\[
+T' = 2\pi \sqrt{\frac{4L}{g}} = 2\pi \cdot 2\sqrt{\frac{L}{g}} = 2T
+\]
+
+\textbf{Answer:} The period doubles.
+
+\textbf{Comment:} When a variable is inside a square root, its effect is weaker. Quadrupling \( L \) only doubles \( T \).
+
+\vspace{1em}
+
+	The kinetic energy of an object is:
+	\[
+	K = \frac{1}{2}mv^2
+	\]
+	If the velocity of the object triples, how does its kinetic energy change?
+
+
+\textbf{Solution:}
+\[
+K' = \frac{1}{2} m (3v)^2 = \frac{1}{2} m \cdot 9v^2 = 9K
+\]
+
+\textbf{Answer:} The kinetic energy increases by a factor of 9.
+
+\textbf{Comment:} Pay attention to exponents—tripling \( v \) squares the effect in \( v^2 \).
+
+\vspace{1em}
+
+	The electric force between two charges is given by:
+	\[
+	F = k \frac{q_1 q_2}{r^2}
+	\]
+	If both charges are doubled and the distance is halved, what happens to the electric force?
+
+
+\textbf{Solution:}
+\[
+F' = k \frac{(2q_1)(2q_2)}{(r/2)^2} = k \frac{4q_1 q_2}{r^2/4} = k \frac{4q_1 q_2 \cdot 4}{r^2} = 16F
+\]
+
+\textbf{Answer:} The force increases by a factor of 16.
+
+\textbf{Comment:} Changing more than one variable? Just multiply each effect together.
+
+\vspace{1em}
+
+	The pressure at the bottom of a fluid is given by:
+	\[
+	P = \rho g h
+	\]
+	If the height of the fluid is doubled and the fluid is twice as dense, what happens to the pressure?
+
+
+\textbf{Solution:}
+\[
+P' = (2\rho) g (2h) = 4 \rho g h = 4P
+\]
+
+\textbf{Answer:} The pressure increases by a factor of 4.
+
+\textbf{Comment:} Linear relationships like this are easy to reason through—just multiply the scaling factors.
+
+
 \newpage
 \section{Trigonometry}
 
