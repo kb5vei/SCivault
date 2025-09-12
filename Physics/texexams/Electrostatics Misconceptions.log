@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  17 AUG 2022 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.11)  4 SEP 2025 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -147,7 +147,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \exam@n=\count274
 \exam@m=\count275
 
-Randomizer initialized to 791281679.
+Randomizer initialized to 615115324.
 \@toklist=\toks19
 \c@first=\count276
 \c@last=\count277

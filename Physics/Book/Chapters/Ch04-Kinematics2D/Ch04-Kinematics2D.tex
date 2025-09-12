@@ -209,10 +209,185 @@ Often, projectiles will be launched horizontally, such as when a ball rolls off 
 	
 	\subsection{Projectiles Launched at an Arbitrary Angle}
 	\index{Projectiles, Launched at an Arbitrary Angle}
-	\subsubsection{Projectiles Launched at an Arbitrary Angle on Level Ground}
-	\subsubsection{Projectiles Launched at an Arbitrary Angle on Uneven Ground}
-	\subsubsection{Projectiles Launched at an Arbitrary Angle Near a Mountain or Hill}
+	
+	When projectiles are launched at an angle, the initial horizontal and vertical components of the initial velocity can be determined using trigonometry.  
+	\begin{figure}[h]
+		\begin{center}	
+
+	\begin{tikzpicture}[>=Stealth, thick, x=1cm, y=1cm]
 		
+		% Parameters
+		\def\ang{32}     % <-- angle theta (degrees)
+		\def\R{4}        % <-- length of v0 (arbitrary units)
+		
+		% Coordinates
+		\coordinate (O) at (0,0);
+		\coordinate (V) at (\ang:\R);                 % tip of v0
+	\path (V -| O) coordinate (Xc);   % same x as V, y = 0
+	\path (V |- O) coordinate (Yc);   % x = 0, same y as V
+	
+		\coordinate (Ex) at (1,0);                    % point on +x for angle pic
+		
+		% Axes
+		\draw[->] (-0.5,0) -- (5.2,0) node[below right] {$x$};
+		\draw[->] (0,-0.5) -- (0,4.2) node[above left] {$y$};
+		
+		% Resultant vector v0
+		\draw[->,very thick] (O) -- (V) node[above right=2pt] {$\vec v_0$};
+		
+		% Components
+		\draw[->,very thick,blue] (3.392,0) -- (3.392,2.12) node[below right=2pt] {$v_{0y}=v_0\sin\theta$};
+		\draw[->,very thick,red]  (O) -- (Yc) node[below left=2pt] {$v_{0x}=v_0\cos\theta$};
+		
+		% Projection guides (dashed)
+		\draw[dashed] (V) -- (Xc);
+		\draw[dashed] (V) -- (Yc);
+		
+		% Angle theta at the origin
+		\pic[draw,->,"$\theta$",angle eccentricity=1.3,angle radius=1.0cm]
+		{angle=Ex--O--V};
+		
+		% Right-angle corner marker at the projection
+		\draw ($(Xc)+(0,0)$) -- ++(0,0.25) -- ++(0.25,0);
+	\end{tikzpicture}
+\caption{The horizontal And vertical components of initial velocity.}
+\label{Figure:vocomponents}
+\end{center}
+	\end{figure}
+
+	In general, when the angle of elevation from horizontal is provided, as shown in Figure \ref{Figure:vocomponents}, the following equations allow you to deterine the initial and horizontal components of the initial velocity:
+	
+	\index{Inital Velocity, Components}
+	\begin{equation}
+		\overrightarrow{v_{ox}} = \overrightarrow{v_o} \cos \theta
+	\end{equation}
+	
+		\begin{equation}
+		\overrightarrow{v_{oy}} = \overrightarrow{v_o} \sin \theta
+	\end{equation}
+
+You can then solve the problem using normal kinematic equations.  
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		
+		
+		\textbf{Example \thesection.1}	
+	\end{center}
+	
+	\textbf{Problem: } A cannon launches a cannonball into the air with an initial speed of 125 m/s at an angle of 32 degrees above horizontal.  
+	\begin{enumerate}
+		\item How long does the cannonball take to get to the top of its path?
+		\item How high does the cannonball go?
+		\item How far does the cannonball land from its launchpoint?
+	\end{enumerate}
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by drawing a diagram:
+\begin{center}
+	
+\begin{tikzpicture}[>=Stealth, thick, scale=0.4]
+	
+	% Origin
+	\coordinate (O) at (0,0);
+	\coordinate (Xaxis) at (10,0);   % point on x-axis for angle marker
+	\coordinate (Dir) at (8,6);      % direction of launch for angle marker
+	
+	% Launch vector
+	\draw[->,very thick,blue] (O) -- (8,6) node[above right] {$\vec v_0$};
+	
+
+	
+	% Dotted parabolic trajectory (manually chosen coefficients)
+	\draw[densely dotted,very thick,domain=0:24,samples=60,smooth,variable=\x]
+	plot ({\x},{0.5*\x - 0.02*\x*\x});
+	
+	% Reference point on trajectory
+	\coordinate (P) at (12,{0.5*12 - 0.02*12*12}); % (12,3.12)
+	
+	% Horizontal guide (x - x0)
+	\draw[decorate,decoration={brace,amplitude=6pt,mirror}]
+	(O) -- (24,0) node[midway,below=6pt] {$x - x_0$};
+	
+	% Vertical guide (y - y0)
+	\draw[decorate,decoration={brace,amplitude=6pt,mirror}]
+	(24.5,0) -- (24,3.12) node[midway,right=6pt] {$y - y_0$};
+	
+	% Mark the point
+	\fill (P) circle (2pt);
+	
+\end{tikzpicture}
+
+\end{center}
+
+
+
+\begin{enumerate}
+	\item To find the time it takes to get to the top, we will us the rising portion of the motion only.  We can find the initial x- and y- component velocities by using trigonometry:
+	
+		\begin{equation*}
+		\overrightarrow{v_{ox}} = \overrightarrow{v_o} \cos \theta = (\SI{125}{m/s}) \cos(32\deg) \approx \SI{106.006}{m/s}
+	\end{equation*}
+	
+	\begin{equation*}
+		\overrightarrow{v_{oy}} = \overrightarrow{v_o} \sin \theta = (\SI{125}{m/s}) \sin(32 \deg) \approx \SI{66.240}{m/s}	
+	\end{equation*}
+	
+	
+	
+	
+	
+	We know that at the top, the projectile's vertical velocity will be zero, so we can write the following variables:
+	
+		
+	\begin{longtable}{|c l | c l|}
+		\hline
+		\multicolumn{2}{|c|}{\textbf{Horizontal}} & \multicolumn{2}{|c|}{\textbf{ Vertical}} \\
+		\hline
+		$\vec{x}-\vec{x_0}$ =&     & $\vec{y}-\vec{y_0} = $ &   \\
+		\hline
+		$\vec{v_{0x}} = $ & $\SI{106.006}{m/s}$ & $\vec{v_{0y}} = $ & $\SI{66.240}{m/s}$ \\
+		\hline
+		$v_x = $&  & $v_y = $ & \SI{0}{m/s} \\
+		\hline
+		$a_x = $ & $\SI{0}{m/s^2}$ & $a_y = $ & $\SI{-9.81}{m/s^2}$ \\ 
+		\hline
+		\multicolumn{2}{|r}{$t = $} & \multicolumn{2}{l|}{  }  \\
+		\hline
+	\end{longtable}
+	
+	
+	We can now calculate the time to the top by using equation \ref{equation:kinematic2} in the y-direction:
+	
+	\begin{equation*}
+	\overrightarrow{v_y} = \overrightarrow{v_{0y}} + \overrightarrow{a_y} t \longrightarrow t = \frac{\overrightarrow{v_y}-\overrightarrow{v_{oy}}}{\overrightarrow{a_y}} = \frac{\SI{0}{m/s}-\SI{66.240}{m/s}}{\SI{-9.81}{m/s^2}} \approx \SI{6.752}{s}
+	\end{equation*}	
+
+\item We can now calculate the maximum height, $\overrightarrow{y}-\overrightarrow{y_0}$  by using any of equations \ref{equation:kinematic1}, \ref{equation:kinematic3}, or \ref{equation:kinematic4} in the y-direction.  While all of these equations will yield the same result, in order to minimize rounding error, the author chooses equation \ref{equation:kinematic4} in this situation.  
+
+\begin{equation*}
+	\overrightarrow{v_y}^2 = \overrightarrow{v_{0y}}^2 + 2\overrightarrow{a_y}(\overrightarrow{y}-\overrightarrow{y_0}) \longrightarrow 	\overrightarrow{y}-\overrightarrow{y_0} = \frac{\overrightarrow{v_y}^2 -\overrightarrow{v_{0y}}^2 }{2\overrightarrow{a_y}}
+\end{equation*}
+
+\begin{equation*}
+	\overrightarrow{y}-\overrightarrow{y_0} = \frac{(\SI{0}{m/s})^2 -(\SI{66.240}{m/s})^2 }{2(\SI{-9.81}{m/s^2})} \approx \SI{223.635}{m}
+\end{equation*}
+	
+	\item It should be noted that the time calculated in part (1) of this problem is the time it takes for the ball to reach its highest point - which is when the ball has only traveled half its horizontal distance.  Due to the symmetry of the situation, we can double the time to find the total time of flight.  This can be used to calculate the distance the ball travels in the x- direction.
+	
+	\begin{equation}
+		t_{total} = 2 t_{rising} = 2 \times \SI{6.752}{s} \approx \SI{13.505}{s}
+	\end{equation}
+	
+	Using equation \ref{equation:kinematic3} in the x-direction gives:	
+		\begin{equation}
+		\overrightarrow{x}-\overrightarrow{x_0} = \overrightarrow{v_0} t + \cancelto{0}{\frac{1}{2}\vec{a}{t}^2} =  \overrightarrow{v_0} t = (\SI{106.006}{m/s})(\SI{13.505}{s}) \approx \SI{1431.565}{m}
+	\end{equation}
+\end{enumerate}
+	
+\end{mdframed}	
+
 		
 
 
