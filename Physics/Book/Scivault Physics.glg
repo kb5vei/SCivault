@@ -1,7 +1,7 @@
-This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
-Scanning style file ./Scivault Physics.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file Scivault Physics.glo....done (69 entries accepted, 0 rejected).
-Sorting entries....done (448 comparisons).
-Generating output file Scivault Physics.gls....done (161 lines written, 0 warnings).
+This is makeindex, version 2.15 [TeX Live 2020] (kpathsea + Thai support).
+Scanning style file ./Scivault Physics.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file Scivault Physics.glo....done (75 entries accepted, 0 rejected).
+Sorting entries....done (473 comparisons).
+Generating output file Scivault Physics.gls....done (174 lines written, 0 warnings).
 Output written in Scivault Physics.gls.
 Transcript written in Scivault Physics.glg.

@@ -188,6 +188,54 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 	
 	Often, if the forces on an object of known mass can be determined, the acceleration of the object can also be determined.  The acceleration found using Newton's second law can then be used in kinematic equations to determine other important quantities. 
 	
+	\subsection{Mass and Weight}
+	In everyday language, we often use the words \gls{mass} and \gls{weight} interchangeably — but in physics, they refer to two very different things.
+	
+	\textbf{Mass} is a measure of how much matter an object contains. It is an intrinsic property of an object and does not change based on location. Whether you're on Earth, the Moon, or floating in space, your mass remains the same. Mass is measured in kilograms (kg) in the SI system.
+	
+	\textbf{Weight}, on the other hand, is the force of gravity acting on an object with mass. It depends not only on the object’s mass but also on the strength of the local gravitational field. Weight is a force and is measured in newtons (N).
+	
+	The formula to calculate an object's weight is:
+	\[
+	W = F_g = mg
+	\]
+	where \( m \) is the mass of the object in kilograms and \( g \) is the local gravitational acceleration.  It should be noted that on earth:
+	
+			\begin{mdframed}[backgroundcolor=green!20!white]
+		\begin{equation*}
+			g  = \SI{9.81}{m/s^2}
+			\label{constant:gearth}
+		\end{equation*}
+	\end{mdframed}	
+	
+	For example, a person with a mass of \( 70 \, \text{kg} \) has a weight of:
+	\[
+	W = (70 \, \text{kg})(9.81 \, \text{m/s}^2) = 686.7 \, \text{N}
+	\]
+	
+	This distinction is important: \textbf{mass stays the same everywhere}, but \textbf{weight depends on gravity}.
+	
+	
+	 \subsection{Normal Force}
+	 \index{Normal Force}
+	 \gls{normalforce}s are contact forces exerted by a surface that supports the weight of an object resting on it. It acts \textbf{perpendicular} (or "normal") to the surface.
+	 
+	 The normal force prevents objects from falling through solid surfaces. When you stand on the floor, your weight pulls you down due to gravity, and the floor pushes back up on you with a force of equal magnitude — this is the normal force. It’s a reactive force: it exists only when there is contact, and its value adjusts to balance other vertical forces.
+	 
+	 In many situations, especially when a surface is horizontal and there’s no vertical acceleration, the normal force exactly balances the object’s weight:
+	 \[
+	 F_N = mg
+	 \]
+	 
+	 However, if there is vertical acceleration — such as in an elevator or on a roller coaster — the normal force may be larger or smaller than \( mg \), depending on the direction of acceleration.
+	 
+	 On inclined planes, the normal force does not equal the object's weight. Instead, it balances only the component of weight \textbf{perpendicular} to the surface:
+	 \[
+	 F_N = mg \cos\theta
+	 \]
+	 where \( \theta \) is the angle of the incline.
+	 
+	 Understanding the normal force is key to solving problems involving contact forces, friction, and apparent weight.
 	 
 	
 	\section{Newton's Third Law}
@@ -202,6 +250,18 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 		 & {-Newton, Isaac.  \textit{Philosophiae Naturalis Principia Mathematica}.  tr. J. Williamson} & \\
 		
 	\end{tabular}
+	
+	This law is often stated "For every action, there is an equal, opposite reaction."  Perhaps a better understanding of this law would directly deal with forces: "For every force, there is an equal, opposite reaction force."  This means that whenever object A puts a force on object B, object B puts a force on object A that is the same strength and in the opposite direction.  Some examples might include:
+	\begin{itemize}
+		\item You push on the wall to the left.  The wall pushes on you to the right.
+		\item One magnet pulls a piece of metal to the left.  The metal pulls the magnet to the right.
+		\item When swimming, you push water backward.  The water pushes you forward.  
+		\item The Earth's gravity pulls downward on you.  You pull the earth upward with the same amount of force.
+		\item A jet engine pushes air backward.  The air pushes the engine (and the plane it's connected to) forward.
+	\end{itemize}
+	There are countless examples of Newton's Third Law pairs - in fact, every force has a corresponding reaction force.  It is important to remember, however, that while the forces must be equal, the resulting accelerations will not be unless the mass of the objects is equal.  
+	
+	\newpage
 	
 	\section{Applications of Newton's Laws}
 		\subsection{Friction}
@@ -532,6 +592,9 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 		\subsection{Elevators}
 		\index{Elevator}
 		\index{Apparent Weight}
+		Have you ever felt heavier as an elevator begins to rise, or lighter as it starts to descend? That strange sensation isn’t just in your head — it’s a measurable difference in what’s called your \gls{apparentweight}. It’s the force your body feels as it presses against the floor, or what a bathroom scale would read during the motion.
+		
+		In physics, your \textbf{actual weight} is the gravitational force acting on you, given by \( W = mg \). This doesn't change unless your mass or the local gravitational field changes. But your \textbf{apparent weight} depends on how the floor pushes back on you — in other words, the \textbf{normal force}. In situations like elevators, where acceleration is involved, this normal force may increase or decrease, making you feel heavier or lighter even though your true weight remains the same.
 		
 		
 		
