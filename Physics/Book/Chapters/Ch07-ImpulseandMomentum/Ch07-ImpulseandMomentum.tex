@@ -1,9 +1,9 @@
 \chapter{Impulse and Momentum}
 	\section{Momentum} \label{momentum} \index{Momentum} \index{Momentum, Linear}
-	Linear momentum is defined by the following equation:
+	Linear \gls{momentum} is defined by the following equation:
 	\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
-		\vec{p} \equiv m \vec{v} 
+		\vec{p} = m \vec{v} 
 		\label{eqn:momentum}
 		\end{equation}
 	\end{mdframed}
@@ -47,14 +47,15 @@
 	 
 	 
 	\section{Impulse} \label{impulse} \index{Impulse}
-		When a force is applied to an object for a certain amount of time, an \textit{impulse} is delivered to that object.  Impulse is defined by the following equation:
+		When a force is applied to an object for a certain amount of time, an \gls{impulse} is delivered to that object.  Impulse is defined by the following equation:
 	\begin{mdframed}[backgroundcolor=orange!20!white]
 		\begin{equation}
 		\vec{J} \equiv \vec{F} t 
 		\label{eqn:Impulse}
 		\end{equation}
 	\end{mdframed}
-	where $\vec{J}$ is impulse, $\vec{F}$ is force, and $t $ is time.  The units for impulse are $\si{N\cdot s}$, which are equivalent to $ \si{\frac{kg \cdot m}{s}}$.
+	where $\vec{J}$ is impulse, $\vec{F}$ is force, and $t $ is time.  The units for impulse are $\si{N\cdot s}$, which are equivalent to $ \si{\frac{kg \cdot m}{s}}$.  One should note that while $\vec{J}$ is commonly used for impulse, $\vec{I}$ is also relatively common.  
+	
 	
 	
 	
@@ -70,7 +71,7 @@
 		\end{equation}
 	\end{mdframed}
 	
-	
+	The Impulse-Momentum Theorem shows that a force acting over a period of time can change an object’s motion, even if the force is not constant. The longer the contact time or the greater the force, the greater the resulting change in momentum. The impulse-momentum theorem is especially useful in analyzing collisions and in understanding safety features like airbags and padded surfaces, which increase impact time to reduce forces.	
 	
 	
 	\section{The Law of Conservation of Momentum}
@@ -93,21 +94,226 @@
 	\textbf{Example \thesection.1}	
 	\end{center}
 	
-	\textbf{Problem: } A 1000 kg car is traveling to the right at 12 m/s.  It collides head-on with an 800 kg car traveling to the left at 8 m/s.  The two cars get stuck together.  What is the velocity of the wreckage immediately after the collision?
+	\textbf{Problem: } A 1000 kg blue car is traveling to the right at 12 m/s.  It collides head-on with an 800 kg red car traveling to the left at 8 m/s.  The two cars get stuck together.  What is the velocity of the wreckage immediately after the collision?
 	
 	\vspace{0.1in}
 	
 	\textbf{Solution:} 
 	Begin by drawing a diagram and identifying variables:
+	\begin{center}
+	\begin{tikzpicture}
+		
+		% Draw ground line
+		\draw[thick] (-2,-.2) -- (10,-.2);
+		
+		% Left car (1000 kg, rightward)
+		\draw[thick,fill=blue!30] (0,0) rectangle ++(2,1);
+		\node at (1,0.5) {\small 1000 kg};
+		\draw[->,thick,blue] (2.2,0.5) -- ++(2.1,0) node[midway,above] {$v_b = \SI{12}{m/s}$};
+		\draw[draw=black,fill=gray!50,thick] (0.3,0) circle (.2);
+		\draw[draw=black,fill=gray!50,thick] (1.7,0) circle (.2);
+		
+		% Right car (800 kg, leftward)
+		\draw[thick,fill=red!30] (8,0) rectangle ++(2,1);
+		\node at (9,0.5) {\small 800 kg};
+		\draw[->,thick,red] (7.8,0.5) -- ++(-2,0) node[midway,above] {$v_r = \SI{-8}{m/s}$};
+		\draw[draw=black,fill=gray!50,thick] (8.3,0) circle (.2);
+		\draw[draw=black,fill=gray!50,thick] (9.7,0) circle (.2);
+		
+		% Collision point marker (optional)
+		\draw[dashed] (5,0) -- (5,1.5);
+		
+		\draw[thick,->] (-2,.5) -> (-1,.5);
+		\node at (-1.65,0.7) {\small +x};
+		
+	\end{tikzpicture}
+		\end{center}
 	
+	In this situation, there are no external forces on the system. Thus, the total impulse is zero.  Using equation \ref{eqn:ConservationofMomentum}, shows:
 	
-	\begin{equation*}
-		\vec{p} = m \vec{v} = 1400 kg \times 12 \frac{m}{s} = 16800 \frac{kg\cdot m}{s}
+		\begin{equation*}
+			\vec{p_i} = \vec{p_f}
+		\end{equation*}
+	
+Initialy, the blue car has $p_b$, and the red car has $p_r$.  Thus, the initial momentum of the system $\vec{p_b} +\vec{p_r}$.  After the collision, the cars have combined into the wreck, which has momentum $p_w$.  Thus,
+		\begin{equation*}
+		\vec{p_b} +\vec{p_r}  = \vec{p_w}
 	\end{equation*}
+	
+Substituting the definition of momentum, given in equation \ref{eqn:momentum}, we see:
+		\begin{equation*}
+	m_b \vec{v_b} + m_r \vec{v_r} = m_w \vec{v_w}
+\end{equation*}
+
+Solving for $v_w$ yields:
+
+\begin{equation*}
+v_w = \frac{m_b \vec{v_b} + m_r \vec{v_r}}{m_w} = \frac{(\SI{1000}{kg})(\SI{12}{m/s}) + (\SI{800}{kg})(\SI{-8}{m/s})}{\SI{1800}{kg}} \approx \boxed{\SI{3.111}{m/s}} 
+\end{equation*}
+
 	
 \end{mdframed}
 \vspace{0.1in}
 
+
+
+
+
+
+
+
+\begin{mdframed}[backgroundcolor=blue!10!white]
+	\begin{center}
+		\textbf{Example \thesection.2}	
+	\end{center}
 	
+	\textbf{Problem: } A blue billiard ball is traveling in the +y direction at 0.3 m/s, when it collides with a red billiard ball traveling in the +x direction at 0.2 m/s.  The blue billiard ball comes to a complete stop.  What is the final velocity (magnitude and direction) of the red billiard ball?  
+	
+	\vspace{0.1in}
+	
+	\textbf{Solution:} 
+	Begin by drawing a diagram and identifying variables:
+	\begin{center}
+		\begin{tikzpicture}
+			
+			% BEFORE FRAME
+			\node[align=center] at (0,3) {\textbf{Before}};
+			
+			% Blue ball moving in +y
+			\fill[blue!60] (0,-2) circle (4pt);
+			%\node[left] at (0,2) {Blue};
+			\draw[->,thick,blue] (0,-2) -- (0,-0.8) node[midway,left] {$v_{ib} = \SI{0.3}{m/s}$};
+			
+			% Red ball moving in +x
+			\fill[red!70!black] (-2,0) circle (4pt);
+			%\node[below] at (-2,0) {Red};
+			\draw[->,thick,red] (-2,0) -- (-0.8,0) node[midway,above] {$v_{ir}= \SI{0.2}{m/s}$};
+			
+			% AFTER FRAME
+			\node[align=center] at (6,3) {\textbf{After}};
+			
+			% Blue ball stopped
+			\fill[blue!60] (5.9,-.25) circle (4pt);
+			%\node[left] at (6,-.1) {Blue};
+			%\node[right] at (6,-.1) {stops};
+			
+			% Red ball final velocity at angle
+			\fill[red!70!black] (6,0) circle (4pt);
+			%\node[below] at (6,0) {Red};
+			
+			% Arrow for red's final velocity
+			\draw[->,thick,red] (6,0) -- ++(2,2.5);
+			\node[right] at (8,2.5) {$v_{rf}$};
+			
+			% Angle theta label
+			\draw (6.8,0) arc[start angle=0,end angle=51.3,radius=0.8];
+			\node at (7.4,0.4) {$\theta$};
+			\draw[dashed] (6,0) -- (7.8,0);
+			
+			% Optional center line
+			\draw[dashed] (3.5,-2) -- (3.5,4);
+			
+			%Coordinate System
+			\draw[->,thick] (-2,2) -- (-1.5,2) node[midway,below] {+x};
+			\draw[->,thick] (-2,2) -- (-2,2.5) node[midway,left] {+y};
+			
+		\end{tikzpicture}
+	\end{center}
+
+	There are no unbalanced external forces on the system, so the toal impulse on the system is 0 Ns.  Because this is a two-dimensional problem, we must keep the motion in each dimension separate.  We begin by examining the X-direction:
+	\begin{equation*}
+		p_{ix} = p_{fx}
+	\end{equation*}
+
+Since only the red ball has momentum in the x-direction in both the initial and final states, we can write:
+	
+\begin{equation*}
+	p_{ir} = p_{frx}
+\end{equation*}
+Using the definition of momentum, we can state:
+
+\begin{equation*}
+	m_r v_{ir} = m_r v_{frx}
+\end{equation*}
+
+Since $m_r$ is on both sides of the equation, this equation reduces to:
+\begin{equation*}
+	v_{ir} = v_{frx} = \boxed{\SI{0.2}{m/s}}
+\end{equation*}
+
+We can use a similar process in the y-direction:
+\begin{equation*}
+	p_{iy} = p_{fy}
+\end{equation*}
+
+This time, the blue ball is moving in the y-direction at the beginning, but the red ball moves in the y-direction at the end.  Therefore, 
+\begin{equation*}
+	p_{ib} = p_{fry}
+\end{equation*}
+\begin{equation*}
+	m_b v_{ib} = m_r v_{fry}
+\end{equation*}
+
+Since we know that all billiard balls have the same mass, this equation becomes:
+\begin{equation*}
+	v_{ib} = v_{fry} = \boxed{\SI{0.3}{m/s}}
+\end{equation*}
+
+We can now determine the final velocity of the red ball using vector addition:
+
+\begin{equation*}
+	v_{fr} = \sqrt{v_{frx}^2 + v_{fry}^2} =\sqrt{(\SI{0.2}{m/s})^2 + (\SI{0.3}{m/s})^2} \approx \boxed{\SI{0.361}{m/s}}
+\end{equation*}	
+	To find the angle, a little trigonometry shows:
+		\begin{equation*}
+		\theta =tan^{-1} (\frac{v_{fry}}{v_{frx}}) = tan^{-1} (\frac{\SI{0.3}{m/s}}{\SI{0.2}{m/s}}) \approx \boxed{56.31 \degree}
+			\end{equation*}
+	
+	Therefore, $v_{fr} = \SI{0.361}{m/s}$ @ $56.31 \degree$.
+	
+\end{mdframed}
+\vspace{0.1in}
+
+\section{Types of Collisions}
+
+When two objects collide, they don’t always behave the same way. Sometimes they bounce off each other, like billiard balls, and other times they stick together, like two cars in a crash. What happens depends on how much energy is kept in the motion of the objects after the collision. We call this idea elasticity.
+
+At one end of the spectrum, there are perfectly \gls{elastic} collisions, where the objects bounce off each other and no kinetic energy is lost—they act like nothing ever happened except a change in direction or speed. On the opposite end are perfectly inelastic collisions, where the objects stick together after the impact and move as one. These lose the most kinetic energy, often converting it into sound, heat, or permanent deformation. Most real-world collisions fall somewhere in between: the objects might bounce apart, but they still lose some kinetic energy.  These type of collisions are simply called ``\gls{inelastic}.''  This whole range of behavior is what we call the elasticity spectrum.
+
+This way of thinking helps us better understand the physics behind different types of impacts, from atomic particles bouncing off each other to everyday events like car crashes, sports collisions, or dropped objects. Knowing how elastic a collision is tells us how much energy stays in motion—and how much is lost to the environment.
+
+
+\begin{figure}[h!]
+	\begin{center}
+\begin{tikzpicture}
+	% Elasticity spectrum axis
+	\draw[thick] (0,0) -- (10,0);
+	\draw[thick] (0,-.1) -- (0,.10);
+	\draw[thick] (10,-.1) -- (10,.1);
+	\node[below] at (0,-0.2) {Perfectly Elastic};
+	\node[below] at (5,-0.2) {Inelastic};
+	\node[below] at (10,-0.2) {Perfectly Inelastic};
+	\filldraw[blue!60] (0,0.2) circle (4pt);
+	\node[blue,rotate=270,left] at (0,0.3) {Atomic collisions};
+
+	\filldraw[purple!60] (0.50,0.2) circle (4pt);
+	\node[purple,rotate=270,left] at (0.5,0.3) {Billiard Ball};
+
+	\filldraw[green!60] (1.50,0.2) circle (4pt);
+	\node[green,rotate=270,left] at (1.5,0.3) {Super Ball};
+		
+	\filldraw[red!60] (2.50,0.2) circle (4pt);
+	\node[red,rotate=270,left] at (2.5,0.3) {Tennis Ball};
+	
+	\filldraw[red!60] (10,0.2) circle (4pt);
+	\node[red,rotate=270,left] at (10,0.3) {Play Dough};
+	
+	\filldraw[orange!60] (7.0,0.2) circle (4pt);
+	\node[orange,rotate=270,left] at (7,0.3) {Softball};
+
+\end{tikzpicture}
+\caption{Collisions can range from perfectly elastic to perfectly inelastic.}
+\end{center}
+\end{figure}	
 
 

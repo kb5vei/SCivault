@@ -6,29 +6,30 @@
 \glossentry{gravity}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}}}%
 \glossentry{adiabatic}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{99}}}%
+		\setentrycounter[]{page}\glsnumberformat{102}}}%
 \glossentry{alphadecay}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{118}}}%
+		\setentrycounter[]{page}\glsnumberformat{123}}}%
 \glossentry{alphaparticle}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{118}}}%
+		\setentrycounter[]{page}\glsnumberformat{123}}}%
 \glossentry{amplitude}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{59}}}%
+		\setentrycounter[]{page}\glsnumberformat{62}}}%
 \glossentry{antinode}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70}}}%
+		\setentrycounter[]{page}\glsnumberformat{73}}}%
 \glossentry{apparentweight}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{38}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossentry{conduction}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{94}}}%
+		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossentry{convection}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{94}}}%
+		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossentry{conversionfactor}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
 \glossentry{crossproduct}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{114}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossentry{density}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{88}}}%
+		\setentrycounter[]{page}\glsnumberformat{91}}}%
 \glossentry{determinant}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}}}%
 \glossentry{dimensionalanalysis}{\glossaryentrynumbers{\relax 
@@ -40,13 +41,19 @@
 \glossentry{dotproduct}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}}}\glsgroupskip
 \glsgroupheading{E}\relax \glsresetentrylist %
+\glossentry{elastic}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{49}}}%
 \glossentry{elasticpotentialenergy}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42}}}%
+\glossentry{electromagnet}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{114}}}%
 \glossentry{element}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{117}}}%
+		\setentrycounter[]{page}\glsnumberformat{122}}}%
 \glossentry{energy}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{40}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
+\glossentry{faradayslaw}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{118}}}%
 \glossentry{force}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{28}}}%
 \glossentry{freebodydiagram}{\glossaryentrynumbers{\relax 
@@ -54,7 +61,7 @@
 \glossentry{freefall}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{13}}}%
 \glossentry{frequency}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{59}}}%
+		\setentrycounter[]{page}\glsnumberformat{62}}}%
 \glossentry{friction}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{34}}}%
 \glossentry{fundamentalforces}{\glossaryentrynumbers{\relax 
@@ -64,28 +71,34 @@
 		\setentrycounter[]{page}\glsnumberformat{41}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
 \glossentry{halflife}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{119}}}%
+		\setentrycounter[]{page}\glsnumberformat{124}}}%
+\glossentry{halleffect}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{117}}}%
 \glossentry{harmonic}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{71}}}%
+		\setentrycounter[]{page}\glsnumberformat{74}}}%
 \glossentry{heat}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{94}}}%
-\glossentry{latentheatfusion}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{97}}}%
+\glossentry{latentheatfusion}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{100}}}%
 \glossentry{hookeslaw}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42}}}%
 \glossentry{hydrostaticpressure}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{90}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{93}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
+\glossentry{impulse}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{46}}}%
+\glossentry{inelastic}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}}}%
 \glossentry{ion}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{117}}}%
+		\setentrycounter[]{page}\glsnumberformat{122}}}%
 \glossentry{isobaric}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{99}}}%
+		\setentrycounter[]{page}\glsnumberformat{102}}}%
 \glossentry{isochoric}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{99}}}%
+		\setentrycounter[]{page}\glsnumberformat{102}}}%
 \glossentry{isothermal}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{99}}}%
+		\setentrycounter[]{page}\glsnumberformat{102}}}%
 \glossentry{isotope}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{117}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{122}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
 \glossentry{jerk}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{20}}}%
@@ -94,6 +107,9 @@
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossentry{kineticenergy}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{40}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossentry{lenzslaw}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{117}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{magnitude}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}}}%
@@ -102,10 +118,12 @@
 \glossentry{mechanicalenergy}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{40}}}%
 \glossentry{medium}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{60}}}%
+\glossentry{momentum}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{46}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{node}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70}}}%
+		\setentrycounter[]{page}\glsnumberformat{73}}}%
 \glossentry{normalforce}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{32}}}\glsgroupskip
 \glsgroupheading{O}\relax \glsresetentrylist %
@@ -113,16 +131,16 @@
 		\setentrycounter[]{page}\glsnumberformat{45}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{period}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{59}}}%
+		\setentrycounter[]{page}\glsnumberformat{62}}}%
 \glossentry{potentialenergy}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{41}}}%
 \glossentry{absolutepressure}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{90}}}%
+		\setentrycounter[]{page}\glsnumberformat{93}}}%
 \glossentry{gaugepressure}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{90}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{93}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{resonance}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{70}}}%
+		\setentrycounter[]{page}\glsnumberformat{73}}}%
 \glossentry{resultant}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{4}}}%
 \glossentry{righthandrulefirst}{\glossaryentrynumbers{\relax 
@@ -137,14 +155,14 @@
 \glossentry{slopeinterceptformat}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16}}}%
 \glossentry{specificheatcapacity}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{96}}}%
+		\setentrycounter[]{page}\glsnumberformat{99}}}%
 \glossentry{speed}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
 \glossentry{springconstant}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{42}}}\glsgroupskip
 \glsgroupheading{T}\relax \glsresetentrylist %
 \glossentry{thermalradiation}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{94}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{97}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{unitvector}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
@@ -155,15 +173,15 @@
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
 \glossentry{wave}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}%
+		\setentrycounter[]{page}\glsnumberformat{60}}}%
 \glossentry{electromagneticwave}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{58}}}%
+		\setentrycounter[]{page}\glsnumberformat{61}}}%
 \glossentry{longitudinalwave}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}%
+		\setentrycounter[]{page}\glsnumberformat{60}}}%
 \glossentry{transversewave}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{57}}}%
+		\setentrycounter[]{page}\glsnumberformat{60}}}%
 \glossentry{wavelength}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{59}}}%
+		\setentrycounter[]{page}\glsnumberformat{62}}}%
 \glossentry{weight}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{31}}}%
 \glossentry{work}{\glossaryentrynumbers{\relax 
