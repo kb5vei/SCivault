@@ -1163,7 +1163,7 @@ The same problem can be solved using the lens equation as well:
 
  \begin{mdframed}[backgroundcolor=blue!10!white]
 	\begin{center}	
-		\textbf{Example \thesection.5}	
+		\textbf{Example \thesection.7}	
 	\end{center}
 	
 	\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a lens of focal length $f=-2 \si{cm}$.  Use the lens equation and the magnification formula to determine the position, size, and orientation of the image.  
@@ -1259,6 +1259,62 @@ The same problem can be solved using the lens equation as well:
 		\paragraph{Flat Mirrors} \index{Mirrors, Flat}
 		Flat mirrors are quite easy to work with.  The images produced by a flat mirror are always virtual, always the same size as the original object, and always upright.  For this reason, flat mirrors are often used in bathrooms and fitting rooms to give an accurate assessment of one's appearance.  		
 		
+		
+		
+		\begin{center}
+			\begin{figure}[H]
+				\begin{center}
+					
+					\begin{tikzpicture}
+						
+						% Flat mirror
+						\draw[thick] (0,-1) -- (0,1);
+						\draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1);
+						
+						% Principal axis
+						\draw[dash pattern=on5pt off3pt] (-5,0) -- (4,0);
+						
+						% Incident parallel rays
+						\draw[red,->] (-5,.6) -- (0,.6);
+						\draw[red,->] (-5,.3) -- (0,.3);
+						\draw[red,->] (-5,0) -- (0,0);
+						\draw[red,->] (-5,-.3) -- (0,-.3);
+						\draw[red,->] (-5,-.6) -- (0,-.6);
+				
+							
+						% Reflected parallel rays
+						\draw[red,->] (0,.6) -- (-4,.6);
+						\draw[red,->] (0,.3) -- (-4,.3);
+						\draw[red,->] (0,0) -- (-4,0);
+						\draw[red,->] (0,-.3) -- (-4,-.3);
+						\draw[red,->] (0,-.6) -- (-4,-.6);
+						
+					
+							% Reflected parallel rays
+					\draw[red,dashed,->] (0,.6) -- (4,.6);
+					\draw[red,dashed,->] (0,.3) -- (4,.3);
+					\draw[red,dashed,->] (0,0) -- (4,0);
+					\draw[red,dashed,->] (0,-.3) -- (4,-.3);
+					\draw[red,dashed,->] (0,-.6) -- (4,-.6);
+					
+					
+					\end{tikzpicture}
+					
+					\caption{A flat mirror reflects rays with equal angles, producing a virtual image behind the mirror.}
+					\label{fig:planemirror}
+					
+				\end{center}
+			\end{figure}
+		\end{center}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		\paragraph{Concave Mirrors} \index{Mirrors, Concave}
 		Like convex lenses, Concave mirrors are converging optical devices - that is, they focus parallel rays of light to a point.  Unlike lenses, mirrors only have one focal point, since light can only interact with the mirror from one direction.  
 		
@@ -1308,12 +1364,618 @@ The same problem can be solved using the lens equation as well:
 			\end{figure}
 		\end{center}
 		
+		
+		
+	
+	
+	
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}	
+			\textbf{Example \thesection.6}	
+		\end{center}
+		
+		\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a concave mirror of focal length $f=2 \si{cm}$.  Use ray-tracing to determine the position, size, and orientation of the image.  
+		
+		\textbf{Solution}: 
+		
+		
+		\begin{enumerate}
+			\item Begin by drawing the optical axis and lens. 
+			
+			\begin{center}
+				
+				
+				\begin{tikzpicture}
+					
+					
+					
+					\draw [thick, fill=blue!10!white] (-.3,-2) 	arc[start angle=-30, end angle=30,radius=4];
+				%	\draw [thick, fill=blue!10!white] (.6,-2) 	arc[start angle=210, end angle=150,radius=4];
+					%draws the optical axis
+					\draw (-7,0) -- (7,0);
+					
+				%	\begin{scope}[>=latex]
+				%		\draw [] (-.6,-2) -- (.6,-2);
+				%		\draw [] (-.6,2) -- (.6,2);
+				%	\end{scope}
+					
+					
+					%draws a dotted line through the middle of the mirror
+					\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+				\end{tikzpicture}
+			\end{center}
+
+			
+			\item Measure and label focal point from the center of the lens, along the optical axis, and draw the object as an arrow with its base on the optical axis.  The focal point is always on the ``inside'' side of the mirror.  
+			 
+			\begin{center}
+				
+				
+				\begin{tikzpicture}[place/.style={circle,fill=red}]
+					%draws the optical axis
+					
+							
+				\draw [thick, fill=blue!10!white] (-.3,-2) 	arc[start angle=-30, end angle=30,radius=4];
+				%	\draw [thick, fill=blue!10!white] (.6,-2) 	arc[start angle=210, end angle=150,radius=4];
+				%draws the optical axis
+				\draw (-7,0) -- (7,0);
+				
+				%	\begin{scope}[>=latex]
+				%		\draw [] (-.6,-2) -- (.6,-2);
+				%		\draw [] (-.6,2) -- (.6,2);
+				%	\end{scope}
+				
+				
+				%draws a dotted line through the middle of the mirror
+				\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;			
+					
+					%draws focal points
+					\node (n1) at (-2,0) [place] {};	
+
+					
+					
+					
+					%draws object
+					\draw [->,ultra thick] (-4,0) --(-4,1);
+				\end{tikzpicture}
+			\end{center}
+			
+			\item The first ray of light will begin on the left of the diagram, graze the top of the object, and continue to the center of the mirror.  It will then be directed toward the focal point.
+			
+			\begin{center}
+				
+				
+				\begin{tikzpicture}[place/.style={circle,fill=red}]
+						
+		\draw [thick, fill=blue!10!white] (-.3,-2) 	arc[start angle=-30, end angle=30,radius=4];
+		%	\draw [thick, fill=blue!10!white] (.6,-2) 	arc[start angle=210, end angle=150,radius=4];
+		%draws the optical axis
+		\draw (-7,0) -- (7,0);
+		
+		%	\begin{scope}[>=latex]
+		%		\draw [] (-.6,-2) -- (.6,-2);
+		%		\draw [] (-.6,2) -- (.6,2);
+		%	\end{scope}
+		
+		
+		%draws a dotted line through the middle of the mirror
+		\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;			
+		
+		%draws focal points
+		\node (n1) at (-2,0) [place] {};	
+		
+		
+		
+		
+		%draws object
+		\draw [->,ultra thick] (-4,0) --(-4,1);
+					
+					
+					%First Ray
+					\draw [directed, ultra thick,red] (-7,1) --(0,1);
+					\draw[directed, ultra thick,red] (0,1) -- (-6,-2) ;	
+				\end{tikzpicture}
+			\end{center}
+			
+			\item The second ray of light will graze the top of the object and be directed through the focal point. Upon encountering the mirror, the ray will be reflected parallel to the optical axis.  
+			
+			\begin{center}
+				
+				
+				\begin{tikzpicture}[place/.style={circle,fill=red}]
+					%draws the optical axis
+		\draw [thick, fill=blue!10!white] (-.3,-2) 	arc[start angle=-30, end angle=30,radius=4];
+	%	\draw [thick, fill=blue!10!white] (.6,-2) 	arc[start angle=210, end angle=150,radius=4];
+	%draws the optical axis
+	\draw (-7,0) -- (7,0);
+	
+	%	\begin{scope}[>=latex]
+	%		\draw [] (-.6,-2) -- (.6,-2);
+	%		\draw [] (-.6,2) -- (.6,2);
+	%	\end{scope}
+	
+	
+	%draws a dotted line through the middle of the mirror
+	\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;			
+	
+	%draws focal points
+	\node (n1) at (-2,0) [place] {};	
+	
+	
+	
+	
+	%draws object
+	\draw [->,ultra thick] (-4,0) --(-4,1);
+	
+	
+	%First Ray
+	\draw [directed, ultra thick,red] (-7,1) --(0,1);
+	\draw[directed, ultra thick,red] (0,1) -- (-6,-2) ;	
+					
+					%Second Ray
+					\draw [directed, ultra thick,blue] (-6,2) --(0,-1);
+					\draw [directed, ultra thick,blue] (0,-1) --(-7,-1);	
+				%	\draw[dash pattern=on5pt off3pt,blue] (-7,.3333) -- (0,.3333);				
+				%	\draw[dash pattern=on1pt off1pt,black] (0,.3333) -- (2,0) ;			
+				\end{tikzpicture}
+			\end{center}
+			
+			\item The final ray of light will graze the top of the object, directed toward the intersection of center of the lens and the optical axis.  This ray will reflect at the same angle it enters.  The intersection of the three rays is where the top of the image will form.  
+			
+			\begin{center}
+				
+				
+				\begin{tikzpicture}[place/.style={circle,fill=red}]
+					%draws the optical axis
+						\draw [thick, fill=blue!10!white] (-.3,-2) 	arc[start angle=-30, end angle=30,radius=4];
+				%	\draw [thick, fill=blue!10!white] (.6,-2) 	arc[start angle=210, end angle=150,radius=4];
+				%draws the optical axis
+				\draw (-7,0) -- (7,0);
+				
+				%	\begin{scope}[>=latex]
+				%		\draw [] (-.6,-2) -- (.6,-2);
+				%		\draw [] (-.6,2) -- (.6,2);
+				%	\end{scope}
+				
+				
+				%draws a dotted line through the middle of the mirror
+				\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;			
+				
+				%draws focal points
+				\node (n1) at (-2,0) [place] {};	
+				
+				
+				
+				
+				%draws object
+				\draw [->,ultra thick] (-4,0) --(-4,1);
+				
+				
+				%First Ray
+				\draw [directed, ultra thick,red] (-7,1) --(0,1);
+				\draw[directed, ultra thick,red] (0,1) -- (-6,-2) ;	
+				
+				%Second Ray
+				\draw [directed, ultra thick,blue] (-6,2) --(0,-1);
+				\draw [directed, ultra thick,blue] (0,-1) --(-7,-1);	
+				%	\draw[dash pattern=on5pt off3pt,blue] (-7,.3333) -- (0,.3333);				
+				%	\draw[dash pattern=on1pt off1pt,black] (0,.3333) -- (2,0) ;		
+					
+					%Third Ray
+					\draw [directed, ultra thick,green] (-6,1.5) --(0,0);
+					\draw [directed, ultra thick,green] (0,0) --(-6,-1.5);	
+					
+					\draw [->, ultra thick,black] (-4,0) --(-4,-1);
+					
+					
+				\end{tikzpicture}
+			\end{center}
+			
+		This image forms in front of the mirror, so it is a real image.  It is inverted, and the same size as the original object.  
+			
+			
+			
+		\end{enumerate}
+		
+		
+	\end{mdframed}
+	
+	
+	The same problem can be solved using the lens equation as well:
+	
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}	
+			\textbf{Example \thesection.5}	
+		\end{center}
+		
+		\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a concave mirror of focal length $f=2 \si{cm}$.  Use ray-tracing to determine the position, size, and orientation of the image.  
+		
+		\textbf{Solution}: In this case, we are given $h_o = 1 \si{cm}$, $o = 4 \si{cm}$ and $f = 2 \si{cm}$.  First, the lens equation is solved for $i$:
+		
+		\begin{equation*}
+			\frac{1}{f} = \frac{1}{o} + \frac{1}{i}  
+		\end{equation*}
+		
+		
+		\begin{equation*}
+			i = \frac{1}{\frac{1}{f}-\frac{1}{o}} = \frac{1}{\frac{1}{2\si{cm}}-\frac{1}{4\si{cm}}} = \boxed{4 \si{cm}} 
+		\end{equation*}
+		
+		
+		Calculating the magnification gives: 
+		
+		\begin{equation*}
+			m = - \frac{i}{o} = -\frac{4\si{cm}}{4\si{cm}} = \boxed{-1}
+		\end{equation*}
+		The negative magnification means that the image is inverted.  Since the magnification of this image is exactly one, the image will appear the same size.  Finally, we calculate image height:  
+		
+		\begin{equation*}
+			m = \frac{h_i}{h_o} \longrightarrow h_i = m h_o = (-1) (1 \si{cm}) = \boxed{1 \si{cm}}
+		\end{equation*}
+	\end{mdframed}
+		
+		
+	
+
+		
 		\paragraph{Convex Mirrors} \index{Mirrors, Convex}
+				Convex mirrors are similar to convex lenses insofar as both are diverging systems.  This means that light spreads out after interacting with a convex mirror, and acts as if it came from a virtual focal point.  Because of this, convex mirrors have negative focal lengths.
+				
+				\begin{center}
+					\begin{figure}[H]
+						\begin{center}
+							
+							\begin{tikzpicture}
+								
+								% Convex mirror (bulging toward incoming rays)
+								\draw [thick, fill=white] (.2,.9)
+								arc[start angle=145, end angle=215, radius=1.5];
+								
+								% Principal axis
+							%	\draw[dash pattern=on5pt off3pt] (-5,0) -- (3,0);
+								draw[dash pattern=on5pt off3pt] (0,-1) -- (0,1) ;
+								
+								% Incident parallel rays
+								\draw[red,->] (-5,.6) -- (0,.6);
+								\draw[red,->] (-5,.3) -- (0,.3);
+								\draw[red,->] (-5,0) -- (0,0);
+								\draw[red,->] (-5,-.3) -- (0,-.3);
+								\draw[red,->] (-5,-.6) -- (0,-.6);
+								
+								% Reflected rays (diverging)
+								\draw[red,->] (0,.6) -- (-3,1.2);
+								\draw[red,->] (0,.3) -- (-3,.6);
+								\draw[red,->] (0,0) -- (-3,0);
+								\draw[red,->] (0,-.3) -- (-3,-.6);
+								\draw[red,->] (0,-.6) -- (-3,-1.2);
+								
+								% Backward extensions to virtual focus (behind mirror)
+								\draw[red,dashed] (0,.6) -- (2,0);
+								\draw[red,dashed] (0,.3) -- (2,0);
+								\draw[red,dashed] (0,-.3) -- (2,0);
+								\draw[red,dashed] (0,-.6) -- (2,0);
+								
+								% Virtual focal point
+								\fill (2,0) circle (2pt);
+								\node[right] at (2,0) {Virtual F};
+								
+							\end{tikzpicture}
+							
+							\caption{A convex mirror causes rays to diverge with a virtual focal point behind the mirror.}
+							\label{fig:convexmirror}
+							
+						\end{center}
+					\end{figure}
+				\end{center}
+				
+				
+				
+		\begin{mdframed}[backgroundcolor=blue!10!white]
+			\begin{center}	
+				\textbf{Example \thesection.6}	
+			\end{center}
+			
+			\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a mirror of focal length $f=-2 \si{cm}$.  Use ray-tracing to determine the position, size, and orientation of the image.  
+			
+			\textbf{Solution}: 
+			
+			
+			\begin{enumerate}
+				\item Begin by drawing the optical axis and lens. Note that since the focal length is negative, this is a concave mirror.   
+				
+				\begin{center}
+					
+					
+					\begin{tikzpicture}
+						
+						
+						
+						%\draw [thick, fill=blue!10!white] (-.6,-2) 	arc[start angle=-30, end angle=30,radius=4];
+						\draw [thick, fill=blue!10!white] (.3,-2) 	arc[start angle=210, end angle=150,radius=4];
+						%draws the optical axis
+						\draw (-7,0) -- (7,0);
+						
+						%\begin{scope}[>=latex]
+						%	\draw [] (-.6,-2) -- (.6,-2);
+						%	\draw [] (-.6,2) -- (.6,2);
+						%\end{scope}
+						
+						
+						%draws a dotted line through the middle of the lens
+						\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+					\end{tikzpicture}
+				\end{center}
+				
+				\item Measure and label focal point from the center of the mirror, along the optical axis, and draw the object as an arrow with its base on the optical axis.  Remember, that because the focal length is negative, the focal point for this mirror is on the back side of the mirror.
+				\begin{center}
+					
+					
+					\begin{tikzpicture}[place/.style={circle,fill=red}]
+						
+					%\draw [thick, fill=blue!10!white] (-.6,-2) 	arc[start angle=-30, end angle=30,radius=4];
+					\draw [thick, fill=blue!10!white] (.3,-2) 	arc[start angle=210, end angle=150,radius=4];
+					%draws the optical axis
+					\draw (-7,0) -- (7,0);
+					
+					%\begin{scope}[>=latex]
+					%	\draw [] (-.6,-2) -- (.6,-2);
+					%	\draw [] (-.6,2) -- (.6,2);
+					%\end{scope}
+					
+					
+					%draws a dotted line through the middle of the lens
+					\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+						
+						%draws focal points
+						\node (n21) at (2,0) [place] {};
+						
+						
+						
+						%draws object
+						\draw [->,ultra thick] (-4,0) --(-4,1);
+					\end{tikzpicture}
+				\end{center}
+				
+				\item The first ray of light will begin on the left of the diagram, graze the top of the object, and continue to the center of the mirror.  It will then be refelcted upward, as if it came from the focal point.
+				
+				\begin{center}
+					
+					
+					\begin{tikzpicture}[place/.style={circle,fill=red}]
+						%draws the optical axis
+					
+			%\draw [thick, fill=blue!10!white] (-.6,-2) 	arc[start angle=-30, end angle=30,radius=4];
+			\draw [thick, fill=blue!10!white] (.3,-2) 	arc[start angle=210, end angle=150,radius=4];
+			%draws the optical axis
+			\draw (-7,0) -- (7,0);
+			
+			%\begin{scope}[>=latex]
+			%	\draw [] (-.6,-2) -- (.6,-2);
+			%	\draw [] (-.6,2) -- (.6,2);
+			%\end{scope}
+			
+			
+			%draws a dotted line through the middle of the lens
+			\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+			
+			%draws focal points
+			\node (n21) at (2,0) [place] {};
+			
+			
+			
+			%draws object
+			\draw [->,ultra thick] (-4,0) --(-4,1);
+						
+						
+						%First Ray
+						\draw [directed, ultra thick,red] (-7,1) --(0,1);
+						\draw[dash pattern=on5pt off3pt,red] (4,-1) -- (0,1) ;	
+						\draw [directed, ultra thick,red] (0,1) --(-4,3);	
+					\end{tikzpicture}
+				\end{center}
+				
+				\item The second ray of light will graze the top of the object and be directed toward the focal point.  Upon encountering the mirror, the ray will be directed parallel to the optical axis.  
+				
+				\begin{center}
+					
+					
+					\begin{tikzpicture}[place/.style={circle,fill=red}]
+				%\draw [thick, fill=blue!10!white] (-.6,-2) 	arc[start angle=-30, end angle=30,radius=4];
+	\draw [thick, fill=blue!10!white] (.3,-2) 	arc[start angle=210, end angle=150,radius=4];
+	%draws the optical axis
+	\draw (-7,0) -- (7,0);
+	
+	%\begin{scope}[>=latex]
+	%	\draw [] (-.6,-2) -- (.6,-2);
+	%	\draw [] (-.6,2) -- (.6,2);
+	%\end{scope}
+	
+	
+	%draws a dotted line through the middle of the lens
+	\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+	
+	%draws focal points
+	\node (n21) at (2,0) [place] {};
+	
+	
+	
+	%draws object
+	\draw [->,ultra thick] (-4,0) --(-4,1);
+	
+	
+	%First Ray
+	\draw [directed, ultra thick,red] (-7,1) --(0,1);
+	\draw[dash pattern=on5pt off3pt,red] (4,-1) -- (0,1) ;	
+	\draw [directed, ultra thick,red] (0,1) --(-4,3);	
+						
+						%Second Ray
+						\draw [directed, ultra thick,blue] (-6,1.333) --(0,.333);
+						\draw [directed, ultra thick,blue] (0,.333) --(-7,.333);	
+						\draw[dash pattern=on5pt off3pt,blue] (7,.3333) -- (0,.3333) ;				
+						%\draw[dash pattern=on1pt off1pt,black] (0,.3333) -- (2,0) ;			
+					\end{tikzpicture}
+				\end{center}
+				
+				\item The final ray of light will graze the top of the object, directed toward the intersection of center of the mirror and the optical axis.  This ray is reflected at the same angle.  Because the three rays do not meet, the image that forms is virtual. That is, the image appears to be behind the mirror, where the three rays appear to have intersected.
+				
+				\begin{center}
+						\begin{tikzpicture}[place/.style={circle,fill=red}]
+								%\draw [thick, fill=blue!10!white] (-.6,-2) 	arc[start angle=-30, end angle=30,radius=4];
+				\draw [thick, fill=blue!10!white] (.3,-2) 	arc[start angle=210, end angle=150,radius=4];
+				%draws the optical axis
+				\draw (-7,0) -- (7,0);
+				
+				%\begin{scope}[>=latex]
+				%	\draw [] (-.6,-2) -- (.6,-2);
+				%	\draw [] (-.6,2) -- (.6,2);
+				%\end{scope}
+				
+				
+				%draws a dotted line through the middle of the lens
+				\draw[dash pattern=on5pt off3pt] (0,-2) -- (0,2) ;		
+				
+				%draws focal points
+				\node (n21) at (2,0) [place] {};
+				
+				
+				
+				%draws object
+				\draw [->,ultra thick] (-4,0) --(-4,1);
+				
+				
+				%First Ray
+				\draw [directed, ultra thick,red] (-7,1) --(0,1);
+				\draw[dash pattern=on5pt off3pt,red] (4,-1) -- (0,1) ;	
+				\draw [directed, ultra thick,red] (0,1) --(-4,3);	
+				
+				%Second Ray
+				\draw [directed, ultra thick,blue] (-6,1.333) --(0,.333);
+				\draw [directed, ultra thick,blue] (0,.333) --(-7,.333);	
+				\draw[dash pattern=on5pt off3pt,blue] (7,.3333) -- (0,.3333) ;				
+				%\draw[dash pattern=on1pt off1pt,black] (0,.3333) -- (2,0) ;			
+						
+						%Third Ray
+						\draw [directed, ultra thick,green] (-6,1.5) --(0,0);
+						\draw [directed, ultra thick,green] (0,0) --(-6,-1.5);	
+						\draw [dash pattern=on5pt off3pt, ultra thick,green] (0,0) --(6,1.5);
+						
+						\draw [->, ultra thick,dash pattern=on1pt off1pt,black] (1.333,0) --(1.333,.333);
+						
+						
+					\end{tikzpicture}
+				\end{center}
+				
+				In this case, the image is behind the lens, meaning it is virtual.  It is upright, and smaller than the original.  Measuring the image distance yields $i=-1.333\si{cm}$ (that is, the image is 1.333 cm to the left of the lens).
+				
+				
+				
+			\end{enumerate}
+			
+			
+		\end{mdframed}
+		
+		
+		The same problem can be solved using the lens equation as well:
+		
+		\begin{mdframed}[backgroundcolor=blue!10!white]
+			\begin{center}	
+				\textbf{Example \thesection.7}	
+			\end{center}
+			
+			\textbf{Problem:} A 1-cm tall object is placed 4 cm to the left of a mirror of focal length $f=-2 \si{cm}$.  Use the lens equation and the magnification formula to determine the position, size, and orientation of the image.  
+			
+			\textbf{Solution}: In this case, we are given $h_o = 1 \si{cm}$, $o = 4 \si{cm}$ and $f = -2 \si{cm}$.  First, the lens equation is solved for $i$:
+			
+			\begin{equation*}
+				\frac{1}{f} = \frac{1}{o} + \frac{1}{i}  
+			\end{equation*}
+			
+			
+			\begin{equation*}
+				i = \frac{1}{\frac{1}{f}-\frac{1}{o}} = \frac{1}{\frac{1}{-2\si{cm}}-\frac{1}{4\si{cm}}} = \boxed{-\frac{4}{3} \si{cm} \approx -1.333 \si{cm}}
+			\end{equation*}
+			
+			
+			Calculating the magnification gives: 
+			
+			\begin{equation*}
+				m = - \frac{i}{o} = -\frac{-\frac{4}{3}\si{cm}}{4\si{cm}} = \boxed{\frac{1}{3}}
+			\end{equation*}
+			The positive magnification means that the image is inverted.  Since the magnification of this image is less than one, the image will appear smaller.  Finally, we calculate image height:  
+			
+			\begin{equation*}
+				m = \frac{h_i}{h_o} \longrightarrow h_i = m h_o = (\frac{1}{3}) (1 \si{cm}) = \boxed{\frac{1}{3} \si{cm}}
+			\end{equation*}
+		\end{mdframed}
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				
 		
 		
 	\section{Physical Optics}
 		\subsection{Young's Double Slit Experiment}
+		\index{Young's Double Slit Experiment}
+		Throughout the 1700's, there was significant debate about the nature of light.  Some thought that light was a stream of particles, while others argued that light is an electromagnetic wave.  In 1801, a famous experiment performed by Thomas Young, which is now called "Young's Double Slit Experiment" provided definitive proof of the wave nature of light.  
+		
+	The experimental setup consisted of a \gls{monochromatic} light source that was allowed to shine through two narrow slits in a barrier, as shown in the diagram:
+	\begin{center}
+\begin{figure}[h]
+	\begin{tikzpicture}[scale=1]
+		
+		% Source
+		\fill (-5,0) circle (2pt);
+		\node[left] at (-5,0) {Light source};
+		
+			
+		% Double slit plate
+		\draw[thick] (0,-1.2) -- (0,-0.5);
+		\draw[thick] (0,-0.3) -- (0,0.3);
+		\draw[thick] (0,0.5) -- (0,1.2);
+		\node[below] at (0,-1.2) {Double slits};
+		
+		% Screen
+		\draw[thick] (5,-2) -- (5,2);
+		\node[right] at (5,2) {Screen};
+		
+		
+		% Rays from single slit to double slits
+		\draw[red,->] (-5,0) -- (0,0.7);
+		\draw[red,->] (-5,0) -- (0,-0.7);
+		
+		% Rays from double slits to screen
+		\draw[red,->] (0,0.4) -- (5,2);
+		\draw[red,->] (0,0.4) -- (5,-1.2);
+		
+		\draw[red,->] (0,-0.4) -- (5,1.2);
+		\draw[red,->] (0,-0.4) -- (5,-2);
+		
+		% Interference fringes on screen
+		\foreach \y in {-1.6,-1.0,-0.4,0,0.4,1.0,1.6}
+		{
+			\draw[line width=2pt,red] (5,\y-0.08) -- (5,\y+0.08);
+		}
+		
+		\node[right] at (5,-2) {Interference pattern};
+		
+	\end{tikzpicture}
+\caption{A Simple diagram of the double slit experiment.}
+\end{figure}
+	\end{center}
+
+The existence of an interference pattern - alternating bands of light and dark, was able to prove that light interferes with itself.  According to the principle of superposition, these are alternating areas of constructive and destructive interference, and only waves can interfere with themselves.  	
+	
+		
 		
 		\newpage
 		

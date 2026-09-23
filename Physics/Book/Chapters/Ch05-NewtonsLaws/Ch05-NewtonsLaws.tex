@@ -594,7 +594,311 @@ Newton's Second Law describes objects and systems that have a constant accelerat
 		\index{Apparent Weight}
 		Have you ever felt heavier as an elevator begins to rise, or lighter as it starts to descend? That strange sensation isn’t just in your head — it’s a measurable difference in what’s called your \gls{apparentweight}. It’s the force your body feels as it presses against the floor, or what a bathroom scale would read during the motion.
 		
-		In physics, your \textbf{actual weight} is the gravitational force acting on you, given by \( W = mg \). This doesn't change unless your mass or the local gravitational field changes. But your \textbf{apparent weight} depends on how the floor pushes back on you — in other words, the \textbf{normal force}. In situations like elevators, where acceleration is involved, this normal force may increase or decrease, making you feel heavier or lighter even though your true weight remains the same.
+		In physics, your \textbf{actual weight} is the gravitational force acting on you, given by \( F_g = mg \). This doesn't change unless your mass or the local gravitational field changes. But your \textbf{apparent weight} depends on how the floor pushes back on you — in other words, the \textbf{normal force}. In situations like elevators, where acceleration is involved, this normal force may increase or decrease, making you feel heavier or lighter even though your true weight remains the same.
+		
+		Using Newton's Second Law, it can be proven that the magnitude of your apparent weight is given by:
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+			\begin{equation}
+				|F_{g_{apparent}}| = F_N = mg \pm ma
+				\label{eqn:apparentweight}
+			\end{equation}
+		\end{mdframed}
+		When the object is accelerating upward, add.  When the object is accelerating downward, subtract. 
+		
+		
+		
+		\begin{mdframed}[backgroundcolor=blue!10!white]
+			\begin{center}
+				\textbf{Example \thesection.3}
+			\end{center}
+			
+			\textbf{Problem: } An elevator consists of two 600-kg cars connected by a cable that runs over a pulley. One car is empty, while the other car has a 65-kg person in it. When the system is at rest, the motor system breaks, and the pulley's wheel is suddenly able to turn freely.
+			
+			\begin{enumerate}
+				\item What is the acceleration of the system?
+				\item What is the tension in the cable?
+				\item What is the apparent weight of the person in the loaded car?
+			\end{enumerate}
+			
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Pulley
+					\draw[fill=gray!40] (0,3) circle (0.6);
+					
+					% Cable
+					\draw[thick] (-0.6,3) -- (-0.6,-1);
+					\draw[thick] (0.6,3) -- (0.6,-1.5);
+					\draw[thick] (-0.6,3) arc (180:0:0.6);
+					
+					% Empty elevator
+					\draw[fill=blue!30] (-1.2,-1) rectangle (0,-2.2);
+					\node at (-0.6,-1.6) {\SI{600}{kg}};
+					
+					% Loaded elevator
+					\draw[fill=red!30] (0.2,-1.5) rectangle (1.4,-2.7);
+					\node at (2.5,-2.1) {\SI{600}{kg}};
+					
+					% Person
+					\draw[fill=black!10] (0.55,-1.9) circle (0.12);
+					\draw[thick] (0.55,-2.02) -- (0.55,-2.35);
+					\draw[thick] (0.55,-2.1) -- (0.4,-2.25);
+					\draw[thick] (0.55,-2.1) -- (0.7,-2.25);
+					\draw[thick] (0.55,-2.35) -- (0.42,-2.55);
+					\draw[thick] (0.55,-2.35) -- (0.68,-2.55);
+					
+					\node at (2.7,-2.5) {\SI{65}{kg} person};
+				
+					
+				\end{tikzpicture}
+			\end{center}
+			
+			\textbf{Solution:}
+			
+			First, we recognize that the two sides of the system have different masses. The empty elevator has a mass of \SI{600}{kg}, while the loaded elevator has a total mass of
+			
+			\begin{equation*}
+				m_2 = \SI{600}{kg} + \SI{65}{kg}
+				= \SI{665}{kg}.
+			\end{equation*}
+			
+			Therefore, the loaded elevator will accelerate downward, while the empty elevator will accelerate upward.
+			
+			First, draw a free body diagram for the two elevator cars. Because we are considering the two cars together as one system, the tension forces are internal to the system and therefore do not need to be included in the system's free body diagram.
+			
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Empty elevator
+					\draw[fill=blue!30] (-3,-1) rectangle (-1.5,0.5);
+					\node at (-2.25,-0.25) {\SI{600}{kg}};
+					
+					% Loaded elevator
+					\draw[fill=red!30] (1.5,-1) rectangle (3,0.5);
+					\node at (2.25,-0.25) {\SI{665}{kg}};
+					
+					% Forces on empty elevator
+					\draw[->, thick, blue] (-2.25,0.5) -- (-2.25,2)
+					node[midway,right] {$F_{T}$};
+					\draw[->, thick, red] (-2.25,-1) -- (-2.25,-2.5)
+					node[midway,right] {$F_{g1}$};
+					
+					% Forces on loaded elevator
+					\draw[->, thick, blue] (2.25,0.5) -- (2.25,2)
+					node[midway,right] {$F_{T}$};
+					\draw[->, thick, red] (2.25,-1) -- (2.25,-2.8)
+					node[midway,right] {$F_{g2}$};
+					
+					% Coordinate arrows
+					\draw[->,blue] (-4,2) -- (-4,2.5);
+					\node at (-4,2.6) [above,blue] {$+y$};
+					
+					\draw[->,blue] (-4,2) -- (-3.5,2);
+					\node at (-3.4,2) [right,blue] {$+x$};
+					
+				\end{tikzpicture}
+			\end{center}
+			
+			We can find the force of gravity on each elevator. For the empty elevator,
+			
+			\begin{equation*}
+				F_{g1} = m_1g
+				= (\SI{600}{kg})(\SI{9.81}{m/s^2})
+				\approx \SI{5886}{N}.
+			\end{equation*}
+			
+			For the loaded elevator, including the person,
+			
+			\begin{equation*}
+				F_{g2} = m_2g
+				= (\SI{665}{kg})(\SI{9.81}{m/s^2})
+				\approx \SI{6523.65}{N}.
+			\end{equation*}
+			
+			Because the loaded elevator is heavier, it accelerates downward. We can choose downward for the loaded side as the positive direction. Applying Newton's second law to the entire system gives
+			
+			\begin{equation*}
+				\sum F = ma.
+			\end{equation*}
+			
+			The net external force on the system is the difference between the two gravitational forces:
+			
+			\begin{equation*}
+				F_{\text{net}} = F_{g2}-F_{g1}.
+			\end{equation*}
+			
+			The total mass of the system is
+			
+			\begin{equation*}
+				m_{\text{total}} = m_1+m_2
+				= \SI{600}{kg}+\SI{665}{kg}
+				= \SI{1265}{kg}.
+			\end{equation*}
+			
+			Therefore,
+			
+			\begin{equation*}
+				F_{g2}-F_{g1} = (m_1+m_2)a.
+			\end{equation*}
+			
+			Substituting the values,
+			
+			\begin{equation*}
+				(\SI{665}{kg})(\SI{9.81}{m/s^2})
+				-
+				(\SI{600}{kg})(\SI{9.81}{m/s^2})
+				=
+				(\SI{1265}{kg})a.
+			\end{equation*}
+			
+			Solving for the acceleration,
+			
+			\begin{equation*}
+				a =
+				\frac{(\SI{665}{kg}-\SI{600}{kg})(\SI{9.81}{m/s^2})}
+				{\SI{1265}{kg}}
+				\approx \SI{0.504}{m/s^2}.
+			\end{equation*}
+			
+			Thus, the loaded elevator accelerates downward at approximately
+			
+			\begin{equation*}
+				\boxed{a \approx \SI{0.504}{m/s^2}}
+			\end{equation*}
+			
+			and the empty elevator accelerates upward at the same magnitude.
+			
+			\vspace{0.1in}
+			
+			\textbf{Finding the tension in the cable:}
+			
+			Now consider the empty \SI{600}{kg} elevator by itself. It accelerates upward, so taking upward as the positive direction, Newton's second law gives
+			
+			\begin{equation*}
+				\sum F_y = m_1a.
+			\end{equation*}
+			
+			The forces acting on the empty elevator are the upward tension and the downward force of gravity:
+			
+			\begin{equation*}
+				F_T-F_{g1}=m_1a.
+			\end{equation*}
+			
+			Therefore,
+			
+			\begin{equation*}
+				F_T = m_1g+m_1a
+				= m_1(g+a).
+			\end{equation*}
+			
+			Substituting the known values,
+			
+			\begin{equation*}
+				F_T =
+				(\SI{600}{kg})
+				\left(\SI{9.81}{m/s^2}+\SI{0.504}{m/s^2}\right)
+				\approx \SI{6188}{N}.
+			\end{equation*}
+			
+			Thus, the tension in the cable is
+			
+			\begin{equation*}
+				\boxed{F_T \approx \SI{6.19e3}{N}}.
+			\end{equation*}
+			
+			\vspace{0.1in}
+			
+			\textbf{Finding the apparent weight of the person:}
+			
+			The apparent weight of the person is the normal force exerted on the person by the elevator floor. Because the loaded elevator accelerates downward, the normal force will be less than the person's ordinary weight.
+			
+			Consider a free body diagram of the person:
+			
+			\begin{center}
+				\begin{tikzpicture}
+					
+					% Person represented as a box
+					\draw[fill=gray!20] (0,0) rectangle (1,1);
+					\node at (0.5,0.5) {\SI{65}{kg}};
+					
+					% Normal force
+					\draw[->, thick, blue] (0.5,1) -- (0.5,2.2)
+					node[midway,right] {$F_N$};
+					
+					% Gravity
+					\draw[->, thick, red] (0.5,0) -- (0.5,-1.5)
+					node[midway,right] {$F_g$};
+					
+					% Acceleration
+					\draw[->, thick, purple] (1.5,0.5) -- (1.5,-0.6)
+					node[midway,right] {$a$};
+					
+					% Coordinate system
+					\draw[->,blue] (-1,1.5) -- (-1,2);
+					\node at (-1,2.1) [above,blue] {$+y$};
+					
+				\end{tikzpicture}
+			\end{center}
+			
+			Using Newton's second law, with upward as the positive direction,
+			
+			\begin{equation*}
+				\sum F_y = ma.
+			\end{equation*}
+			
+			Because the person accelerates downward, the acceleration is negative:
+			
+			\begin{equation*}
+				F_N-F_g=-ma.
+			\end{equation*}
+			
+			The force of gravity on the person is
+			
+			\begin{equation*}
+				F_g = mg.
+			\end{equation*}
+			
+			Therefore,
+			
+			\begin{equation*}
+				F_N-mg=-ma,
+			\end{equation*}
+			
+			which gives
+			
+			\begin{equation*}
+				F_N=m(g-a).
+			\end{equation*}
+			
+			Substituting the values,
+			
+			\begin{equation*}
+				F_N =
+				(\SI{65}{kg})
+				\left(\SI{9.81}{m/s^2}-\SI{0.504}{m/s^2}\right)
+				\approx \SI{605}{N}.
+			\end{equation*}
+			
+			The apparent weight of the person is therefore
+			
+			\begin{equation*}
+				\boxed{W_{\text{apparent}} \approx \SI{605}{N}}.
+			\end{equation*}
+			
+			Notice that this is less than the person's ordinary weight:
+			
+			\begin{equation*}
+				W=mg=(\SI{65}{kg})(\SI{9.81}{m/s^2})
+				\approx \SI{638}{N}.
+			\end{equation*}
+			
+			This makes sense because the person is accelerating downward, causing the elevator floor to exert a smaller normal force on the person than it would if the elevator were at rest.
+			
+		\end{mdframed}
+		
+		
+		
+		
 		
 		
 		

@@ -16,8 +16,12 @@
 \glossentry{antinode}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{73}}}%
 \glossentry{apparentweight}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{38}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{38}}}%
+\glossentry{average}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{143}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{coefficientrestitution}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}}}%
 \glossentry{conduction}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{97}}}%
 \glossentry{convection}{\glossaryentrynumbers{\relax 

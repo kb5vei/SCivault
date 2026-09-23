@@ -38,7 +38,7 @@
 When two charged objects interact, it generates a force.  This force, often called electrostatic force, is repulsive for charges with the same sign, whereas it is attractive for two charges with opposite signs.  So two positive charges will repel, as will two negative charges, but a positive charge will be attracted to a negative charge.  
 
 
-To determine the about of force that will be exerted one charged particle due to another charged particle, we use \textbf{Coulomb's Law}:
+To determine the about of force that will be exerted one charged particle due to another charged particle, we use \textbf{Coulomb's Law}: \index{Coulomb's Law}
 \begin{mdframed}[backgroundcolor=orange!20!white]
 
 	\begin{equation}
@@ -121,9 +121,10 @@ To determine the about of force that will be exerted one charged particle due to
 	\index{Electrostatic Potential Energy}
 	\index{Potential Energy, Electrostatic}
 	
-	When two electrostatically charged objects are brought near each other, Coulomb's Law states that they will put a force on each other.  If the charged particles are then released, they will accelerate.  This means that two charged particles that are close enough to affect each other must have potential energy.  The formula to calculate electrostatic potential energy is:
+	When two electrostatically charged objects are brought near each other, Coulomb's Law states that they will put a force on each other.  If the charged particles are then released, they will accelerate.  This means that two charged particles that are close enough to affect each other must have potential energy.  
 	
-	
+	We also find that the distance two charges would need to be separated by in order to not put a force on each other is infinite.  So, talking zero energy at infinite distance, the formula to calculate electrostatic potential energy is:
+		
 	\begin{mdframed}[backgroundcolor=orange!20!white]
 		
 		\begin{equation}
@@ -132,10 +133,64 @@ To determine the about of force that will be exerted one charged particle due to
 		\end{equation}
 	\end{mdframed}	
 	
-	
+
+	\begin{mdframed}[backgroundcolor=blue!10!white]
+		\begin{center}
+			
+			
+			\textbf{Example \thesection.1}	
+		\end{center}
+		\vspace{0.1in}
+		\textbf{Problem: } A positive charge of $\SI{5}{\micro\coulomb}$ and a negative charge of $\SI{-3}{\micro\coulomb}$ are separated by a distance of 0.4 meters. What is the electric potential energy of the two-charge system?
+		
+		\vspace{0.2in}
+		
+		
+		\textbf{Solution:} 
+		Begin by drawing a diagram of the situation: 
+		
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\coordinate (A) at (0,0);
+				\coordinate (B) at (4,0);
+				\node[label=below:{\SI{5}{\micro\coulomb}}] at (A) {$\bullet$};
+				\node[label=below:{\SI{-3}{\micro\coulomb}}] at (B) {$\bullet$};
+				\draw [red, ultra thick] (A) -- node[below] {0.4 m} (B); 
+			\end{tikzpicture}   
+		\end{center}			
+		
+		Convert the charges into scientific notation gives:
+		
+		\begin{equation*}
+			q_1 = \SI{5}{\micro\coulomb} = \SI{5e-6}{\coulomb}
+		\end{equation*}	
+		\begin{equation*}
+			q_2 = \SI{-3}{\micro\coulomb} = \SI{-3e-6}{\coulomb}
+		\end{equation*}	
+		
+		Again, it does not matter which charge is $q_1$ and which is $q_2$. Either way will yield the same answer.
+		
+		Now, we can use equation \ref{equation:electrostaticpotentialenergy} to find electric potential energy:
+		
+		
+		
+		
+		\begin{equation*}
+			U =	U_E = \frac{kq_1q_2}{r} = \frac{(\SI{9e9}{\N\m^2\per\coulomb^2})
+				(\SI{5e-6}{\coulomb})
+				(\SI{-3e-6}{\coulomb})}
+			{\SI{0.4}{\m}}
+			= \boxed{\SI{-0.34}{\J}}
+		\end{equation*}
+	\end{mdframed}
+
+	In the above example, the negative sign does not indicate a direction. Electric potential energy is a scalar quantity and therefore has no direction. Instead, the negative sign indicates that the two-charge system has less potential energy than it would if the charges were infinitely far apart.  That is, it takes work to separate them, and it would take exactly 0.34 J of work to cause them to separate enough that that they would never come back together.  		
 	
 	
 	\section{Electric Field} \index{Electric Field} \index{Electrostatic Field}
+	\index{Electric Field}
+	\index{Field, Electric}
 	
 		\begin{mdframed}[backgroundcolor=orange!20!white]
 		
@@ -145,7 +200,15 @@ To determine the about of force that will be exerted one charged particle due to
 		\end{equation}
 	\end{mdframed}	
 	
+	\subsection{Gauss's Law and Electric Flux}
+	\index{Gauss's Law}
 	
+			\begin{mdframed}[backgroundcolor=orange!20!white]
+			\begin{equation}
+		\Phi = \oint{\vec{E} \cdot d\vec{A}} = \frac{q_{in}}{\epsilon_0}
+		\label{equation:gausslaw}
+	\end{equation}
+	\end{mdframed}		
 	
 	\section{Electric Potential and Voltage}
 	

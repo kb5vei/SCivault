@@ -60,7 +60,7 @@
 	
 	
 	
-	\section{The Impulse-Momentum Theorem}
+	\section{The Impulse-Momentum Theorem} \index{Impulse-Momentum Theorem}
 	
 	Just as work causes an object's energy to change, impulse causes an object's momentum to change:
 	
@@ -278,9 +278,8 @@ We can now determine the final velocity of the red ball using vector addition:
 
 When two objects collide, they don’t always behave the same way. Sometimes they bounce off each other, like billiard balls, and other times they stick together, like two cars in a crash. What happens depends on how much energy is kept in the motion of the objects after the collision. We call this idea elasticity.
 
+ \index{Elastic Collision}  \index{Collision, Elastic} \index{Inelastic Collision}  \index{Collision, Inelastic}
 At one end of the spectrum, there are perfectly \gls{elastic} collisions, where the objects bounce off each other and no kinetic energy is lost—they act like nothing ever happened except a change in direction or speed. On the opposite end are perfectly inelastic collisions, where the objects stick together after the impact and move as one. These lose the most kinetic energy, often converting it into sound, heat, or permanent deformation. Most real-world collisions fall somewhere in between: the objects might bounce apart, but they still lose some kinetic energy.  These type of collisions are simply called ``\gls{inelastic}.''  This whole range of behavior is what we call the elasticity spectrum.
-
-This way of thinking helps us better understand the physics behind different types of impacts, from atomic particles bouncing off each other to everyday events like car crashes, sports collisions, or dropped objects. Knowing how elastic a collision is tells us how much energy stays in motion—and how much is lost to the environment.
 
 
 \begin{figure}[h!]
@@ -316,4 +315,13 @@ This way of thinking helps us better understand the physics behind different typ
 \end{center}
 \end{figure}	
 
+\index{Coefficient of Restitution} \index{Restitution, Coefficient of}
+The elasticity of a collision can be measured using the \gls{coefficientrestitution}, which is defined below.
+	\begin{mdframed}[backgroundcolor=orange!20!white]
+	\begin{equation}
+		e = \frac{v_{2f}-v_{1f}}{v_{2i}-v_{1i}}
+		\label{eqn:coefficientofrestitution}
+	\end{equation}
+\end{mdframed}
 
+If $e = 1$, the collision is perfectly elastic.  If $0<e<1$, the collision is inelastic, and if $e=0$, the collision is perfectly inelastic.  

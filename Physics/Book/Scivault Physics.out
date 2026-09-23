@@ -140,58 +140,58 @@
 \BOOKMARK [1][-]{section.15.2}{Coulomb's Law and Electrostatic Force}{chapter.15}% 140
 \BOOKMARK [1][-]{section.15.3}{Electrostatic Potential Energy}{chapter.15}% 141
 \BOOKMARK [1][-]{section.15.4}{Electric Field}{chapter.15}% 142
-\BOOKMARK [1][-]{section.15.5}{Electric Potential and Voltage}{chapter.15}% 143
-\BOOKMARK [1][-]{section.15.6}{Capacitors}{chapter.15}% 144
-\BOOKMARK [2][-]{subsection.15.6.1}{Construction of Capacitors}{section.15.6}% 145
-\BOOKMARK [2][-]{subsection.15.6.2}{Capacitors in Circuits}{section.15.6}% 146
-\BOOKMARK [0][-]{chapter.16}{Circuits}{}% 147
-\BOOKMARK [1][-]{section.16.1}{ohm's Law}{chapter.16}% 148
-\BOOKMARK [1][-]{section.16.2}{Kirchoff's Laws}{chapter.16}% 149
-\BOOKMARK [1][-]{section.16.3}{Circuits Symbols}{chapter.16}% 150
-\BOOKMARK [1][-]{section.16.4}{Series Circuits}{chapter.16}% 151
-\BOOKMARK [1][-]{section.16.5}{Parallel Circuits}{chapter.16}% 152
-\BOOKMARK [1][-]{section.16.6}{Complex Circuits}{chapter.16}% 153
-\BOOKMARK [0][-]{chapter.17}{Magnetic Forces and Fields}{}% 154
-\BOOKMARK [1][-]{section.17.1}{Introduction to Magnetism}{chapter.17}% 155
-\BOOKMARK [1][-]{section.17.2}{Types of Magnetism}{chapter.17}% 156
-\BOOKMARK [2][-]{subsection.17.2.1}{Permanent Magnetism}{section.17.2}% 157
-\BOOKMARK [2][-]{subsection.17.2.2}{Electromagnetism}{section.17.2}% 158
-\BOOKMARK [1][-]{section.17.3}{Magnetic Force on a Charged Particle}{chapter.17}% 159
-\BOOKMARK [1][-]{section.17.4}{Magnetic Force on a Current-Carrying Wire}{chapter.17}% 160
-\BOOKMARK [1][-]{section.17.5}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.17}% 161
-\BOOKMARK [0][-]{chapter.18}{Magnetic Induction}{}% 162
-\BOOKMARK [1][-]{section.18.1}{The Hall Effect}{chapter.18}% 163
-\BOOKMARK [1][-]{section.18.2}{Lenz's Law}{chapter.18}% 164
-\BOOKMARK [1][-]{section.18.3}{Faraday's Law}{chapter.18}% 165
-\BOOKMARK [0][-]{chapter.19}{Modern and Atomic Physics}{}% 166
-\BOOKMARK [1][-]{section.19.1}{The Dual Nature of Light}{chapter.19}% 167
-\BOOKMARK [2][-]{subsection.19.1.1}{Young's Double Slit Experiment}{section.19.1}% 168
-\BOOKMARK [2][-]{subsection.19.1.2}{The Photoelectric Effect}{section.19.1}% 169
-\BOOKMARK [1][-]{section.19.2}{The Dual Nature of Matter}{chapter.19}% 170
-\BOOKMARK [2][-]{subsection.19.2.1}{Mass-Energy Equivalence}{section.19.2}% 171
-\BOOKMARK [2][-]{subsection.19.2.2}{deBroigle Wavelength}{section.19.2}% 172
-\BOOKMARK [1][-]{section.19.3}{Atomic Physics}{chapter.19}% 173
-\BOOKMARK [2][-]{subsection.19.3.1}{Energy Level Diagrams and Atomic Spectra}{section.19.3}% 174
-\BOOKMARK [0][-]{chapter.20}{Nuclear Physics}{}% 175
-\BOOKMARK [1][-]{section.20.1}{Elements, Isotopes, and Ions}{chapter.20}% 176
-\BOOKMARK [1][-]{section.20.2}{Radioactive Decay}{chapter.20}% 177
-\BOOKMARK [2][-]{subsection.20.2.1}{Types of Radioactive Decay}{section.20.2}% 178
-\BOOKMARK [2][-]{subsection.20.2.2}{Half-Life}{section.20.2}% 179
-\BOOKMARK [1][-]{section.20.3}{Fission and Fusion}{chapter.20}% 180
-\BOOKMARK [2][-]{subsection.20.3.1}{Fission}{section.20.3}% 181
-\BOOKMARK [2][-]{subsection.20.3.2}{Fusion}{section.20.3}% 182
-\BOOKMARK [0][-]{chapter.21}{Relativity}{}% 183
-\BOOKMARK [1][-]{section.21.1}{Special Relativity}{chapter.21}% 184
-\BOOKMARK [2][-]{subsection.21.1.1}{Length Contraction}{section.21.1}% 185
-\BOOKMARK [2][-]{subsection.21.1.2}{Time Dilation}{section.21.1}% 186
-\BOOKMARK [2][-]{subsection.21.1.3}{Mass Increase}{section.21.1}% 187
-\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 188
-\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 189
-\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 190
-\BOOKMARK [2][-]{subsection.A.2.1}{Solve for a Variable}{section.A.2}% 191
-\BOOKMARK [2][-]{subsection.A.2.2}{Solve a System of Equations}{section.A.2}% 192
-\BOOKMARK [1][-]{section.A.3}{Proportional Reasoning}{appendix.A}% 193
-\BOOKMARK [2][-]{subsection.A.3.1}{Proportional Reasoning}{section.A.3}% 194
+\BOOKMARK [2][-]{subsection.15.4.1}{Gauss's Law and Electric Flux}{section.15.4}% 143
+\BOOKMARK [1][-]{section.15.5}{Electric Potential and Voltage}{chapter.15}% 144
+\BOOKMARK [1][-]{section.15.6}{Capacitors}{chapter.15}% 145
+\BOOKMARK [2][-]{subsection.15.6.1}{Construction of Capacitors}{section.15.6}% 146
+\BOOKMARK [2][-]{subsection.15.6.2}{Capacitors in Circuits}{section.15.6}% 147
+\BOOKMARK [0][-]{chapter.16}{Circuits}{}% 148
+\BOOKMARK [1][-]{section.16.1}{ohm's Law}{chapter.16}% 149
+\BOOKMARK [1][-]{section.16.2}{Kirchoff's Laws}{chapter.16}% 150
+\BOOKMARK [1][-]{section.16.3}{Circuits Symbols}{chapter.16}% 151
+\BOOKMARK [1][-]{section.16.4}{Series Circuits}{chapter.16}% 152
+\BOOKMARK [1][-]{section.16.5}{Parallel Circuits}{chapter.16}% 153
+\BOOKMARK [1][-]{section.16.6}{Complex Circuits}{chapter.16}% 154
+\BOOKMARK [0][-]{chapter.17}{Magnetic Forces and Fields}{}% 155
+\BOOKMARK [1][-]{section.17.1}{Introduction to Magnetism}{chapter.17}% 156
+\BOOKMARK [1][-]{section.17.2}{Types of Magnetism}{chapter.17}% 157
+\BOOKMARK [2][-]{subsection.17.2.1}{Permanent Magnetism}{section.17.2}% 158
+\BOOKMARK [2][-]{subsection.17.2.2}{Electromagnetism}{section.17.2}% 159
+\BOOKMARK [1][-]{section.17.3}{Magnetic Force on a Charged Particle}{chapter.17}% 160
+\BOOKMARK [1][-]{section.17.4}{Magnetic Force on a Current-Carrying Wire}{chapter.17}% 161
+\BOOKMARK [1][-]{section.17.5}{Magnetic Field Produced by a Current-Carrying Wire}{chapter.17}% 162
+\BOOKMARK [0][-]{chapter.18}{Magnetic Induction}{}% 163
+\BOOKMARK [1][-]{section.18.1}{The Hall Effect}{chapter.18}% 164
+\BOOKMARK [1][-]{section.18.2}{Lenz's Law}{chapter.18}% 165
+\BOOKMARK [1][-]{section.18.3}{Faraday's Law}{chapter.18}% 166
+\BOOKMARK [0][-]{chapter.19}{Modern and Atomic Physics}{}% 167
+\BOOKMARK [1][-]{section.19.1}{The Dual Nature of Light}{chapter.19}% 168
+\BOOKMARK [2][-]{subsection.19.1.1}{Young's Double Slit Experiment}{section.19.1}% 169
+\BOOKMARK [2][-]{subsection.19.1.2}{The Photoelectric Effect}{section.19.1}% 170
+\BOOKMARK [1][-]{section.19.2}{The Dual Nature of Matter}{chapter.19}% 171
+\BOOKMARK [2][-]{subsection.19.2.1}{Mass-Energy Equivalence}{section.19.2}% 172
+\BOOKMARK [2][-]{subsection.19.2.2}{deBroigle Wavelength}{section.19.2}% 173
+\BOOKMARK [1][-]{section.19.3}{Atomic Physics}{chapter.19}% 174
+\BOOKMARK [2][-]{subsection.19.3.1}{Energy Level Diagrams and Atomic Spectra}{section.19.3}% 175
+\BOOKMARK [0][-]{chapter.20}{Nuclear Physics}{}% 176
+\BOOKMARK [1][-]{section.20.1}{Elements, Isotopes, and Ions}{chapter.20}% 177
+\BOOKMARK [1][-]{section.20.2}{Radioactive Decay}{chapter.20}% 178
+\BOOKMARK [2][-]{subsection.20.2.1}{Types of Radioactive Decay}{section.20.2}% 179
+\BOOKMARK [2][-]{subsection.20.2.2}{Half-Life}{section.20.2}% 180
+\BOOKMARK [1][-]{section.20.3}{Fission and Fusion}{chapter.20}% 181
+\BOOKMARK [2][-]{subsection.20.3.1}{Fission}{section.20.3}% 182
+\BOOKMARK [2][-]{subsection.20.3.2}{Fusion}{section.20.3}% 183
+\BOOKMARK [0][-]{chapter.21}{Relativity}{}% 184
+\BOOKMARK [1][-]{section.21.1}{Special Relativity}{chapter.21}% 185
+\BOOKMARK [2][-]{subsection.21.1.1}{Length Contraction}{section.21.1}% 186
+\BOOKMARK [2][-]{subsection.21.1.2}{Time Dilation}{section.21.1}% 187
+\BOOKMARK [2][-]{subsection.21.1.3}{Mass Increase}{section.21.1}% 188
+\BOOKMARK [0][-]{appendix.A}{Math Skills}{}% 189
+\BOOKMARK [1][-]{section.A.1}{Scientific Notation}{appendix.A}% 190
+\BOOKMARK [1][-]{section.A.2}{Algebra}{appendix.A}% 191
+\BOOKMARK [2][-]{subsection.A.2.1}{Solve for a Variable}{section.A.2}% 192
+\BOOKMARK [2][-]{subsection.A.2.2}{Solve a System of Equations}{section.A.2}% 193
+\BOOKMARK [1][-]{section.A.3}{Proportional Reasoning}{appendix.A}% 194
 \BOOKMARK [1][-]{section.A.4}{Trigonometry}{appendix.A}% 195
 \BOOKMARK [1][-]{section.A.5}{Radians and Arc Length}{appendix.A}% 196
 \BOOKMARK [2][-]{subsection.A.5.1}{Radians}{section.A.5}% 197
